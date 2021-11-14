@@ -10,7 +10,7 @@
       "gridsize": [8, 3],
       "stage": [
         {
-          "title": "Ev61-1",
+          "title": "Ev-1",
           "name": "Ev-1",
           "grid": [0, 1],
           "wave": [
@@ -140,8 +140,8 @@
           ]
         },
         {
-          "title": "Ev61-2",
-          "prevstage": "Ev61-1",
+          "title": "Ev-2",
+          "prevstage": "Ev-1",
           "name": "Ev-2",
           "grid": [1, 1],
           "wave": [
@@ -271,8 +271,8 @@
           ]
         },
         {
-          "title": "Ev61-3",
-          "prevstage": "Ev61-2",
+          "title": "Ev-3",
+          "prevstage": "Ev-2",
           "name": "Ev-3",
           "grid": [2, 1],
           "wave": [
@@ -402,8 +402,8 @@
           ]
         },
         {
-          "title": "Ev61-4",
-          "prevstage": "Ev61-3",
+          "title": "Ev-4",
+          "prevstage": "Ev-3",
           "name": "Ev-4",
           "grid": [3, 1],
           "wave": [
@@ -574,8 +574,8 @@
           ]
         },
         {
-          "title": "Ev61-5",
-          "prevstage": "Ev61-4",
+          "title": "Ev-5",
+          "prevstage": "Ev-4",
           "name": "Ev-5",
           "grid": [4, 1],
           "wave": [
@@ -705,8 +705,8 @@
           ]
         },
         {
-          "title": "Ev61-6",
-          "prevstage": "Ev61-5",
+          "title": "Ev-6",
+          "prevstage": "Ev-5",
           "name": "Ev-6",
           "grid": [5, 1],
           "wave": [
@@ -836,8 +836,8 @@
           ]
         },
         {
-          "title": "Ev61-7",
-          "prevstage": "Ev61-6",
+          "title": "Ev-7",
+          "prevstage": "Ev-6",
           "name": "Ev-7",
           "grid": [6, 1],
           "wave": [
@@ -967,8 +967,8 @@
           ]
         },
         {
-          "title": "Ev61-8",
-          "prevstage": "Ev61-7",
+          "title": "Ev-8",
+          "prevstage": "Ev-7",
           "name": "Ev-8",
           "grid": [7, 1],
           "wave": [
@@ -1139,7 +1139,7 @@
           ]
         },
         {
-          "title": "Ev61-1Ex",
+          "title": "Ev-1Ex",
           "name": "Ev-1Ex",
           "grid": [0, 2],
           "wave": [
@@ -1310,8 +1310,8 @@
           ]
         },
         {
-          "title": "Ev61-2Ex",
-          "prevstage": "Ev61-1Ex",
+          "title": "Ev-2Ex",
+          "prevstage": "Ev-1Ex",
           "name": "Ev-2Ex",
           "grid": [1, 2],
           "wave": [
@@ -1482,8 +1482,8 @@
           ]
         },
         {
-          "title": "Ev61-3Ex",
-          "prevstage": "Ev61-2Ex",
+          "title": "Ev-3Ex",
+          "prevstage": "Ev-2Ex",
           "name": "Ev-3Ex",
           "grid": [2, 2],
           "wave": [
@@ -1654,8 +1654,8 @@
           ]
         },
         {
-          "title": "Ev61-4Ex",
-          "prevstage": "Ev61-3Ex",
+          "title": "Ev-4Ex",
+          "prevstage": "Ev-3Ex",
           "name": "Ev-4Ex",
           "grid": [3, 2],
           "wave": [
@@ -1826,8 +1826,8 @@
           ]
         },
         {
-          "title": "Ev61-5Ex",
-          "prevstage": "Ev61-4Ex",
+          "title": "Ev-5Ex",
+          "prevstage": "Ev-4Ex",
           "name": "Ev-5Ex",
           "grid": [4, 2],
           "wave": [
@@ -1998,7 +1998,7 @@
           ]
         },
         {
-          "title": "Ev61-1S",
+          "title": "Ev-1ep",
           "name": "Ev-1ep",
           "grid": [0, 0],
           "wave": [
@@ -2128,8 +2128,8 @@
           ]
         },
         {
-          "title": "Ev61-2S",
-          "prevstage": "Ev61-1S",
+          "title": "Ev-2ep",
+          "prevstage": "Ev-1ep",
           "name": "Ev-2ep",
           "grid": [1, 0],
           "wave": [
@@ -2267,7 +2267,7 @@
       "gridsize": [8, 3],
       "stage": [
         {
-          "title": "Ev62-1",
+          "title": "Ev2-1",
           "name": "Ev2-1",
           "grid": [0, 1],
           "wave": [
@@ -2397,8 +2397,8 @@
           ]
         },
         {
-          "title": "Ev62-2",
-          "prevstage": "Ev62-1",
+          "title": "Ev2-2",
+          "prevstage": "Ev2-1",
           "name": "Ev2-2",
           "grid": [1, 1],
           "wave": [
@@ -2528,8 +2528,8 @@
           ]
         },
         {
-          "title": "Ev62-3",
-          "prevstage": "Ev62-2",
+          "title": "Ev2-3",
+          "prevstage": "Ev2-2",
           "name": "Ev2-3",
           "grid": [2, 1],
           "wave": [
@@ -2659,8 +2659,8 @@
           ]
         },
         {
-          "title": "Ev62-4",
-          "prevstage": "Ev62-3",
+          "title": "Ev2-4",
+          "prevstage": "Ev2-3",
           "name": "Ev2-4",
           "grid": [3, 1],
           "wave": [
@@ -2831,8 +2831,8 @@
           ]
         },
         {
-          "title": "Ev62-5",
-          "prevstage": "Ev62-4",
+          "title": "Ev2-5",
+          "prevstage": "Ev2-4",
           "name": "Ev2-5",
           "grid": [4, 1],
           "wave": [
@@ -3003,8 +3003,8 @@
           ]
         },
         {
-          "title": "Ev62-6",
-          "prevstage": "Ev62-5",
+          "title": "Ev2-6",
+          "prevstage": "Ev2-5",
           "name": "Ev2-6",
           "grid": [5, 1],
           "wave": [
@@ -3175,7 +3175,7 @@
           ]
         },
         {
-          "title": "Ev62-1Ex",
+          "title": "Ev2-1Ex",
           "name": "Ev2-1Ex",
           "grid": [0, 2],
           "wave": [
@@ -3346,8 +3346,8 @@
           ]
         },
         {
-          "title": "Ev62-2Ex",
-          "prevstage": "Ev62-1Ex",
+          "title": "Ev2-2Ex",
+          "prevstage": "Ev2-1Ex",
           "name": "Ev2-2Ex",
           "grid": [1, 2],
           "wave": [
@@ -3518,8 +3518,8 @@
           ]
         },
         {
-          "title": "Ev62-3Ex",
-          "prevstage": "Ev62-2Ex",
+          "title": "Ev2-3Ex",
+          "prevstage": "Ev2-2Ex",
           "name": "Ev2-3Ex",
           "grid": [2, 2],
           "wave": [
@@ -3690,8 +3690,8 @@
           ]
         },
         {
-          "title": "Ev62-4Ex",
-          "prevstage": "Ev62-3Ex",
+          "title": "Ev2-4Ex",
+          "prevstage": "Ev2-3Ex",
           "name": "Ev2-4Ex",
           "grid": [3, 2],
           "wave": [
@@ -3862,8 +3862,8 @@
           ]
         },
         {
-          "title": "Ev62-5Ex",
-          "prevstage": "Ev62-4Ex",
+          "title": "Ev2-5Ex",
+          "prevstage": "Ev2-4Ex",
           "name": "Ev2-5Ex",
           "grid": [4, 2],
           "wave": [
@@ -4034,8 +4034,8 @@
           ]
         },
         {
-          "title": "Ev62-6Ex",
-          "prevstage": "Ev62-5Ex",
+          "title": "Ev2-6Ex",
+          "prevstage": "Ev2-5Ex",
           "name": "Ev2-6Ex",
           "grid": [5, 2],
           "wave": [
@@ -4206,7 +4206,7 @@
           ]
         },
         {
-          "title": "Ev62-1S",
+          "title": "Ev2-1ep",
           "name": "Ev2-1ep",
           "grid": [0, 0],
           "wave": [
@@ -4336,8 +4336,8 @@
           ]
         },
         {
-          "title": "Ev62-2S",
-          "prevstage": "Ev62-1S",
+          "title": "Ev2-2ep",
+          "prevstage": "Ev2-1ep",
           "name": "Ev2-2ep",
           "grid": [1, 0],
           "wave": [
