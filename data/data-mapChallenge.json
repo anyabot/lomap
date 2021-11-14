@@ -1,0 +1,2096 @@
+{
+  "title": "Challenges",
+  "img" : "Cha_0",
+  "zones": [
+    {
+      "title": "Challenge1",
+      "img" : "Cha_1",
+      "stage": [
+        {
+          "title": "Challenge1-1",
+          "name": "Challenge1-1",
+          "grid": [0, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge1-2",
+          "name": "Challenge1-2",
+          "grid": [1, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge1-3",
+          "name": "Challenge1-3",
+          "grid": [2, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                },
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge1-4",
+          "name": "Challenge1-4",
+          "grid": [3, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                },
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                },
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "NightChickCMP_EV2",
+                  "level": 100
+                },
+                {
+                  "index": "NightChickEX_TU",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "EmperorChickSpCH_Challenge1",
+                  "level": 50
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Challenge2",
+      "img" : "Cha_2",
+      "stage": [
+        {
+          "title": "Challenge2-1",
+          "name": "Challenge2-1",
+          "grid": [0, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Tyrant_Challenge1",
+                  "level": 60
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge2-2",
+          "name": "Challenge2-2",
+          "grid": [1, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "Tyrant_Challenge1",
+                  "level": 70
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Robert_Challenge1",
+                  "level": 70
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge2-3",
+          "name": "Challenge2-3",
+          "grid": [2, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Tyrant_Challenge1",
+                  "level": 80
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Tyrant_Challenge1",
+                  "level": 80
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge2-4",
+          "name": "Challenge2-4",
+          "grid": [3, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "Tyrant_Challenge1",
+                  "level": 90
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Robert_Challenge1",
+                  "level": 90
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Tyrant_Challenge1",
+                  "level": 90
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Challenge3",
+      "img" : "Cha_3",
+      "stage": [
+        {
+          "title": "Challenge3-1",
+          "name": "Challenge3-1",
+          "grid": [0, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "FABigChick_Challenge3",
+                  "level": 90
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "FABigChick_Challenge3",
+                  "level": 90
+                },
+                {
+                  "index": "FABigChick_Challenge1",
+                  "level": 90
+                },
+                {
+                  "index": "Predator_Challenge3",
+                  "level": 90
+                },
+                {
+                  "index": "FABigChick_Challenge3",
+                  "level": 90
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge3-2",
+          "name": "Challenge3-2",
+          "grid": [1, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "FABigChick_Challenge3",
+                  "level": 85
+                },
+                {
+                  "index": "FABigChick_Challenge1",
+                  "level": 85
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "FABigChick_Challenge3",
+                  "level": 85
+                },
+                {
+                  "index": "FABigChick_Challenge3",
+                  "level": 85
+                },
+                {
+                  "index": "Predator_Challenge3",
+                  "level": 85
+                },
+                {
+                  "index": "FABigChick_Challenge3",
+                  "level": 85
+                },
+                {
+                  "index": "FABigChick_Challenge1",
+                  "level": 85
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge3-3",
+          "name": "Challenge3-3",
+          "grid": [2, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "FABigChick_Challenge1",
+                  "level": 80
+                },
+                {
+                  "index": "FABigChick_Challenge1",
+                  "level": 80
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "FABigChick_Challenge1",
+                  "level": 80
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Predator_Challenge3",
+                  "level": 80
+                },
+                {
+                  "index": "FABigChick_Challenge1",
+                  "level": 80
+                },
+                {
+                  "index": "FABigChick_Challenge1",
+                  "level": 80
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge3-4",
+          "name": "Challenge3-4",
+          "grid": [3, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "FABigChick_Challenge3",
+                  "level": 90
+                },
+                {
+                  "index": "FABigChick_Challenge1",
+                  "level": 90
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "FABigChick_Challenge1",
+                  "level": 90
+                },
+                {
+                  "index": "FABigChick_Challenge1",
+                  "level": 90
+                },
+                {
+                  "index": "Predator_Challenge3",
+                  "level": 90
+                },
+                {
+                  "index": "FABigChick_Challenge3",
+                  "level": 90
+                },
+                {
+                  "index": "FABigChick_Challenge1",
+                  "level": 90
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Challenge4",
+      "img" : "Cha_4",
+      "stage": [
+        {
+          "title": "Challenge4-1",
+          "name": "Challenge4-1",
+          "grid": [0, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "Undine_EV1",
+                  "level": 75
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Undine_EV2",
+                  "level": 75
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Undine_EV3",
+                  "level": 75
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "Undine_EV1",
+                  "level": 80
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 80
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 80
+                },
+                {
+                  "index": "Nereid_EV1",
+                  "level": 80
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Undine_EV3",
+                  "level": 80
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 80
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge4-2",
+          "name": "Challenge4-2",
+          "grid": [1, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 75
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 75
+                },
+                {
+                  "index": "Nereid_EV1",
+                  "level": 75
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 75
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 75
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "Undine_EV1",
+                  "level": 80
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 80
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 80
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 80
+                },
+                {
+                  "index": "Nereid_EV1",
+                  "level": 80
+                },
+                {
+                  "index": "Undine_EV3",
+                  "level": 80
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 80
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge4-3",
+          "name": "Challenge4-3",
+          "grid": [2, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Sirene_EV1",
+                  "level": 75
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 75
+                },
+                {
+                  "index": "GigantesDagon_N",
+                  "level": 75
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 75
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Sirene_EV1",
+                  "level": 75
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 75
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "GigantesDagon_N",
+                  "level": 80
+                },
+                {
+                  "index": "Nereid_EV2",
+                  "level": 80
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Sirene_EV1",
+                  "level": 80
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Sirene_EV2",
+                  "level": 80
+                },
+                {
+                  "index": "GigantesDagon_N",
+                  "level": 80
+                },
+                {
+                  "index": "Nereid_EV2",
+                  "level": 80
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 85
+                },
+                {
+                  "index": "Sirene_EV1",
+                  "level": 85
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Undine_EV4",
+                  "level": 85
+                },
+                {
+                  "index": "Nereid_EV2",
+                  "level": 85
+                },
+                {
+                  "index": "Sirene_EV2",
+                  "level": 85
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 85
+                },
+                {
+                  "index": "Sirene_EV1",
+                  "level": 85
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge4-4",
+          "name": "Challenge4-4",
+          "grid": [3, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "Sirene_EV1",
+                  "level": 80
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Sirene_EV1",
+                  "level": 80
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Sirene_EV2",
+                  "level": 80
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Sirene_EV1",
+                  "level": 80
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Sirene_EV1",
+                  "level": 75
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 85
+                },
+                {
+                  "index": "Sirene_EV2",
+                  "level": 85
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Sirene_EV1",
+                  "level": 80
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 85
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 85
+                },
+                {
+                  "index": "Sirene_EV2",
+                  "level": 85
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": 90
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 90
+                },
+                {
+                  "index": "Sirene_EV1",
+                  "level": 90
+                },
+                {
+                  "index": "Undine_EV4",
+                  "level": 90
+                },
+                {
+                  "index": "Nereid_EV1",
+                  "level": 90
+                },
+                {
+                  "index": "Sirene_EV2",
+                  "level": 90
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "AMG11AA_EV5",
+                  "level": 90
+                },
+                {
+                  "index": "Sirene_EV1",
+                  "level": 90
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Challenge5",
+      "img" : "Cha_5",
+      "stage": [
+        {
+          "title": "Challenge5-1",
+          "name": "Challenge5-1",
+          "grid": [0, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "NightChickM_TU6",
+                  "level": 1
+                },
+                {
+                  "index": "NightChick_TU6",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickSP_TU9",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickS_TU5",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "LemonadeAvatar_Challenge1",
+                  "level": 100
+                },
+                {
+                  "index": "NightChickM_TU6",
+                  "level": 1
+                },
+                {
+                  "index": "NightChick_TU6",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickSP_TU9",
+                  "level": 1
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "Tarantula_TU4",
+                  "level": 1
+                },
+                {
+                  "index": "LegionMk2_TU4",
+                  "level": 1
+                },
+                {
+                  "index": "LegionSPEX_TU2",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "LemonadeAvatar_Challenge1",
+                  "level": 100
+                },
+                {
+                  "index": "NightChickQMSK_TU5",
+                  "level": 1
+                },
+                {
+                  "index": "Tarantula_TU4",
+                  "level": 1
+                },
+                {
+                  "index": "LegionMk2_TU4",
+                  "level": 1
+                },
+                {
+                  "index": "LegionSPEX_TU2",
+                  "level": 1
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "Testudo_TU4",
+                  "level": 1
+                },
+                {
+                  "index": "CenturionCF_TU5",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickDEAA_TU4",
+                  "level": 1
+                },
+                {
+                  "index": "LemonadeAvatar_Challenge1",
+                  "level": 100
+                },
+                {
+                  "index": "CenturionG_TU4",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Testudo_TU4",
+                  "level": 1
+                },
+                {
+                  "index": "CenturionCF_TU5",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickDEAA_TU4",
+                  "level": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge5-2",
+          "name": "Challenge5-2",
+          "grid": [1, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "Scout_TU5",
+                  "level": 1
+                },
+                {
+                  "index": "HeavyScout_N",
+                  "level": 1
+                },
+                {
+                  "index": "Wasp_TU8",
+                  "level": 1
+                },
+                {
+                  "index": "Scout_TU5",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "LemonadeAvatar_Challenge2",
+                  "level": 100
+                },
+                {
+                  "index": "Scout_TU5",
+                  "level": 1
+                },
+                {
+                  "index": "HeavyScout_N",
+                  "level": 1
+                },
+                {
+                  "index": "Chiller_N",
+                  "level": 1
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "ScarabEX_N",
+                  "level": 1
+                },
+                {
+                  "index": "WaspEX_N",
+                  "level": 1
+                },
+                {
+                  "index": "WaspEX_N",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "LemonadeAvatar_Challenge2",
+                  "level": 100
+                },
+                {
+                  "index": "ScoutSP_TU2",
+                  "level": 1
+                },
+                {
+                  "index": "ScarabEX_N",
+                  "level": 1
+                },
+                {
+                  "index": "ChillerHV_Ev92_1",
+                  "level": 1
+                },
+                {
+                  "index": "ChillerHV_Ev92_1",
+                  "level": 1
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "LightningBomber_A7_2",
+                  "level": 1
+                },
+                {
+                  "index": "ScoutSP_TU2",
+                  "level": 1
+                },
+                {
+                  "index": "LightningBomber_A7_2",
+                  "level": 1
+                },
+                {
+                  "index": "LemonadeAvatar_Challenge2",
+                  "level": 100
+                },
+                {
+                  "index": "SpectorMS_N",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "LightningBomber_A7_2",
+                  "level": 1
+                },
+                {
+                  "index": "ScoutSP_TU2",
+                  "level": 1
+                },
+                {
+                  "index": "LightningBomber_A7_2",
+                  "level": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge5-3",
+          "name": "Challenge5-3",
+          "grid": [2, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "Harvester_TU5",
+                  "level": 1
+                },
+                {
+                  "index": "BigChick_TU4",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickC_TU5",
+                  "level": 1
+                },
+                {
+                  "index": "BigChickS_TU4",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "LemonadeAvatar_Challenge3",
+                  "level": 100
+                },
+                {
+                  "index": "Harvester_TU5",
+                  "level": 1
+                },
+                {
+                  "index": "BigChick_TU4",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickC_TU5",
+                  "level": 1
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "Juggernaut_TU6",
+                  "level": 1
+                },
+                {
+                  "index": "FABigChickEX_N",
+                  "level": 1
+                },
+                {
+                  "index": "Mammoth_TU6",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "LemonadeAvatar_Challenge3",
+                  "level": 100
+                },
+                {
+                  "index": "Mammoth_TU6",
+                  "level": 1
+                },
+                {
+                  "index": "Juggernaut_TU6",
+                  "level": 1
+                },
+                {
+                  "index": "FABigChickEX_N",
+                  "level": 1
+                },
+                {
+                  "index": "Mammoth_TU6",
+                  "level": 1
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "Tortoise_TU4",
+                  "level": 1
+                },
+                {
+                  "index": "Frostbite_TU3",
+                  "level": 1
+                },
+                {
+                  "index": "BigChickM_TU5",
+                  "level": 1
+                },
+                {
+                  "index": "LemonadeAvatar_Challenge3",
+                  "level": 100
+                },
+                {
+                  "index": "EmperorChick_TU4",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Tortoise_TU4",
+                  "level": 1
+                },
+                {
+                  "index": "Frostbite_TU3",
+                  "level": 1
+                },
+                {
+                  "index": "BigChickM_TU5",
+                  "level": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge5-4",
+          "name": "Challenge5-4",
+          "grid": [3, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "Wasp_TU8",
+                  "level": 1
+                },
+                {
+                  "index": "NightChick_TU6",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickC_TU5",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickM_TU6",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "LemonadeAvatar_Challenge4",
+                  "level": 100
+                },
+                {
+                  "index": "Chiller_N",
+                  "level": 1
+                },
+                {
+                  "index": "BigChick_TU4",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickSP_TU9",
+                  "level": 1
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "Juggernaut_TU6",
+                  "level": 1
+                },
+                {
+                  "index": "FABigChickEX_N",
+                  "level": 1
+                },
+                {
+                  "index": "LegionSPEX_TU2",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "LemonadeAvatar_Challenge4",
+                  "level": 100
+                },
+                {
+                  "index": "NightChickQMSK_TU5",
+                  "level": 1
+                },
+                {
+                  "index": "ScarabEX_N",
+                  "level": 1
+                },
+                {
+                  "index": "WaspEX_N",
+                  "level": 1
+                },
+                {
+                  "index": "LegionMk2_TU4",
+                  "level": 1
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "Testudo_TU4",
+                  "level": 1
+                },
+                {
+                  "index": "LightningBomber_A7_2",
+                  "level": 1
+                },
+                {
+                  "index": "CenturionCF_TU5",
+                  "level": 1
+                },
+                {
+                  "index": "LemonadeAvatar_Challenge4",
+                  "level": 100
+                },
+                {
+                  "index": "SpectorMS_N",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "Tortoise_TU4",
+                  "level": 1
+                },
+                {
+                  "index": "Frostbite_TU3",
+                  "level": 1
+                },
+                {
+                  "index": "NightChickDEAA_TU4",
+                  "level": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Challenge6",
+      "img" : "Cha_6",
+      "stage": [
+        {
+          "title": "Challenge6-1",
+          "name": "Challenge6-1",
+          "grid": [0, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "RocCGenerator_Challenge1",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge6-2",
+          "name": "Challenge6-2",
+          "grid": [1, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "RocCGenerator_Challenge2",
+                  "level": 1
+                },
+                {
+                  "index": "RocCGenerator_Challenge2",
+                  "level": 1
+                },
+                {
+                  "index": "RocCGenerator_Challenge2",
+                  "level": 1
+                },
+                {
+                  "index": "RocCGenerator_Challenge2",
+                  "level": 1
+                },
+                {
+                  "index": "RocCGenerator_Challenge2",
+                  "level": 1
+                },
+                {
+                  "index": "RocCGenerator_Challenge2",
+                  "level": 1
+                },
+                {
+                  "index": "RocCGenerator_Challenge2",
+                  "level": 1
+                },
+                {
+                  "index": "RocCGenerator_Challenge2",
+                  "level": 1
+                },
+                {
+                  "index": "RocCGenerator_Challenge2",
+                  "level": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge6-3",
+          "name": "Challenge6-3",
+          "grid": [2, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "RocCGenerator_Challenge1",
+                  "level": 1
+                },
+                {
+                  "index": "RocCGenerator_Challenge1",
+                  "level": 1
+                },
+                {
+                  "index": "RocCGenerator_Challenge1",
+                  "level": 1
+                },
+                {
+                  "index": "RocCGenerator_Challenge1",
+                  "level": 1
+                },
+                {
+                  "index": "RocCGenerator_Challenge1",
+                  "level": 1
+                },
+                {
+                  "index": "RocCGenerator_Challenge1",
+                  "level": 1
+                },
+                {
+                  "index": "RocCGenerator_Challenge1",
+                  "level": 1
+                },
+                {
+                  "index": "RocCGenerator_Challenge1",
+                  "level": 1
+                },
+                {
+                  "index": "RocCGenerator_Challenge1",
+                  "level": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Challenge6-4",
+          "name": "Challenge6-4",
+          "grid": [3, 0],
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "RocCGenerator_Challenge2",
+                  "level": 1
+                },
+                {
+                  "index": "RocCGenerator_Challenge2",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                },
+                {
+                  "index": "",
+                  "level": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

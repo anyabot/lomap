@@ -1,0 +1,2764 @@
+{
+  "title": "Main Story Chapter 2",
+  "img": "Story_9",
+  "zones": [
+    {
+      "title": "Zone 9",
+      "img": "Story_9",
+      "areatype": "grid",
+      "gridsize": [8, 3],
+      "stage": [
+        {
+          "grid": [0, 1],
+          "title": "9-1",
+          "name": "9-1",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "Juggernaut_TU2",
+                  "level": 90
+                },
+                {
+                  "index": "BigChick_TU3",
+                  "level": 90
+                },
+                {
+                  "index": "LightningBomberMP_TU3",
+                  "level": 90
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "FABigChickSEX_TU2",
+                  "level": 90
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "LightningBomberMP_TU3",
+                  "level": 90
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "LightningBomberMP_TU3",
+                  "level": 90
+                },
+                {
+                  "index": "FABigChick_TU4",
+                  "level": 90
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "FABigChickSEX_TU2",
+                  "level": 90
+                },
+                {
+                  "index": "FABigChick_TU4",
+                  "level": 90
+                },
+                {
+                  "index": "LightningBomberMP_TU3",
+                  "level": 90
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "FABigChickSEX_TU2",
+                  "level": 90
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "LightningBomberMP_TU3",
+                  "level": 90
+                },
+                {
+                  "index": "Juggernaut_TU2",
+                  "level": 90
+                },
+                {
+                  "index": "FABigChick_TU4",
+                  "level": 90
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "LightningBomberMP_TU3",
+                  "level": 90
+                }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                {
+                  "index": "FABigChickSEX_TU2",
+                  "level": 93
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "LightningBomberMP_TU3",
+                  "level": 93
+                },
+                {
+                  "index": "FABigChick_TU4",
+                  "level": 93
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Juggernaut_TU2",
+                  "level": 93
+                },
+                {
+                  "index": "LightningBomberMP_TU3",
+                  "level": 93
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prevstage": "9-1",
+          "grid": [1, 1],
+          "title": "9-2",
+          "name": "9-2",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "Rampart_TU5",
+                  "level": 93
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Rampart_TU5",
+                  "level": 93
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 93
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 93
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "Rampart_TU5",
+                  "level": 93
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 93
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 93
+                },
+                {
+                  "index": "Rampart_TU5",
+                  "level": 93
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Rampart_TU5",
+                  "level": 93
+                },
+                {
+                  "index": "Rampart_TU5",
+                  "level": 93
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 93
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 93
+                },
+                {
+                  "index": "Rampart_TU5",
+                  "level": 93
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 93
+                }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 95
+                },
+                {
+                  "index": "Rampart_TU5",
+                  "level": 95
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 95
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Rampart_TU5",
+                  "level": 95
+                },
+                {
+                  "index": "Rampart_TU5",
+                  "level": 95
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prevstage": "9-2",
+          "grid": [2, 1],
+          "title": "9-3",
+          "name": "9-3",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 95
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 95
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 95
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 95
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 95
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 95
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 95
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 95
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 95
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 95
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 95
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 95
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 95
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 95
+                }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 98
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 98
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 98
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 98
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 98
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prevstage": "9-3",
+          "grid": [3, 1],
+          "title": "9-4",
+          "name": "9-4",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 98
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 98
+                },
+                {
+                  "index": "Goltarion_TU",
+                  "level": 98
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 98
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 98
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Goltarion_TU",
+                  "level": 98
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Goltarion_TU",
+                  "level": 98
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 98
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 98
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 98
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 98
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 98
+                },
+                {
+                  "index": "Goltarion_TU",
+                  "level": 98
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 98
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 98
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 98
+                }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Goltarion_TU",
+                  "level": 100
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 100
+                },
+                {
+                  "index": "Goltarion_TU",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Goltarion_TU",
+                  "level": 100
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prevstage": "9-4",
+          "grid": [4, 1],
+          "title": "9-5",
+          "name": "9-5",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "Fortress_TU4",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 100
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 100
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 100
+                },
+                {
+                  "index": "Fortress_TU4",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 100
+                },
+                {
+                  "index": "Fortress_TU4",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 100
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "Fortress_TU4",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Fortress_TU4",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 100
+                }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                {
+                  "index": "Fortress_TU4",
+                  "level": 103
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 103
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 103
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Fortress_TU4",
+                  "level": 103
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 103
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prevstage": "9-5",
+          "grid": [5, 1],
+          "title": "9-6",
+          "name": "9-6",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 103
+                },
+                {
+                  "index": "Goltarion_TU",
+                  "level": 103
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Fortress_TU4",
+                  "level": 103
+                },
+                {
+                  "index": "Goltarion_TU",
+                  "level": 103
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 103
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 103
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "Fortress_TU4",
+                  "level": 103
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 103
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 103
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Fortress_TU4",
+                  "level": 103
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 103
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "Fortress_TU4",
+                  "level": 103
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 103
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 103
+                },
+                {
+                  "index": "Fortress_TU4",
+                  "level": 103
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 103
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 103
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 105
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 105
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 105
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 105
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prevstage": "9-6",
+          "grid": [6, 1],
+          "title": "9-7",
+          "name": "9-7",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Fortress_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 105
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 105
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 105
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "Fortress_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 105
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 105
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 105
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 105
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 105
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 105
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 105
+                }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                {
+                  "index": "Fortress_TU4",
+                  "level": 108
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 108
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 108
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 108
+                },
+                {
+                  "index": "Fortress_TU4",
+                  "level": 108
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 108
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prevstage": "9-7",
+          "grid": [7, 1],
+          "title": "9-8",
+          "name": "9-8",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "Fortress_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 105
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 105
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 105
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "Fortress_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 105
+                },
+                {
+                  "index": "Fortress_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 105
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Fortress_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 105
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "Fortress_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 105
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Goltarion_TU",
+                  "level": 105
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Fortress_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 105
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 105
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 105
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 105
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave5",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 105
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 105
+                },
+                {
+                  "index": "Goltarion_TU",
+                  "level": 105
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 105
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 105
+                }
+              ]
+            },
+            {
+              "title": "wave6",
+              "enemylist": [
+                {
+                  "index": "Fire_Controller_B09",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Ship_Controller_B09",
+                  "level": 1
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Triton_B09",
+                  "level": 110
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 55
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [3, 0],
+          "prevstage": "9-4",
+          "title": "9-4B",
+          "name": "9-4B",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Rampart_TU5",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "PuppHead_TU2",
+                  "level": 100
+                },
+                {
+                  "index": "PuppHead_TU5",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Rampart_TU5",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "Rampart_TU5",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "PuppHead_TU5",
+                  "level": 100
+                },
+                {
+                  "index": "PuppHead_TU5",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Rampart_TU5",
+                  "level": 100
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 102
+                },
+                {
+                  "index": "Gigantes_TU4",
+                  "level": 102
+                },
+                {
+                  "index": "PuppHead_TU5",
+                  "level": 102
+                },
+                {
+                  "index": "Rampart_TU5",
+                  "level": 102
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 102
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prevstage": "9-4B",
+          "grid": [4, 0],
+          "title": "9-5B",
+          "name": "9-5B",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "Rampart_TU5",
+                  "level": 102
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "PuppHead_TU5",
+                  "level": 102
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "PuppHead_TU5",
+                  "level": 102
+                },
+                {
+                  "index": "Rampart_TU5",
+                  "level": 102
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "Rampart_TU5",
+                  "level": 102
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 102
+                },
+                {
+                  "index": "Fortress_TU4",
+                  "level": 102
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Rampart_TU5",
+                  "level": 102
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 102
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "Fortress_TU4",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "PuppHead_TU5",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "Fortress_TU4",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "RheinRitter_TU",
+                  "level": 104
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prevstage": "9-5B",
+          "grid": [5, 0],
+          "title": "9-6B",
+          "name": "9-6B",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 104
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 104
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 106
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 106
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 106
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 106
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prevstage": "9-6B",
+          "grid": [6, 0],
+          "title": "9-7B",
+          "name": "9-7B",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 106
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 106
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 106
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 106
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 108
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 108
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 108
+                },
+                {
+                  "index": "IntercepterARS_TU2",
+                  "level": 108
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 108
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "IntercepterAR_TU2",
+                  "level": 108
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [0, 2],
+          "title": "9-1Ex",
+          "name": "9-1Ex",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "NightChickTD_N",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "NightChickTD_N",
+                  "level": 104
+                },
+                {
+                  "index": "ZapperEX_TU6",
+                  "level": 104
+                },
+                {
+                  "index": "NightChickTD_N",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "NightChickTD_N",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "NightChickTD_N",
+                  "level": 104
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "ZapperEX_TU6",
+                  "level": 104
+                },
+                {
+                  "index": "NightChickTD_N",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "FryerShooter_TU3",
+                  "level": 104
+                },
+                {
+                  "index": "FryerShell_TU3",
+                  "level": 104
+                },
+                {
+                  "index": "FryerHead_TU3",
+                  "level": 104
+                },
+                {
+                  "index": "ZapperEX_TU6",
+                  "level": 104
+                },
+                {
+                  "index": "NightChickTD_N",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "FryerShooter_TU3",
+                  "level": 104
+                },
+                {
+                  "index": "LightningBomberMP_TU4",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "FryerShell_TU3",
+                  "level": 104
+                },
+                {
+                  "index": "NightChickTD_N",
+                  "level": 104
+                },
+                {
+                  "index": "FryerHead_TU3",
+                  "level": 104
+                },
+                {
+                  "index": "FryerShooter_TU3",
+                  "level": 104
+                },
+                {
+                  "index": "LightningBomberMP_TU4",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                {
+                  "index": "LightningBomberMP_TU4",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "LightningBomberMP_TU4",
+                  "level": 104
+                },
+                {
+                  "index": "FryerShell_TU3",
+                  "level": 104
+                },
+                {
+                  "index": "FryerShooter_TU3",
+                  "level": 104
+                },
+                {
+                  "index": "FryerHead_TU3",
+                  "level": 104
+                },
+                {
+                  "index": "LightningBomberMP_TU4",
+                  "level": 104
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "LightningBomberMP_TU4",
+                  "level": 104
+                }
+              ]
+            },
+            {
+              "title": "wave5",
+              "enemylist": [
+                {
+                  "index": "FryerShell_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "LightningBomberMP_TU4",
+                  "level": 106
+                },
+                {
+                  "index": "FryerHead_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "FryerShooter_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "LightningBomberMP_TU4",
+                  "level": 106
+                },
+                {
+                  "index": "FryerShell_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "LightningBomberMP_TU4",
+                  "level": 106
+                },
+                {
+                  "index": "FryerHead_TU3",
+                  "level": 106
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prevstage": "9-1Ex",
+          "grid": [1, 2],
+          "title": "9-2Ex",
+          "name": "9-2Ex",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "ChillerEX_TU4",
+                  "level": 106
+                },
+                {
+                  "index": "Frostbite_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "NightChickSPW_TU4",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "FridgerShooter_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "ChillerEX_TU4",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "FridgerHead_TU3",
+                  "level": 106
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "FridgerShell_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "ChillerEX_TU4",
+                  "level": 106
+                },
+                {
+                  "index": "FridgerShooter_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "FridgerHead_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "FridgerShell_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "Frostbite_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "NightChickSPW_TU4",
+                  "level": 106
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "FridgerShooter_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "NightChickSPW_TU4",
+                  "level": 106
+                },
+                {
+                  "index": "ChillerEX_TU4",
+                  "level": 106
+                },
+                {
+                  "index": "Frostbite_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "FridgerShell_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "FridgerHead_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "NightChickSPW_TU4",
+                  "level": 106
+                }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                {
+                  "index": "FridgerHead_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "FridgerShell_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "FridgerShooter_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "FridgerShooter_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "FridgerHead_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "FridgerShell_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "FridgerShell_TU3",
+                  "level": 106
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave5",
+              "enemylist": [
+                {
+                  "index": "FridgerShell_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "Frostbite_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "FridgerHead_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "ChillerEX_TU4",
+                  "level": 108
+                },
+                {
+                  "index": "FridgerShooter_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "FridgerShell_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "ChillerEX_TU4",
+                  "level": 108
+                },
+                {
+                  "index": "FridgerHead_TU3",
+                  "level": 108
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prevstage": "9-2Ex",
+          "grid": [2, 2],
+          "title": "9-3Ex",
+          "name": "9-3Ex",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "BigChickC_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "DryerHead_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "DryerShooter_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "BigChickCG_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "BigChickC_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "BigChickC_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "DryerShell_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "WaspEX_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "BigChickCG_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "DryerShooter_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "DryerHead_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "DryerHead_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "WaspEX_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "DryerShell_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "BigChickCG_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "DryerHead_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "BigChickCG_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "DryerShooter_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "DryerShell_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "BigChickCG_TU3",
+                  "level": 108
+                }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                {
+                  "index": "DryerShell_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "DryerShooter_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "DryerShell_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "Testudo_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "DryerHead_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "DryerHead_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "DryerShooter_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "WaspEX_TU3",
+                  "level": 108
+                }
+              ]
+            },
+            {
+              "title": "wave5",
+              "enemylist": [
+                {
+                  "index": "DryerShell_TU3",
+                  "level": 110
+                },
+                {
+                  "index": "Slasher_TU5",
+                  "level": 110
+                },
+                {
+                  "index": "BigChickCG_TU4",
+                  "level": 110
+                },
+                {
+                  "index": "BigChickC_TU4",
+                  "level": 110
+                },
+                {
+                  "index": "DryerShooter_TU3",
+                  "level": 110
+                },
+                {
+                  "index": "DryerHead_TU3",
+                  "level": 110
+                },
+                {
+                  "index": "DryerShell_TU3",
+                  "level": 110
+                },
+                {
+                  "index": "Slasher_TU5",
+                  "level": 110
+                },
+                {
+                  "index": "BigChickCG_TU4",
+                  "level": 110
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "prevstage": "9-3Ex",
+          "grid": [3, 2],
+          "title": "9-4Ex",
+          "name": "9-4Ex",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "BlackKnight_TU2",
+                  "level": 105
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                {
+                  "index": "BigChickC_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "ScoutAK_TU4",
+                  "level": 108
+                },
+                {
+                  "index": "Juggernaut_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "NightChickDEG_N",
+                  "level": 108
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "BigChickC_TU3",
+                  "level": 108
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "FABigChickEX_TU4",
+                  "level": 108
+                }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "BlackKnight_TU3",
+                  "level": 110
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                },
+                {
+                  "index": "",
+                  "level": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
