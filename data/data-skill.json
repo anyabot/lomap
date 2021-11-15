@@ -1160,7 +1160,7 @@
     "description": "Grants unit DR +90% until attacked by an enemy.",
     "area": [5]
   },
-  "Mammoth_N_Skill1": {
+  "Skill_MP_Mammoth_N_1": {
     "title": "askill1",
     "type": "active",
     "name": "Direct Shelling",
@@ -1170,7 +1170,7 @@
     "description": "Deals $(1.35) damage to target area.<br>Additional DMG +50% to targets affected by 'Rooted'.",
     "area": [8, 5, 2]
   },
-  "Mammoth_N_Skill2": {
+  "Skill_MP_Mammoth_N_2": {
     "title": "askill2",
     "type": "active",
     "name": "Double Howitzer",
@@ -1180,7 +1180,7 @@
     "description": "After 1 round, deals $(2.5) damage to target area with Ignore Protect.<br>Damage decreases to 50% on non-center area.<br>Additional DMG +50% to targets affected by 'Rooted'.",
     "area": [0, 0.75, 0, 0.75, 1, 0.75, 0, 0.75, 0]
   },
-  "Mammoth_N_Skill3": {
+  "Skill_MP_Mammoth_N_3": {
     "title": "pskill1",
     "type": "passive",
     "name": "HE Impact Shell",
@@ -7470,7 +7470,7 @@
     "description": "If unit is affected by 'Wet', takes 300 Electric DoT Damage and grants unit ATK+ / CRIT+.",
     "area": [5]
   },
-  "LemonadeOmega_N_Skill1": {
+  "Skill_MP_LemonadeOmega_N_1": {
     "title": "askill1",
     "type": "active",
     "name": "Kestos Himas: Power Expansion",
@@ -7480,7 +7480,7 @@
     "description": "Deals$(1.5) damage to target area, remove ACC+ buff, and Push Back 1 Square.<br>If the target's affected by any Elemental Resist-, inflict 'Rooted' for 2 rounds.<br>If the target's a Heavy Defender, inflict Range -1 for 2 rounds.",
     "area": [1, 2, 4, 5, 7, 8]
   },
-  "LemonadeOmega_N_Skill2": {
+  "Skill_MP_LemonadeOmega_N_2": {
     "title": "askill2",
     "type": "active",
     "name": "Kestos Himas: Algorithm Improvement",
@@ -7490,7 +7490,7 @@
     "description": "Set AP to 14 for allies in targeted area, and grant Range +1 / CRIT +100% / Status Resist +100% for 3 rounds.",
     "area": [1, 2, 3, 4, 5, 7, 8, 9]
   },
-  "LemonadeOmega_N_Skill3": {
+  "Skill_MP_LemonadeOmega_N_3": {
     "title": "pskill1",
     "type": "passive",
     "name": "Kestos Himas: Light-Armor OS",
@@ -7500,7 +7500,7 @@
     "description": "At the start of battle, if there's 3 or more Light allies, grant Light allies / enemies DR +35%, and inflict all Flying / Heavy allies / enemies 'Damage Taken Increased' +35%.<br>This effect cannot be removed.",
     "area": [1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
-  "LemonadeOmega_N_Skill4": {
+  "Skill_MP_LemonadeOmega_N_4": {
     "title": "pskill2",
     "type": "passive",
     "name": "Kestos Himas: Range OS",
@@ -7510,7 +7510,7 @@
     "description": "At the start of battle, if there's 3 or more Flying allies, grant Flying allies / enemies Range +2 / ACC +80%, and inflict all Light / Heavy allies / enemies Range -2 / ACC -80%.<br>This effect cannot be removed.",
     "area": [1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
-  "LemonadeOmega_N_Skill5": {
+  "Skill_MP_LemonadeOmega_N_5": {
     "title": "pskill3",
     "type": "passive",
     "name": "Kestos Himas: Heavy-Armor OS",
@@ -7571,7 +7571,7 @@
     "description": "At the start of round, inflicts all enemies' ATK -10% / DEF -10% for 1 round.",
     "area": [1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
-  "IronPrince_B08_Skill1": {
+  "Skill_MP_IronPrince_B08_1": {
     "title": "askill1",
     "type": "active",
     "name": "Punishment",
@@ -7581,7 +7581,7 @@
     "description": "Deals $(1.1) damage to a single target that Ignore Protect, and inflict 'Marked'.<br>Remove target's DR+ buff, and inflict 'Damage Taken Increased' +5% for 99 rounds.",
     "area": [5]
   },
-  "IronPrince_B08_Skill2": {
+  "Skill_MP_IronPrince_B08_2": {
     "title": "askill2",
     "type": "active",
     "name": "Judgement",
@@ -7591,7 +7591,7 @@
     "description": "Deals $(1.5) damage to target area that Ignore Protect. Damage decrease by 50% to non-center area.<br>If target's affected by 'Bow Your Head', Additional DMG +500%.",
     "area": [0, 0.5, 0, 0.5, 1, 0.5, 0, 0.5, 0]
   },
-  "IronPrince_B08_Skill3": {
+  "Skill_MP_IronPrince_B08_3": {
     "title": "pskill1",
     "type": "passive",
     "name": "Bow Your Head",
@@ -7601,7 +7601,7 @@
     "description": "At the start of round: <br>If enemy's on the frontline, inflict DEF -50% for 1 round and remove DEF+ buff.<br>If enemy's on the middle line, inflict ACC -100% for 1 round and remove ACC+ buff.<br>If enemy's on the backline, inflict ATK -50% for 1 round and remove ATK+ buff.<br>Debuffs from 'Bow Your Head' is not affected by Status Resist and Debuff Removal.",
     "area": [2, 4, 5, 6, 8]
   },
-  "IronPrince_B08_Skill4": {
+  "Skill_MP_IronPrince_B08_4": {
     "title": "pskill2",
     "type": "passive",
     "name": "Accept the Blessing",
@@ -7611,7 +7611,7 @@
     "description": "When attacking, grant self 'God's Blessing'.<br>At the start of round, if affected by 3 stacks of 'God's Blessing', turn the status into 'Begin Judgement', and after idling for 1 round, uses 'Judgement'.<br>After using 'Judgement', inflict DEF -5000 for 1 round and remove 'Battle Continuation' from self.",
     "area": [5]
   },
-  "IronPrince_B08_Skill5": {
+  "Skill_MP_IronPrince_B08_5": {
     "title": "pskill3",
     "type": "passive",
     "name": "Coffin of Immortality",

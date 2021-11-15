@@ -1984,7 +1984,7 @@
     "HIT": 150,
     "DOD": 120,
     "resist": [50, 0, 0],
-    "skills": ["ScarabEX_N_Skill1", "ScarabEX_N_Skill2", "ScarabEX_N_Skill3"]
+    "skills": ["Skill_MP_ScarabEX_N_1", "Skill_MP_ScarabEX_N_2", "Skill_MP_ScarabEX_N_3"]
   },
   "WaspEX_TU2": {
     "name": "Wasp HM",
@@ -2287,10 +2287,10 @@
     "DOD": 0,
     "resist": [25, 50, -25],
     "skills": [
-      "UnderWatcherArm_N_Skill1",
-      "UnderWatcherArm_N_Skill2",
-      "UnderWatcherArm_N_Skill3",
-      "UnderWatcherArm_N_Skill4"
+      "Skill_MP_UnderWatcherArm_N_1",
+      "Skill_MP_UnderWatcherArm_N_2",
+      "Skill_MP_UnderWatcherArm_N_3",
+      "Skill_MP_UnderWatcherArm_N_4"
     ]
   },
   "Zapper_TU5": {
@@ -2958,10 +2958,10 @@
     "DOD": 37.5,
     "resist": [30, 0, -20],
     "skills": [
-      "ProgramMobMN_N_Skill1",
-      "ProgramMobMN_N_Skill2",
-      "ProgramMobMN_N_Skill3",
-      "ProgramMobMN_N_Skill4"
+      "Skill_MP_ProgramMobMN_N_1",
+      "Skill_MP_ProgramMobMN_N_2",
+      "Skill_MP_ProgramMobMN_N_3",
+      "Skill_MP_ProgramMobMN_N_4"
     ]
   },
   "ProgramMobMS_N": {
@@ -3119,10 +3119,10 @@
     "DOD": 50,
     "resist": [50, 0, -25],
     "skills": [
-      "ProgramMobMN_N_Skill1",
-      "ProgramMobMN_N_Skill2",
-      "ProgramMobMN_N_Skill3",
-      "ProgramMobMN_N_Skill4"
+      "Skill_MP_ProgramMobMN_N_1",
+      "Skill_MP_ProgramMobMN_N_2",
+      "Skill_MP_ProgramMobMN_N_3",
+      "Skill_MP_ProgramMobMN_N_4"
     ]
   },
   "ProgramMobMS_TU2": {
@@ -3565,7 +3565,7 @@
     "HIT": 200,
     "DOD": 150,
     "resist": [50, 0, 0],
-    "skills": ["ScarabEX_N_Skill1", "ScarabEX_N_Skill2", "ScarabEX_N_Skill3"]
+    "skills": ["Skill_MP_ScarabEX_N_1", "Skill_MP_ScarabEX_N_2", "Skill_MP_ScarabEX_N_3"]
   },
   "CenturionCF_N": {
     "name": "Centurion Chieftain",
@@ -3944,8 +3944,8 @@
     "DOD": 100,
     "resist": [25, 25, 25],
     "skills": [
-      "ScarabEX_N_Skill1",
-      "ScarabEX_N_Skill2",
+      "Skill_MP_ScarabEX_N_1",
+      "Skill_MP_ScarabEX_N_2",
       "Skill_MP_ScarabEX_EV1_3"
     ]
   },
@@ -4209,8 +4209,8 @@
     "DOD": 100,
     "resist": [25, 25, 25],
     "skills": [
-      "ScarabEX_N_Skill1",
-      "ScarabEX_N_Skill2",
+      "Skill_MP_ScarabEX_N_1",
+      "Skill_MP_ScarabEX_N_2",
       "Skill_MP_ScarabEX_EV2_3"
     ]
   },
@@ -4744,7 +4744,7 @@
     "HIT": 225,
     "DOD": 165,
     "resist": [50, 0, 0],
-    "skills": ["ScarabEX_N_Skill1", "ScarabEX_N_Skill2", "ScarabEX_N_Skill3"]
+    "skills": ["Skill_MP_ScarabEX_N_1", "Skill_MP_ScarabEX_N_2", "Skill_MP_ScarabEX_N_3"]
   },
   "Tortoise_TU3": {
     "name": "Tortoise",
@@ -5045,7 +5045,7 @@
     "HIT": 250,
     "DOD": 180,
     "resist": [50, 0, 0],
-    "skills": ["ScarabEX_N_Skill1", "ScarabEX_N_Skill2", "ScarabEX_N_Skill3"]
+    "skills": ["Skill_MP_ScarabEX_N_1", "Skill_MP_ScarabEX_N_2", "Skill_MP_ScarabEX_N_3"]
   },
   "ZapperEX_TU6": {
     "name": "Enhanced Zapper",
@@ -9669,7 +9669,7 @@
     "HIT": 175,
     "DOD": 135,
     "resist": [50, 0, 0],
-    "skills": ["ScarabEX_N_Skill1", "ScarabEX_N_Skill2", "ScarabEX_N_Skill3"]
+    "skills": ["Skill_MP_ScarabEX_N_1", "Skill_MP_ScarabEX_N_2", "Skill_MP_ScarabEX_N_3"]
   },
   "ZapperEX_TU4": {
     "name": "Enhanced Zapper",
@@ -9913,7 +9913,7 @@
     "HIT": 260,
     "DOD": 200,
     "resist": [50, 0, 0],
-    "skills": ["ScarabEX_N_Skill1", "ScarabEX_N_Skill2", "ScarabEX_N_Skill3"]
+    "skills": ["Skill_MP_ScarabEX_N_1", "Skill_MP_ScarabEX_N_2", "Skill_MP_ScarabEX_N_3"]
   },
   "BigChickMG_EV3": {
     "name": "Big Chick Launcher G",
@@ -11122,10 +11122,10 @@
     "DOD": 80,
     "resist": [-50, 75, 25],
     "skills": [
-      "NightChickSPW_N_Skill1",
-      "NightChickSPW_N_Skill2",
-      "NightChickSPW_N_Skill3",
-      "NightChickSPW_N_Skill4"
+      "Skill_MP_NightChickSPW_N_1",
+      "Skill_MP_NightChickSPW_N_2",
+      "Skill_MP_NightChickSPW_N_3",
+      "Skill_MP_NightChickSPW_N_4"
     ]
   },
   "LemonadeOmega_N": {
@@ -11143,11 +11143,11 @@
     "DOD": 0,
     "resist": [15, 15, 15],
     "skills": [
-      "LemonadeOmega_N_Skill1",
-      "LemonadeOmega_N_Skill2",
-      "LemonadeOmega_N_Skill3",
-      "LemonadeOmega_N_Skill4",
-      "LemonadeOmega_N_Skill5"
+      "Skill_MP_LemonadeOmega_N_1",
+      "Skill_MP_LemonadeOmega_N_2",
+      "Skill_MP_LemonadeOmega_N_3",
+      "Skill_MP_LemonadeOmega_N_4",
+      "Skill_MP_LemonadeOmega_N_5"
     ]
   },
   "LemonadeOmega_B08": {
@@ -11165,11 +11165,11 @@
     "DOD": 0,
     "resist": [15, 15, 15],
     "skills": [
-      "LemonadeOmega_N_Skill1",
-      "LemonadeOmega_N_Skill2",
-      "LemonadeOmega_N_Skill3",
-      "LemonadeOmega_N_Skill4",
-      "LemonadeOmega_N_Skill5"
+      "Skill_MP_LemonadeOmega_N_1",
+      "Skill_MP_LemonadeOmega_N_2",
+      "Skill_MP_LemonadeOmega_N_3",
+      "Skill_MP_LemonadeOmega_N_4",
+      "Skill_MP_LemonadeOmega_N_5"
     ]
   },
   "DroneM_B08": {
@@ -11293,11 +11293,11 @@
     "DOD": 220,
     "resist": [50, 0, 0],
     "skills": [
-      "IronPrince_B08_Skill1",
-      "IronPrince_B08_Skill2",
-      "IronPrince_B08_Skill3",
-      "IronPrince_B08_Skill4",
-      "IronPrince_B08_Skill5"
+      "Skill_MP_IronPrince_B08_1",
+      "Skill_MP_IronPrince_B08_2",
+      "Skill_MP_IronPrince_B08_3",
+      "Skill_MP_IronPrince_B08_4",
+      "Skill_MP_IronPrince_B08_5"
     ]
   },
   "Slasher_TU4": {
@@ -12464,10 +12464,10 @@
     "DOG": 0,
     "resist": [100, -25, 50],
     "skills": [
-      "BigChickC_N_1",
-      "BigChickC_N_2",
-      "BigChickC_N_3",
-      "BigChickC_N_4"
+      "Skill_MP_BigChickC_N_1",
+      "Skill_MP_BigChickC_N_2",
+      "Skill_MP_BigChickC_N_3",
+      "Skill_MP_BigChickC_N_4"
     ]
   },
   "NightChickAQG_N": {
