@@ -1,0 +1,1 @@
+{"info": "유기 생명체, 기온 하락 시 작전 능력 저하. 특수재질 장갑, 열 병기 지원 필요.<br><br><br>- 기간테스 보고함", "HP": [2500, 135], "ATK": [60, 6], "DEF": [250, 15], "AGI": 3.7, "CRT": 5, "HIT": 150, "DOD": 0, "resist": [-50, 95, 75], "skills": ["Skill_MP_Frostbite_N_1", "Skill_MP_Frostbite_N_2", "Skill_MP_Frostbite_N_3", "Skill_MP_Frostbite_N_4", "Skill_MP_Frostbite_N_5"]}

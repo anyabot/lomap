@@ -1,0 +1,1 @@
+{"info": "이건 알기 쉽군요. 저와 로버트 같은 A.I.에게 흔히 장착되던 다용도 팔입니다! 그래도 손상에 대비한 개조가 되어있는 모양이니, 수리되기 전에 빠르게 파괴해버리시지요!<br><br><br>- Mr 알프레드", "HP": [4000, 0], "ATK": [245, 0], "DEF": [265, 0], "AGI": 3.6, "CRT": 40, "HIT": 170, "DOD": 0, "resist": [0, 0, 0], "skills": ["Skill_MP_RobertArm_N_1", "Skill_MP_RobertArm_N_2", "Skill_MP_RobertArm_N_3", "Skill_MP_RobertArm_N_4"]}

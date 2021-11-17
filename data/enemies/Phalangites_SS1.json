@@ -1,0 +1,1 @@
+{"info": "각이 잡힌 대열로 행군하는 철충입니다. 철충 놈들 중엔 드물게 군기가 들어있지 말입니다. 딱 밀착해서 서로서로를 보호하는 녀석들이니 진형을 아작내는 게 중요하지 말임다.\n\n\n- 블러디팬서", "HP": [150, 55], "ATK": [50, 5.85], "DEF": [55, 2.75], "AGI": 3.8, "CRT": 10, "HIT": 165, "DOD": 25, "resist": [40, 40, 40], "skills": ["Skill_MP_Phalangites_N_1", "Skill_MP_Phalangites_N_2", "Skill_MP_Phalangites_N_3", "Skill_MP_Phalangites_SS1_4"]}

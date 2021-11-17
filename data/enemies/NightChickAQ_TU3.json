@@ -1,0 +1,1 @@
+{"info": "물을 운반하는 철충인가봐. 철충들은 주변에 물이 새면 안절부절못하니 이걸 이용하면 좋을 것 같아!<br><br><br> - 아쿠아 보고함", "HP": [2000, 105], "ATK": [30, 3], "DEF": [75, 5], "AGI": 4.15, "CRT": 5, "HIT": 300, "DOD": 45, "resist": [50, 99, -50], "skills": ["Skill_MP_NightChickAQ_N_1", "Skill_MP_NightChickAQ_N_2", "Skill_MP_NightChickAQ_N_3", "Skill_MP_NightChickAQ_N_4"]}

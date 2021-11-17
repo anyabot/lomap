@@ -1,0 +1,1 @@
+{"info": "센츄리온에서 지휘 능력이 더 강화된 기종입니다. 포착 당한 후에는 공격을 피하기 힘드니 주의하셔야 합니다. 본 기종에도 안테나 도입을 검토하면 감사하겠습니다.<br><br><br>- 램파트", "HP": [6720, 122.4], "ATK": [113, 11.3], "DEF": [80, 8.5], "AGI": 4.18, "CRT": 7.5, "HIT": 200, "DOD": 25, "resist": [25, 25, 25], "skills": ["Skill_MP_CenturionCF_N_1", "Skill_MP_CenturionCF_N_2", "Skill_MP_CenturionCF_N_3", "Skill_MP_CenturionCF_N_4"]}

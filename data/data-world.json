@@ -1,35 +1,89 @@
 {
-  "story": ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
-  "event": [
-    "Ev11",
-    "Ev21",
-    "Ev22",
-    "Ev23",
-    "Ev31",
-    "Ev41",
-    "Ev51",
-    "Ev52",
-    "Ev61",
-    "Ev62",
-    "Ev11",
-    "Ev72",
-    "Ev73",
-    "E81",
-    "Ev82",
-    "Ev91",
-    "Ev92",
-    "Ev93",
-    "Ev101",
-    "Ev102",
-    "Ev111",
-    "Ev112",
-    "Ev113",
-    "Ev121",
-    "Ev122",
-    "E123",
-    "Ev131",
-    "Ev132"
-  ],
-  "challenge" : ["Challenge1", "Challenge2", "Challenge3", "Challenge4", "Challenge5", "Challenge6"],
-  "daily" : ["Daily1", "Daily2", "Daily3"]
+  "story": {
+    "Story1": {
+      "title": "Main Story Chapter 1",
+      "img": "Story_1"
+    },
+    "Story2": {
+      "title": "Main Story Chapter 2",
+      "img": "Story_9"
+    }
+  },
+  "event": {
+    "Ev1": {
+      "title": "Supreme Dinner",
+      "img": "Ev1",
+      "type": "permanent"
+    },
+    "Ev2": {
+      "title": "Legacy of Rioboros",
+      "img": "Ev2",
+      "type": "permanent"
+    },
+    "Ev3": {
+      "title": "Full Moon Nocturne",
+      "img": "Ev3",
+      "type": "permanent"
+    },
+    "Ev4": {
+      "title": "Halloween Park Panic!",
+      "img": "Ev4",
+      "type": "permanent"
+    },
+    "Ev5": {
+      "title": "St.Orca's Secret Operation",
+      "img": "Ev5_1",
+      "type": "old"
+    },
+    "Ev6": {
+      "title": "Choco Queen in Wonderland",
+      "img": "Ev6_1",
+      "type": "old"
+    },
+    "Ev7": {
+      "title": "Aria of the Elven Town",
+      "img": "Ev7_1",
+      "type": "old"
+    },
+    "Ev8": {
+      "title": "Country within Muddy Memory",
+      "img": "Ev8_1",
+      "type": "old"
+    },
+    "Ev9": {
+      "title": "Invitation from Paradise",
+      "img": "Ev9_1",
+      "type": "old"
+    },
+    "Ev10": {
+      "title": "Somebody's Wish",
+      "img": "Ev10_1",
+      "type": "old"
+    },
+    "Ev11": {
+      "title": "Project ORCA, Starlit Night Stage",
+      "img": "Ev11_1",
+      "type": "old"
+    },
+    "Ev12": {
+      "title": "Lightless Sanctuary",
+      "img": "Ev12_1",
+      "type": "old"
+    },
+    "Ev13": {
+      "title": "Rose that Blooms atop of Lotus",
+      "img": "Ev13_1",
+      "type": "old"
+    }
+  },
+  "others": {
+    "Cha": {
+      "title": "Challenges",
+      "img": "Cha_0"
+    },
+    "Daily": {
+      "title": "Daily Trainings",
+      "img": "Daily_0"
+    }
+  }
 }

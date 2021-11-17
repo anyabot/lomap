@@ -1,0 +1,1 @@
+{"info": "적과 전장에 대한 정보가 없다면 알맞는 전술을 준비할 수 없소. 정찰을 담당하는 인터셉터를 처리해서 적의 정보 자산을 무력화 하는 것을 권하오.\n\n\n- 무적의 용 보고함", "HP": [7800, 120], "ATK": [106, 10], "DEF": [6, 0.6], "AGI": 4.64, "CRT": 0, "HIT": 160, "DOD": 80, "resist": [25, 25, 25], "skills": ["Skill_MP_IntercepterARS_N_1", "Skill_MP_IntercepterARS_N_2", "Skill_MP_IntercepterARS_N_3", "Skill_MP_IntercepterARS_N_4"]}

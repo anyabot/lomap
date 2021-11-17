@@ -1,0 +1,1 @@
+{"info": "드론의 자율 경비용 기종이다.", "HP": [500, 62.5], "ATK": [90, 7.25], "DEF": [0, 0], "AGI": 4.45, "CRT": 5, "HIT": 185, "DOD": 150, "resist": [0, 0, -25], "skills": ["Skill_MP_Drone_N_1", "Skill_MP_Drone_N_2"]}

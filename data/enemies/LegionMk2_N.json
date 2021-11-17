@@ -1,0 +1,1 @@
+{"info": "레기온의 개량형인 것 같군요. 적의 움직임을 예측해 공격하니 대응할 장비가 필요해 보이네요. 공격 연계 능력도 높아졌으니 먼저 처리해 변수를 줄이는 게 좋겠습니다.<br><br><br>- 아르망 보고함", "HP": [1000, 100], "ATK": [80, 7], "DEF": [100, 4], "AGI": 4.3, "CRT": 5, "HIT": 360, "DOD": 50, "resist": [25, 25, 25], "skills": ["Skill_MP_LegionMk2_N_1", "Skill_MP_LegionMk2_N_2", "Skill_MP_LegionMk2_N_3", "Skill_MP_LegionMk2_N_4"]}

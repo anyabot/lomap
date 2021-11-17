@@ -1,0 +1,1 @@
+{"info": "전장에서 등장하는 더욱 강력해진 프레데터로 강력한 방어력으로 인해 물리 공격은 통하지 않을 것입니다.\n\n\n보고자 ???", "HP": [60000, 400], "ATK": [300, 25], "DEF": [3000, 200], "AGI": 3.5, "CRT": 25, "HIT": 300, "DOD": 25, "resist": [50, 50, 50], "skills": ["Skill_MP_Predator_EW_1", "Skill_MP_Predator_EW_2", "Skill_MP_Predator_EW_3", "Skill_MP_Predator_EW_4", "Skill_MP_Predator_EW_5"]}

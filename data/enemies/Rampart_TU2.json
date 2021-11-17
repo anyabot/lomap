@@ -1,0 +1,1 @@
+{"info": "램파트의 자율 경비용 기종이다.", "HP": [250, 40], "ATK": [50, 5.5], "DEF": [35, 1.5], "AGI": 3.8, "CRT": 5, "HIT": 140, "DOD": 10, "resist": [40, 40, -25], "skills": ["Skill_MP_Rampart_N_1", "Skill_MP_Rampart_N_2"]}

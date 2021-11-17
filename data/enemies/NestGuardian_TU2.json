@@ -1,0 +1,1 @@
+{"info": "네스트에서 사출된 전투 기계로 네스트를 위협으로부터 지키는 게 목적", "HP": [70000, 0], "ATK": [68.625, 9.375], "DEF": [3231, 0], "AGI": 4.32, "CRT": 10, "HIT": 200, "DOD": 33, "resist": [10, 10, 10], "skills": ["Skill_MP_NestGuardian_N_1", "Skill_MP_NestGuardian_N_2", "Skill_MP_NestGuardian_N_3", "Skill_MP_NestGuardian_N_4", "Skill_MP_NestGuardian_TU2_5"]}

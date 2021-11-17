@@ -1,0 +1,1 @@
+{"info": "전장에서 등장하는 더욱 강력해진 언더왓쳐로 제네레이터로부터 에너지를 공급 받는 한 계속 전투를 이어나갈 수 있습니다.\n\n\n보고자 ???", "HP": [70000, 450], "ATK": [500, 35], "DEF": [5000, 30], "AGI": 4, "CRT": 20, "HIT": 200, "DOD": 0, "resist": [90, 90, 90], "skills": ["Skill_MP_UnderWatcher_EW_1", "Skill_MP_UnderWatcher_EW_2", "Skill_MP_UnderWatcher_EW_3", "Skill_MP_UnderWatcher_EW_4", "Skill_MP_UnderWatcher_EW_5"]}
