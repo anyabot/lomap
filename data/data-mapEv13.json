@@ -10,8 +10,8 @@
       "gridsize": [8, 3],
       "stage": [
         {
-          "title": "Ev-1",
-          "name": "Ev1-1",
+          "title": "Ev1-1",
+          "name": "Ev-1",
           "grid": [0, 1],
           "wave": [
             {
@@ -181,8 +181,8 @@
           ]
         },
         {
-          "title": "Ev-2",
-          "name": "Ev1-2",
+          "title": "Ev1-2",
+          "name": "Ev-2",
           "grid": [1, 1],
           "prevstage": "Ev-1",
           "wave": [
@@ -353,8 +353,8 @@
           ]
         },
         {
-          "title": "Ev-3",
-          "name": "Ev1-3",
+          "title": "Ev1-3",
+          "name": "Ev-3",
           "grid": [2, 1],
           "prevstage": "Ev-2",
           "wave": [
@@ -484,8 +484,8 @@
           ]
         },
         {
-          "title": "Ev-4",
-          "name": "Ev1-4",
+          "title": "Ev1-4",
+          "name": "Ev-4",
           "grid": [3, 1],
           "prevstage": "Ev-3",
           "wave": [
@@ -656,8 +656,8 @@
           ]
         },
         {
-          "title": "Ev-5",
-          "name": "Ev1-5",
+          "title": "Ev1-5",
+          "name": "Ev-5",
           "grid": [4, 1],
           "prevstage": "Ev-4",
           "wave": [
@@ -828,8 +828,8 @@
           ]
         },
         {
-          "title": "Ev-6",
-          "name": "Ev1-6",
+          "title": "Ev1-6",
+          "name": "Ev-6",
           "grid": [5, 1],
           "prevstage": "Ev-5",
           "wave": [

@@ -10,7 +10,7 @@
       "gridsize": [8, 3],
       "stage": [
         {
-          "title": "Ev-1",
+          "title": "Ev1-1",
           "name": "Ev1-1",
           "grid": [0, 1],
           "wave": [
@@ -140,7 +140,7 @@
           ]
         },
         {
-          "title": "Ev-2",
+          "title": "Ev1-2",
           "name": "Ev1-2",
           "grid": [1, 1],
           "prevstage": "Ev-1",
@@ -271,7 +271,7 @@
           ]
         },
         {
-          "title": "Ev-3",
+          "title": "Ev1-3",
           "name": "Ev1-3",
           "grid": [2, 1],
           "prevstage": "Ev-2",
@@ -402,7 +402,7 @@
           ]
         },
         {
-          "title": "Ev-4",
+          "title": "Ev1-4",
           "name": "Ev1-4",
           "grid": [3, 1],
           "prevstage": "Ev-3",
@@ -574,7 +574,7 @@
           ]
         },
         {
-          "title": "Ev-5",
+          "title": "Ev1-5",
           "name": "Ev1-5",
           "grid": [4, 1],
           "prevstage": "Ev-4",
@@ -746,7 +746,7 @@
           ]
         },
         {
-          "title": "Ev-6",
+          "title": "Ev1-6",
           "name": "Ev1-6",
           "grid": [5, 1],
           "prevstage": "Ev-5",
@@ -959,7 +959,7 @@
           ]
         },
         {
-          "title": "Ev-5B",
+          "title": "Ev1-5B",
           "name": "Ev1-5B",
           "grid": [4, 0],
           "wave": [
@@ -1089,7 +1089,7 @@
           ]
         },
         {
-          "title": "Ev-6B",
+          "title": "Ev1-6B",
           "name": "Ev1-6B",
           "grid": [5, 0],
           "prevstage": "Ev-5B",
@@ -1220,7 +1220,7 @@
           ]
         },
         {
-          "title": "Ev-1Ex",
+          "title": "Ev1-1Ex",
           "name": "Ev1-1Ex",
           "grid": [0, 2],
           "wave": [
@@ -1391,7 +1391,7 @@
           ]
         },
         {
-          "title": "Ev-2Ex",
+          "title": "Ev1-2Ex",
           "name": "Ev1-2Ex",
           "grid": [1, 2],
           "prevstage": "Ev-1Ex",
@@ -1563,7 +1563,7 @@
           ]
         },
         {
-          "title": "Ev-3Ex",
+          "title": "Ev1-3Ex",
           "name": "Ev1-3Ex",
           "grid": [2, 2],
           "prevstage": "Ev-2Ex",
