@@ -11313,183 +11313,183 @@
   },
   "Skill_MP_Executioner_EW2_1": {
     "title": "askill1",
-    "name": "처형 준비",
+    "name": "Execution Initiation",
     "type": "active",
     "img": ["SwordAttk"],
     "range": 7,
     "AP": 5,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "지정 대상에게 {0} 피해를 주고, 2라운드 동안 공격력을 증가시킵니다. \n치명타 시, 대상에게 2라운드 동안 지속 화염 피해를 입힙니다.\n+200% 적중 보정이 적용됩니다."
+    "description": "Deals $(0.25) damage to a single target and grants Beheader ATK +50% for 2 rounds.<br>Inflicts 300 Fire DoT damage for 2 rounds when Crits.<br>This skill has +200% ACC."
   },
   "Skill_MP_Executioner_EW2_2": {
     "title": "askill2",
-    "name": "참수",
+    "name": "Beheading",
     "type": "active",
     "img": ["WideSwordAttk"],
     "range": 7,
     "AP": 8,
     "area": [1, 0, 1, 0, 1, 0, 1, 0, 1],
-    "description": "지정 범위에 {0} 보호 무시 피해를 줍니다. \n집행자 효과가 10 중첩 이상이면 대상의 방어막/피해 감소 효과를 무시합니다.\n집행자 중첩을 10 소모합니다."
+    "description": "Deals $(2) damage to target area with Ignore Protect.<br><strong>Ignore DR / Barrier</strong> if Beheader is affected by 10 or more <strong>Executioner</strong> stacks.<br>Consumes 10 <strong>Executioner</strong> stacks."
   },
   "Skill_MP_Executioner_EW2_3": {
     "title": "askill3",
-    "name": "집행자",
+    "name": "Executioner",
     "type": "passive",
     "img": ["SelfAtkBuff"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "피격 시, 자신의 공격력이 감소하지만 치명타 / 적중이 증가합니다.\n전투 개시 시, 해제 불가능한 반격 효과를 획득합니다."
+    "description": "When Beheader is hit, increases Beheader's ACC +20% / CRIT +10% permanently, but decreases ATK -8%.<br>At the start of wave, grant Beheader unremovable <strong>Counterattack</strong> with 100% Power permanently."
   },
   "Skill_MP_Executioner_EW2_4": {
     "title": "askill4",
-    "name": "흡수장",
+    "name": "Absorbent",
     "type": "passive",
     "img": ["Barrier"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "피격 시, 1라운드 동안 방어력이 증가합니다. 증가량은 라운드 개시 시 초기화됩니다.\n엄정한 집행을 위해 효과 저항이 증가하고 행동 불능 효과에 면역 상태가 됩니다."
+    "description": "When Deheader is attacked, grants Beheader DEF +20000 for 1 round.<br>Increase Beheader's Status Resist +75% and grants Immunity to <strong>Stunned</strong>"
   },
   "Skill_MP_Executioner_EW2_5": {
     "title": "askill5",
-    "name": "스테일메이트",
+    "name": "Stalemate",
     "type": "passive",
     "img": ["WideBeamShot"],
     "range": 0,
     "AP": 0,
     "area": ["F>", 1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "description": "전투 개시 시, 적 전체에 해제 불가능한 공격력 감소 효과를 적용합니다."
+    "description": "At the start of wave, inflicts unremovable ATK -200% to all enemies permanently."
   },
   "Skill_MP_NightChickM_RV_1": {
     "title": "askill1",
-    "name": "S.C 미사일 난사",
+    "name": "S.C Missile Attack",
     "type": "active",
     "img": ["Missile"],
     "range": 4,
     "AP": 4,
     "area": [0, 1, 0, 1, 1, 1, 0, 1, 0],
-    "description": "지정 범위에 {0} 물리 피해를 줍니다. 대상에 인접한 아군이 없는 경우 피해량이 대폭 증가하고, 대상의 방어막 / 피해 감소 효과를 무시합니다. "
+    "description": "Deals $(1) damage to target area.<br>If there is only 1 enemy in target area, Additional DMG +500% and <strong>Ignore DR / Barrier</strong>."
   },
   "Skill_MP_NightChickM_RV_2": {
     "title": "askill2",
-    "name": "S.C 미사일 조준 발사",
+    "name": "S.C Missle Aiming",
     "type": "active",
     "img": ["MultiMissile"],
     "range": 6,
     "AP": 3,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "지정 대상에게 보호 무시 {0} 피해를 줍니다. 대상이 표식 상태인 경우, 강화 효과를 해제하며 피해량이 대폭 증가합니다. "
+    "description": "Deals $(1) damage to target area that Ignore Protect.<br>Additional DMG +500% and removes buffs if target is affected by <strong>Marked</strong>."
   },
   "Skill_MP_NightChickM_RV_3": {
     "title": "askill3",
-    "name": "표적 견제",
+    "name": "Target Diversion",
     "type": "passive",
     "img": ["EnemyDetect"],
     "range": 4,
     "AP": 4,
     "area": ["F>", 1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "description": "라운드 개시 시, 표식 상태인 적의 방어력 / 회피가 감소합니다. 아군에 의해 생성된 표식이 아닌 경우 대상의 방어력 / 회피가 추가로 감소합니다."
+    "description": "At the start of round, inflicts DEF -25% / EVA -50% to enemies affected by <strong>Marked</strong>.<br>Effects increases to DEF -50% / EVA -100% if <strong>Marked</strong> is not a debuff."
   },
   "Skill_MP_NightChickM_RV_4": {
     "title": "askill4",
-    "name": "전투 적응 회로",
+    "name": "Combat Adaptation Circuit",
     "type": "passive",
     "img": ["SelfAtkBuff"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "라운드 개시 시, 자신의 명중 / 치명타 / 스킬 위력 / 행동력이 증가합니다. 자신은 공격력 / AP / 행동력 감소 효과에 면역입니다. 자신은 공격 대상이 적을수록 피해량이 증가합니다"
+    "description": "At the start of round, grant self permanent ACC / CRIT / Skill Multiplier / SPD +20% that stacks up to 5 times.<br>Grants unit <strong>Immunity</strong> to ATK- / SPD- / AP-.<br>Grants unit <strong>Area Damage Focus</strong> +100%."
   },
   "Skill_MP_NightChickM_RV_5": {
     "title": "askill5",
-    "name": "S.C 정밀 조준 회로",
+    "name": "S.C Precise Aiming Circuit",
     "type": "passive",
     "img": ["SelfAtkBuff"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "라운드 개시 시 자신이 도발 상태가 아닌 경우, 1라운드 동안 방어 관통 / 명중 / 치명타가 대폭 증가합니다. \n라운드 개시 시 자신이 도발 상태인 경우, 1라운드 동안 방어 관통 / 명중 / 치명타가 대폭 감소합니다. "
+    "description": "At the start of round, if unit is not affected by <strong>Provoked</strong>, grants unit ACC / CRIT / Defense Penetration +50% for 1 round.<br>At the start of round, if unit is affected by <strong>Provoked</strong>, inflicts unit ACC / CRIT / Defense Penetration -50% for 1 round."
   },
   "Skill_MP_NightChickS_RV_1": {
     "title": "askill1",
-    "name": "S.C 방패 강타",
+    "name": "S.C Shield Blow",
     "type": "active",
     "img": ["Missile"],
     "range": 4,
     "AP": 3,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "지정 대상에게 {0} 피해를 줍니다. 대상이 도발 상태인 경우, 대상의 강화 효과를 해제하고 지속 물리 피해를 줍니다."
+    "description": "Deals $(1) damage to a single target.<br>Inflicts 200 Fixed damage and removes buffs if target is affected by <strong>Provoked</strong>."
   },
   "Skill_MP_NightChickS_RV_2": {
     "title": "askill2",
-    "name": "S.C 방어 태세",
+    "name": "S.C Defensive Posture",
     "type": "active",
     "img": ["ShieldWall"],
     "range": 6,
     "AP": 7,
     "area": ["F>", 1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "description": "3라운드 동안 범위 내 아군을 지정 보호하며, 아군들의 AP가 증가합니다. 자신과 대상들의 방어력이 영구히 증가합니다."
+    "description": "Grants all allies  for 3 rounds / AP +1.<br>Grants all allies DEF +20% permenently that stacks 5 times."
   },
   "Skill_MP_NightChickS_RV_3": {
     "title": "askill3",
-    "name": "위협 대상 견제",
+    "name": "Threat Diversion",
     "type": "passive",
     "img": ["EnemyDetect"],
     "range": 4,
     "AP": 4,
     "area": ["F>", 1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "description": "라운드 개시 시 자신보다 공격력이 높은 적에게 도발 / AP / 공격력 / 방어 관통 감소 효과를 적용합니다. \n자신이 전열에 가까울수록 / 적이 후열에 가까울수록 적의 스킬 위력이 감소합니다.\n아군 사망 시, 도발 상태인 적의 스킬 위력이 일정 라운드 동안 감소합니다."
+    "description": "At the start of round, inflicts <strong>Provoked</strong> / AP -1 / ATK -20% / Defense Penetration -20% to enemies with higher ATK than unit.<br>At the start of wave, inflicts Skill Multiplier -20% / -10% to enemies if unit is on the Frontline / Middleline.<br>At the start of wave, inflicts Skill Multiplier -20% / -10% to enemies on the Backline / Middleline.<br>When an ally is defeated, inflicts unremovable Skill Multiplier -30% to enemies affected by <strong>Provoked</strong> for 3 rounds."
   },
   "Skill_MP_NightChickS_RV_4": {
     "title": "askill4",
-    "name": "전투 적응 회로",
+    "name": "Combat Adaptation Circuit",
     "type": "passive",
     "img": ["SelfDefBuff"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "라운드 개시 시, 자신의 공격력 / 방어력 / 행동력 / 효과 저항이 증가합니다. \n속성 공격 피격 시, 속성 저항 감소 효과가 적용된 경우, 감소가 아닌 증가로 반전 적용됩니다."
+    "description": "At the start of round, grants unit permanent ATK +500 / DEF +500 / SPD +10% / Status Resist +10% that stack 5 times.<br>When attacked by an Elemental Attack and receiving corresponding Elemental Resist Debuff, grant unit unremovable Elemental Resist Reversal of the corresponding Element for 3 rounds."
   },
   "Skill_MP_NightChickS_RV_5": {
     "title": "askill5",
-    "name": "칙 방어 진형",
+    "name": "Chick Defense Formation",
     "type": "passive",
     "img": ["ShieldWall"],
     "range": 0,
     "AP": 0,
     "area": ["F>", 1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "description": "라운드 개시 시, 행 / 열 보호가 적용됩니다. 라운드 개시 시, HP가 50% 이하인 아군은 범위 공격 분산 효과가 적용됩니다. \n아군 사망 시, 범위 공격 분산 효과가 추가로 적용됩니다."
+    "description": "At the start of round, grants unit Row Protect / Column Protect.<br>At the start of round, grants allies with less than 50% HP unremovable <strong>Area Damage Dispersion</strong> +25% permanently.<br>When an ally is defeated, grants unit unremovable <strong>Area Damage Dispersion</strong> +25% permanently."
   },
   "Skill_MP_Intruder_N_1": {
     "title": "askill1",
-    "name": "재밍 미사일",
+    "name": "Jamming Missile",
     "type": "active",
     "img": ["Missile"],
     "range": 4,
     "AP": 7,
     "area": [0, 0, 0, 0, 1, 1, 0, 1, 1],
-    "description": "지정 범위에 보호 무시 {0} 피해를 줍니다. 적중 시, 대상의 공격력 / 행동력 증가 효과를 해제합니다.\n적중 여부와 관계 없이, 대상의 회피가 자신보다 낮으면 2라운드 동안 적중 / 치명타 감소 효과가 적용됩니다.\n스킬 사용 시, 자신에게 걸린 지정 보호를 해제합니다. "
+    "description": "Deals $(0.5) damage to target area that Ignore Protect.<br>When hit, removes ATK / SPD buffs.<br>If target has less EVA than unit, inflicts ACC -25% / CRIT -25% for 2 rounds regardless of hit.<br>Removes Target Protect applied to unit after this skill is used."
   },
   "Skill_MP_Intruder_N_2": {
     "title": "askill2",
-    "name": "요격 준비",
+    "name": "Interception Preparation",
     "type": "active",
     "img": ["Scan"],
     "range": 8,
     "AP": 9,
     "area": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "description": "지정 범위 내 아군에게 적용된 해로운 효과를 해제하고, 3라운드 동안 사거리 / 적중 / 치명타 증가 효과를 적용합니다.\n대상의 HP가 50% 이하인 경우 반격 효과 1회가 추가 적용됩니다."
+    "description": "Remove debuffs and grant Range +1 / ACC +25% / CRIT +25% for 3 rounds to allies in Area of Effect.<br>If ally's HP is lower than 50%, also grant <strong>Counterattack</strong> with 100% Power (1 time) for 3 rounds to that ally."
   },
   "Skill_MP_Intruder_N_3": {
     "title": "askill3",
-    "name": "고주파 재머",
+    "name": "High Frequency Jammer",
     "type": "passive",
     "img": ["SelfAtkDeBuff"],
     "range": 4,
     "AP": 0,
     "area": ["F>", 1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "description": "전투 개시 시, 적이 후열에 가까울수록 적의 스킬 위력이 감소합니다.\n자신이 지정 보호를 받는 상태에서 사망 시, 적에게 3라운드 동안 해제 불가능한 스킬 위력 / 적중 감소를 적용합니다.\n자신이 지정 보호를 받지 않는 상태에서 사망 시, 적에게 적용된 해로운 효과를 모두 해제하고 AP를 증가시킵니다."
+    "description": "At the start of wave, inflicts Skill Multiplier -20% / -10% to enemies on the Backline / Middleline.<br>When unit is defeated while affected by Target Protect, inflicts unremovable Skill Multiplier / ACC -30% for 3 rounds to all enemies.<br>When unit is defeated while not affected by Target Protect, removes all debuffs and grants AP +2 to all enemies."
   },
   "Skill_MP_Intruder_N_4": {
     "title": "askill4",
@@ -11499,56 +11499,56 @@
     "range": 0,
     "AP": 0,
     "area": ["F>", 1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "description": "전투 개시 시, 광역 피해 분산이 적용되며, 매 라운드 효과가 점감합니다.\n자신의 스킬이 적중하면, 2라운드 동안 아군 전체의 적중 / 회피가 증가합니다.\n자신이 공격 받으면 아군 전체의 AP가 증가합니다."
+    "description": "At the start of the 1st / 2nd / 3rd / 4th round or after, grants all allies unremovable <strong>Area Damage Dispersion</strong> +100% / 85% / 70% / 50% for 1 round.<br>When unit's attacks hit, grants all allies ACC / EVA +20% for 2 rounds.<br>When unit is attacked, grants all allies AP +0.5."
   },
   "Skill_MP_HauntedFortress_N_1": {
     "title": "askill1",
-    "name": "무장 해제 사격",
+    "name": "Disarming Shoot",
     "type": "active",
     "img": ["MGShot"],
     "range": 3,
     "AP": 5,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "기관총을 발사해 {0} 피해를 줍니다. 적중 시, 2라운드 동안 대상의 공격력 / 치명타를 감소시킵니다."
+    "description": "Deals $(1) damage to a single target.<br>When hit, inflicts ATK / CRIT -25% for 2 rounds."
   },
   "Skill_MP_HauntedFortress_N_2": {
     "title": "askill2",
-    "name": "접근 거부 사격",
+    "name": "Access Denial",
     "type": "active",
     "img": ["MGWideShot"],
     "range": 1,
     "AP": 8,
-    "area": ["7>", 0.5, 0, 0, 0.5, 1, 0, 0.5, 0, 0],
-    "description": "기관총을 난사해 {0} 피해를 줍니다. 목표 범위 뒷 열은 피해량이 감소합니다. 적중 시, 대상을 뒤로 1칸 밀어냅니다. +200%의 적중 보정이 적용됩니다."
+    "area": [0.5, 0, 0, 0.5, 1, 0, 0.5, 0, 0],
+    "description": "Deal $(1) damage to target area.<br>Damage decreases by 50% to non-center area.<br>When hit, <strong>Push Back</strong> 1 cell."
   },
   "Skill_MP_HauntedFortress_N_3": {
     "title": "askill3",
-    "name": "관통 내성",
+    "name": "Penetration Resistance",
     "type": "passive",
     "img": ["SelfDefBuff"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "라운드 개시 시, 방어력이 증가하고 받는 피해가 감소하며 열 보호를 활성화합니다.\n피격 시, 자신의 현재 HP에 비례하여 공격자의 방어 관통을 감소시켜 대미지를 계산합니다."
+    "description": "At the start of round, grants unit Column Protect / DR +25% / DEF +50% / <strong>Defense Penetration Resist</strong> for 1 round."
   },
   "Skill_MP_HauntedFortress_N_4": {
     "title": "askill4",
-    "name": "고정형 참호",
+    "name": "Fixed Trench",
     "type": "passive",
     "img": ["SelfDefBuff"],
     "range": 0,
     "AP": 0,
     "area": ["4>", 0, 0, 0, 1, 1, 1, 0, 0, 0],
-    "description": "라운드 개시 시, 자신과 같은 행 뒤쪽에 배치된 보호기를 제외한 아군을 지정 보호합니다.\n지정 보호 중인 아군은 피해 최소화를 1회 획득하며 속성 저항 하한이 생성됩니다."
+    "description": "At the start of round, grants unremovable Target Protect to Attacker / Supporter allies behind on the same row.<br>At the start of round, grants Protected targets <strong>Minimize Damage</strong> (1 time) and Minimum Elemental Resist +50% for 1 round."
   },
   "Skill_MP_HauntedFortress_N_5": {
     "title": "askill5",
-    "name": "쓰러지지 않는 성채",
+    "name": "Unbreakable Citadel",
     "type": "passive",
     "img": ["SetBarricade"],
     "range": 0,
     "AP": 0,
     "area": ["F>", 1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "description": "자신이 지정 보호 중인 아군이 존재하는 한, 해제 불가능한 전투 속행 효과를 획득합니다."
+    "description": "As long as there are Protected allies, unit has unremovable <strong>Battle Continuation</strong> with 25% HP."
   }
 }
