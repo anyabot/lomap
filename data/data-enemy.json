@@ -12134,7 +12134,7 @@
     "used": {}
   },
   "UnderWatcher_EW2": {
-    "name": "언더왓쳐",
+    "name": "Underwatcher",
     "img": "UnderWatcher_B05",
     "type": "Heavy",
     "role": "Defender",
@@ -12142,7 +12142,7 @@
     "used": {}
   },
   "UnderWatcherArm_EW2": {
-    "name": "언더왓쳐 암",
+    "name": "Underwatcher Arm",
     "img": "UnderWatcherArm_B05",
     "type": "Heavy",
     "role": "Attacker",
@@ -12150,7 +12150,7 @@
     "used": {}
   },
   "UnderWatcherSensor_EW2": {
-    "name": "언더왓쳐 센서",
+    "name": "Underwatcher Sensor",
     "img": "UnderWatcherSensor_B05",
     "type": "Heavy",
     "role": "Supporter",
@@ -12158,7 +12158,7 @@
     "used": {}
   },
   "UnderWatcherGenerator_EW2": {
-    "name": "언더왓쳐 제네레이터",
+    "name": "Underwatcher Generator",
     "img": "UnderWatcherGenerator_B05",
     "type": "Heavy",
     "role": "Defender",
@@ -12166,8 +12166,128 @@
     "used": {}
   },
   "Predator_EW2": {
-    "name": "프레데터",
+    "name": "Predator",
     "img": "Predator_B0208",
+    "type": "Heavy",
+    "role": "Defender",
+    "rank": "SS",
+    "used": {}
+  },
+  "Executioner_EW2": {
+    "name": "Beheader",
+    "img": "Executioner_B06",
+    "type": "Flying",
+    "role": "Attacker",
+    "rank": "SS",
+    "used": {}
+  },
+  "NightChickM_RV": {
+    "name": "Chick Launcher Type-S",
+    "img": "NightChickM_RV",
+    "type": "Light",
+    "role": "Attacker",
+    "rank": "SS",
+    "used": {}
+  },
+  "NightChickS_RV": {
+    "name": "Chick Shielder Type-S",
+    "img": "NightChickS_RV",
+    "type": "Light",
+    "role": "Defender",
+    "rank": "SS",
+    "used": {}
+  },
+  "Intruder_N": {
+    "name": "Intruder",
+    "img": "Intruder",
+    "type": "Flying",
+    "role": "Supporter",
+    "rank": "S",
+    "used": {}
+  },
+  "Intruder_TU": {
+    "name": "Intruder",
+    "img": "Intruder",
+    "type": "Flying",
+    "role": "Supporter",
+    "rank": "S",
+    "used": {}
+  },
+  "Intruder_TU2": {
+    "name": "Intruder",
+    "img": "Intruder",
+    "type": "Flying",
+    "role": "Supporter",
+    "rank": "S",
+    "used": {}
+  },
+  "Intruder_TU3": {
+    "name": "Intruder",
+    "img": "Intruder",
+    "type": "Flying",
+    "role": "Supporter",
+    "rank": "S",
+    "used": {}
+  },
+  "Intruder_TU4": {
+    "name": "Intruder",
+    "img": "Intruder",
+    "type": "Flying",
+    "role": "Supporter",
+    "rank": "S",
+    "used": {}
+  },
+  "Intruder_TU5": {
+    "name": "Intruder",
+    "img": "Intruder",
+    "type": "Flying",
+    "role": "Supporter",
+    "rank": "S",
+    "used": {}
+  },
+  "HauntedFortress_N": {
+    "name": "Haunted Fortress",
+    "img": "HauntedFortress",
+    "type": "Heavy",
+    "role": "Defender",
+    "rank": "SS",
+    "used": {}
+  },
+  "HauntedFortress_TU": {
+    "name": "Haunted Fortress",
+    "img": "HauntedFortress",
+    "type": "Heavy",
+    "role": "Defender",
+    "rank": "SS",
+    "used": {}
+  },
+  "HauntedFortress_TU2": {
+    "name": "Haunted Fortress",
+    "img": "HauntedFortress",
+    "type": "Heavy",
+    "role": "Defender",
+    "rank": "SS",
+    "used": {}
+  },
+  "HauntedFortress_TU3": {
+    "name": "Haunted Fortress",
+    "img": "HauntedFortress",
+    "type": "Heavy",
+    "role": "Defender",
+    "rank": "SS",
+    "used": {}
+  },
+  "HauntedFortress_TU4": {
+    "name": "Haunted Fortress",
+    "img": "HauntedFortress",
+    "type": "Heavy",
+    "role": "Defender",
+    "rank": "SS",
+    "used": {}
+  },
+  "HauntedFortress_TU5": {
+    "name": "Haunted Fortress",
+    "img": "HauntedFortress",
     "type": "Heavy",
     "role": "Defender",
     "rank": "SS",
