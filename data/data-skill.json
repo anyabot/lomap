@@ -8712,7 +8712,7 @@
     "img": "AssaultAttack",
     "range": 5,
     "AP": 6,
-    "description": "Deals $(1.4) damage to target area, remove all buffs from target, and inflict <strong>Bleeding</strong> for 3 rounds.<br>Deal 50% less damage to non-primary target.<br>When affected by <strong>Frenzy</strong>, inflict <strong>Great Bleeding</strong> instead of <strong>Bleeding</strong>.<br>Target inflicted with <strong>Bleeding</strong> and <strong>Great Bleeding</strong> takes 550 / 600 Fixed Damage at the end of each round.",
+    "description": "Deals $(1.4) damage to target area, remove all buffs from target, and inflict <strong>Bleeding</strong> for 3 rounds.<br>Deal 50% less damage to non-primary target.<br>When affected by <strong>Frenzy</strong>, inflict <strong>Great Bleeding</strong> instead of <strong>Bleeding</strong>.<br>Target inflicted with <strong>Bleeding</strong> and <strong>Great Bleeding</strong> takes 50 / 100 Fixed Damage at the end of each round.",
     "area": [0.5, 0.5, 0.5, 0.5, 1, 0.5, 0.5, 0.5, 0.5]
   },
   "Skill_MP_Tracker_N_3": {
@@ -9683,7 +9683,7 @@
   },
   "Skill_MP_Tracker_TU5_2": {
     "title": "askill2",
-    "name": "피의 손톱",
+    "name": "Bloody Claw",
     "type": "active",
     "img": ["AssaultAttack"],
     "range": 5,
@@ -10103,43 +10103,43 @@
   },
   "Skill_MP_Tarantula_EW2_1": {
     "title": "askill1",
-    "name": "히트 머신건",
+    "name": "Machine Gun",
     "type": "active",
     "img": ["MeleeAttack"],
     "range": 4,
     "AP": 4,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "대상에게 {0} 화염 속성 피해를 주고, 50% 확률로 최대 3회까지 화염 저항을 감소시킵니다."
+    "description": "Deals $(0.5) Fire Damage to target with 50% chance to inflict Fire Resist -10% that can stack up to 3 times."
   },
   "Skill_MP_Tarantula_EW2_2": {
     "title": "askill2",
-    "name": "자폭 개시",
+    "name": "Self-Destruct Initiation",
     "type": "active",
     "img": ["SelfDefBuff"],
     "range": 3,
     "AP": 10,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "<sec typ=\"note\">자폭 준비 완료</sec>가 적용되 있는 상태라면 목표 대상에게 {0} 화염 속성 피해를 주고 자폭합니다. 대상의 방어막 / 피해 감소 효과를 무시합니다."
+    "description": "Self-destructs and deals $(5) Fire Damage to a single target with <strong>Ignore Barrier / DR</strong>."
   },
   "Skill_MP_Tarantula_EW2_3": {
     "title": "askill3",
-    "name": "자폭 준비",
+    "name": "Self-Destruct Preparation",
     "type": "passive",
     "img": ["SelfDefBuff"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "스스로 자폭을 하기 위해 매 라운드마다 일정 확률로 내부를 과열하여 자폭 준비를 합니다. 자폭 준비가 3중첩이 될 시 <sec typ=\"note\">자폭 준비 완료</sec> 상태가 되어 자폭을 실행 합니다."
+    "description": "At the start of each round, 30% chance to gain a <strong>Self-Destruct Preparation</strong> stack. At 3 stacks, use <strong>Self-Destruct Initiation</strong>"
   },
   "Skill_MP_Tarantula_EW2_4": {
     "title": "askill4",
-    "name": "내부 과열 냉각",
+    "name": "Internal Superheat Cooling",
     "type": "passive",
     "img": ["SelfDefBuff"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "냉기 공격에 피격 시 내부 과열 상태를 해제 합니다. 하지만 이미 <sec typ=\"note\">자폭 준비 완료</sec>가 된 상태라면 자폭을 막을 수 없습니다."
+    "description": "Removes <strong>Self-Destruct Preparation</strong> stacks when unit is hit with Ice Attacks."
   },
   "Skill_MP_NightChickTD_EW_1": {
     "title": "askill1",
@@ -11173,43 +11173,43 @@
   },
   "Skill_MP_Tracker_TU_2": {
     "title": "askill2",
-    "name": "피의 손톱",
+    "name": "Bloody Claw",
     "type": "active",
     "img": ["AssaultAttack"],
     "range": 5,
     "AP": 6,
     "area": [0.5, 0.5, 0.5, 0.5, 1, 0.5, 0.5, 0.5, 0.5],
-    "description": "목표 지점에 보호무시의 {0} 피해를 주고 주위에 50% 감소된 피해를 줍니다. 모든 강화효과를 해제하고 <sec typ=\"note\">출혈</sec> 효과를 적용합니다. <sec typ=\"note\">광란</sec> 상태일 시, <sec typ=\"note\">대 출혈</sec> 효과를 적용합니다."
+    "description": "Deals $(1.4) damage to target area, remove all buffs from target, and inflict <strong>Bleeding</strong> for 3 rounds.<br>Deal 50% less damage to non-primary target.<br>When affected by <strong>Frenzy</strong>, inflict <strong>Great Bleeding</strong> instead of <strong>Bleeding</strong>.<br>Target inflicted with <strong>Bleeding</strong> and <strong>Great Bleeding</strong> takes 150 / 200 Fixed Damage at the end of each round."
   },
   "Skill_MP_Tracker_TU2_2": {
     "title": "askill2",
-    "name": "피의 손톱",
+    "name": "Bloody Claw",
     "type": "active",
     "img": ["AssaultAttack"],
     "range": 5,
     "AP": 6,
     "area": [0.5, 0.5, 0.5, 0.5, 1, 0.5, 0.5, 0.5, 0.5],
-    "description": "목표 지점에 보호무시의 {0} 피해를 주고 주위에 50% 감소된 피해를 줍니다. 모든 강화효과를 해제하고 <sec typ=\"note\">출혈</sec> 효과를 적용합니다. <sec typ=\"note\">광란</sec> 상태일 시, <sec typ=\"note\">대 출혈</sec> 효과를 적용합니다."
+    "description": "Deals $(1.4) damage to target area, remove all buffs from target, and inflict <strong>Bleeding</strong> for 3 rounds.<br>Deal 50% less damage to non-primary target.<br>When affected by <strong>Frenzy</strong>, inflict <strong>Great Bleeding</strong> instead of <strong>Bleeding</strong>.<br>Target inflicted with <strong>Bleeding</strong> and <strong>Great Bleeding</strong> takes 250 / 300 Fixed Damage at the end of each round."
   },
   "Skill_MP_Tracker_TU3_2": {
     "title": "askill2",
-    "name": "피의 손톱",
+    "name": "Bloody Claw",
     "type": "active",
     "img": ["AssaultAttack"],
     "range": 5,
     "AP": 6,
     "area": [0.5, 0.5, 0.5, 0.5, 1, 0.5, 0.5, 0.5, 0.5],
-    "description": "목표 지점에 보호무시의 {0} 피해를 주고 주위에 50% 감소된 피해를 줍니다. 모든 강화효과를 해제하고 <sec typ=\"note\">출혈</sec> 효과를 적용합니다. <sec typ=\"note\">광란</sec> 상태일 시, <sec typ=\"note\">대 출혈</sec> 효과를 적용합니다."
+    "description": "Deals $(1.4) damage to target area, remove all buffs from target, and inflict <strong>Bleeding</strong> for 3 rounds.<br>Deal 50% less damage to non-primary target.<br>When affected by <strong>Frenzy</strong>, inflict <strong>Great Bleeding</strong> instead of <strong>Bleeding</strong>.<br>Target inflicted with <strong>Bleeding</strong> and <strong>Great Bleeding</strong> takes 350 / 400 Fixed Damage at the end of each round."
   },
   "Skill_MP_Tracker_TU4_2": {
     "title": "askill2",
-    "name": "피의 손톱",
+    "name": "Bloody Claw",
     "type": "active",
     "img": ["AssaultAttack"],
     "range": 5,
     "AP": 6,
     "area": [0.5, 0.5, 0.5, 0.5, 1, 0.5, 0.5, 0.5, 0.5],
-    "description": "목표 지점에 보호무시의 {0} 피해를 주고 주위에 50% 감소된 피해를 줍니다. 모든 강화효과를 해제하고 <sec typ=\"note\">출혈</sec> 효과를 적용합니다. <sec typ=\"note\">광란</sec> 상태일 시, <sec typ=\"note\">대 출혈</sec> 효과를 적용합니다."
+    "description": "Deals $(1.4) damage to target area, remove all buffs from target, and inflict <strong>Bleeding</strong> for 3 rounds.<br>Deal 50% less damage to non-primary target.<br>When affected by <strong>Frenzy</strong>, inflict <strong>Great Bleeding</strong> instead of <strong>Bleeding</strong>.<br>Target inflicted with <strong>Bleeding</strong> and <strong>Great Bleeding</strong> takes 450 / 500 Fixed Damage at the end of each round."
   },
   "Skill_MP_DoomEater_N_EW3_1": {
     "title": "askill1",
