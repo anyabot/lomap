@@ -5994,7 +5994,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "If Underwatcher has less than 30% while affected by <strong>Energy Charge</strong>, grants Underwatcher unremovable <strong>Battle Continuation</strong> with 30% HP permanently.",
+    "description": "If Underwatcher has less than 30% while affected by <strong>Energy Charge</strong>, grants Underwatcher unremovable <strong>Battle Continuation</strong> with 50000 HP permanently.",
     "area": [5]
   },
   "Skill_MP_UnderWatcherGenerator_EW_1": {
