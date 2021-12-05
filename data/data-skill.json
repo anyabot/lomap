@@ -6705,7 +6705,7 @@
     "range": "9",
     "AP": "10",
     "description": "Deals $(4) damage that Ignore Protect / Penfense Penetration +100% / <strong>Ignore Barrier / DR</strong> , and remove self's <strong>Concentrated Energy Field</strong> buff.",
-    "area": ["F6", 4, 5, 6]
+    "area": ["6>", 4, 5, 6]
   },
   "Skill_MP_Destroyer_N_2": {
     "title": "askill2",
@@ -11518,7 +11518,7 @@
     "img": ["MGWideShot"],
     "range": 1,
     "AP": 8,
-    "area": [0.5, 0, 0, 0.5, 1, 0, 0.5, 0, 0],
+    "area": ["7>", 0.5, 0, 0, 0.5, 1, 0, 0.5, 0, 0],
     "description": "Deal $(1) damage to target area.<br>Damage decreases by 50% to non-center area.<br>When hit, <strong>Push Back</strong> 1 cell."
   },
   "Skill_MP_HauntedFortress_N_3": {
