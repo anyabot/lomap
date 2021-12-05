@@ -11339,7 +11339,7 @@
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "When Beheader is hit, increases Beheader's ACC +20% / CRIT +10% permanently, but decreases ATK -8%.<br>At the start of wave, grant Beheader unremovable <strong>Counterattack</strong> with 100% Power permanently."
+    "description": "When Beheader is hit, increases Beheader's ACC +20% / CRIT +10% permanently, but decreases ATK -8%.<br>When Beheader is attacked, grant Beheader <strong>Counterattack</strong> with 100% Power permanently."
   },
   "Skill_MP_Executioner_EW2_4": {
     "title": "askill4",
