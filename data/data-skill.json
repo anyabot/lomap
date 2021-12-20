@@ -9327,17 +9327,7 @@
     "img": ["MultiMissile"],
     "range": 6,
     "AP": 1,
-    "area": [
-      0.25,
-      0.25,
-      0.25,
-      0.25,
-      1,
-      0.25,
-      0.25,
-      0.25,
-      0.25
-    ],
+    "area": [0.25, 0.25, 0.25, 0.25, 1, 0.25, 0.25, 0.25, 0.25],
     "description": "Deals $(1.3) damage to target area with <strong>Area Damage Focus</strong> and Ignore Protect. Damages are reduced by 50% to enemies adjacent to the main target, and by 75% to other enemies.<br>If Triton has more ATK than target's, inflicts Additional DMG +20% and remove all buffs."
   },
   "Skill_MP_Triton_B09_3": {
@@ -11600,5 +11590,185 @@
     "AP": 0,
     "description": "When Predator is attacked, removes all debuffs from Predator, except from <strong>Attribute Absorption</strong>, and grants Barrier +5000 for 1 round.",
     "area": [5]
+  },
+  "Skill_MP_MarionnetteAR_N_1": {
+    "title": "askill1",
+    "name": "Set Target",
+    "type": "active",
+    "img": ["Snipe"],
+    "range": 3,
+    "AP": 4,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "Deals $(1) damage to a single target and inflicts <strong>Marked</strong> / <strong>Damage Taken Increased</strong> +15% for 2 rounds."
+  },
+  "Skill_MP_MarionnetteAR_N_2": {
+    "title": "askill2",
+    "name": "Warning Fire",
+    "type": "active",
+    "img": ["ARShot"],
+    "range": 6,
+    "AP": 6,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "Deals $(0.25) damage to a single target with Ignore Protect and inflicts ACC / EVA -30% for 2 rounds regardless of hit."
+  },
+  "Skill_MP_MarionnetteAR_N_3": {
+    "title": "askill3",
+    "name": "Distributive Processing System",
+    "type": "passive",
+    "img": ["SelfAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "At the start of round, grant unit buffs depending on the number of allies:<br>3 or more: SPD +30%.<br>5 or more: Status Resist +50%.<br>7 or more: <strong>Area Damage Dispersion</strong> +70%."
+  },
+  "Skill_MP_MarionnetteAR_N_4": {
+    "title": "askill4",
+    "name": "Contingency Plan",
+    "type": "passive",
+    "img": ["TeamAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["F>", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
+    "description": "When unit is defeated, grant all allies AP +1.5 / ATK +25% / CRIT +15% / DR +15% for 2 rounds that stack up to 4 times each."
+  },
+  "Skill_MP_MarionnetteHW_N_1": {
+    "title": "askill1",
+    "name": "122mm APFSDS",
+    "type": "active",
+    "img": ["CannonShot"],
+    "range": 5,
+    "AP": 7,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "Deals $(1) damage to a single target and with Defense Penetration +40%.<br>Additional DMG +25% to Heavy enemies.<br>Additional DMG +25% to Defender enemies."
+  },
+  "Skill_MP_MarionnetteHW_N_2": {
+    "title": "askill2",
+    "name": "Napalm Shot Bombardment",
+    "type": "active",
+    "img": ["CannonShotWide"],
+    "range": 6,
+    "AP": 10,
+    "area": ["1", "0", "0", "1", "1", "0", "1", "0", "0"],
+    "description": "Deals $(0.75) damage to target area and inflicts <strong>Damage Taken Increased</strong> +25% / 250 Fire DoT damage for 2 rounds."
+  },
+  "Skill_MP_MarionnetteHW_N_3": {
+    "title": "askill3",
+    "name": "Distributive Processing System",
+    "type": "passive",
+    "img": ["SelfAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "At the start of round, grant unit buffs depending on the number of allies:<br>3 or more: SPD +30%.<br>5 or more: Status Resist +50%.<br>7 or more: <strong>Area Damage Dispersion</strong> +70%."
+  },
+  "Skill_MP_MarionnetteHW_N_4": {
+    "title": "askill4",
+    "name": "Shot Control Network",
+    "type": "passive",
+    "img": ["CannonShotDelay"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "After attacking, grant self buff for 1 attack.<br>If Hit: Re-Attack.<br>If Miss: ACC+ 200%."
+  },
+  "Skill_MP_MarionnetteHA_N_1": {
+    "title": "askill1",
+    "name": "2연장 철갑 속사포",
+    "type": "active",
+    "img": ["MGShot"],
+    "range": 3,
+    "AP": 5,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "적에게 기관포 사격으로 {0} 피해를 줍니다.\n적중 시, 2라운드 동안 대상에게 표식 / 방어력 감소 효과를 적용합니다."
+  },
+  "Skill_MP_MarionnetteHA_N_2": {
+    "title": "askill2",
+    "name": "충격탄 발사",
+    "type": "active",
+    "img": ["GrenadeAttack_2"],
+    "range": 5,
+    "AP": 8,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "적에게 충격탄을 발사하여 {0} 피해를 주고, 뒤로 1칸 밀쳐냅니다.\n자신과 대상이 각각 전열에 가까울 수록 피해량이 증가합니다."
+  },
+  "Skill_MP_MarionnetteHA_N_3": {
+    "title": "askill3",
+    "name": "병렬 분산 시스템",
+    "type": "passive",
+    "img": ["SelfAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "라운드 개시 시, 아군이 전장에 다수 존재할 수록 추가 효과를 받습니다.\n1단계 (3개체 이상) : 행동력 30% 증가\n2단계 (5개체 이상) : 효과 저항 50% 증가\n3단계 (7개체 이상) : 광역 피해 분산 70%"
+  },
+  "Skill_MP_MarionnetteHA_N_4": {
+    "title": "askill4",
+    "name": "교차형 차폐 장갑",
+    "type": "passive",
+    "img": ["ShieldWall"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "1", "0", "1", "1", "1", "0", "1", "0"],
+    "description": "홀수 라운드 개시 시, 행 보호가, 짝수 라운드 개시 시, 열 보호가 활성화 됩니다. (해제 불가)\n라운드 개시 시, 1라운드 동안 지정 범위의 아군에게 받는 피해 감소 효과를 부여합니다.\n대상이 자신의 행/열 보호를 받지 않고 있는 경우, 피해 감소 효과를 추가로 부여합니다.\n자신은 항상 최대 효율의 피해 감소 효과가 적용됩니다."
+  },
+  "Skill_MP_MarionnetteHA_N_5": {
+    "title": "askill5",
+    "name": "보복 프로토콜",
+    "type": "passive",
+    "img": ["DefCounter"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "라운드 개시 시, 생존한 아군이 적을 수록 강력해지는 반격 효과를 2회 획득합니다. \n3개체 이하 : 200% 위력으로 반격\n4 ~ 6개체 : 150% 위력으로 반격\n7개체 이상 : 100% 위력으로 반격"
+  },
+  "Skill_MP_MarionnetteDM_N_1": {
+    "title": "askill1",
+    "name": "표적 제거",
+    "type": "active",
+    "img": ["Shot"],
+    "range": 5,
+    "AP": 6,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "저격으로 {0} 피해를 줍니다. 대상의 HP가 낮을수록 피해량이 증가하며, 대상이 표식 상태인 경우, 피해량이 추가로 증가하고 행동력을 감소시킵니다."
+  },
+  "Skill_MP_MarionnetteDM_N_2": {
+    "title": "askill2",
+    "name": "천공 탄환",
+    "type": "active",
+    "img": ["Chargeshot"],
+    "range": 6,
+    "AP": 9,
+    "area": ["6>", "0", "0", "0", "1", "1", "1", "0", "0", "0"],
+    "description": "지정 범위의 적에게 특수 개조된 탄환을 발사하여 보호 무시 {0} 피해를 가합니다.\n대상이 표식 상태인 경우, 피해량이 대폭 증가하고, AP를 감소시킵니다."
+  },
+  "Skill_MP_MarionnetteDM_N_3": {
+    "title": "askill3",
+    "name": "병렬 분산 시스템",
+    "type": "passive",
+    "img": ["SelfAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "라운드 개시 시, 아군이 전장에 다수 존재할 수록 추가 효과를 받습니다.\n1단계 (3개체 이상) : 행동력 30% 증가\n2단계 (5개체 이상) : 효과 저항 50% 증가\n3단계 (7개체 이상) : 광역 피해 분산 70%"
+  },
+  "Skill_MP_MarionnetteDM_N_4": {
+    "title": "askill4",
+    "name": "지정 사수",
+    "type": "passive",
+    "img": ["TeamAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["6>", "0", "0", "0", "1", "1", "1", "0", "0", "0"],
+    "description": "라운드 개시 시, 지정 범위의 아군의 공격을 지원합니다.\n자신의 공격이 적중하면, 3라운드 동안 범위 내 아군의 방어력 / 회피가 증가합니다. (최대 5중첩)"
+  },
+  "Skill_MP_MarionnetteDM_N_5": {
+    "title": "askill5",
+    "name": "가변형 전술",
+    "type": "passive",
+    "img": ["FormChange"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "전투 개시 시, 적의 스쿼드 구성에 따라 자신은 이하의 해제 불가 효과를 획득합니다.\n경장형 2체 이상 : 대 경장 피해량 30% / 치명타 30% 증가\n중장형 2체 이상 : 대 중장 피해량 30% / 방어 관통 30% 증가\n기동형 2체 이상 : 대 기동 피해량 30% / 적중 30% 증가"
   }
 }
