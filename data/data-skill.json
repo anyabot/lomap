@@ -26,7 +26,7 @@
     "img": "Snipe",
     "range": 0,
     "AP": 0,
-    "description": "When this unit idles, increases unit's Range +2 for 2 rounds.",
+    "description": "When unit idles, increases unit's Range +2 for 2 rounds.",
     "area": [5]
   },
   "Skill_MP_NightChick_N_1": {
@@ -56,7 +56,7 @@
     "img": "Snipe",
     "range": 0,
     "AP": 0,
-    "description": "When this unit idles, increases units ACC +40% / Range +2 for 2 rounds.",
+    "description": "When unit idles, increases unit's ACC +40% / Range +2 for 2 rounds.",
     "area": [5]
   },
   "Skill_MP_NightChickS_N_1": {
@@ -470,7 +470,7 @@
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit idles, increases AP +1 and grants CRIT +15% / Range +1 / Defense Penetration +15% to Attacker allies in Area of Effect.",
+    "description": "When unit idles, increases AP +1 and grants CRIT +15% / Range +1 / Defense Penetration +15% to Attacker allies in Area of Effect.",
     "area": [8, 5, 2]
   },
   "Skill_MP_Kidnapper_N_1": {
@@ -783,7 +783,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit moves, increases unit's Range +1 / ATK +20% / CRIT +15% for 4 rounds.",
+    "description": "When unit moves, increases unit's Range +1 / ATK +20% / CRIT +15% for 4 rounds.",
     "area": [5]
   },
   "Skill_MP_NightChickEX_N_1": {
@@ -813,7 +813,7 @@
     "img": "Snipe",
     "range": 0,
     "AP": 0,
-    "description": "When this unit idles, increases unit's ACC +40% / CRIT +15% / Range +1 for 3 rounds.",
+    "description": "When unit idles, increases unit's ACC +40% / CRIT +15% / Range +1 for 3 rounds.",
     "area": [5]
   },
   "Skill_MP_ScoutEX_N_1": {
@@ -843,7 +843,7 @@
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit moves, increases AP +1.5 and grants <strong>Follow Up Attack</strong> for 3 rounds to Attacker allies in Area of Effect",
+    "description": "When unit moves, increases AP +1.5 and grants <strong>Follow Up Attack</strong> for 3 rounds to Attacker allies in Area of Effect",
     "area": [8, 2]
   },
   "Skill_MP_HarvesterEX_N_1": {
@@ -915,7 +915,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit attacks, grants unit ACC +40% for 3 rounds.",
+    "description": "When unit attacks, grants unit ACC +40% for 3 rounds.",
     "area": [8, 4, 5, 6, 2]
   },
   "Skill_MP_FABigChickEX_N_1": {
@@ -1055,7 +1055,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit, a chance to increase unit's DEF +200%.",
+    "description": "When unit is hit, a chance to increase unit's DEF +200%.",
     "area": [5]
   },
   "Skill_MP_LegionEX_N_1": {
@@ -2214,7 +2214,7 @@
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit, increases unit's EVA +60% for a round.",
+    "description": "When unit is hit, increases unit's EVA +60% for a round.",
     "area": [5]
   },
   "Skill_MP_ProgramMobMS_N_5": {
@@ -2336,7 +2336,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit defeats an enemy, increases unit's AP +2 and grants ATK +25% until unit attacks.",
+    "description": "When unit defeats an enemy, increases unit's AP +2 and grants ATK +25% until unit attacks.",
     "area": [5]
   },
   "Skill_MP_ProgramMobAN_N_4": {
@@ -2446,7 +2446,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is attacked, if unit is affected by a stat reduction effect, <strong>Counterattack</strong> with 80% Power and 30% chance to remove debuffs.",
+    "description": "When unit is attacked, if unit is affected by a stat reduction effect, <strong>Counterattack</strong> with 80% Power and 30% chance to remove debuffs.",
     "area": [5]
   },
   "Skill_MP_ExpGoblinT_N_1": {
@@ -2476,7 +2476,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit, increases unit's AP +1 / ATK +15% / CRIT +5% but decreases DEF -20% for 2 rounds.",
+    "description": "When unit is hit, increases unit's AP +1 / ATK +15% / CRIT +5% but decreases DEF -20% for 2 rounds.",
     "area": [5]
   },
   "Skill_MP_ExpGoblinT_N_4": {
@@ -2566,7 +2566,7 @@
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit, grants unit and surrounding allies DR +15%.",
+    "description": "When unit is hit, grants unit and surrounding allies DR +15%.",
     "area": [7, 8, 9, 4, 5, 6, 1, 2, 3]
   },
   "Skill_MP_ExpGenerator2_N_5": {
@@ -2716,7 +2716,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit attacks, increases unit's ATK +8% / CRIT +4%.<br>When affected by 3 or more ATK+ stacks, grants unit Ignore arrier / DR / Defense Penetration +50%.<br> When this unit is hit, removes this effect.",
+    "description": "When unit attacks, increases unit's ATK +8% / CRIT +4%.<br>When affected by 3 or more ATK+ stacks, grants unit Ignore arrier / DR / Defense Penetration +50%.<br> When unit is hit, removes this effect.",
     "area": [5]
   },
   "Skill_MP_ExecutionerLB_N_5": {
@@ -2726,7 +2726,7 @@
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit, increases unit's EVA +120% but decreases unit's ACC -75% until the next attack.",
+    "description": "When unit is hit, increases unit's EVA +120% but decreases unit's ACC -75% until the next attack.",
     "area": [5]
   },
   "Skill_MP_Spector_N_1": {
@@ -2766,7 +2766,7 @@
     "img": "TeamSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit uses an Active Skill, increases AP +1 and grants surroudning allies ACC +30% / EVA +20% for 1 round.",
+    "description": "When unit uses an Active Skill, increases AP +1 and grants surroudning allies ACC +30% / EVA +20% for 1 round.",
     "area": [7, 8, 9, 4, 6, 1, 2, 3]
   },
   "Skill_MP_Spector_N_5": {
@@ -3054,7 +3054,7 @@
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, 30% chance to grants allies <strong>Follow Up Attack</strong>.<br>When this unit is hit, increases unit's EVA +25%. This effect can stacks up to 2 times.",
+    "description": "At the start of round, 30% chance to grants allies <strong>Follow Up Attack</strong>.<br>When unit is hit, increases unit's EVA +25%. This effect can stacks up to 2 times.",
     "area": [7, 8, 9, 4, 5, 6, 1, 2, 3]
   },
   "Skill_MP_NightChickQMEX_N_4": {
@@ -3164,7 +3164,7 @@
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit, grants unit SPD +10% for 2 rounds and <strong>Counterattack</strong> with 100% Power for 1 round. SPD buff can stack up to 3 times.",
+    "description": "When unit is hit, grants unit SPD +10% for 2 rounds and <strong>Counterattack</strong> with 100% Power for 1 round. SPD buff can stack up to 3 times.",
     "area": [5]
   },
   "Skill_MP_ScoutSP_N_1": {
@@ -3194,7 +3194,7 @@
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit moves, grants adjacent allies <strong>Follow Up Attack</strong>.",
+    "description": "When unit moves, grants adjacent allies <strong>Follow Up Attack</strong>.",
     "area": [8, 4, 5, 6, 2]
   },
   "Skill_MP_ScoutSP_N_4": {
@@ -3244,7 +3244,7 @@
     "img": "TeamSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit, grants surrounding allies ACC +35% / CRIT +15% / Status Resist +25% for 2 rounds. This ffect can stack up to 3 times.",
+    "description": "When unit is hit, grants surrounding allies ACC +35% / CRIT +15% / Status Resist +25% for 2 rounds. This ffect can stack up to 3 times.",
     "area": [7, 8, 9, 4, 6, 1, 2, 3]
   },
   "Skill_MP_SpectorMS_N_5": {
@@ -3327,7 +3327,7 @@
     "img": "Shock",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit with an Electric Attack, increases unit's ATK +50% / ACC +75% / EVA +75% / AP +2 / SPD +25% for 3 rounds.",
+    "description": "When unit is hit with an Electric Attack, increases unit's ATK +50% / ACC +75% / EVA +75% / AP +2 / SPD +25% for 3 rounds.",
     "area": [5]
   },
   "Skill_MP_NightChickTD_N_4": {
@@ -3337,7 +3337,7 @@
     "img": "Shock",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit while effected by <strong>Wet</strong>, unit takes fixed damage equals to 350% ATK.<br>When unit is defeated while affected by <strong>Wet</strong>, deals Fixed Electric damage equals to 750% ATK to allies in range.<br>If the ally affected by this effect is affected by <strong>Wet</strong>, also inflicts <strong>Stunned</strong> for 1 round.",
+    "description": "When unit is hit while effected by <strong>Wet</strong>, unit takes fixed damage equals to 350% ATK.<br>When unit is defeated while affected by <strong>Wet</strong>, deals Fixed Electric damage equals to 750% ATK to allies in range.<br>If the ally affected by this effect is affected by <strong>Wet</strong>, also inflicts <strong>Stunned</strong> for 1 round.",
     "area": [8, 4, 5, 6, 2]
   },
   "Skill_MP_NightChickDEG_N_1": {
@@ -3417,7 +3417,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit, increases unit's DEF +35% / SPD +10% for 2 rounds.<br>At the start of round, if unit is affected by 5 or more <strong>Chick Willpower Activated</strong> stacks, grants unit <strong>Battle Continuation</strong> with 3000 HP.<br>When <strong>Battle Continuation</strong> triggers, grants self unremovable <strong>Minimize Damage</strong> / <strong>Ignore Barrier / DR</strong> for 2 rounds, but take 1500 Fixed damage at the end of each round.",
+    "description": "When unit is hit, increases unit's DEF +35% / SPD +10% for 2 rounds.<br>At the start of round, if unit is affected by 5 or more <strong>Chick Willpower Activated</strong> stacks, grants unit <strong>Battle Continuation</strong> with 3000 HP.<br>When <strong>Battle Continuation</strong> triggers, grants self unremovable <strong>Minimize Damage</strong> / <strong>Ignore Barrier / DR</strong> for 2 rounds, but take 1500 Fixed damage at the end of each round.",
     "area": [5]
   },
   "Skill_MP_FallenC_N_1": {
@@ -3650,7 +3650,7 @@
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit attacks, increases unit's CRIT +10% but inflicts <strong>Damage taken Increased</strong> +20% for 2 rounds.",
+    "description": "When unit attacks, increases unit's CRIT +10% but inflicts <strong>Damage taken Increased</strong> +20% for 2 rounds.",
     "area": [5]
   },
   "Skill_MP_StingerC_N_4": {
@@ -3701,7 +3701,7 @@
     "img": "TeamSpdDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit with Fire Attack, decreases unit's ATK -50% / DEF -95% / EVA -150% / SPD -30% and removes unit's <strong>Minimize Damage</strong> buffs.",
+    "description": "When unit is hit with Fire Attack, decreases unit's ATK -50% / DEF -95% / EVA -150% / SPD -30% and removes unit's <strong>Minimize Damage</strong> buffs.",
     "area": [5]
   },
   "Skill_MP_LegionElite_N_1": {
@@ -3751,7 +3751,7 @@
     "img": "Shock",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit while effected by <strong>Wet</strong>, unit takes fixed damage equals to 450% ATK.<br>When unit is defeated while affected by <strong>Wet</strong>, deals Fixed Electric damage equals to 1250% ATK to allies in range.<br>If the ally affected by this effect is affected by <strong>Wet</strong>, also inflicts <strong>Stunned</strong> for 1 round.",
+    "description": "When unit is hit while effected by <strong>Wet</strong>, unit takes fixed damage equals to 450% ATK.<br>When unit is defeated while affected by <strong>Wet</strong>, deals Fixed Electric damage equals to 1250% ATK to allies in range.<br>If the ally affected by this effect is affected by <strong>Wet</strong>, also inflicts <strong>Stunned</strong> for 1 round.",
     "area": [8, 4, 5, 6, 2]
   },
   "Skill_MP_Testudo_N_1": {
@@ -3821,7 +3821,7 @@
     "img": "TeamSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit, increases all allies AP +1 / Status Resist +50% for 2 rounds.",
+    "description": "When unit is hit, increases all allies AP +1 / Status Resist +50% for 2 rounds.",
     "area": ["F>", 7, 8, 9, 4, 5, 6, 1, 2, 3]
   },
   "Skill_MP_CenturionG_N_4": {
@@ -3871,7 +3871,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit attacks, grant unit ACC +60% / CRIT +3% for 5 rounds.",
+    "description": "When unit attacks, grant unit ACC +60% / CRIT +3% for 5 rounds.",
     "area": [5]
   },
   "Skill_MP_SeljuqA_N_4": {
@@ -3911,7 +3911,7 @@
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, if unit's HP is below 20%, increases unit's DEF +350% / Status Resist +50%. When this unit is hit with an Electric Attack, removes this effect.",
+    "description": "At the start of round, if unit's HP is below 20%, increases unit's DEF +350% / Status Resist +50%. When unit is hit with an Electric Attack, removes this effect.",
     "area": [5]
   },
   "Skill_MP_GigantesC_N_4": {
@@ -4166,7 +4166,7 @@
     "img": "TeamSpdDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "When unit evades, chances to grant unit buff for 9 rounds:<br>33% chance to grant ATK +25%.<br>33% chance to grant CRIT +10%.<br>50% chance to grant ACC +25%.<br>33% chance to grant SPD +25%.<br>When this unit defeats an enemy, removes EVA buffs from all allies, and inflicts EVA -200% / <strong>Damage taken Increased</strong> +50% for 2 rounds.",
+    "description": "When unit evades, chances to grant unit buff for 9 rounds:<br>33% chance to grant ATK +25%.<br>33% chance to grant CRIT +10%.<br>50% chance to grant ACC +25%.<br>33% chance to grant SPD +25%.<br>When unit defeats an enemy, removes EVA buffs from all allies, and inflicts EVA -200% / <strong>Damage taken Increased</strong> +50% for 2 rounds.",
     "area": [7, 8, 9, 4, 5, 6, 1, 2, 3]
   },
   "Skill_MP_Undine_EV2_1": {
@@ -4206,7 +4206,7 @@
     "img": "TeamSpdDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "When unit evades, chances to grant unit buff for 9 rounds:<br>33% chance to grant ATK +25%.<br>33% chance to grant CRIT +10%.<br>50% chance to grant ACC +25%.<br>33% chance to grant SPD +25%.<br>When this unit defeats an enemy, removes EVA buffs from all allies, and inflicts EVA -200% / <strong>Damage taken Increased</strong> +50% for 2 rounds.",
+    "description": "When unit evades, chances to grant unit buff for 9 rounds:<br>33% chance to grant ATK +25%.<br>33% chance to grant CRIT +10%.<br>50% chance to grant ACC +25%.<br>33% chance to grant SPD +25%.<br>When unit defeats an enemy, removes EVA buffs from all allies, and inflicts EVA -200% / <strong>Damage taken Increased</strong> +50% for 2 rounds.",
     "area": [7, 8, 9, 4, 5, 6, 1, 2, 3]
   },
   "Skill_MP_Undine_EV3_1": {
@@ -4246,7 +4246,7 @@
     "img": "TeamSpdDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit evades, increases unit's ATK / CRIT / ACC / SPD at random.<br>When this unit defeats an enemy, removes EVA buffs from all allies, reduces EVA and inflicts <strong>Damage taken Increased</strong>.",
+    "description": "When unit evades, increases unit's ATK / CRIT / ACC / SPD at random.<br>When unit defeats an enemy, removes EVA buffs from all allies, reduces EVA and inflicts <strong>Damage taken Increased</strong>.",
     "area": [7, 8, 9, 4, 5, 6, 1, 2, 3]
   },
   "Skill_MP_AMG11AA_EV5_1": {
@@ -4286,7 +4286,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When unit is defeated, removes buffs from surrounding allies. <br> If this unit is affected by 3 or more ATK buff stacks from Super Neri(?), at the start of round, grants unit <strong>Ignore Barrier / DR</strong>.",
+    "description": "When unit is defeated, removes buffs from surrounding allies. <br> If unit is affected by 3 or more ATK buff stacks from Super Neri(?), at the start of round, grants unit <strong>Ignore Barrier / DR</strong>.",
     "area": [8, 4, 5, 6, 2]
   },
   "Skill_MP_Nereid_EV1_1": {
@@ -4316,7 +4316,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "Lower unit's HP increases DMG dealt by unit and increase unit's DR, up to 50%.<br>Increases unit's Status Resist +50%<br>When this unit is hit and unit's HP is below 10%, <strong>Counterattack</strong> with 125% Power.",
+    "description": "Lower unit's HP increases DMG dealt by unit and increase unit's DR, up to 50%.<br>Increases unit's Status Resist +50%<br>When unit is hit and unit's HP is below 10%, <strong>Counterattack</strong> with 125% Power.",
     "area": [5]
   },
   "Skill_MP_Nereid_EV1_4": {
@@ -4376,7 +4376,7 @@
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit evades, <strong>Counterattack</strong> with 125% Power and removes unit's EVA buffs.<br>When this unit evades, grants allies in Area of Effect ATK +25% / CRIT +10% but inflicts ACC -50% / <strong>Damage taken Increased</strong> +25% for 2 rounds and removes <strong>Target Protect</strong>.",
+    "description": "When unit evades, <strong>Counterattack</strong> with 125% Power and removes unit's EVA buffs.<br>When unit evades, grants allies in Area of Effect ATK +25% / CRIT +10% but inflicts ACC -50% / <strong>Damage taken Increased</strong> +25% for 2 rounds and removes <strong>Target Protect</strong>.",
     "area": [7, 8, 9, 4, 6, 1, 2, 3]
   },
   "Skill_MP_Nereid_EV2_1": {
@@ -4586,7 +4586,7 @@
     "img": "TeamDefDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit attacks, inflicts 2000 DoT damage to surrounding allies and reduces DEF -50% for 2 rounds.",
+    "description": "When unit attacks, inflicts 2000 DoT damage to surrounding allies and reduces DEF -50% for 2 rounds.",
     "area": [7, 8, 9, 4, 6, 1, 2, 3]
   },
   "Skill_MP_NightChickCMP_N_4": {
@@ -5058,7 +5058,7 @@
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit attacks, increases unit's SPD +25% for 3 rounds.",
+    "description": "When unit attacks, increases unit's SPD +25% for 3 rounds.",
     "area": [5]
   },
   "Skill_MP_LegionMk2_N_1": {
@@ -5499,7 +5499,7 @@
     "img": "TeamDefDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit with Fire Damage, inflicts DEF -20% / SPD -30% for 2 rounds to allies in Area of Effect.",
+    "description": "When unit is hit with Fire Damage, inflicts DEF -20% / SPD -30% for 2 rounds to allies in Area of Effect.",
     "area": [7, 8, 9, 4, 6, 1, 2, 3]
   },
   "Skill_MP_SeljuqA_N_5": {
@@ -5509,7 +5509,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit, increases unit's ATK +15% but decreases unit's SPD -10% for 2 rounds.",
+    "description": "When unit is hit, increases unit's ATK +15% but decreases unit's SPD -10% for 2 rounds.",
     "area": [5]
   },
   "Skill_MP_GigantesC_N_5": {
@@ -6084,7 +6084,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit attacks, increases unit's ATK +8% / CRIT +4%.<br>When affected by 3 or more ATK+ stacks, grants unit Ignore arrier / DR / Defense Penetration +50%.<br> When this unit is hit, removes this effect.",
+    "description": "When unit attacks, increases unit's ATK +8% / CRIT +4%.<br>When affected by 3 or more ATK+ stacks, grants unit Ignore arrier / DR / Defense Penetration +50%.<br> When unit is hit, removes this effect.",
     "area": [5]
   },
   "Skill_MP_ExecutionerLB_EW_5": {
@@ -6094,7 +6094,7 @@
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit, increases unit's EVA +120% but decreases unit's ACC -75% until the next attack.",
+    "description": "When unit is hit, increases unit's EVA +120% but decreases unit's ACC -75% until the next attack.",
     "area": [5]
   },
   "Skill_MP_Executioner_EW_1": {
@@ -6474,7 +6474,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit, increases unit's DEF +35% / SPD +10% for 2 rounds.<br>At the start of round, if unit is affected by 5 or more <strong>Chick Willpower Activated</strong> stacks, grants unit <strong>Battle Continuation</strong> with 3000 HP.<br>When <strong>Battle Continuation</strong> triggers, grants unit <strong>Minimize Damage</strong> / <strong>Ignore Barrier / DR</strong> but takes 1500 DoT Damage for 2 rounds.",
+    "description": "When unit is hit, increases unit's DEF +35% / SPD +10% for 2 rounds.<br>At the start of round, if unit is affected by 5 or more <strong>Chick Willpower Activated</strong> stacks, grants unit <strong>Battle Continuation</strong> with 3000 HP.<br>When <strong>Battle Continuation</strong> triggers, grants unit <strong>Minimize Damage</strong> / <strong>Ignore Barrier / DR</strong> but takes 1500 DoT Damage for 2 rounds.",
     "area": [5]
   },
   "Skill_MP_FABigChickSEX_N_1": {
@@ -6514,7 +6514,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit, increases unit's DEF +35% / SPD +10% for 2 rounds.<br>At the start of round, if unit is affected by 5 or more <strong>Chick Willpower Activated</strong> stacks, grants unit <strong>Battle Continuation</strong> with 3000 HP.<br>When <strong>Battle Continuation</strong> triggers, grants unit <strong>Minimize Damage</strong> / <strong>Ignore Barrier / DR</strong> but takes 1500 DoT Damage for 2 rounds.",
+    "description": "When unit is hit, increases unit's DEF +35% / SPD +10% for 2 rounds.<br>At the start of round, if unit is affected by 5 or more <strong>Chick Willpower Activated</strong> stacks, grants unit <strong>Battle Continuation</strong> with 3000 HP.<br>When <strong>Battle Continuation</strong> triggers, grants unit <strong>Minimize Damage</strong> / <strong>Ignore Barrier / DR</strong> but takes 1500 DoT Damage for 2 rounds.",
     "area": [5]
   },
   "Skill_MP_LightningBomber_N_1": {
@@ -7144,7 +7144,7 @@
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, if unit's HP is below 20%, increases unit's DEF +350% / Status Resist +50%. When this unit is hit with an Fire Attack, removes this effect.",
+    "description": "At the start of round, if unit's HP is below 20%, increases unit's DEF +350% / Status Resist +50%. When unit is hit with an Fire Attack, removes this effect.",
     "area": [5]
   },
   "GigantesC_SA4_Skill5": {
@@ -7164,7 +7164,7 @@
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, if unit's HP is below 20%, increases unit's DEF +350% / Status Resist +50%. When this unit is hit with an Fire Attack, removes this effect.",
+    "description": "At the start of round, if unit's HP is below 20%, increases unit's DEF +350% / Status Resist +50%. When unit is hit with an Fire Attack, removes this effect.",
     "area": [5]
   },
   "GigantesC_SA3_Skill5": {
@@ -7184,7 +7184,7 @@
     "img": "TeamDefDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit with Fire Damage, inflicts DEF -20% / SPD -30% for 2 rounds to allies in Area of Effect.",
+    "description": "When unit is hit with Fire Damage, inflicts DEF -20% / SPD -30% for 2 rounds to allies in Area of Effect.",
     "area": [7, 8, 9, 4, 6, 1, 2, 3]
   },
   "Skill_MP_AMG11AA_SA5_5": {
@@ -7214,7 +7214,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit, increases unit's ATK +15% but decreases unit's SPD -10% for 2 rounds.",
+    "description": "When unit is hit, increases unit's ATK +15% but decreases unit's SPD -10% for 2 rounds.",
     "area": [5]
   },
   "Skill_MP_MrAlfred_N_1": {
@@ -7548,7 +7548,7 @@
     "img": "SelfSpdBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of wave, grants unit AP +3 / DR +50% for 2 rounds.<br> When this unit attacks, grants unit EVA +20% / +15% / +10% for 3 rounds if unit is in the Backline / Midline / Frontline.<br>When this unit is hit by Ice Damage, removes EVA+ buffs and inflicts EVA -500% to unit.",
+    "description": "At the start of wave, grants unit AP +3 / DR +50% for 2 rounds.<br> When unit attacks, grants unit EVA +20% / +15% / +10% for 3 rounds if unit is in the Backline / Midline / Frontline.<br>When unit is hit by Ice Damage, removes EVA+ buffs and inflicts EVA -500% to unit.",
     "area": [5]
   },
   "Skill_MP_Slasher_N_4": {
@@ -7558,7 +7558,7 @@
     "img": "DefCounter",
     "range": 0,
     "AP": 0,
-    "description": "When this unit evades, <strong>Counterattack</strong> with 50% Power and grants unit AP +0.25 / CRIT +30% for 3 rounds / <strong>Fatal Counterattack</strong> buff for 99 rounds.<br>At the start of round, if unit is affected by 3 or more stacks of <strong>Fatal Counterattack</strong>, grants unit <strong>Ignore Barrier / DR</strong> for 3 rounds.",
+    "description": "When unit evades, <strong>Counterattack</strong> with 50% Power and grants unit AP +0.25 / CRIT +30% for 3 rounds / <strong>Fatal Counterattack</strong> buff for 99 rounds.<br>At the start of round, if unit is affected by 3 or more stacks of <strong>Fatal Counterattack</strong>, grants unit <strong>Ignore Barrier / DR</strong> for 3 rounds.",
     "area": [5]
   },
   "Skill_MP_Slasher_B08_5": {
@@ -7818,7 +7818,7 @@
     "img": "Snipe",
     "range": 0,
     "AP": 0,
-    "description": "When this unit idles, increases unit's ACC +40% / CRIT +15% / Range +1 for 3 rounds.",
+    "description": "When unit idles, increases unit's ACC +40% / CRIT +15% / Range +1 for 3 rounds.",
     "area": [5]
   },
   "Skill_MP_NightChickSv_N_4": {
@@ -8094,7 +8094,7 @@
     "img": "SelfAtkDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "When this unit is hit with a Fire Attack, decreases unit's ATK -80% / DEF / SPD -50% and inflicts self <strong>Ignited</strong> / 1000 Fire DoT damage for 3 rounds.",
+    "description": "When unit is hit with a Fire Attack, decreases unit's ATK -80% / DEF / SPD -50% and inflicts self <strong>Ignited</strong> / 1000 Fire DoT damage for 3 rounds.",
     "area": [5]
   },
   "Skill_MP_NightChickAQG_N_1": {
@@ -8368,7 +8368,7 @@
     "img": "DefCounter",
     "range": 0,
     "AP": 0,
-    "description": "After unit attack, inflict self EVA -800% until the end of round. When this unit evades, <strong>Counterattack</strong> with 100% Power.",
+    "description": "After unit attack, inflict self EVA -800% until the end of round. When unit evades, <strong>Counterattack</strong> with 100% Power.",
     "area": [5]
   },
   "Skill_MP_FryerShooter_N_1": {
@@ -11349,7 +11349,7 @@
     "range": 0,
     "AP": 0,
     "area": ["F>", 1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "description": "At the start of wave, inflicts unremovable ATK -200% to all enemies permanently."
+    "description": "At the start of round, inflicts unremovable ATK -200% to all enemies for 1 round."
   },
   "Skill_MP_NightChickM_RV_1": {
     "title": "askill1",
@@ -11429,7 +11429,7 @@
     "range": 4,
     "AP": 4,
     "area": ["F>", 1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "description": "At the start of round, inflicts <strong>Provoked</strong> / AP -1 / ATK -20% / Defense Penetration -20% to enemies with higher ATK than unit.<br>At the start of wave, inflicts Skill Multiplier -20% / -10% to enemies if unit is on the Frontline / Middleline.<br>At the start of wave, inflicts Skill Multiplier -20% / -10% to enemies on the Backline / Middleline.<br>When an ally is defeated, inflicts unremovable Skill Multiplier -30% to enemies affected by <strong>Provoked</strong> for 3 rounds."
+    "description": "At the start of round, inflicts <strong>Provoked</strong> / AP -1 / ATK -20% / Defense Penetration -20% to enemies with higher ATK than unit.<br>At the start of round, inflicts Skill Multiplier -20% / -10% to enemies if unit is on the Frontline / Middleline for 1 round.<br>At the start of round, inflicts Skill Multiplier -20% / -10% to enemies on the Backline / Middleline for 1 round.<br>When an ally is defeated, inflicts unremovable Skill Multiplier -30% to enemies affected by <strong>Provoked</strong> for 3 rounds."
   },
   "Skill_MP_NightChickS_RV_4": {
     "title": "askill4",
@@ -11439,7 +11439,7 @@
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "At the start of round, grants unit permanent ATK +500 / DEF +500 / SPD +10% / Status Resist +10% that stack 5 times.<br>When attacked by an Elemental Attack and receiving corresponding Elemental Resist Debuff, grant unit unremovable Elemental Resist Reversal of the corresponding Element for 3 rounds."
+    "description": "At the start of round, grants unit permanent ATK +500 / DEF +500 / SPD +10% / Status Resist +10% that stack 5 times.<br>At the start of wave, if unit is affected by Elemental Resist Debuff, grant unit unremovable Elemental Resist Reversal of the corresponding Element for 3 rounds."
   },
   "Skill_MP_NightChickS_RV_5": {
     "title": "askill5",
@@ -11479,7 +11479,7 @@
     "range": 4,
     "AP": 0,
     "area": ["F>", 1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "description": "At the start of wave, inflicts Skill Multiplier -20% / -10% to enemies on the Backline / Middleline.<br>When unit is defeated while affected by Target Protect, inflicts unremovable Skill Multiplier / ACC -30% for 3 rounds to all enemies.<br>When unit is defeated while not affected by Target Protect, removes all debuffs and grants AP +2 to all enemies."
+    "description": "At the start of round, inflicts Skill Multiplier -20% / -10% to enemies on the Backline / Middleline for 1 round.<br>When unit is defeated while affected by Target Protect, inflicts unremovable Skill Multiplier / ACC -30% for 3 rounds to all enemies.<br>When unit is defeated while not affected by Target Protect, removes all debuffs and grants AP +2 to all enemies."
   },
   "Skill_MP_Intruder_N_4": {
     "title": "askill4",
@@ -11673,102 +11673,102 @@
   },
   "Skill_MP_MarionnetteHA_N_1": {
     "title": "askill1",
-    "name": "2연장 철갑 속사포",
+    "name": "2-round Armor Piercing Rapid-fire Cannon",
     "type": "active",
     "img": ["MGShot"],
     "range": 3,
     "AP": 5,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "적에게 기관포 사격으로 {0} 피해를 줍니다.\n적중 시, 2라운드 동안 대상에게 표식 / 방어력 감소 효과를 적용합니다."
+    "description": "Deals $(0.75) damage to a single target and inflicts <strong>Marked</strong> / DEF -20% for 2 rounds."
   },
   "Skill_MP_MarionnetteHA_N_2": {
     "title": "askill2",
-    "name": "충격탄 발사",
+    "name": "Shell Shock Round Shooting",
     "type": "active",
     "img": ["GrenadeAttack_2"],
     "range": 5,
     "AP": 8,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "적에게 충격탄을 발사하여 {0} 피해를 주고, 뒤로 1칸 밀쳐냅니다.\n자신과 대상이 각각 전열에 가까울 수록 피해량이 증가합니다."
+    "description": "Deals $(1) damage to a single target and Push Back 1 cell.<br>Additional DMG +50% / +25% if target is on the Frontline / Middleline.<br>Additional DMG +50% / +25% if unit is on the Frontline / Middleline."
   },
   "Skill_MP_MarionnetteHA_N_3": {
     "title": "askill3",
-    "name": "병렬 분산 시스템",
+    "name": "Distributive Processing System",
     "type": "passive",
     "img": ["SelfAtkBuff"],
     "range": 0,
     "AP": 0,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "라운드 개시 시, 아군이 전장에 다수 존재할 수록 추가 효과를 받습니다.\n1단계 (3개체 이상) : 행동력 30% 증가\n2단계 (5개체 이상) : 효과 저항 50% 증가\n3단계 (7개체 이상) : 광역 피해 분산 70%"
+    "description": "At the start of round, grant unit buffs depending on the number of allies:<br>3 or more: SPD +30%.<br>5 or more: Status Resist +50%.<br>7 or more: <strong>Area Damage Dispersion</strong> +70%."
   },
   "Skill_MP_MarionnetteHA_N_4": {
     "title": "askill4",
-    "name": "교차형 차폐 장갑",
+    "name": "Crossed Shielding Armor",
     "type": "passive",
     "img": ["ShieldWall"],
     "range": 0,
     "AP": 0,
     "area": ["0", "1", "0", "1", "1", "1", "0", "1", "0"],
-    "description": "홀수 라운드 개시 시, 행 보호가, 짝수 라운드 개시 시, 열 보호가 활성화 됩니다. (해제 불가)\n라운드 개시 시, 1라운드 동안 지정 범위의 아군에게 받는 피해 감소 효과를 부여합니다.\n대상이 자신의 행/열 보호를 받지 않고 있는 경우, 피해 감소 효과를 추가로 부여합니다.\n자신은 항상 최대 효율의 피해 감소 효과가 적용됩니다."
+    "description": "At the start of odd round, grants unit unremovable Row Protect for 1 round.<br>At the start of even round, grants unit unremovable Column Protect for 1 round.<br>At the start of round, grants allies in Area of Effect DR +30% for 1 round.<br>At the start of round, grants self and allies not affected by Row Protect / Column Protect in Area of Effect DR +30%."
   },
   "Skill_MP_MarionnetteHA_N_5": {
     "title": "askill5",
-    "name": "보복 프로토콜",
+    "name": "Revenge Protocol",
     "type": "passive",
     "img": ["DefCounter"],
     "range": 0,
     "AP": 0,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "라운드 개시 시, 생존한 아군이 적을 수록 강력해지는 반격 효과를 2회 획득합니다. \n3개체 이하 : 200% 위력으로 반격\n4 ~ 6개체 : 150% 위력으로 반격\n7개체 이상 : 100% 위력으로 반격"
+    "description": "At the start of round, grant unit <strong>Counterattack</strong> (2 times, 1 round) depending on the number of allies:<br>3 or less: with 200% Power.<br>4-6: with 150% Power.<br>7 or more: with 100% Power."
   },
   "Skill_MP_MarionnetteDM_N_1": {
     "title": "askill1",
-    "name": "표적 제거",
+    "name": "Remove Target",
     "type": "active",
     "img": ["Shot"],
     "range": 5,
     "AP": 6,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "저격으로 {0} 피해를 줍니다. 대상의 HP가 낮을수록 피해량이 증가하며, 대상이 표식 상태인 경우, 피해량이 추가로 증가하고 행동력을 감소시킵니다."
+    "description": "Deals $(1.1) damage to a single target.<br>Lower enemy's HP is, increases DMG dealt up to +50%.<br>Additional DMG +25% and inflicts SPD -25% for 2 rounds to targets affected by <strong>Marked</strong>."
   },
   "Skill_MP_MarionnetteDM_N_2": {
     "title": "askill2",
-    "name": "천공 탄환",
+    "name": "Perforating Shell",
     "type": "active",
     "img": ["Chargeshot"],
     "range": 6,
     "AP": 9,
     "area": ["6>", "0", "0", "0", "1", "1", "1", "0", "0", "0"],
-    "description": "지정 범위의 적에게 특수 개조된 탄환을 발사하여 보호 무시 {0} 피해를 가합니다.\n대상이 표식 상태인 경우, 피해량이 대폭 증가하고, AP를 감소시킵니다."
+    "description": "Deals $(0.9) damage to target area.<br>Additional DMG +25% and inflicts AP -2 to targets affected by <strong>Marked</strong>."
   },
   "Skill_MP_MarionnetteDM_N_3": {
     "title": "askill3",
-    "name": "병렬 분산 시스템",
+    "name": "Distributive Processing System",
     "type": "passive",
     "img": ["SelfAtkBuff"],
     "range": 0,
     "AP": 0,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "라운드 개시 시, 아군이 전장에 다수 존재할 수록 추가 효과를 받습니다.\n1단계 (3개체 이상) : 행동력 30% 증가\n2단계 (5개체 이상) : 효과 저항 50% 증가\n3단계 (7개체 이상) : 광역 피해 분산 70%"
+    "description": "At the start of round, grant unit buffs depending on the number of allies:<br>3 or more: SPD +30%.<br>5 or more: Status Resist +50%.<br>7 or more: <strong>Area Damage Dispersion</strong> +70%."
   },
   "Skill_MP_MarionnetteDM_N_4": {
     "title": "askill4",
-    "name": "지정 사수",
+    "name": "Designated Marksman",
     "type": "passive",
     "img": ["TeamAtkBuff"],
     "range": 0,
     "AP": 0,
     "area": ["6>", "0", "0", "0", "1", "1", "1", "0", "0", "0"],
-    "description": "라운드 개시 시, 지정 범위의 아군의 공격을 지원합니다.\n자신의 공격이 적중하면, 3라운드 동안 범위 내 아군의 방어력 / 회피가 증가합니다. (최대 5중첩)"
+    "description": "At the start of round, grants allies in Area of Effect <strong>Follow Up Attack</strong> for 1 round.<br>When unit's attacks hit, grant allies in Area of Effect DEF / EVA +20% for 3 rounds that stack up to 5 times each."
   },
   "Skill_MP_MarionnetteDM_N_5": {
     "title": "askill5",
-    "name": "가변형 전술",
+    "name": "Adaptive Tactic",
     "type": "passive",
     "img": ["FormChange"],
     "range": 0,
     "AP": 0,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "전투 개시 시, 적의 스쿼드 구성에 따라 자신은 이하의 해제 불가 효과를 획득합니다.\n경장형 2체 이상 : 대 경장 피해량 30% / 치명타 30% 증가\n중장형 2체 이상 : 대 중장 피해량 30% / 방어 관통 30% 증가\n기동형 2체 이상 : 대 기동 피해량 30% / 적중 30% 증가"
+    "description": "At the start of wave, grant unit permanent, unremovable buffs depending on enemy team composition:<br>2 or more Light: Anti-Light DMG +30% / CRIT +30%.<br>2 or more Heavy: Anti-Heavy DMG +30% / Defense Penetration +30%.<br>2 or more Flying: Anti-Flying DMG +30% / ACC +30%."
   }
 }
