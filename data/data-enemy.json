@@ -6338,7 +6338,6 @@
         [1, "Ev-5Ex"]
       ],
       "Ev14": [
-        [1, "EV1-1"],
         [1, "EV1-5B"],
         [1, "EV1-2Ex"],
         [1, "EV1-3Ex"]
@@ -12276,7 +12275,7 @@
     "used": {}
   },
   "Executioner_EW2": {
-    "name": "Beheader",
+    "name": "Executioner",
     "img": "Executioner_B06",
     "type": "Flying",
     "role": "Attacker",
