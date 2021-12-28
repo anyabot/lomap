@@ -380,7 +380,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "Grants unit DR +75% but inflict SPD -25% until attacked by an enemy.",
+    "description": "At the start of wave, grants unit DR +75% but inflict SPD -25% until hit by an enemy.",
     "area": [5]
   },
   "Skill_MP_Phalangites_N_1": {
@@ -1157,7 +1157,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "Grants unit DR +90% until attacked by an enemy.",
+    "description": "At the start of wave, grants unit DR +90% (1 time).",
     "area": [5]
   },
   "Skill_MP_Mammoth_N_1": {
@@ -1801,7 +1801,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "When Underwatcher is attacked, if Underwatcher is affected by <strong>Energy Charge</strong>, 90% chance to take minimal damage.",
+    "description": "When Underwatcher is hit, if Underwatcher is affected by <strong>Energy Charge</strong>, 90% chance to take minimal damage.",
     "area": [5]
   },
   "Skill_MP_UnderWatcher_TU2_4": {
@@ -2254,7 +2254,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of wave, grant unit <strong>Minimize Damage</strong> (3 times) and Status Resist +50% when unit is attacked (3 times).",
+    "description": "At the start of wave, grant unit <strong>Minimize Damage</strong> (3 times) and Status Resist +50% when unit is hit (3 times).",
     "area": [5]
   },
   "Skill_MP_Tortoise_N_4": {
@@ -2666,7 +2666,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "Takes only minimal damage.<br>If Executioner is affected by 5 or more <strong>Executioner</strong> stacks, takes fixed damage equals to 600% ATK and removes all buffs.",
+    "description": "Takes only minimal damage.<br>If Executioner hit while affected by 5 or more <strong>Executioner</strong> stacks, takes fixed damage equals to 600% ATK and removes all buffs.",
     "area": [5]
   },
   "Skill_MP_Executioner_N_5": {
@@ -5319,7 +5319,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of each round, grants unit All Resist +75% for 1 round and removes all debuffs.<br>When unit is attacked, grants unit <strong>Chick Shield Raise</strong> / DEF +50% for 2 rounds.<br>When unit is attacked whiled affected by 7 or more stacks of <strong>Chick Shield Raise</strong>, removes all DEF buffs on units and grants unit <strong>Counterattack</strong> with 100% Power / <strong>Minimize Damage</strong> for 1 round that cannot be removed.",
+    "description": "At the start of each round, grants unit All Resist +75% for 1 round and removes all debuffs.<br>When unit is hit, grants unit <strong>Chick Shield Raise</strong> / DEF +50% for 2 rounds.<br>When unit is hit whiled affected by 7 or more stacks of <strong>Chick Shield Raise</strong>, removes all DEF buffs on units and grants unit <strong>Counterattack</strong> with 100% Power / <strong>Minimize Damage</strong> for 1 round that cannot be removed.",
     "area": [5]
   },
   "Skill_MP_NightChickS_C_4": {
@@ -5741,7 +5741,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "When Predator is attacked, removes all debuffs from Predator, except from <strong>Attribute Absorption</strong>.",
+    "description": "When Predator is hit, removes all debuffs from Predator, except from <strong>Attribute Absorption</strong>.",
     "area": [5]
   },
   "Skill_MP_Kidnapper_EW_1": {
@@ -6134,7 +6134,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "Takes only minimal damage.<br>If Executioner is affected by 5 or more <strong>Executioner</strong> stacks, takes fixed damage equals to 500% ATK and removes all buffs.",
+    "description": "Takes only minimal damage.<br>If Executioner is hit while affected by 5 or more <strong>Executioner</strong> stacks, takes fixed damage equals to 500% ATK and removes all buffs.",
     "area": [5]
   },
   "Skill_MP_Executioner_EW_5": {
@@ -6234,7 +6234,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "After using <strong>Energy Extraction</strong>, removes <strong>Provoked</strong> when attacked and inflicts SPD-100% / DEF -50% / <strong>Damage taken Increased</strong> +40% for 2 rounds. 30% chance to reduce an Elemental Resist -30% for 2 rounds.",
+    "description": "After using <strong>Energy Extraction</strong>, removes <strong>Provoked</strong> when hit and inflicts SPD-100% / DEF -50% / <strong>Damage taken Increased</strong> +40% for 2 rounds. 30% chance to reduce an Elemental Resist -30% for 2 rounds.",
     "area": [5]
   },
   "Skill_MP_DoomEater_N_EW2_5": {
@@ -6334,7 +6334,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When attacked, removes <strong>Provoked</strong> from Starving Doom Eater.",
+    "description": "When hit, removes <strong>Provoked</strong> from Starving Doom Eater.",
     "area": [5]
   },
   "Skill_MP_DoomEater_N_EW_5": {
@@ -6644,7 +6644,7 @@
     "img": "SelfAtkDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "When using Active Skills, gain <strong>Overheating</strong> stacks.<br>At the start of round, if affected by 3 stacks of <strong>Overheating</strong>, becomes <strong>Stunned</strong> for 3 rounds, and if attacked by Ice Damage in this state, inflict self <strong>Damage taken Increased</strong> +30% for 3 rounds.",
+    "description": "When using Active Skills, gain <strong>Overheating</strong> stacks.<br>At the start of round, if affected by 3 stacks of <strong>Overheating</strong>, becomes <strong>Stunned</strong> for 3 rounds, and if hit by Ice Damage in this state, inflict self <strong>Damage taken Increased</strong> +30% for 3 rounds.",
     "area": [5]
   },
   "Skill_MP_NestGuardian_N_1": {
@@ -6694,7 +6694,7 @@
     "img": "SelfAtkDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "When using Active Skills, gain <strong>Overheating</strong> stacks.<br>At the start of round, if affected by 3 stacks of <strong>Overheating</strong>, becomes <strong>Stunned</strong> for 3 rounds, and if attacked by Ice Damage in this state, inflict self <strong>Damage taken Increased</strong> +30% for 3 rounds.",
+    "description": "When using Active Skills, gain <strong>Overheating</strong> stacks.<br>At the start of round, if affected by 3 stacks of <strong>Overheating</strong>, becomes <strong>Stunned</strong> for 3 rounds, and if hit by Ice Damage in this state, inflict self <strong>Damage taken Increased</strong> +30% for 3 rounds.",
     "area": [5]
   },
   "Skill_MP_Destroyer_N_1": {
@@ -6784,7 +6784,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "Takes only minimal damage.<br>If Executioner is affected by 10 or more <strong>Executioner</strong> stacks, takes fixed damage equals to 500% ATK and removes all buffs.",
+    "description": "Takes only minimal damage.<br>If Executioner is hit while affected by 10 or more <strong>Executioner</strong> stacks, takes fixed damage equals to 500% ATK and removes all buffs.",
     "area": [5]
   },
   "Skill_MP_Executioner_TU2_5": {
@@ -6804,7 +6804,7 @@
     "img": "SelfAtkDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "When using Active Skills, gain <strong>Overheating</strong> stacks.<br>At the start of round, if affected by 3 stacks of <strong>Overheating</strong>, becomes <strong>Stunned</strong> for 3 rounds, and if attacked by Ice Damage in this state, inflict self <strong>Damage taken Increased</strong> +50% for 3 rounds.<br>At the start of rounds, if Nest was destroyed, enter <strong>Berserk</strong> state, gainning AP +3 / ATK +50% / ACC +100% / Defense Penetration +50% but take 5000 DoT damage for 1 round.",
+    "description": "When using Active Skills, gain <strong>Overheating</strong> stacks.<br>At the start of round, if affected by 3 stacks of <strong>Overheating</strong>, becomes <strong>Stunned</strong> for 3 rounds, and if hit by Ice Damage in this state, inflict self <strong>Damage taken Increased</strong> +50% for 3 rounds.<br>At the start of rounds, if Nest was destroyed, enter <strong>Berserk</strong> state, gainning AP +3 / ATK +50% / ACC +100% / Defense Penetration +50% but take 5000 DoT damage for 1 round.",
     "area": [5]
   },
   "Skill_MP_NestChaser_TU2_5": {
@@ -6814,7 +6814,7 @@
     "img": "SelfAtkDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "When using Active Skills, gain <strong>Overheating</strong> stacks.<br>At the start of round, if affected by 3 stacks of <strong>Overheating</strong>, becomes <strong>Stunned</strong> for 3 rounds, and if attacked by Ice Damage in this state, inflict self <strong>Damage taken Increased</strong> +50% for 3 rounds.<br>At the start of rounds, if Nest was destroyed, enter <strong>Berserk</strong> state, gainning AP +3 / ATK +50% / ACC +100% / Defense Penetration +50% but take 5000 DoT damage for 1 round.",
+    "description": "When using Active Skills, gain <strong>Overheating</strong> stacks.<br>At the start of round, if affected by 3 stacks of <strong>Overheating</strong>, becomes <strong>Stunned</strong> for 3 rounds, and if hit by Ice Damage in this state, inflict self <strong>Damage taken Increased</strong> +50% for 3 rounds.<br>At the start of rounds, if Nest was destroyed, enter <strong>Berserk</strong> state, gainning AP +3 / ATK +50% / ACC +100% / Defense Penetration +50% but take 5000 DoT damage for 1 round.",
     "area": [5]
   },
   "Skill_MP_Nest_TU2_1": {
@@ -7295,7 +7295,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When hit, temporairly changes <strong>Prey</strong> target and, if there is no other Tyrant when the round begins, enter into <strong>Prey Monipolization</strong> mode. Focus attacks on the <strong>Prey</strong> and when Tyrant is attacked, removes <strong>Provoked</strong> debuff applied to self.<br>Prey (Heavy) : 100%~60% HP, When hit with Fire Damage<br>Prey (Light): 60%~30% HP, When hit with Ice Damage<br>Prey (Flying): 30%~0% HP, When hit with Electric Damage<br>Prey Monopolization: ATK +50% / ACC +300%. Effects are removed if Tyrant is hit 3 times.",
+    "description": "When hit, temporairly changes <strong>Prey</strong> target and, if there is no other Tyrant when the round begins, enter into <strong>Prey Monipolization</strong> mode. Focus attacks on the <strong>Prey</strong> and when Tyrant is hit, removes <strong>Provoked</strong> debuff applied to self.<br>Prey (Heavy) : 100%~60% HP, When hit with Fire Damage<br>Prey (Light): 60%~30% HP, When hit with Ice Damage<br>Prey (Flying): 30%~0% HP, When hit with Electric Damage<br>Prey Monopolization: ATK +50% / ACC +300%. Effects are removed if Tyrant is hit 3 times.",
     "area": [5]
   },
   "Skill_MP_Tyrant_N_4": {
@@ -9418,7 +9418,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When hit, temporairly changes <strong>Prey</strong> target and, if there is no other Tyrant when the round begins, enter into <strong>Prey Monipolization</strong> mode. Focus attacks on the <strong>Prey</strong> and when Tyrant is attacked, removes <strong>Provoked</strong> debuff applied to self.<br>Prey (Heavy) : 100%~60% HP, When hit with Fire Damage<br>Prey (Light): 60%~30% HP, When hit with Ice Damage<br>Prey (Flying): 30%~0% HP, When hit with Electric Damage<br>Prey Monopolization: ATK +50% / ACC +300%. Effects are removed if Tyrant is hit 3 times.",
+    "description": "When hit, temporairly changes <strong>Prey</strong> target and, if there is no other Tyrant when the round begins, enter into <strong>Prey Monipolization</strong> mode. Focus attacks on the <strong>Prey</strong> and when Tyrant is hit, removes <strong>Provoked</strong> debuff applied to self.<br>Prey (Heavy) : 100%~60% HP, When hit with Fire Damage<br>Prey (Light): 60%~30% HP, When hit with Ice Damage<br>Prey (Flying): 30%~0% HP, When hit with Electric Damage<br>Prey Monopolization: ATK +50% / ACC +300%. Effects are removed if Tyrant is hit 3 times.",
     "area": [5]
   },
   "Skill_MP_Tyrant_Challenge1_4": {
@@ -11329,7 +11329,7 @@
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "When Beheader is hit, increases Beheader's ACC +20% / CRIT +10% permanently, but decreases ATK -8%.<br>When Beheader is attacked, grant Beheader <strong>Counterattack</strong> with 100% Power permanently."
+    "description": "When Beheader is hit, increases Beheader's ACC +20% / CRIT +10% permanently, but decreases ATK -8%.<br>When Beheader is hit, grant Beheader <strong>Counterattack</strong> with 100% Power permanently."
   },
   "Skill_MP_Executioner_EW2_4": {
     "title": "askill4",
@@ -11339,7 +11339,7 @@
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "When Deheader is attacked, grants Beheader DEF +20000 for 1 round.<br>Increase Beheader's Status Resist +75% and grants Immunity to <strong>Stunned</strong>"
+    "description": "When Deheader is hit, grants Beheader DEF +20000 for 1 round.<br>Increase Beheader's Status Resist +75% and grants Immunity to <strong>Stunned</strong>"
   },
   "Skill_MP_Executioner_EW2_5": {
     "title": "askill5",
@@ -11588,7 +11588,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "When Predator is attacked, removes all debuffs from Predator, except from <strong>Attribute Absorption</strong>, and grants Barrier +5000 for 1 round.",
+    "description": "When Predator is hit, removes all debuffs from Predator, except from <strong>Attribute Absorption</strong>, and grants Barrier +5000 for 1 round.",
     "area": [5]
   },
   "Skill_MP_MarionnetteAR_N_1": {
