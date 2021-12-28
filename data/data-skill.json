@@ -11649,7 +11649,7 @@
     "range": 6,
     "AP": 10,
     "area": ["1", "0", "0", "1", "1", "0", "1", "0", "0"],
-    "description": "Deals $(0.75) damage to target area and inflicts <strong>Damage Taken Increased</strong> +25% / 250 Fire DoT damage for 2 rounds."
+    "description": "Deals $(0.75) damage to target area with Ignore Protect and inflicts <strong>Damage Taken Increased</strong> +25% / 250 Fire DoT damage for 2 rounds."
   },
   "Skill_MP_MarionnetteHW_N_3": {
     "title": "askill3",
