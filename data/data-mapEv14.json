@@ -459,14 +459,14 @@
           ]
         },
         {
-          "grid": [9, 0],
+          "grid": [13, 0],
           "title": "EV1-6B",
           "name": "EV1-6B",
-          "type": "B",
+          "type": "Story",
           "wave": []
         },
         {
-          "grid": [10, 0],
+          "grid": [14, 0],
           "title": "EV1-7B",
           "name": "EV1-7B",
           "type": "B",
@@ -516,14 +516,14 @@
           ]
         },
         {
-          "grid": [11, 0],
+          "grid": [15, 0],
           "title": "EV1-8B",
           "name": "EV1-8B",
-          "type": "B",
+          "type": "Story",
           "wave": []
         },
         {
-          "grid": [12, 0],
+          "grid": [16, 0],
           "title": "EV1-9B",
           "name": "EV1-9B",
           "type": "B",
