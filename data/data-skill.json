@@ -11709,7 +11709,7 @@
     "range": 0,
     "AP": 0,
     "area": ["0", "1", "0", "1", "1", "1", "0", "1", "0"],
-    "description": "At the start of odd round, grants unit unremovable Row Protect for 1 round.<br>At the start of even round, grants unit unremovable Column Protect for 1 round.<br>At the start of round, grants allies in Area of Effect DR +30% for 1 round.<br>At the start of round, grants self and allies not affected by Row Protect / Column Protect in Area of Effect DR +30%."
+    "description": "At the start of odd round, grants unit unremovable Row Protect for 1 round.<br>At the start of even round, grants unit unremovable Column Protect for 1 round.<br>At the start of round, grants allies in Area of Effect DR +20% for 1 round."
   },
   "Skill_MP_MarionnetteHA_N_5": {
     "title": "askill5",
@@ -11719,7 +11719,7 @@
     "range": 0,
     "AP": 0,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "At the start of round, grant unit <strong>Counterattack</strong> (2 times, 1 round) depending on the number of allies:<br>3 or less: with 200% Power.<br>4-6: with 150% Power.<br>7 or more: with 100% Power."
+    "description": "At the start of round, grant unit <strong>Counterattack</strong> (2 times, 1 round) depending on the number of allies:<br>3 or less: with 100% Power.<br>4-6: with 75% Power.<br>7 or more: with 50% Power."
   },
   "Skill_MP_MarionnetteDM_N_1": {
     "title": "askill1",
