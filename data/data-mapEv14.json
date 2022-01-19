@@ -352,6 +352,13 @@
           "wave": []
         },
         {
+          "grid": [17, 2],
+          "title": "EV2-Prologue",
+          "name": "EV2-Prologue",
+          "type": "Story",
+          "wave": []
+        },
+        {
           "grid": [4, 0],
           "title": "EV1-1B",
           "name": "EV1-1B",

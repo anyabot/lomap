@@ -11739,7 +11739,7 @@
     "range": 6,
     "AP": 9,
     "area": ["6>", "0", "0", "0", "1", "1", "1", "0", "0", "0"],
-    "description": "Deals $(0.9) damage to target area.<br>Additional DMG +25% and inflicts AP -2 to targets affected by <strong>Marked</strong>."
+    "description": "Deals $(0.9) damage to target area that Ignore Protect.<br>Additional DMG +25% and inflicts AP -2 to targets affected by <strong>Marked</strong>."
   },
   "Skill_MP_MarionnetteDM_N_3": {
     "title": "askill3",
