@@ -1,10 +1,10 @@
 {
-  "title": "Eternal Winter's Ark",
+  "title": "3rd Anniversary Event",
   "img": "Ev14_1",
   "type": "current",
   "zones": [
     {
-      "title": "Eternal Winter's Ark Zone 1",
+      "title": "Eternal Winter's Ark",
       "img": "Ev14_1",
       "newmap": true,
       "areatype": "grid",
@@ -978,6 +978,455 @@
           ]
         }
       ]
-    }
+    },
+    {
+      "title": "Bunny? Niba! Thumpy Thump Reverse Bunny Trouble!",
+      "img": "Ev14_2",
+      "areatype": "grid",
+      "gridsize": [8, 3],
+      "newmap": true,
+      "stage": [
+        {
+          "grid": [0, 1],
+          "title": "EV2-1",
+          "name": "EV2-1",
+          "type": "Story",
+          "wave": []
+        },
+        {
+          "grid": [1, 1],
+          "title": "EV2-2",
+          "name": "EV2-2",
+          "type": "Story",
+          "wave": []
+        },
+        {
+          "grid": [2, 1],
+          "title": "EV2-3",
+          "name": "EV2-3",
+          "type": "Story",
+          "wave": []
+        },
+        {
+          "grid": [3, 1],
+          "title": "EV2-4",
+          "name": "EV2-4",
+          "type": "Story",
+          "wave": []
+        },
+        {
+          "grid": [4, 1],
+          "title": "EV2-5",
+          "name": "EV2-5",
+          "type": "Main",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "", "level": 0 },
+                { "index": "MarionnetteAR_N", "level": 45 },
+                { "index": "MarionnetteDM_N", "level": 45 },
+                { "index": "MarionnetteHW_N", "level": 45 },
+                { "index": "MarionnetteAR_N", "level": 45 },
+                { "index": "MarionnetteHA_N", "level": 45 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "MarionnetteAR_N", "level": 45 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "MarionnetteHW_N", "level": 45 },
+                { "index": "", "level": 0 },
+                { "index": "MarionnetteHA_N", "level": 45 },
+                { "index": "MarionnetteHW_N", "level": 45 },
+                { "index": "MarionnetteDM_N", "level": 45 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "MarionnetteHA_N", "level": 45 },
+                { "index": "", "level": 0 },
+                { "index": "MarionnetteHW_N", "level": 45 },
+                { "index": "MarionnetteAR_N", "level": 45 },
+                { "index": "MarionnetteHW_N", "level": 45 },
+                { "index": "MarionnetteDM_N", "level": 45 },
+                { "index": "MarionnetteAR_N", "level": 45 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                { "index": "MarionnetteHA_N", "level": 45 },
+                { "index": "MarionnetteHW_N", "level": 45 },
+                { "index": "MarionnetteDM_N", "level": 45 },
+                { "index": "", "level": 0 },
+                { "index": "MarionnetteAR_N", "level": 45 },
+                { "index": "MarionnetteDM_N", "level": 45 },
+                { "index": "", "level": 0 },
+                { "index": "MarionnetteHA_N", "level": 45 },
+                { "index": "MarionnetteHW_N", "level": 45 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [5, 1],
+          "title": "EV2-6",
+          "name": "EV2-6",
+          "type": "Story",
+          "wave": []
+        },
+        {
+          "grid": [6, 1],
+          "title": "EV2-7",
+          "name": "EV2-7",
+          "type": "Main",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "", "level": 0 },
+                { "index": "MarionnetteHA_N", "level": 50 },
+                { "index": "MarionnetteHW_N", "level": 50 },
+                { "index": "MarionnetteAR_N", "level": 50 },
+                { "index": "MarionnetteAR_N", "level": 50 },
+                { "index": "MarionnetteDM_N", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "", "level": 0 },
+                { "index": "MarionnetteAR_N", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "MarionnetteHA_N", "level": 50 },
+                { "index": "MarionnetteHW_N", "level": 50 },
+                { "index": "MarionnetteAR_N", "level": 50 },
+                { "index": "MarionnetteAR_N", "level": 50 },
+                { "index": "MarionnetteDM_N", "level": 50 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "MarionnetteAR_N", "level": 50 },
+                { "index": "MarionnetteHW_N", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "MarionnetteHW_N", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "MarionnetteAR_N", "level": 50 },
+                { "index": "MarionnetteHA_N", "level": 50 },
+                { "index": "MarionnetteDM_N", "level": 50 }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                { "index": "MarionnetteAR_N", "level": 50 },
+                { "index": "MarionnetteHW_N", "level": 50 },
+                { "index": "MarionnetteHA_N", "level": 50 },
+                { "index": "MarionnetteHA_N", "level": 50 },
+                { "index": "MarionnetteAR_N", "level": 50 },
+                { "index": "MarionnetteDM_N", "level": 50 },
+                { "index": "MarionnetteHW_N", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [7, 1],
+          "title": "EV2-8",
+          "name": "EV2-8",
+          "type": "Main",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "", "level": 0 },
+                { "index": "BunnySlayer_N", "level": 999 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [1, 0],
+          "title": "EV2-1B",
+          "name": "EV2-1B",
+          "type": "B",
+          "wave": []
+        },
+        {
+          "grid": [2, 0],
+          "title": "EV2-2B",
+          "name": "EV2-2B",
+          "type": "B",
+          "wave": []
+        },
+        {
+          "grid": [3, 0],
+          "title": "EV2-3B",
+          "name": "EV2-3B",
+          "type": "B",
+          "wave": []
+        },
+        {
+          "grid": [0, 2],
+          "title": "EV2-1Ex",
+          "name": "EV2-1Ex",
+          "type": "EX",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "MarionnetteAR_TU3", "level": 90 },
+                { "index": "", "level": 0 },
+                { "index": "MarionnetteHW_TU3", "level": 90 },
+                { "index": "MarionnetteHA_TU3", "level": 90 },
+                { "index": "MarionnetteAR_TU3", "level": 90 },
+                { "index": "MarionnetteDM_TU3", "level": 90 },
+                { "index": "MarionnetteAR_TU3", "level": 90 },
+                { "index": "", "level": 0 },
+                { "index": "MarionnetteHW_TU3", "level": 90 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "MarionnetteAR_TU3", "level": 90 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "MarionnetteHA_TU3", "level": 90 },
+                { "index": "MarionnetteDM_TU3", "level": 90 },
+                { "index": "MarionnetteHW_TU3", "level": 90 },
+                { "index": "MarionnetteAR_TU3", "level": 90 },
+                { "index": "MarionnetteHA_TU3", "level": 90 },
+                { "index": "MarionnetteHW_TU3", "level": 90 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "MarionnetteHA_TU3", "level": 90 },
+                { "index": "MarionnetteHW_TU3", "level": 90 },
+                { "index": "MarionnetteDM_TU3", "level": 90 },
+                { "index": "MarionnetteAR_TU3", "level": 90 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "MarionnetteHA_TU3", "level": 90 },
+                { "index": "MarionnetteHW_TU3", "level": 90 },
+                { "index": "MarionnetteDM_TU3", "level": 90 }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                { "index": "MarionnetteHW_TU3", "level": 90 },
+                { "index": "MarionnetteHA_TU3", "level": 90 },
+                { "index": "MarionnetteDM_TU3", "level": 90 },
+                { "index": "", "level": 0 },
+                { "index": "MarionnetteHW_TU3", "level": 90 },
+                { "index": "", "level": 0 },
+                { "index": "MarionnetteHA_TU3", "level": 90 },
+                { "index": "MarionnetteAR_TU3", "level": 90 },
+                { "index": "MarionnetteDM_TU3", "level": 90 }
+              ]
+            },
+            {
+              "title": "wave5",
+              "enemylist": [
+                { "index": "MarionnetteHA_TU3", "level": 90 },
+                { "index": "MarionnetteAR_TU3", "level": 90 },
+                { "index": "MarionnetteDM_TU3", "level": 90 },
+                { "index": "MarionnetteAR_TU3", "level": 90 },
+                { "index": "MarionnetteHA_TU3", "level": 90 },
+                { "index": "MarionnetteDM_TU3", "level": 90 },
+                { "index": "MarionnetteHW_TU3", "level": 90 },
+                { "index": "MarionnetteHW_TU3", "level": 90 },
+                { "index": "MarionnetteHA_TU3", "level": 90 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [1, 2],
+          "title": "EV2-2Ex",
+          "name": "EV2-2Ex",
+          "type": "EX",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "ScarabEX_TU6", "level": 90 },
+                { "index": "LegionElite_TU4", "level": 90 },
+                { "index": "", "level": 0 },
+                { "index": "ScarabH_TU4", "level": 90 },
+                { "index": "NightChickCM_TU5", "level": 90 },
+                { "index": "", "level": 0 },
+                { "index": "ScarabEX_TU6", "level": 90 },
+                { "index": "CenturionEX_TU5", "level": 90 },
+                { "index": "Mammoth_TU6", "level": 90 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "ChillerEX_TU4", "level": 90 },
+                { "index": "NightChickTD_TU4", "level": 90 },
+                { "index": "", "level": 0 },
+                { "index": "NightChickTD_TU4", "level": 90 },
+                { "index": "NightChickAQ_TU4", "level": 90 },
+                { "index": "NightChickDEAA_TU3", "level": 90 },
+                { "index": "ChillerEX_TU4", "level": 90 },
+                { "index": "NightChickDEG_TU4", "level": 90 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "NightChickQMEX_TU2", "level": 90 },
+                { "index": "Tortoise_TU4", "level": 90 },
+                { "index": "Centurion_TU4", "level": 90 },
+                { "index": "NightChickCMP_EV1", "level": 90 },
+                { "index": "ScoutAK_TU2", "level": 90 },
+                { "index": "", "level": 0 },
+                { "index": "NightChickQMSK_TU3", "level": 90 },
+                { "index": "Tortoise_TU4", "level": 90 },
+                { "index": "Centurion_TU4", "level": 90 }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                { "index": "FABigChickSEX_TU4", "level": 90 },
+                { "index": "BigChickC_TU5", "level": 90 },
+                { "index": "LegionSPEX_TU2", "level": 90 },
+                { "index": "LegionMk2_TU3", "level": 90 },
+                { "index": "NightChickDE_EV1", "level": 90 },
+                { "index": "Speaker_TU3", "level": 90 },
+                { "index": "CenturionCF_TU5", "level": 90 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave5",
+              "enemylist": [
+                { "index": "BigChickS_TU4", "level": 90 },
+                { "index": "PhalangitesH_TU4", "level": 90 },
+                { "index": "BigChickCG_TU4", "level": 90 },
+                { "index": "CenturionG_TU3", "level": 90 },
+                { "index": "SpectorMS_EW", "level": 90 },
+                { "index": "NightChickQMSK_TU3", "level": 90 },
+                { "index": "Juggernaut_TU6", "level": 90 },
+                { "index": "FABigChickSEX_TU4", "level": 90 },
+                { "index": "NightChickCMP_EV1", "level": 90 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [2, 2],
+          "title": "EV2-3Ex",
+          "name": "EV2-3Ex",
+          "type": "EX",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "ChillerEX_TU4", "level": 90 },
+                { "index": "FridgerHead_TU2", "level": 90 },
+                { "index": "", "level": 0 },
+                { "index": "NightChickAQ_TU4", "level": 90 },
+                { "index": "FridgerShooter_TU2", "level": 90 },
+                { "index": "NightChickDE_EV1", "level": 90 },
+                { "index": "ChillerEX_TU4", "level": 90 },
+                { "index": "FridgerShell_TU2", "level": 90 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "FABigChickSEX_TU4", "level": 90 },
+                { "index": "NightChickCMP_EV1", "level": 90 },
+                { "index": "BigChickCG_TU4", "level": 90 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "LegionMk2_TU3", "level": 90 },
+                { "index": "BigChickS_TU4", "level": 90 },
+                { "index": "NightChickCMP_EV1", "level": 90 },
+                { "index": "LegionSP_TU5", "level": 90 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "", "level": 0 },
+                { "index": "FridgerShell_TU2", "level": 90 },
+                { "index": "MammothW_TU2", "level": 90 },
+                { "index": "FridgerHead_TU2", "level": 90 },
+                { "index": "Frostbite_TU3", "level": 90 },
+                { "index": "FridgerShooter_TU2", "level": 90 },
+                { "index": "NightChickSPW_TU2", "level": 90 },
+                { "index": "NightChickAQ_TU4", "level": 90 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                { "index": "MammothW_TU2", "level": 90 },
+                { "index": "CenturionEX_TU5", "level": 90 },
+                { "index": "MammothW_TU2", "level": 90 },
+                { "index": "MammothW_TU2", "level": 90 },
+                { "index": "NightChickAQG_TU4", "level": 90 },
+                { "index": "MammothW_TU2", "level": 90 },
+                { "index": "MammothW_TU2", "level": 90 },
+                { "index": "CenturionEX_TU5", "level": 90 },
+                { "index": "MammothW_TU2", "level": 90 }
+              ]
+            },
+            {
+              "title": "wave5",
+              "enemylist": [
+                { "index": "FridgerShell_TU2", "level": 90 },
+                { "index": "FridgerShooter_TU2", "level": 90 },
+                { "index": "FridgerHead_TU2", "level": 90 },
+                { "index": "Testudo_TU3", "level": 90 },
+                { "index": "CenturionCF_TU5", "level": 90 },
+                { "index": "PhalangitesH_TU4", "level": 90 },
+                { "index": "FridgerShell_TU2", "level": 90 },
+                { "index": "FridgerShooter_TU2", "level": 90 },
+                { "index": "Speaker_TU4", "level": 90 }
+              ]
+            }
+          ]
+        }
+      ]
+    }    
   ]
 }

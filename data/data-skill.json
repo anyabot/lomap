@@ -11619,7 +11619,7 @@
     "range": 0,
     "AP": 0,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "At the start of round, grant unit buffs depending on the number of allies:<br>3 or more: SPD +30%.<br>5 or more: Status Resist +50%.<br>7 or more: <strong>Area Damage Dispersion</strong> +70%."
+    "description": "At the start of round, grant unit buffs depending on the number of allies:<br>3 or more: SPD +15%.<br>5 or more: Status Resist +25%.<br>7 or more: <strong>Area Damage Dispersion</strong> +35%."
   },
   "Skill_MP_MarionnetteAR_N_4": {
     "title": "askill4",
@@ -11659,7 +11659,7 @@
     "range": 0,
     "AP": 0,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "At the start of round, grant unit buffs depending on the number of allies:<br>3 or more: SPD +30%.<br>5 or more: Status Resist +50%.<br>7 or more: <strong>Area Damage Dispersion</strong> +70%."
+    "description": "At the start of round, grant unit buffs depending on the number of allies:<br>3 or more: SPD +15%.<br>5 or more: Status Resist +25%.<br>7 or more: <strong>Area Damage Dispersion</strong> +35%."
   },
   "Skill_MP_MarionnetteHW_N_4": {
     "title": "askill4",
@@ -11699,7 +11699,7 @@
     "range": 0,
     "AP": 0,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "At the start of round, grant unit buffs depending on the number of allies:<br>3 or more: SPD +30%.<br>5 or more: Status Resist +50%.<br>7 or more: <strong>Area Damage Dispersion</strong> +70%."
+    "description": "At the start of round, grant unit buffs depending on the number of allies:<br>3 or more: SPD +15%.<br>5 or more: Status Resist +25%.<br>7 or more: <strong>Area Damage Dispersion</strong> +35%."
   },
   "Skill_MP_MarionnetteHA_N_4": {
     "title": "askill4",
@@ -11749,7 +11749,7 @@
     "range": 0,
     "AP": 0,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "At the start of round, grant unit buffs depending on the number of allies:<br>3 or more: SPD +30%.<br>5 or more: Status Resist +50%.<br>7 or more: <strong>Area Damage Dispersion</strong> +70%."
+    "description": "At the start of round, grant unit buffs depending on the number of allies:<br>3 or more: SPD +15%.<br>5 or more: Status Resist +25%.<br>7 or more: <strong>Area Damage Dispersion</strong> +35%."
   },
   "Skill_MP_MarionnetteDM_N_4": {
     "title": "askill4",
@@ -11770,5 +11770,55 @@
     "AP": 0,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
     "description": "At the start of wave, grant unit permanent, unremovable buffs depending on enemy team composition:<br>2 or more Light: Anti-Light DMG +30% / CRIT +30%.<br>2 or more Heavy: Anti-Heavy DMG +30% / Defense Penetration +30%.<br>2 or more Flying: Anti-Flying DMG +30% / ACC +30%."
+  },
+  "Skill_MP_BunnySlayer_N_1": {
+    "title": "askill1",
+    "name": "바니 난무!",
+    "type": "active",
+    "img": ["SwordAttk"],
+    "range": 99,
+    "AP": 1,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "단일 대상에게 {0} 보호 무시 피해를 줍니다. \n적중 대상의 모든 강화 효과를 해제하고 받는 피해를 증가시킵니다.\n적중 대상이 자신의 공격으로 인해 사망하지 않은 경우, 자신의 공격력 / 치명타가 영구 증가합니다.\n\n…라고 쓰여있다."
+  },
+  "Skill_MP_BunnySlayer_N_2": {
+    "title": "askill2",
+    "name": "바니 파멸킥!",
+    "type": "active",
+    "img": ["AssaultAttack"],
+    "range": 99,
+    "AP": 2,
+    "area": ["1", "1", "1", "1", "1", "1", "1", "1", "1"],
+    "description": "지정 범위의 적에게 {0} 보호 무시 피해를 줍니다. +700%의 적중 보정이 적용됩니다.\n적중 여부와 관계없이 대상은 5라운드 동안 스킬 사용 불가 / 이동 불가 상태가 됩니다.\n라운드 종료 시, <sec typ=\"note\">바니 파멸킥!</sec>에 피격당한 대상이 생존해있을 경우, 자신의 스킬 위력이 영구 증가합니다.\n\n…라는 설정인 듯 하다."
+  },
+  "Skill_MP_BunnySlayer_N_3": {
+    "title": "askill3",
+    "name": "바니 살해자",
+    "type": "passive",
+    "img": ["SelfAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "전투 개시 시, 해제 불가능한 행동력 / 방어 관통 / 적중 증가 효과를 획득합니다.\n라운드 개시 시, 적 개체 중 바니 속성을 보유한 대상이 존재할 경우, 자신은 다음 효과를 획득합니다.\n- 라운드 개시 시, 적 바니 개체 수와 동일한 양의 최대 행동 횟수 획득\n- 라운드 개시 시, 적 바니 개체 수의 3배에 해당하는 AP 증가\n\n…라는 주장이다."
+  },
+  "Skill_MP_BunnySlayer_N_4": {
+    "title": "askill4",
+    "name": "토즉참",
+    "type": "passive",
+    "img": ["TeamAtkDeBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["F>", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
+    "description": "전투 개시 시, 적 개체 중 바니 속성을 보유한 대상이 존재할 경우, 7라운드 동안 대상의 공격력 / 방어력 / 적중 / 회피를 0으로 고정시키고, 받는 피해를 대폭 증가시킵니다.\n해당 효과는 효과 저항의 영향을 받지 않습니다.\n\n..하아."
+  },
+  "Skill_MP_BunnySlayer_N_5": {
+    "title": "askill5",
+    "name": "타오르는 바니의 혼",
+    "type": "passive",
+    "img": ["TeamSpdBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "전투 개시 시, 자신은 해제 불가능한 전투 속행 효과를 획득합니다.\n전투 불능 시, <sec typ=\"note\">토즉참</sec> 효과를 지닌 적 개체가 존재할 경우 전투 속행 효과를 다시 획득합니다.\n전투 속행 시, 4라운드 동안 자신의 회피가 대폭 증가하고, 회피에 비례한 스킬 위력 증가 효과를 획득합니다.\n\n…나는 일기장에서 실로 놀라운 설정들을 더 발견했지만, 여백이 부족하여 적지 않겠다."
   }
 }
