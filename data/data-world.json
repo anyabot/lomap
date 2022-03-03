@@ -32,8 +32,8 @@
     },
     "Ev5": {
       "title": "St.Orca's Secret Operation",
-      "img": "Ev5_1",
-      "type": "old"
+      "img": "Ev5",
+      "type": "permanent"
     },
     "Ev6": {
       "title": "Choco Queen in Wonderland",
@@ -78,7 +78,7 @@
     "Ev14": {
       "title": "Eternal Winter's Ark",
       "img": "Ev14_1",
-      "type": "current"
+      "type": "old"
     }
   },
   "others": {
