@@ -1,1 +1,1 @@
-{"info": "이정도 전자 교란은 아무것도 아니에요.\n\n\n- 보고자 X-00 티아멧", "HP": [28657, 233], "ATK": [310, 12], "DEF": [144, 8], "AGI": 6, "CRT": 25, "HIT": 220, "DOD": 250, "resist": [25, 25, 25], "skills": ["Skill_MP_Intruder_N_1", "Skill_MP_Intruder_N_2", "Skill_MP_Intruder_N_3", "Skill_MP_Intruder_N_4"]}
+{"info": "이정도 전자 교란은 아무것도 아니에요.\n\n\n- 보고자 X-00 티아멧", "HP": [28657, 233], "ATK": [310, 12], "DEF": [144, 8], "AGI": 6, "CRT": 25, "HIT": 220, "DOD": 250, "resist": [25, 25, -25], "skills": ["Skill_MP_Intruder_N_1", "Skill_MP_Intruder_N_2", "Skill_MP_Intruder_N_3", "Skill_MP_Intruder_N_4"]}

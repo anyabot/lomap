@@ -5722,7 +5722,7 @@
   },
   "SpectorBS_N": {
     "name": "Spector BS",
-    "img": "Spector",
+    "img": "SpectorBS_N",
     "type": "Flying",
     "role": "Supporter",
     "rank": "SS",
@@ -5736,7 +5736,7 @@
   },
   "SpectorMS_N": {
     "name": "Spector MS",
-    "img": "Spector",
+    "img": "SpectorMS_N",
     "type": "Flying",
     "role": "Supporter",
     "rank": "SS",
@@ -9399,7 +9399,7 @@
   },
   "SpectorMS_EW": {
     "name": "Mass Produced Spector",
-    "img": "Spector",
+    "img": "SpectorMS_N",
     "type": "Flying",
     "role": "Supporter",
     "rank": "SS",
@@ -10595,7 +10595,7 @@
   },
   "SpectorMS_EW2": {
     "name": "Mass Produced Spector",
-    "img": "Spector",
+    "img": "SpectorMS_N",
     "type": "Flying",
     "role": "Supporter",
     "rank": "SS",
@@ -10630,7 +10630,7 @@
   },
   "SpectorBS_EV8": {
     "name": "Spector BS",
-    "img": "Spector",
+    "img": "SpectorBS_N",
     "type": "Flying",
     "role": "Supporter",
     "rank": "SS",
@@ -11606,7 +11606,7 @@
   },
   "NightChickAQ_EV9": {
     "name": "Aqua Chick Type-X",
-    "img": "NightChickAQ",
+    "img": "NightChickAQMP_N",
     "type": "Light",
     "role": "Supporter",
     "rank": "SS",
@@ -12728,7 +12728,7 @@
   },
   "Executioner_EW2": {
     "name": "Beheader",
-    "img": "Executioner_B06",
+    "img": "Beheader_N",
     "type": "Flying",
     "role": "Attacker",
     "rank": "SS",

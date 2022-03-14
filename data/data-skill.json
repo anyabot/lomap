@@ -3266,7 +3266,7 @@
     "AP": 7,
     "attr": "ice",
     "description": "Deals $(1) Ice damage to target area and inflicts <strong>Wet</strong> (Electric Resist -50% / Ice Resist -50% / Fire Resist +50%).",
-    "area": [4, 5, 6]
+    "area": ["6>", 4, 5, 6]
   },
   "Skill_MP_NightChickAQ_N_2": {
     "title": "askill2",
@@ -6954,7 +6954,7 @@
     "img": "TeamAtkDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "When unit is defeated, increases all allies SPD +30% / ATK +30% / CRIT +40% for 2 rounds, but decreases ACC -50%.",
+    "description": "When unit is defeated, grant all allies SPD +30% / ATK +30% / CRIT +40%, but inflict unremovable ACC -50% for 2 rounds.",
     "area": [7, 8, 9, 4, 5, 6, 1, 2, 3]
   },
   "Skill_MP_RobertArm_N_1": {
@@ -7901,7 +7901,7 @@
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, increase Ice Resist +60% / Electric Resist +30% of all allies and grant Fridger-type allies <strong>Follow Up Attack</strong> (including self).",
+    "description": "At the start of round, increase Ice Resist +60% / Electric Resist +30% of all allies and grant Fridger-type allies <strong>Follow Up Attack</strong> (including self) (up to 2 times per round).<br>Inflicts DEF -30% for 1 round to self after performing a Follow Up Attack.",
     "area": ["F>", 1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   "Skill_MP_FridgerHead_N_4": {
@@ -7911,7 +7911,7 @@
     "img": "WideIceShot",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, inflict all enemies <strong>Wet</strong> / Defense Penetration -100%.<br>Defense Penetration reduction effect decrease by 20% every round.<br>Inflict <strong>Wet</strong> to all allies when destroyed.",
+    "description": "At the start of round, inflict all enemies <strong>Wet</strong> / Defense Penetration -100%.<br>Defense Penetration reduction effect decrease by 20% every round.<br>Inflict <strong>Wet</strong> to all allies when destroyed.<br>When unit is defeated, inflicts ATK / DEF -50% for 2 rounds to all Fridger-type allies.",
     "area": ["F>", 1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   "Skill_MP_FridgerHead_N_5": {
@@ -7921,7 +7921,7 @@
     "img": "Command",
     "range": 0,
     "AP": 0,
-    "description": "At the start of wave, if there's 3 or more enemy AGS, grant AP +2 to all allies.<br>At the start of wave, if there's 3 or more enemy Bioroids, inflict all enemies unremovable Defense Penetration -40% for 99 rounds.",
+    "description": "At the start of wave, if there's 3 or more enemy AGS, grant AP +2 to all allies.<br>At the start of wave, if there's 3 or more enemy Bioroids, inflict all enemies unremovable Defense Penetration -40% for 99 rounds.<br>When unit is defeated, removes Defense Penetration- from this passive.",
     "area": ["F>", 1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   "Skill_MP_FridgerShell_N_1": {
@@ -8106,7 +8106,7 @@
     "AP": 7,
     "attr": "ice",
     "description": "Deals $(1) Ice damage to target area and inflicts <strong>Wet</strong> (Electric Resist -50% / Ice Resist -50% / Fire Resist +50%)",
-    "area": [4, 5, 6]
+    "area": ["4>", 4, 5, 6]
   },
   "Skill_MP_NightChickAQG_N_2": {
     "title": "askill2",
@@ -8368,7 +8368,7 @@
     "img": "DefCounter",
     "range": 0,
     "AP": 0,
-    "description": "After unit attack, inflict self EVA -800% until the end of round. When unit evades, <strong>Counterattack</strong> with 100% Power.",
+    "description": "At the start of round, grants unit EVA +500% for 1 round.<br>After unit attack, inflict self EVA -800% until the end of round. When unit evades, <strong>Counterattack</strong> with 100% Power.",
     "area": [5]
   },
   "Skill_MP_FryerShooter_N_1": {
@@ -8379,7 +8379,7 @@
     "range": 3,
     "AP": 4,
     "attr": "electric",
-    "description": "Deals $(1.2) Electric Damage to a single target and inflict ATK -20% / Electric Resist -50% / <strong>Damage taken Increased</strong> +20%.",
+    "description": "Deals $(1.2) Electric Damage to a single target and inflict ATK -20% / EVA -50% / <strong>Damage taken Increased</strong> +20%.",
     "area": [5]
   },
   "Skill_MP_FryerShooter_N_2": {
@@ -8390,7 +8390,7 @@
     "range": 4,
     "AP": 5,
     "attr": "electric",
-    "description": "Deals $(0.6) Electric Damage to target area, inflicts AP -1.5 / Electric Resist -50% for 2 rounds. If the target is affected by EVA-, inflict Status Resist -50% for 2 rounds.",
+    "description": "Deals $(0.6) Electric Damage to target area, inflicts AP -1.5. If the target is affected by EVA-, inflict Status Resist -50% for 2 rounds.",
     "area": [4, 5]
   },
   "Skill_MP_FryerShooter_N_3": {
@@ -8483,7 +8483,7 @@
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, increase Ice Resist +30% / Fire Resist +30% of all allies and grant Fryer-type allies <strong>Follow Up Attack</strong> (including self).",
+    "description": "At the start of round, increase Ice Resist +30% / Fire Resist +30% of all allies and grant Fryer-type allies <strong>Follow Up Attack</strong> (including self) (up to 2 times per round).<br>Inflicts DEF -30% for 1 round to self after performing a Follow Up Attack.",
     "area": ["F>", 1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   "Skill_MP_FryerHead_N_4": {
@@ -8493,7 +8493,7 @@
     "img": "WideLightning",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, inflict all enemies EVA -50% / Defense Penetration -100%.<br>Defense Penetration reduction effect decrease by 20% every round.<br>Inflict EVA -50% to all allies when destroyed.",
+    "description": "At the start of round, inflict all enemies EVA -50% / Defense Penetration -100%.<br>Defense Penetration reduction effect decrease by 20% every round.<br>Inflict EVA -50% to all allies when destroyed.<br>When unit is defeated, inflicts ATK / DEF -50% for 2 rounds to all Fryer-type allies.",
     "area": ["F>", 1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   "Skill_MP_FryerHead_N_5": {
@@ -8503,7 +8503,7 @@
     "img": "Command",
     "range": 0,
     "AP": 0,
-    "description": "At the start of wave, if there's 3 or more enemy AGS, grant AP +2 to all allies.<br>At the start of wave, if there's 3 or more enemy Bioroids, inflict all enemies unremovable Defense Penetration -40% for 99 rounds.",
+    "description": "At the start of wave, if there's 3 or more enemy AGS, grant AP +2 to all allies.<br>At the start of wave, if there's 3 or more enemy Bioroids, inflict all enemies unremovable Defense Penetration -40% for 99 rounds.<br>When unit is defeated, removes Defense Penetration- from this passive.",
     "area": ["F>", 1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   "Skill_MP_BigChickC_N_1": {
@@ -8612,7 +8612,7 @@
     "img": "AssaultAttack",
     "range": 3,
     "AP": 6,
-    "description": "Deals $(1.5) damage to a single target, and remove Row Protect and DR buffs.<br>Anti-Heavy Damage +20%",
+    "description": "Deals $(1.5) damage to a single target, and remove Row Protect and DR buffs.<br>Anti-Heavy Damage +20%.",
     "area": [5]
   },
   "Skill_MP_ScarabH_N_2": {
@@ -8622,7 +8622,7 @@
     "img": "SelfDefBuff",
     "range": 6,
     "AP": 4,
-    "description": "Grants one ally Target Protect / SPD +10% for 3 rounds",
+    "description": "Grants one ally Target Protect / SPD +10% for 3 rounds.",
     "area": [5]
   },
   "Skill_MP_ScarabH_N_3": {
@@ -8632,7 +8632,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, if unit's HP is above 50%, grants unit DR +30% / DEF +1000% but inflicts EVA -100%",
+    "description": "At the start of round, if unit's HP is above 50%, grants unit DR +30% / DEF +1000% but inflicts EVA -100%.",
     "area": [5]
   },
   "Skill_MP_ScarabH_N_4": {
@@ -8642,7 +8642,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, if it's 3 rounds or less, enter <strong>Defensive Stance</strong>, and grant self All Elemental Resist +150%, but inflict self EVA -150%<br>At the start of round, if it's 4 rounds or more, enter <strong>Offensive Stance</strong>, and grant self ATK +100% / Defense Penetration +20% / <strong>Follow Up Attack</strong>, but inflict self DEF -1000%",
+    "description": "At the start of round, if it's 3 rounds or less, enter <strong>Defensive Stance</strong>, and grant self All Elemental Resist +150%.<br>At the start of round, if it's 4 rounds or more, enter <strong>Offensive Stance</strong>, and grant self EVA +150% and unremovable ATK +100% / Defense Penetration +20% / <strong>Follow Up Attack</strong>, but inflict self unremovable DEF -1000%.",
     "area": [5]
   },
   "Skill_MP_ScoutAK_N_1": {
@@ -8692,7 +8692,7 @@
     "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "When unit is defeated, grant all allies SPD +30% / ATK +30% / CRIT +40%, but inflict ACC -50% for 2 rounds.",
+    "description": "When unit is defeated, grant all allies SPD +30% / ATK +30% / CRIT +40%, but inflict unremovable ACC -50% for 2 rounds.",
     "area": [1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   "Skill_MP_Tracker_N_1": {
@@ -9043,7 +9043,7 @@
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, increase Fire Resist +60% / Electric Resist +30% of all allies and grant Dryer-type allies <strong>Follow Up Attack</strong> (including self).",
+    "description": "At the start of round, increase Fire Resist +60% / Electric Resist +30% of all allies and grant Dryer-type allies <strong>Follow Up Attack</strong> (including self) (up to 2 times per round).<br>Inflicts DEF -30% for 1 round to self after performing a Follow Up Attack.",
     "area": ["F>", 1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   "Skill_MP_DryerHead_N_4": {
@@ -9053,7 +9053,7 @@
     "img": "WideFireShot",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, inflict all enemies <strong>Ignited</strong> / Defense Penetration -100%.<br>Defense Penetration reduction effect decrease by 20% every round.<br>Inflict <strong>Ignited</strong> to all allies when destroyed.",
+    "description": "At the start of round, inflict all enemies <strong>Ignited</strong> / Defense Penetration -100%.<br>Defense Penetration reduction effect decrease by 20% every round.<br>Inflict <strong>Ignited</strong> to all allies when destroyed.<br>When unit is defeated, inflicts ATK / DEF -50% for 2 rounds to all Dryer-type allies.",
     "area": ["F>", 1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   "Skill_MP_DryerHead_N_5": {
@@ -9063,7 +9063,7 @@
     "img": "Command",
     "range": 0,
     "AP": 0,
-    "description": "At the start of wave, if there's 3 or more enemy AGS, grant AP +2 to all allies.<br>At the start of wave, if there's 3 or more enemy Bioroids, inflict all enemies unremovable Defense Penetration -40% for 99 rounds.",
+    "description": "At the start of wave, if there's 3 or more enemy AGS, grant AP +2 to all allies.<br>At the start of wave, if there's 3 or more enemy Bioroids, inflict all enemies unremovable Defense Penetration -40% for 99 rounds.<br>When unit is defeated, removes Defense Penetration- from this passive.",
     "area": ["F>", 1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   "Skill_MP_DryerShell_N_1": {
@@ -11359,7 +11359,7 @@
     "range": 4,
     "AP": 4,
     "area": [0, 1, 0, 1, 1, 1, 0, 1, 0],
-    "description": "Deals $(1) damage to target area.<br>If there is only 1 enemy in target area, Additional DMG +500% and <strong>Ignore DR / Barrier</strong>."
+    "description": "Deals $(1) damage to target area.<br>If there is only 1 enemy in target area, Additional DMG +100% and <strong>Ignore DR / Barrier</strong>.<br>Grants unit ACC +100% for 1 round.<br>If the target is affected by <strong>Marked</strong> and has no adjacent allies, inflicts Fixed Damage equals to 100% ATK regardless of hitting."
   },
   "Skill_MP_NightChickM_RV_2": {
     "title": "askill2",
@@ -11369,7 +11369,7 @@
     "range": 6,
     "AP": 3,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "Deals $(1) damage to target area that Ignore Protect.<br>Additional DMG +500% and removes buffs if target is affected by <strong>Marked</strong>."
+    "description": "Deals $(1) damage to target area that Ignore Protect.<br>Additional DMG +100% and removes buffs if target is affected by <strong>Marked</strong>.<br>Grants unit ACC +100% for 1 round.<br>If the target is affected by <strong>Marked</strong> and has no adjacent allies, inflicts Fixed Damage equals to 100% ATK regardless of hitting."
   },
   "Skill_MP_NightChickM_RV_3": {
     "title": "askill3",
@@ -11417,7 +11417,7 @@
     "type": "active",
     "img": ["ShieldWall"],
     "range": 6,
-    "AP": 7,
+    "AP": 9,
     "area": ["F>", 1, 1, 1, 1, 1, 1, 1, 1, 1],
     "description": "Grants all allies  for 3 rounds / AP +1.<br>Grants all allies DEF +20% permenently that stacks 5 times."
   },
@@ -11429,7 +11429,7 @@
     "range": 4,
     "AP": 4,
     "area": ["F>", 1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "description": "At the start of round, inflicts <strong>Provoked</strong> / AP -1 / ATK -20% / Defense Penetration -20% to enemies with higher ATK than unit.<br>At the start of round, inflicts Skill Multiplier -20% / -10% to enemies if unit is on the Frontline / Middleline for 1 round.<br>At the start of round, inflicts Skill Multiplier -20% / -10% to enemies on the Backline / Middleline for 1 round.<br>When an ally is defeated, inflicts unremovable Skill Multiplier -30% to enemies affected by <strong>Provoked</strong> for 3 rounds."
+    "description": "At the start of round, inflicts <strong>Provoked</strong> / AP -1 / ATK -20% / Defense Penetration -20% to enemies with higher ATK than unit.<br>At the start of round, inflicts Skill Multiplier -20% / -10% to enemies if unit is on the Frontline / Middleline for 1 round.<br>At the start of round, inflicts Skill Multiplier -20% / -10% to enemies on the Backline / Middleline for 1 round.<br>When an ally is defeated, inflicts Skill Multiplier -30% to enemies affected by <strong>Provoked</strong> for 99 rounds."
   },
   "Skill_MP_NightChickS_RV_4": {
     "title": "askill4",
@@ -11449,7 +11449,7 @@
     "range": 0,
     "AP": 0,
     "area": ["F>", 1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "description": "At the start of round, grants unit Row Protect / Column Protect.<br>At the start of round, grants allies with less than 50% HP unremovable <strong>Area Damage Dispersion</strong> +25% permanently.<br>When an ally is defeated, grants unit unremovable <strong>Area Damage Dispersion</strong> +25% permanently."
+    "description": "At the start of round, grants unit Row Protect / Column Protect.<br>At the start of round, grants allies with less than 50% HP unremovable <strong>Area Damage Dispersion</strong> +25% permanently.<br>When an ally is defeated, grants all allies unremovable <strong>Area Damage Dispersion</strong> +25% for 2 rounds."
   },
   "Skill_MP_Intruder_N_1": {
     "title": "askill1",
@@ -11459,7 +11459,7 @@
     "range": 4,
     "AP": 7,
     "area": [0, 0, 0, 0, 1, 1, 0, 1, 1],
-    "description": "Deals $(0.5) damage to target area that Ignore Protect.<br>When hit, removes ATK / SPD buffs.<br>If target has less EVA than unit, inflicts ACC -25% / CRIT -25% for 2 rounds regardless of hit.<br>Removes Target Protect applied to unit after this skill is used."
+    "description": "Deals $(0.01) damage to target area that Ignore Protect.<br>When hit, removes ATK / SPD buffs.<br>If target has less EVA than unit, inflicts ACC -25% / CRIT -25% for 2 rounds regardless of hit.<br>Removes Target Protect applied to unit after this skill is used."
   },
   "Skill_MP_Intruder_N_2": {
     "title": "askill2",
@@ -11467,7 +11467,7 @@
     "type": "active",
     "img": ["Scan"],
     "range": 8,
-    "AP": 9,
+    "AP": 10,
     "area": [1, 1, 1, 1, 1, 1, 1, 1, 1],
     "description": "Remove debuffs and grant Range +1 / ACC +25% / CRIT +25% for 3 rounds to allies in Area of Effect.<br>If ally's HP is lower than 50%, also grant <strong>Counterattack</strong> with 100% Power (1 time) for 3 rounds to that ally."
   },
@@ -11479,7 +11479,7 @@
     "range": 4,
     "AP": 0,
     "area": ["F>", 1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "description": "At the start of round, inflicts Skill Multiplier -20% / -10% to enemies on the Backline / Middleline for 1 round.<br>When unit is defeated while affected by Target Protect, inflicts unremovable Skill Multiplier / ACC -30% for 3 rounds to all enemies.<br>When unit is defeated while not affected by Target Protect, removes all debuffs and grants AP +2 to all enemies."
+    "description": "At the start of round, inflicts Skill Multiplier -20% / -10% to enemies on the Backline / Middleline for 1 round.<br>When unit is defeated while affected by Target Protect, inflicts unremovable Skill Multiplier / ACC -30% for 3 rounds to all enemies.<br>When unit is defeated while not affected by Target Protect, removes all debuffs and grants AP +2 / unremovable Skill Multiplier +20% for 2 rounds to all enemies."
   },
   "Skill_MP_Intruder_N_4": {
     "title": "askill4",
@@ -11499,7 +11499,7 @@
     "range": 3,
     "AP": 5,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "Deals $(1) damage to a single target.<br>When hit, inflicts ATK / CRIT -25% for 2 rounds."
+    "description": "Deals $(0.25) damage to a single target.<br>When hit, inflicts ATK / CRIT -25% for 2 rounds."
   },
   "Skill_MP_HauntedFortress_N_2": {
     "title": "askill2",
@@ -11539,7 +11539,7 @@
     "range": 0,
     "AP": 0,
     "area": ["F>", 1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "description": "As long as there are Protected allies, unit has unremovable <strong>Battle Continuation</strong> with 25% HP."
+    "description": "As long as there are Protected allies, unit has unremovable <strong>Battle Continuation</strong> with 25% HP.<br>When unit is defeated, removes Target Protect from all allies.<br>When unit is defeated while not affected by <strong>Battle Continuation</strong> from this passive, grants all enemies unremovable ATK / SPD +15% for 3 rounds and inflicts all allies unremovable ATK / SPD -15% for 3 rounds.<br>When unit is defeated while affected by <strong>Battle Continuation</strong> from this passive, inflicts all enemies AP -1."
   },
   "Skill_MP_Predator_EW2_1": {
     "title": "askill1",
