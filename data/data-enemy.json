@@ -5798,7 +5798,7 @@
   },
   "SpectorBS_N": {
     "name": "Spector BS",
-    "img": "SpectorBS",
+    "img": "SpectorBS_N",
     "type": "Flying",
     "role": "Supporter",
     "rank": "SS",
@@ -5812,7 +5812,7 @@
   },
   "SpectorMS_N": {
     "name": "Spector MS",
-    "img": "SpectorMS",
+    "img": "SpectorMS_N",
     "type": "Flying",
     "role": "Supporter",
     "rank": "SS",
@@ -9493,7 +9493,7 @@
   },
   "SpectorMS_EW": {
     "name": "Mass Produced Spector",
-    "img": "SpectorMS",
+    "img": "SpectorMS_N",
     "type": "Flying",
     "role": "Supporter",
     "rank": "SS",
@@ -10690,7 +10690,7 @@
   },
   "SpectorMS_EW2": {
     "name": "Mass Produced Spector",
-    "img": "SpectorMS",
+    "img": "SpectorMS_N",
     "type": "Flying",
     "role": "Supporter",
     "rank": "SS",
@@ -10725,7 +10725,7 @@
   },
   "SpectorBS_EV8": {
     "name": "Spector BS",
-    "img": "SpectorBS",
+    "img": "SpectorBS_N",
     "type": "Flying",
     "role": "Supporter",
     "rank": "SS",
