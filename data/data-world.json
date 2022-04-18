@@ -83,6 +83,11 @@
     "Ev15": {
       "title": "Mini Companions' Onslaught ~Fierceness that Invites Storm~",
       "img": "Ev15_1",
+      "type": "old"
+    },
+    "Ev16": {
+      "title": "Orca Date Contest",
+      "img": "Ev16_1",
       "type": "current"
     }
   },
