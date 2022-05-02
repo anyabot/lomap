@@ -435,6 +435,70 @@
               ]
             }
           ]
+        },
+        {
+          "grid": [5, 0],
+          "title": "EV1-1B",
+          "name": "EV1-1B",
+          "type": "B",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "NightChickS_TU5", "level": 50 },
+                { "index": "NightChick_TU6", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "NightChick_TU6", "level": 50 },
+                { "index": "NightChickC_TU5", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "NightChickS_TU5", "level": 50 },
+                { "index": "NightChick_TU6", "level": 50 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "", "level": 0 },
+                { "index": "NightChick_TU6", "level": 50 },
+                { "index": "NightChickM_TU6", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "NightChickM_TU6", "level": 50 },
+                { "index": "NightChickDE_TU6", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "NightChick_TU6", "level": 50 },
+                { "index": "NightChickM_TU6", "level": 50 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "NightChick_TU6", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "NightChickM_TU6", "level": 50 },
+                { "index": "NightChickC_TU5", "level": 50 },
+                { "index": "NightChick_TU6", "level": 50 },
+                { "index": "NightChickC_TU5", "level": 50 },
+                { "index": "NightChickM_TU6", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "NightChick_TU6", "level": 50 }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                { "index": "", "level": 0 },
+                { "index": "NightChickS_TU5", "level": 50 },
+                { "index": "NightChickM_TU6", "level": 50 },
+                { "index": "NightChickS_TU5", "level": 50 },
+                { "index": "NightChickC_TU5", "level": 50 },
+                { "index": "NightChick_TU6", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "NightChickS_TU5", "level": 50 },
+                { "index": "NightChickM_TU6", "level": 50 }
+              ]
+            }
+          ]
         }
       ]
     }
