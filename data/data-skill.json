@@ -3337,7 +3337,7 @@
     "img": "Shock",
     "range": 0,
     "AP": 0,
-    "description": "When unit is hit while effected by <strong>Wet</strong>, unit takes fixed damage equals to 350% ATK.<br>When unit is defeated while affected by <strong>Wet</strong>, deals Fixed Electric damage equals to 750% ATK to allies in range.<br>If the ally affected by this effect is affected by <strong>Wet</strong>, also inflicts <strong>Stunned</strong> for 1 round.",
+    "description": "When unit attacks while affected by <strong>Wet</strong>, unit takes fixed damage equals to 350% ATK.<br>When unit is defeated while affected by <strong>Wet</strong>, deals Fixed Electric damage equals to 750% ATK to allies in range.<br>If the ally affected by this effect is affected by <strong>Wet</strong>, also inflicts <strong>Stunned</strong> for 1 round.",
     "area": [8, 4, 5, 6, 2]
   },
   "Skill_MP_NightChickDEG_N_1": {
