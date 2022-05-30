@@ -37,8 +37,8 @@
     },
     "Ev6": {
       "title": "Choco Queen in Wonderland",
-      "img": "Ev6_1",
-      "type": "old"
+      "img": "Ev6",
+      "type": "permanent"
     },
     "Ev7": {
       "title": "Aria of the Elven Town",
@@ -88,6 +88,11 @@
     "Ev16": {
       "title": "Orca Date Contest",
       "img": "Ev16_1",
+      "type": "old"
+    },
+    "Ev17": {
+      "title": "Wolf's Fang of Fury",
+      "img": "Ev17_1",
       "type": "current"
     }
   },
