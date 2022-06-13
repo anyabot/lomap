@@ -467,6 +467,641 @@
           ]
         }
       ]
+    },
+    {
+      "title": "Wolf's Fang of Fury Zone 2",
+      "areatype": "grid",
+      "img": "Ev17_2",
+      "gridsize": [8, 3],
+      "newmap": true,
+      "stage": [
+        {
+          "grid": [0, 1],
+          "title": "EV2-1",
+          "name": "EV2-1",
+          "type": "Main",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "", "level": 0 },
+                { "index": "Legion_TU5", "level": 30 },
+                { "index": "NightChickMEX_TU2", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "Legion_TU5", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "Legion_TU5", "level": 30 },
+                { "index": "NightChickMEX_TU2", "level": 30 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "Legion_TU5", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "LegionSP_TU2", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "LegionEX_TU2", "level": 30 },
+                { "index": "Legion_TU5", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "LegionSP_TU2", "level": 30 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "Legion_TU5", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "Legion_TU5", "level": 30 },
+                { "index": "LegionMk2_TU", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "Legion_TU5", "level": 30 },
+                { "index": "LegionEX_TU2", "level": 30 },
+                { "index": "LegionSP_TU2", "level": 30 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [1, 1],
+          "title": "EV2-2",
+          "name": "EV2-2",
+          "type": "Story",
+          "wave": []
+        },
+        {
+          "grid": [2, 1],
+          "title": "EV2-3",
+          "name": "EV2-3",
+          "type": "Main",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "Scout_TU3", "level": 30 },
+                { "index": "Scout_TU3", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "HeavyScout_TU2", "level": 30 },
+                { "index": "Scout_TU3", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "Scout_TU3", "level": 30 },
+                { "index": "Scout_TU3", "level": 30 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "", "level": 0 },
+                { "index": "HeavyScout_TU2", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "HeavyScout_TU2", "level": 30 },
+                { "index": "NightChickDEAA_N", "level": 30 },
+                { "index": "HeavyScout_TU2", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "HeavyScout_TU2", "level": 30 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "HeavyScout_TU2", "level": 30 },
+                { "index": "WaspEX_TU2", "level": 30 },
+                { "index": "HeavyScout_TU2", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "NightChickDEAA_N", "level": 30 },
+                { "index": "HeavyScout_TU2", "level": 30 },
+                { "index": "WaspEX_TU2", "level": 30 },
+                { "index": "HeavyScout_TU2", "level": 30 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [3, 1],
+          "title": "EV2-4",
+          "name": "EV2-4",
+          "type": "Main",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "HarvesterEX_TU2", "level": 30 },
+                { "index": "BigChickC_N", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "FABigChickS_N", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "HarvesterEX_TU2", "level": 30 },
+                { "index": "BigChickC_N", "level": 30 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "", "level": 0 },
+                { "index": "BigChickS_TU", "level": 30 },
+                { "index": "BigChickC_N", "level": 30 },
+                { "index": "FABigChickS_N", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "BigChickS_TU", "level": 30 },
+                { "index": "BigChickC_N", "level": 30 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "FABigChickS_N", "level": 30 },
+                { "index": "BigChickS_TU", "level": 30 },
+                { "index": "BigChickC_N", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "FABigChickSEX_N", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "FABigChickS_N", "level": 30 },
+                { "index": "BigChickS_TU", "level": 30 },
+                { "index": "BigChickC_N", "level": 30 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [4, 1],
+          "title": "EV2-5",
+          "name": "EV2-5",
+          "type": "Story",
+          "wave": []
+        },
+        {
+          "grid": [5, 1],
+          "title": "EV2-6",
+          "name": "EV2-6",
+          "type": "Main",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "Legion_TU5", "level": 30 },
+                { "index": "LegionSP_TU2", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "Legion_TU5", "level": 30 },
+                { "index": "Centurion_N", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "Legion_TU5", "level": 30 },
+                { "index": "LegionSP_TU2", "level": 30 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "", "level": 0 },
+                { "index": "NightChickSv_N", "level": 30 },
+                { "index": "NightChickSP_TU6", "level": 30 },
+                { "index": "Legion_TU5", "level": 30 },
+                { "index": "Centurion_N", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "NightChickSv_N", "level": 30 },
+                { "index": "NightChickSP_TU6", "level": 30 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "NightChickSv_N", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "NightChickSP_TU6", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "Centurion_N", "level": 30 },
+                { "index": "NightChickSP_TU6", "level": 30 },
+                { "index": "NightChickSv_N", "level": 30 },
+                { "index": "", "level": 0 },
+                { "index": "NightChickSP_TU6", "level": 30 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [6, 1],
+          "title": "EV2-7",
+          "name": "EV2-7",
+          "type": "Main",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "Legion_TU5", "level": 30 },
+                { "index": "NightChick_TU2", "level": 30 },
+                { "index": "NightChick_TU2", "level": 30 },
+                { "index": "NightChick_TU2", "level": 30 },
+                { "index": "NightChickQM_N", "level": 30 },
+                { "index": "NightChick_TU2", "level": 30 },
+                { "index": "Legion_TU5", "level": 30 },
+                { "index": "NightChick_TU2", "level": 30 },
+                { "index": "NightChick_TU2", "level": 30 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "Scout_TU3", "level": 30 },
+                { "index": "WaspEX_TU2", "level": 30 },
+                { "index": "Scout_TU3", "level": 30 },
+                { "index": "WaspEX_TU2", "level": 30 },
+                { "index": "NightChickDEAA_N", "level": 30 },
+                { "index": "WaspEX_TU2", "level": 30 },
+                { "index": "Scout_TU3", "level": 30 },
+                { "index": "WaspEX_TU2", "level": 30 },
+                { "index": "Scout_TU3", "level": 30 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "HarvesterEX_TU", "level": 30 },
+                { "index": "Mammoth_TU", "level": 30 },
+                { "index": "NightChickC_TU4", "level": 30 },
+                { "index": "BigChick_TU2", "level": 30 },
+                { "index": "FABigChickSEX_N", "level": 30 },
+                { "index": "NightChickC_TU4", "level": 30 },
+                { "index": "HarvesterEX_TU", "level": 30 },
+                { "index": "Mammoth_TU", "level": 30 },
+                { "index": "NightChickC_TU4", "level": 30 }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                { "index": "LegionEX_TU2", "level": 30 },
+                { "index": "WaspEX_TU2", "level": 30 },
+                { "index": "Mammoth_TU", "level": 30 },
+                { "index": "BigChick_TU2", "level": 30 },
+                { "index": "CenturionG_TU", "level": 30 },
+                { "index": "NightChickDEG_TU", "level": 30 },
+                { "index": "LegionEX_TU2", "level": 30 },
+                { "index": "WaspEX_TU2", "level": 30 },
+                { "index": "Mammoth_TU", "level": 30 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [0, 2],
+          "title": "EV2-1Ex",
+          "name": "EV2-1Ex",
+          "type": "EX",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "Slasher_TU", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "Tarantula_TU4", "level": 60 },
+                { "index": "FABigChickSEX_TU2", "level": 60 },
+                { "index": "Slasher_TU", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "Tarantula_TU4", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "Slasher_TU", "level": 60 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "HarvesterEX_TU5", "level": 60 },
+                { "index": "Slasher_TU", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "Juggernaut_TU4", "level": 60 },
+                { "index": "NightChickDEX_TU2", "level": 60 },
+                { "index": "Slasher_TU", "level": 60 },
+                { "index": "HarvesterEX_TU5", "level": 60 },
+                { "index": "Slasher_TU", "level": 60 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "Juggernaut_TU4", "level": 60 },
+                { "index": "FABigChickEX_TU4", "level": 60 },
+                { "index": "Slasher_TU", "level": 60 },
+                { "index": "FABigChickEX_TU4", "level": 60 },
+                { "index": "SpeakerEx_TU2", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "Juggernaut_TU4", "level": 60 },
+                { "index": "FABigChickEX_TU4", "level": 60 },
+                { "index": "Slasher_TU", "level": 60 }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                { "index": "Tarantula_TU4", "level": 60 },
+                { "index": "Slasher_TU", "level": 60 },
+                { "index": "Slasher_TU", "level": 60 },
+                { "index": "FABigChickSEX_TU2", "level": 60 },
+                { "index": "NightChickDEX_TU2", "level": 60 },
+                { "index": "NightChickQMEX_N", "level": 60 },
+                { "index": "Tarantula_TU4", "level": 60 },
+                { "index": "Slasher_TU", "level": 60 },
+                { "index": "Slasher_TU", "level": 60 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [1, 2],
+          "title": "EV2-2Ex",
+          "name": "EV2-2Ex",
+          "type": "EX",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "WaspEX_N", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "LightningBomber_TU5", "level": 60 },
+                { "index": "ScoutEX_TU5", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "HeavyScout_TU5", "level": 60 },
+                { "index": "WaspEX_N", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "LightningBomber_TU5", "level": 60 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "LightningBomber_TU5", "level": 60 },
+                { "index": "LightningBomber_TU5", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "HeavyScout_TU5", "level": 60 },
+                { "index": "ScoutEX_TU5", "level": 60 },
+                { "index": "NightChickDEAA_TU2", "level": 60 },
+                { "index": "LightningBomber_TU5", "level": 60 },
+                { "index": "LightningBomber_TU5", "level": 60 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "LightningBomber_TU5", "level": 60 },
+                { "index": "NightChickC_EV8", "level": 60 },
+                { "index": "ScarabEX_EV2", "level": 60 },
+                { "index": "FABigChick_TU4", "level": 60 },
+                { "index": "Spector_TU2", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "ScarabEX_EV2", "level": 60 },
+                { "index": "NightChickC_EV8", "level": 60 },
+                { "index": "LightningBomber_TU5", "level": 60 }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                { "index": "BigChickEX_TU4", "level": 60 },
+                { "index": "ScarabH_TU2", "level": 60 },
+                { "index": "ScarabEX_EV2", "level": 60 },
+                { "index": "ScarabH_TU2", "level": 60 },
+                { "index": "ScarabEX_EV2", "level": 60 },
+                { "index": "BigChickCG_TU2", "level": 60 },
+                { "index": "BigChickEX_TU4", "level": 60 },
+                { "index": "ScarabH_TU2", "level": 60 },
+                { "index": "ScarabEX_EV2", "level": 60 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [2, 2],
+          "title": "EV2-3Ex",
+          "name": "EV2-3Ex",
+          "type": "EX",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "BigChickM_TU4", "level": 60 },
+                { "index": "NightChickAQ_TU4", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "Phalangites_TU5", "level": 60 },
+                { "index": "NightChickDEG_TU4", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "Centurion_TU7", "level": 60 },
+                { "index": "NightChickAQ_TU4", "level": 60 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "BigChickS_TU3", "level": 60 },
+                { "index": "LegionSP_TU4", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "Testudo_TU2", "level": 60 },
+                { "index": "LegionMk2_TU2", "level": 60 },
+                { "index": "Centurion_TU7", "level": 60 },
+                { "index": "BigChickS_TU3", "level": 60 },
+                { "index": "LegionSP_TU4", "level": 60 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "NightChickC_EV8", "level": 60 },
+                { "index": "Centurion_TU7", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "BigChickS_TU3", "level": 60 },
+                { "index": "LegionMk2_TU2", "level": 60 },
+                { "index": "Centurion_TU7", "level": 60 },
+                { "index": "NightChickC_EV8", "level": 60 },
+                { "index": "Centurion_TU7", "level": 60 },
+                { "index": "NightChickC_EV8", "level": 60 }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                { "index": "Phalangites_TU5", "level": 60 },
+                { "index": "LegionMk2_TU2", "level": 60 },
+                { "index": "CenturionCF_TU2", "level": 60 },
+                { "index": "Testudo_TU2", "level": 60 },
+                { "index": "PhalangitesH_TU3", "level": 60 },
+                { "index": "LegionMk2_TU2", "level": 60 },
+                { "index": "LegionMk2_TU2", "level": 60 },
+                { "index": "Phalangites_TU5", "level": 60 },
+                { "index": "Centurion_TU7", "level": 60 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [6, 2],
+          "title": "EV2-1C",
+          "name": "EV2-1C",
+          "type": "EX",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "HarvesterEX_EW", "level": 100 },
+                { "index": "Testudo_TU4", "level": 100 },
+                { "index": "Centurion_EV1", "level": 100 },
+                { "index": "JuggernautP_EV1", "level": 100 },
+                { "index": "NightChickQM_EV2", "level": 100 },
+                { "index": "BigChickCG_TU5", "level": 100 },
+                { "index": "HarvesterEX_EW", "level": 100 },
+                { "index": "BigChickMG_EV3", "level": 100 },
+                { "index": "Centurion_EV1", "level": 100 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "BigChickCG_TU5", "level": 100 },
+                { "index": "ScarabH_TU5", "level": 100 },
+                { "index": "Mammoth_EW", "level": 100 },
+                { "index": "Slasher_TU5", "level": 100 },
+                { "index": "SpectorMS_EW2", "level": 100 },
+                { "index": "Slasher_TU5", "level": 100 },
+                { "index": "BigChickCG_TU5", "level": 100 },
+                { "index": "ScarabH_TU5", "level": 100 },
+                { "index": "Mammoth_EW", "level": 100 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "Tortoise_TU4", "level": 100 },
+                { "index": "FABigChickEX_N", "level": 100 },
+                { "index": "LegionSP_TU5", "level": 100 },
+                { "index": "PhalangitesH_TU5", "level": 100 },
+                { "index": "NightChickDE_EV1", "level": 100 },
+                { "index": "NightChickQMEX_TU2", "level": 100 },
+                { "index": "Tortoise_TU4", "level": 100 },
+                { "index": "FABigChickEX_N", "level": 100 },
+                { "index": "LegionSP_TU5", "level": 100 }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                { "index": "CenturionCF_TU5", "level": 100 },
+                { "index": "JuggernautP_EV1", "level": 100 },
+                { "index": "SpeakerEx_TU5", "level": 100 },
+                { "index": "LegionMk2_TU4", "level": 100 },
+                { "index": "CenturionG_TU4", "level": 100 },
+                { "index": "SpectorMS_EW2", "level": 100 },
+                { "index": "ScarabH_TU5", "level": 100 },
+                { "index": "Testudo_TU4", "level": 100 },
+                { "index": "CenturionCF_TU5", "level": 100 }
+              ]
+            },
+            {
+              "title": "wave5",
+              "enemylist": [
+                { "index": "PhalangitesH_TU5", "level": 100 },
+                { "index": "SpectorBS_N", "level": 100 },
+                { "index": "ScoutAK_TU5", "level": 100 },
+                { "index": "LegionMk2_TU4", "level": 100 },
+                { "index": "EmperorChick_EW", "level": 100 },
+                { "index": "LegionMk2_TU4", "level": 100 },
+                { "index": "LightningBomberEX_TU5", "level": 100 },
+                { "index": "SpectorBS_N", "level": 100 },
+                { "index": "BigChickCG_TU5", "level": 100 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [7, 2],
+          "title": "EV2-2C",
+          "name": "EV2-2C",
+          "type": "EX",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "Tortoise_TU4", "level": 100 },
+                { "index": "NightChickCMS_N", "level": 100 },
+                { "index": "BigChickCG_TU5", "level": 100 },
+                { "index": "Tortoise_TU4", "level": 100 },
+                { "index": "NightChickCMP_EV2", "level": 100 },
+                { "index": "BigChickCG_TU5", "level": 100 },
+                { "index": "Tortoise_TU4", "level": 100 },
+                { "index": "NightChickCMS_N", "level": 100 },
+                { "index": "BigChickCG_TU5", "level": 100 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "CenturionCF_TU5", "level": 100 },
+                { "index": "NightChickDEG_N", "level": 100 },
+                { "index": "NightChickDEX_TU4", "level": 100 },
+                { "index": "Testudo_TU4", "level": 100 },
+                { "index": "SpectorMS_N", "level": 100 },
+                { "index": "SpectorBS_N", "level": 100 },
+                { "index": "FABigChickSEX_TU5", "level": 100 },
+                { "index": "FABigChickSEX_TU5", "level": 100 },
+                { "index": "NightChickCMP_EV2", "level": 100 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "NightChickCMP_EV2", "level": 100 },
+                { "index": "NightChickQMSK_TU5", "level": 100 },
+                { "index": "Centurion_EV1", "level": 100 },
+                { "index": "ScoutAK_TU5", "level": 100 },
+                { "index": "JuggernautP_EV1", "level": 100 },
+                { "index": "LegionMk2_TU4", "level": 100 },
+                { "index": "Centurion_EV1", "level": 100 },
+                { "index": "JuggernautP_EV1", "level": 100 },
+                { "index": "Slasher_TU5", "level": 100 }
+              ]
+            },
+            {
+              "title": "wave4",
+              "enemylist": [
+                { "index": "NightChickSPW_TU4", "level": 100 },
+                { "index": "NightChickDEAA_TU4", "level": 100 },
+                { "index": "MammothW_TU4", "level": 100 },
+                { "index": "ChillerEX_TU4", "level": 100 },
+                { "index": "Frostbite_TU4", "level": 100 },
+                { "index": "NightChickAQG_TU4", "level": 100 },
+                { "index": "NightChickSPW_TU4", "level": 100 },
+                { "index": "NightChickDEG_N", "level": 100 },
+                { "index": "MammothW_TU4", "level": 100 }
+              ]
+            },
+            {
+              "title": "wave5",
+              "enemylist": [
+                { "index": "NightChickSpCH_N", "level": 100 },
+                { "index": "CenturionCF_TU5", "level": 100 },
+                { "index": "NightChickQMSK_TU5", "level": 100 },
+                { "index": "NightChickSpCH_N", "level": 100 },
+                { "index": "EmperorChickSpCH_N", "level": 100 },
+                { "index": "NightChickDE_EV1", "level": 100 },
+                { "index": "NightChickSpCH_N", "level": 100 },
+                { "index": "CenturionEX_TU5", "level": 100 },
+                { "index": "SpeakerEx_TU5", "level": 100 }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
