@@ -11820,5 +11820,295 @@
     "AP": 0,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
     "description": "전투 개시 시, 자신은 해제 불가능한 전투 속행 효과를 획득합니다.\n전투 불능 시, <sec typ=\"note\">토즉참</sec> 효과를 지닌 적 개체가 존재할 경우 전투 속행 효과를 다시 획득합니다.\n전투 속행 시, 4라운드 동안 자신의 회피가 대폭 증가하고, 회피에 비례한 스킬 위력 증가 효과를 획득합니다.\n\n…나는 일기장에서 실로 놀라운 설정들을 더 발견했지만, 여백이 부족하여 적지 않겠다."
+  },
+  "Skill_MP_Redhood_N_1": {
+    "title": "askill1",
+    "name": "Quadruple Machinegun",
+    "type": "active",
+    "img": ["MGShot"],
+    "range": 3,
+    "AP": 6,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": ""
+  },
+  "Skill_MP_Redhood_N_2": {
+    "title": "askill2",
+    "name": "Follow Me!",
+    "type": "active",
+    "img": ["MGWideshot"],
+    "range": 4,
+    "AP": 8,
+    "area": ["0", "1", "0", "0", "1", "0", "0", "1", "0"],
+    "description": ""
+  },
+  "Skill_MP_Redhood_N_3": {
+    "title": "askill3",
+    "name": "Not a Step Back!",
+    "type": "passive",
+    "img": ["TeamAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "1", "0", "0", "1", "0", "0", "1"],
+    "description": ""
+  },
+  "Skill_MP_Redhood_N_4": {
+    "title": "askill4",
+    "name": "No Retreat!",
+    "type": "passive",
+    "img": ["SelfAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": ""
+  },
+  "Skill_MP_Marie_N_1": {
+    "title": "askill1",
+    "name": "Pin Laser Fire",
+    "type": "active",
+    "img": ["Particle"],
+    "range": 3,
+    "AP": 4,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": ""
+  },
+  "Skill_MP_Marie_N_2": {
+    "title": "askill2",
+    "name": "Marne's Bombardment",
+    "type": "active",
+    "img": ["WideParticle"],
+    "range": 4,
+    "AP": 10,
+    "area": ["1", "1", "1", "1", "1", "1", "1", "1", "1"],
+    "description": ""
+  },
+  "Skill_MP_Marie_N_3": {
+    "title": "askill3",
+    "name": "Élan vital",
+    "type": "passive",
+    "img": ["SelfDefBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": ""
+  },
+  "Skill_MP_Marie_N_4": {
+    "title": "askill4",
+    "name": "Anti-Air Command",
+    "type": "passive",
+    "img": ["Command"],
+    "range": 0,
+    "AP": 0,
+    "area": ["F>", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
+    "description": ""
+  },
+  "Skill_MP_Marie_N_5": {
+    "title": "askill5",
+    "name": "Fire Net Building",
+    "type": "passive",
+    "img": ["Particle"],
+    "range": 0,
+    "AP": 0,
+    "area": ["F>", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
+    "description": ""
+  },
+  "Skill_MP_Impet_N_1": {
+    "title": "askill1",
+    "name": "Anti-Armor Rocket",
+    "type": "active",
+    "img": ["AntiArmorShot"],
+    "range": 3,
+    "AP": 7,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": ""
+  },
+  "Skill_MP_Impet_N_2": {
+    "title": "askill2",
+    "name": "Mk8 Thermobaric Bomb",
+    "type": "active",
+    "img": ["Missile"],
+    "range": 3,
+    "AP": 6,
+    "area": ["0", "0", "0", "0", "1", "0.5", "0", "0", "0"],
+    "description": ""
+  },
+  "Skill_MP_Impet_N_3": {
+    "title": "askill3",
+    "name": "Self-made EFP Warhead",
+    "type": "passive",
+    "img": ["Missile"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": ""
+  },
+  "Skill_MP_Impet_N_4": {
+    "title": "askill4",
+    "name": "Steel Line's Determination",
+    "type": "passive",
+    "img": ["TeamAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["F>", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
+    "description": ""
+  },
+  "Skill_MP_Brownie_N_1": {
+    "title": "askill1",
+    "name": "Holding Attack",
+    "type": "active",
+    "img": ["ARShot"],
+    "range": 3,
+    "AP": 4,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": ""
+  },
+  "Skill_MP_Brownie_N_2": {
+    "title": "askill2",
+    "name": "Aimed Fire",
+    "type": "active",
+    "img": ["Shot"],
+    "range": 4,
+    "AP": 6,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": ""
+  },
+  "Skill_MP_Brownie_N_3": {
+    "title": "askill3",
+    "name": "Charging In, Sir!",
+    "type": "passive",
+    "img": ["TeamAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["F>", "0", "0", "1", "0", "0", "1", "0", "0", "1"],
+    "description": ""
+  },
+  "Skill_MP_Leprechaun_N_1": {
+    "title": "askill1",
+    "name": "Light-Machine Gun",
+    "type": "active",
+    "img": ["MGShot"],
+    "range": 4,
+    "AP": 4,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": ""
+  },
+  "Skill_MP_Leprechaun_N_2": {
+    "title": "askill2",
+    "name": "Light-Machine Gun Barrage",
+    "type": "active",
+    "img": ["MGWideShot"],
+    "range": 4,
+    "AP": 8,
+    "area": ["0", "1", "0", "0", "1", "0", "0", "1", "0"],
+    "description": ""
+  },
+  "Skill_MP_Leprechaun_N_3": {
+    "title": "askill3",
+    "name": "Frontline Reorganization",
+    "type": "passive",
+    "img": ["TeamAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["F>", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
+    "description": ""
+  },
+  "Skill_MP_Leprechaun_N_4": {
+    "title": "askill4",
+    "name": "Bullet Curtain",
+    "type": "passive",
+    "img": ["SelfAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": ""
+  },
+  "Skill_MP_Leprechaun_N_5": {
+    "title": "askill5",
+    "name": "Pin-Point Focused Firing",
+    "type": "passive",
+    "img": ["SelfAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": ""
+  },
+  "Skill_MP_Gnome_N_1": {
+    "title": "askill1",
+    "name": "Support Fire",
+    "type": "active",
+    "img": ["ARShot"],
+    "range": 4,
+    "AP": 4,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": ""
+  },
+  "Skill_MP_Gnome_N_2": {
+    "title": "askill2",
+    "name": "Deploy Defensive Wall",
+    "type": "active",
+    "img": ["SelfDefBuff"],
+    "range": 0,
+    "AP": 8,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": ""
+  },
+  "Skill_MP_Gnome_N_3": {
+    "title": "askill3",
+    "name": "Steel Line Formation",
+    "type": "passive",
+    "img": ["TeamDefBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["1", "1", "1", "1", "1", "1", "1", "1", "1"],
+    "description": ""
+  },
+  "Skill_MP_Efreeti_N_1": {
+    "title": "askill1",
+    "name": "140mm HE",
+    "type": "active",
+    "img": ["CannonShot"],
+    "range": 5,
+    "AP": 8,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": ""
+  },
+  "Skill_MP_Efreeti_N_2": {
+    "title": "askill2",
+    "name": "Artillery Shelling",
+    "type": "active",
+    "img": ["CannonShotDelay"],
+    "range": 6,
+    "AP": 10,
+    "area": ["0", "0.75", "0", "0.75", "1", "0.75", "0", "0.75", "0"],
+    "description": ""
+  },
+  "Skill_MP_Efreeti_N_3": {
+    "title": "askill3",
+    "name": "Shoot Flare",
+    "type": "passive",
+    "img": ["TeamAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["F>", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
+    "description": ""
+  },
+  "Skill_MP_Efreeti_N_4": {
+    "title": "askill4",
+    "name": "Rifle-Mounted Mortar",
+    "type": "passive",
+    "img": ["SelfAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": ""
+  },
+  "Skill_MP_Efreeti_N_5": {
+    "title": "askill5",
+    "name": "Leave Me Alone...",
+    "type": "passive",
+    "img": ["SelfSpdBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["4>", "0", "1", "1", "1", "1", "1", "0", "1", "1"],
+    "description": ""
   }
 }
