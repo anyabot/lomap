@@ -93,6 +93,12 @@
     "Ev17": {
       "title": "Wolf's Fang of Fury",
       "img": "Ev17_1",
+      "type": "old"
+    }
+    ,
+    "Ev18": {
+      "title": "The Water Park on which the Sun Never Sets",
+      "img": "Ev18_1",
       "type": "current"
     }
   },

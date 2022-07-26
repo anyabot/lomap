@@ -1,0 +1,536 @@
+{
+  "title": "The Water Park on which the Sun Never Sets",
+  "img": "Ev18_1",
+  "type": "old",
+  "zones": [
+    {
+      "title": "The Water Park on which the Sun Never Sets Zone 1",
+      "areatype": "grid",
+      "img": "Ev18_1",
+      "gridsize": [10, 3],
+      "newmap": true,
+      "stage": [
+        {
+          "grid": [0, 1],
+          "title": "EV1-1",
+          "name": "EV1-1",
+          "type": "Story",
+          "wave": []
+        },
+        {
+          "grid": [1, 1],
+          "title": "EV1-2",
+          "name": "EV1-2",
+          "type": "Story",
+          "wave": []
+        },
+        {
+          "grid": [2, 1],
+          "title": "EV1-3",
+          "name": "EV1-3",
+          "type": "Story",
+          "wave": []
+        },
+        {
+          "grid": [3, 1],
+          "title": "EV1-4",
+          "name": "EV1-4",
+          "type": "Story",
+          "wave": []
+        },
+        {
+          "grid": [4, 1],
+          "title": "EV1-5",
+          "name": "EV1-5",
+          "type": "Story",
+          "wave": []
+        },
+        {
+          "grid": [5, 1],
+          "title": "EV1-6",
+          "name": "EV1-6",
+          "type": "Story",
+          "wave": []
+        },
+        {
+          "grid": [6, 1],
+          "title": "EV1-7",
+          "name": "EV1-7",
+          "type": "Story",
+          "wave": []
+        },
+        {
+          "grid": [7, 1],
+          "title": "EV1-8",
+          "name": "EV1-8",
+          "type": "Story",
+          "wave": []
+        },
+        {
+          "grid": [8, 1],
+          "title": "EV1-9",
+          "name": "EV1-9",
+          "type": "Story",
+          "wave": []
+        },
+        {
+          "grid": [9, 1],
+          "title": "EV1-10",
+          "name": "EV1-10",
+          "type": "Story",
+          "wave": []
+        },
+        {
+          "grid": [5, 0],
+          "title": "EV1-1B",
+          "name": "EV1-1B",
+          "type": "B",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "NightChickS_TU4", "level": 40 },
+                { "index": "FABigChick_TU3", "level": 40 },
+                { "index": "", "level": 0 },
+                { "index": "NightChickS_TU4", "level": 40 },
+                { "index": "FABigChick_TU3", "level": 40 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "FABigChick_TU3", "level": 40 },
+                { "index": "", "level": 0 },
+                { "index": "BigChickC_N", "level": 40 },
+                { "index": "", "level": 0 },
+                { "index": "BigChickS_TU", "level": 40 },
+                { "index": "", "level": 0 },
+                { "index": "FABigChick_TU3", "level": 40 },
+                { "index": "", "level": 0 },
+                { "index": "BigChickC_N", "level": 40 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "", "level": 0 },
+                { "index": "FABigChick_TU3", "level": 40 },
+                { "index": "", "level": 0 },
+                { "index": "FABigChickS_N", "level": 40 },
+                { "index": "", "level": 0 },
+                { "index": "BigChickC_N", "level": 40 },
+                { "index": "", "level": 0 },
+                { "index": "FABigChick_TU3", "level": 40 },
+                { "index": "", "level": 0 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [5, 0],
+          "title": "EV1-2B",
+          "name": "EV1-2B",
+          "type": "B",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "ProgramMobTT_TU2", "level": 40 },
+                { "index": "ProgramMobTS_TU2", "level": 40 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobTS_TU2", "level": 40 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobTS_TU2", "level": 40 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "ProgramMobTT_TU2", "level": 40 },
+                { "index": "ProgramMobAS_TU2", "level": 40 },
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobTT_TU2", "level": 40 },
+                { "index": "ProgramMobTS_TU2", "level": 40 },
+                { "index": "ProgramMobAS_TU2", "level": 40 },
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobAS_TU2", "level": 40 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobAS_TU2", "level": 40 },
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobTT_TU2", "level": 40 },
+                { "index": "ProgramMobTS_TU2", "level": 40 },
+                { "index": "ProgramMobTN_TU2", "level": 40 },
+                { "index": "ProgramMobTT_TU2", "level": 40 },
+                { "index": "ProgramMobAS_TU2", "level": 40 },
+                { "index": "", "level": 0 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [6, 0],
+          "title": "EV1-3B",
+          "name": "EV1-3B",
+          "type": "B",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "WaspEX_TU4", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "WaspEX_TU4", "level": 50 },
+                { "index": "ScoutAK_N", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "WaspEX_TU4", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "ScarabH_TU", "level": 50 },
+                { "index": "Speaker_TU2", "level": 50 },
+                { "index": "NightChickTD_TU3", "level": 50 },
+                { "index": "ScarabH_TU", "level": 50 },
+                { "index": "ScoutAK_N", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "", "level": 0 },
+                { "index": "NightChickTD_TU3", "level": 50 },
+                { "index": "Slasher_TU", "level": 50 },
+                { "index": "ScarabH_TU", "level": 50 },
+                { "index": "NightChickTD_TU3", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "ScarabH_TU", "level": 50 },
+                { "index": "ScoutAK_N", "level": 50 },
+                { "index": "", "level": 0 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [7, 0],
+          "title": "EV1-4B",
+          "name": "EV1-4B",
+          "type": "B",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "ProgramMobMN_TU2", "level": 50 },
+                { "index": "ProgramMobMS_TU2", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobMN_TU2", "level": 50 },
+                { "index": "ProgramMobMT_TU2", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobMS_TU2", "level": 50 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "ProgramMobMN_TU2", "level": 50 },
+                { "index": "ProgramMobMT_TU2", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobMN_TU2", "level": 50 },
+                { "index": "ProgramMobMN_TU2", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobMN_TU2", "level": 50 },
+                { "index": "ProgramMobMT_TU2", "level": 50 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "ProgramMobMN_TU2", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobTN_TU2", "level": 50 },
+                { "index": "ProgramMobMN_TU2", "level": 50 },
+                { "index": "ProgramMobMT_TU2", "level": 50 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobMS_TU2", "level": 50 },
+                { "index": "ProgramMobMS_TU2", "level": 50 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [8, 0],
+          "title": "EV1-5B",
+          "name": "EV1-5B",
+          "type": "B",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "FABigChick_TU3", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "Juggernaut_TU", "level": 60 },
+                { "index": "NightChickQM_TU2", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "FABigChick_TU3", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "FABigChick_TU3", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "BigChickM_N", "level": 60 },
+                { "index": "FABigChickSEX_N", "level": 60 },
+                { "index": "NightChickQM_TU2", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "FABigChick_TU3", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "BigChickM_N", "level": 60 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "Juggernaut_TU", "level": 60 },
+                { "index": "FABigChick_TU3", "level": 60 },
+                { "index": "BigChickM_N", "level": 60 },
+                { "index": "FABigChickSEX_N", "level": 60 },
+                { "index": "FABigChick_TU3", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "Juggernaut_TU", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [9, 0],
+          "title": "EV1-6B",
+          "name": "EV1-6B",
+          "type": "B",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "ProgramMobTS_TU2", "level": 60 },
+                { "index": "ProgramMobAN_TU2", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobAT_N", "level": 60 },
+                { "index": "ProgramMobAS_TU2", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobTS_TU2", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "ProgramMobMN_TU2", "level": 60 },
+                { "index": "ProgramMobAN_TU2", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobAT_N", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobAT_N", "level": 60 },
+                { "index": "ProgramMobAN_TU2", "level": 60 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "ProgramMobAT_N", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobAN_TU2", "level": 60 },
+                { "index": "ProgramMobTT_TU2", "level": 60 },
+                { "index": "ProgramMobAT_N", "level": 60 },
+                { "index": "ProgramMobTN_TU2", "level": 60 },
+                { "index": "", "level": 0 },
+                { "index": "ProgramMobTT_TU2", "level": 60 },
+                { "index": "ProgramMobAN_TU2", "level": 60 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [1, 2],
+          "title": "EV1-1Ex",
+          "name": "EV1-1Ex",
+          "type": "EX",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "Juggernaut_N", "level": 80 },
+                { "index": "Centurion_N", "level": 80 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "CenturionEX_N", "level": 80 },
+                { "index": "", "level": 0 },
+                { "index": "Juggernaut_N", "level": 80 },
+                { "index": "Centurion_N", "level": 80 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "FABigChickEX_TU", "level": 80 },
+                { "index": "Testudo_TU", "level": 80 },
+                { "index": "", "level": 0 },
+                { "index": "FABigChickSEX_TU2", "level": 80 },
+                { "index": "CenturionEX_N", "level": 80 },
+                { "index": "Slasher_N", "level": 80 },
+                { "index": "Juggernaut_N", "level": 80 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "FABigChickEX_TU", "level": 80 },
+                { "index": "Slasher_N", "level": 80 },
+                { "index": "", "level": 0 },
+                { "index": "FABigChickEX_TU", "level": 80 },
+                { "index": "CenturionEX_N", "level": 80 },
+                { "index": "Slasher_N", "level": 80 },
+                { "index": "Testudo_TU", "level": 80 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [2, 2],
+          "title": "EV1-2Ex",
+          "name": "EV1-2Ex",
+          "type": "EX",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "NightChickSv_TU", "level": 80 },
+                { "index": "NightChickCSv_TU", "level": 80 },
+                { "index": "", "level": 0 },
+                { "index": "NightChickShSv_TU2", "level": 80 },
+                { "index": "NightChickAQ_TU2", "level": 80 },
+                { "index": "NightChickCMSv_TU2", "level": 80 },
+                { "index": "NightChickSv_TU", "level": 80 },
+                { "index": "NightChickCSv_TU", "level": 80 },
+                { "index": "", "level": 0 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "", "level": 0 },
+                { "index": "NightChickTD_TU3", "level": 80 },
+                { "index": "NightChickCSv_TU", "level": 80 },
+                { "index": "NightChickShSv_TU2", "level": 80 },
+                { "index": "NightChickAQ_TU2", "level": 80 },
+                { "index": "NightChickCMSv_TU2", "level": 80 },
+                { "index": "", "level": 0 },
+                { "index": "NightChickTD_TU3", "level": 80 },
+                { "index": "NightChickCSv_TU", "level": 80 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "NightChickTD_TU3", "level": 80 },
+                { "index": "", "level": 0 },
+                { "index": "BigChickCG_TU", "level": 80 },
+                { "index": "NightChickTD_TU3", "level": 80 },
+                { "index": "NightChickQM_TU2", "level": 80 },
+                { "index": "NightChickCSv_TU", "level": 80 },
+                { "index": "NightChickSv_TU", "level": 80 },
+                { "index": "", "level": 0 },
+                { "index": "BigChickCG_TU", "level": 80 }
+              ]
+            }
+          ]
+        },
+        {
+          "grid": [3, 2],
+          "title": "EV1-3Ex",
+          "name": "EV1-3Ex",
+          "type": "EX",
+          "wave": [
+            {
+              "title": "wave1",
+              "enemylist": [
+                { "index": "Testudo_TU", "level": 80 },
+                { "index": "", "level": 0 },
+                { "index": "NightChickSPW_TU2", "level": 80 },
+                { "index": "Frostbite_N", "level": 80 },
+                { "index": "FABigChickSEX_TU2", "level": 80 },
+                { "index": "FridgerShell_N", "level": 80 },
+                { "index": "", "level": 0 },
+                { "index": "FridgerShooter_N", "level": 80 },
+                { "index": "NightChickSPW_TU2", "level": 80 }
+              ]
+            },
+            {
+              "title": "wave2",
+              "enemylist": [
+                { "index": "Frostbite_N", "level": 80 },
+                { "index": "MammothW_N", "level": 80 },
+                { "index": "", "level": 0 },
+                { "index": "FABigChickSEX_TU2", "level": 80 },
+                { "index": "NightChickCMP_EV1", "level": 80 },
+                { "index": "Frostbite_N", "level": 80 },
+                { "index": "", "level": 0 },
+                { "index": "MammothW_N", "level": 80 },
+                { "index": "FridgerShooter_N", "level": 80 }
+              ]
+            },
+            {
+              "title": "wave3",
+              "enemylist": [
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "NightChickCMP_EV1", "level": 80 },
+                { "index": "Frostbite_N", "level": 80 },
+                { "index": "Raider_B04", "level": 80 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "", "level": 0 },
+                { "index": "NightChickCMP_EV1", "level": 80 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
