@@ -7434,7 +7434,7 @@
     "used": { "Ev2": [[3, "Ev3-8"]] }
   },
   "Testudo_TU": {
-    "name": "Death Tuto",
+    "name": "Testudo",
     "img": "Testudo",
     "type": "Light",
     "role": "Defender",
@@ -7449,7 +7449,7 @@
     }
   },
   "Testudo_TU2": {
-    "name": "Death Tuto",
+    "name": "Testudo",
     "img": "Testudo",
     "type": "Light",
     "role": "Defender",
@@ -7479,7 +7479,7 @@
     }
   },
   "Testudo_TU3": {
-    "name": "Death Tuto",
+    "name": "Testudo",
     "img": "Testudo",
     "type": "Light",
     "role": "Defender",
@@ -7498,7 +7498,7 @@
     }
   },
   "Testudo_TU4": {
-    "name": "Death Tuto",
+    "name": "Testudo",
     "img": "Testudo",
     "type": "Light",
     "role": "Defender",
@@ -8510,7 +8510,7 @@
     }
   },
   "Testudo_N": {
-    "name": "Death Tuto",
+    "name": "Testudo",
     "img": "Testudo",
     "type": "Light",
     "role": "Defender",
@@ -11565,7 +11565,7 @@
     "used": { "Story1": [[8, "8-8"]] }
   },
   "FridgerHead_N": {
-    "name": "Freezer Head",
+    "name": "Fridger Head",
     "img": "FridgerHead",
     "type": "Light",
     "role": "Supporter",
@@ -11580,7 +11580,7 @@
     }
   },
   "FridgerHead_TU": {
-    "name": "Freezer Head",
+    "name": "Fridger Head",
     "img": "FridgerHead",
     "type": "Light",
     "role": "Supporter",
@@ -11588,7 +11588,7 @@
     "used": { "Ev14": [[1, "EV1-2Ex"]], "Ev16": [[1, "EV1-4Ex"]] }
   },
   "FridgerHead_TU2": {
-    "name": "Freezer Head",
+    "name": "Fridger Head",
     "img": "FridgerHead",
     "type": "Light",
     "role": "Supporter",
@@ -11596,7 +11596,7 @@
     "used": { "Ev14": [[2, "EV2-3Ex"]] }
   },
   "FridgerHead_TU3": {
-    "name": "Freezer Head",
+    "name": "Fridger Head",
     "img": "FridgerHead",
     "type": "Light",
     "role": "Supporter",
@@ -11613,7 +11613,7 @@
     }
   },
   "FridgerHead_TU4": {
-    "name": "Freezer Head",
+    "name": "Fridger Head",
     "img": "FridgerHead",
     "type": "Light",
     "role": "Supporter",
@@ -11621,7 +11621,7 @@
     "used": {}
   },
   "FridgerHead_TU5": {
-    "name": "Freezer Head",
+    "name": "Fridger Head",
     "img": "FridgerHead",
     "type": "Light",
     "role": "Supporter",
@@ -11629,7 +11629,7 @@
     "used": {}
   },
   "FridgerShooter_N": {
-    "name": "Freezer Shooter",
+    "name": "Fridger Shooter",
     "img": "FridgerShooter",
     "type": "Light",
     "role": "Supporter",
@@ -11648,7 +11648,7 @@
     }
   },
   "FridgerShooter_TU": {
-    "name": "Freezer Shooter",
+    "name": "Fridger Shooter",
     "img": "FridgerShooter",
     "type": "Light",
     "role": "Supporter",
@@ -11656,7 +11656,7 @@
     "used": { "Ev14": [[1, "EV1-2Ex"]], "Ev16": [[1, "EV1-4Ex"]] }
   },
   "FridgerShooter_TU2": {
-    "name": "Freezer Shooter",
+    "name": "Fridger Shooter",
     "img": "FridgerShooter",
     "type": "Light",
     "role": "Supporter",
@@ -11664,7 +11664,7 @@
     "used": { "Ev14": [[2, "EV2-3Ex"]] }
   },
   "FridgerShooter_TU3": {
-    "name": "Freezer Shooter",
+    "name": "Fridger Shooter",
     "img": "FridgerShooter",
     "type": "Light",
     "role": "Supporter",
@@ -11681,7 +11681,7 @@
     }
   },
   "FridgerShooter_TU4": {
-    "name": "Freezer Shooter",
+    "name": "Fridger Shooter",
     "img": "FridgerShooter",
     "type": "Light",
     "role": "Supporter",
@@ -11689,7 +11689,7 @@
     "used": {}
   },
   "FridgerShooter_TU5": {
-    "name": "Freezer Shooter",
+    "name": "Fridger Shooter",
     "img": "FridgerShooter",
     "type": "Light",
     "role": "Supporter",
@@ -11697,7 +11697,7 @@
     "used": {}
   },
   "FridgerShell_N": {
-    "name": "Freezer Shell",
+    "name": "Fridger Shell",
     "img": "FridgerShell",
     "type": "Light",
     "role": "Attacker",
@@ -11716,7 +11716,7 @@
     }
   },
   "FridgerShell_TU": {
-    "name": "Freezer Shell",
+    "name": "Fridger Shell",
     "img": "FridgerShell",
     "type": "Light",
     "role": "Attacker",
@@ -11724,7 +11724,7 @@
     "used": { "Ev14": [[1, "EV1-2Ex"]], "Ev16": [[1, "EV1-4Ex"]] }
   },
   "FridgerShell_TU2": {
-    "name": "Freezer Shell",
+    "name": "Fridger Shell",
     "img": "FridgerShell",
     "type": "Light",
     "role": "Attacker",
@@ -11732,7 +11732,7 @@
     "used": { "Ev14": [[2, "EV2-3Ex"]] }
   },
   "FridgerShell_TU3": {
-    "name": "Freezer Shell",
+    "name": "Fridger Shell",
     "img": "FridgerShell",
     "type": "Light",
     "role": "Attacker",
@@ -11749,7 +11749,7 @@
     }
   },
   "FridgerShell_TU4": {
-    "name": "Freezer Shell",
+    "name": "Fridger Shell",
     "img": "FridgerShell",
     "type": "Light",
     "role": "Attacker",
@@ -11757,7 +11757,7 @@
     "used": {}
   },
   "FridgerShell_TU5": {
-    "name": "Freezer Shell",
+    "name": "Fridger Shell",
     "img": "FridgerShell",
     "type": "Light",
     "role": "Attacker",
@@ -11765,7 +11765,7 @@
     "used": {}
   },
   "FryerHead_N": {
-    "name": "Freezer Head",
+    "name": "Fridger Head",
     "img": "FryerHead",
     "type": "Light",
     "role": "Supporter",
@@ -11773,7 +11773,7 @@
     "used": {}
   },
   "FryerHead_TU": {
-    "name": "Freezer Head",
+    "name": "Fridger Head",
     "img": "FryerHead",
     "type": "Light",
     "role": "Supporter",
@@ -11781,7 +11781,7 @@
     "used": {}
   },
   "FryerHead_TU2": {
-    "name": "Freezer Head",
+    "name": "Fridger Head",
     "img": "FryerHead",
     "type": "Light",
     "role": "Supporter",
@@ -11789,7 +11789,7 @@
     "used": {}
   },
   "FryerHead_TU3": {
-    "name": "Freezer Head",
+    "name": "Fridger Head",
     "img": "FryerHead",
     "type": "Light",
     "role": "Supporter",
@@ -11803,7 +11803,7 @@
     }
   },
   "FryerHead_TU4": {
-    "name": "Freezer Head",
+    "name": "Fridger Head",
     "img": "FryerHead",
     "type": "Light",
     "role": "Supporter",
@@ -11811,7 +11811,7 @@
     "used": {}
   },
   "FryerHead_TU5": {
-    "name": "Freezer Head",
+    "name": "Fridger Head",
     "img": "FryerHead",
     "type": "Light",
     "role": "Supporter",
@@ -13876,7 +13876,7 @@
   },
   "Redhood_N": {
     "name": "C-77 Red Hood",
-    "img": "RedHood",
+    "img": "Redhood",
     "type": "Flying",
     "role": "Attacker",
     "rank": "SS",
