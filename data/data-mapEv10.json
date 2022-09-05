@@ -1151,7 +1151,7 @@
                   "level": 0
                 },
                 {
-                  "index": "FryerShooter_Ev_1",
+                  "index": "FryerShooter_TU3",
                   "level": 60
                 },
                 {
@@ -1180,7 +1180,7 @@
               "title": "wave3",
               "enemylist": [
                 {
-                  "index": "FryerShooter_Ev_1",
+                  "index": "FryerShooter_TU3",
                   "level": 60
                 },
                 {
