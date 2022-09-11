@@ -58,7 +58,7 @@
     "Ev10": {
       "title": "Somebody's Wish",
       "img": "Ev10_1",
-      "type": "old"
+      "type": "current"
     },
     "Ev11": {
       "title": "Project ORCA, Starlit Night Stage",
@@ -99,7 +99,7 @@
     "Ev18": {
       "title": "The Water Park on which the Sun Never Sets",
       "img": "Ev18_1",
-      "type": "current"
+      "type": "old"
     }
   },
   "others": {
