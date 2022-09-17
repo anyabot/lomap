@@ -5904,7 +5904,7 @@
     "img": "MeleeAttack",
     "range": 8,
     "AP": 3,
-    "description": "Deals $(1) damage to a single target.<br>Additional DMG +30% and inflicts DEF -20% for 9 rounds to targets affected by <strong>Marked</strong>.<br>These effects are unremovable.",
+    "description": "Deals $(1) damage to a single target.<br>Additional DMG +30% and inflicts DEF -20% for 9 rounds to targets affected by <strong>Marked</strong>.",
     "area": [5]
   },
   "Skill_MP_UnderWatcherArm_EW_2": {
@@ -7901,7 +7901,7 @@
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, increase Ice Resist +60% / Electric Resist +30% of all allies and grant Fridger-type allies <strong>Follow Up Attack</strong> (including self) (up to 2 times per round).<br>Inflicts DEF -30% for 1 round to self after performing a Follow Up Attack.",
+    "description": "At the start of round, increase Ice Resist +60% / Electric Resist +30% of all allies and grant self <strong>Re Attack</strong> (up to 2 times per round).<br>Inflicts DEF -75% for 1 round to self after performing a Re-Attack.",
     "area": ["F>", 1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   "Skill_MP_FridgerHead_N_4": {
@@ -7911,7 +7911,7 @@
     "img": "WideIceShot",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, inflict all enemies <strong>Wet</strong> / Defense Penetration -100%.<br>Defense Penetration reduction effect decrease by 20% every round.<br>Inflict <strong>Wet</strong> to all allies when destroyed.<br>When unit is defeated, inflicts ATK / DEF -50% for 2 rounds to all Fridger-type allies.",
+    "description": "At the start of round, inflict all enemies <strong>Wet</strong> / Defense Penetration -100%.<br>Defense Penetration reduction effect decrease by 20% every round.<br>Inflict <strong>Wet</strong> to all allies when destroyed.<br>When unit is defeated, inflicts ATK / DEF -75% for 2 rounds to all Fridger-type allies.",
     "area": ["F>", 1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   "Skill_MP_FridgerHead_N_5": {
@@ -8483,7 +8483,7 @@
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, increase Ice Resist +30% / Fire Resist +30% of all allies and grant Fryer-type allies <strong>Follow Up Attack</strong> (including self) (up to 2 times per round).<br>Inflicts DEF -30% for 1 round to self after performing a Follow Up Attack.",
+    "description": "At the start of round, increase Ice Resist +30% / Fire Resist +30% of all allies and grant self <strong>Re Attack</strong> (up to 2 times per round).<br>Inflicts DEF -75% for 1 round to self after performing a Re-Attack.",
     "area": ["F>", 1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   "Skill_MP_FryerHead_N_4": {
@@ -8493,7 +8493,7 @@
     "img": "WideLightning",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, inflict all enemies EVA -50% / Defense Penetration -100%.<br>Defense Penetration reduction effect decrease by 20% every round.<br>Inflict EVA -50% to all allies when destroyed.<br>When unit is defeated, inflicts ATK / DEF -50% for 2 rounds to all Fryer-type allies.",
+    "description": "At the start of round, inflict all enemies EVA -50% / Defense Penetration -100%.<br>Defense Penetration reduction effect decrease by 20% every round.<br>Inflict EVA -50% to all allies when destroyed.<br>When unit is defeated, inflicts ATK / DEF -75% for 2 rounds to all Fryer-type allies.",
     "area": ["F>", 1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   "Skill_MP_FryerHead_N_5": {
@@ -9043,7 +9043,7 @@
     "img": "TeamDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, increase Fire Resist +60% / Electric Resist +30% of all allies and grant Dryer-type allies <strong>Follow Up Attack</strong> (including self) (up to 2 times per round).<br>Inflicts DEF -30% for 1 round to self after performing a Follow Up Attack.",
+    "description": "At the start of round, increase Fire Resist +60% / Electric Resist +30% of all allies and  grant self <strong>Re Attack</strong> (up to 2 times per round).<br>Inflicts DEF -75% for 1 round to self after performing a Re-Attack.",
     "area": ["F>", 1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   "Skill_MP_DryerHead_N_4": {
@@ -9053,7 +9053,7 @@
     "img": "WideFireShot",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, inflict all enemies <strong>Ignited</strong> / Defense Penetration -100%.<br>Defense Penetration reduction effect decrease by 20% every round.<br>Inflict <strong>Ignited</strong> to all allies when destroyed.<br>When unit is defeated, inflicts ATK / DEF -50% for 2 rounds to all Dryer-type allies.",
+    "description": "At the start of round, inflict all enemies <strong>Ignited</strong> / Defense Penetration -100%.<br>Defense Penetration reduction effect decrease by 20% every round.<br>Inflict <strong>Ignited</strong> to all allies when destroyed.<br>When unit is defeated, inflicts ATK / DEF -75% for 2 rounds to all Dryer-type allies.",
     "area": ["F>", 1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
   "Skill_MP_DryerHead_N_5": {
