@@ -1,1 +1,1 @@
-{"info": "램파트의 자율 경비용 기종이다.", "HP": [1100, 95], "ATK": [80, 7], "DEF": [100, 5], "AGI": 3.9, "CRT": 5, "HIT": 200, "DOD": 35, "resist": [40, 40, -25], "skills": ["Skill_MP_Rampart_N_1", "Skill_MP_Rampart_N_2"]}
+{"info": "This an autonomic guard unit of Rampart.", "HP": [1100, 95], "ATK": [80, 7], "DEF": [100, 5], "AGI": 3.9, "CRT": 5, "HIT": 200, "DOD": 35, "resist": [40, 40, -25], "skills": ["Skill_MP_Rampart_N_1", "Skill_MP_Rampart_N_2"]}

@@ -1,1 +1,1 @@
-{"info": "초코 여왕이 경비용 펍 헤드 기종을 도색해 만들어낸 애완기계입니다. ", "HP": [200, 32.5], "ATK": [45, 4.5], "DEF": [15, 0.75], "AGI": 3.95, "CRT": 5, "HIT": 150, "DOD": 30, "resist": [0, 0, 50], "skills": ["Skill_MP_PuppHead_N_1", "Skill_MP_PuppHead_N_2"]}
+{"info": "It is a unit created by Choco Queen by painting a Model Pupp Head (Guard). ", "HP": [200, 32.5], "ATK": [45, 4.5], "DEF": [15, 0.75], "AGI": 3.95, "CRT": 5, "HIT": 150, "DOD": 30, "resist": [0, 0, 50], "skills": ["Skill_MP_PuppHead_N_1", "Skill_MP_PuppHead_N_2"]}

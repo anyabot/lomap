@@ -1,1 +1,1 @@
-{"info": "셀주크의 양산형 기종이다.", "HP": [1300, 95], "ATK": [125, 12.5], "DEF": [120, 6], "AGI": 3.1, "CRT": 5, "HIT": 150, "DOD": 0, "resist": [0, 0, -25], "skills": ["Skill_MP_Seljuq_N_1", "Skill_MP_Seljuq_N_2", "Skill_MP_Seljuq_N_3"]}
+{"info": "This is a mass production model of Seljuq.", "HP": [1300, 95], "ATK": [125, 12.5], "DEF": [120, 6], "AGI": 3.1, "CRT": 5, "HIT": 150, "DOD": 0, "resist": [0, 0, -25], "skills": ["Skill_MP_Seljuq_N_1", "Skill_MP_Seljuq_N_2", "Skill_MP_Seljuq_N_3"]}

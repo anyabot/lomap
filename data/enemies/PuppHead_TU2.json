@@ -1,1 +1,1 @@
-{"info": "펍 헤드의 자율 경비용 기종이다.", "HP": [200, 32.5], "ATK": [45, 4.5], "DEF": [15, 0.75], "AGI": 3.95, "CRT": 5, "HIT": 150, "DOD": 30, "resist": [0, 0, 50], "skills": ["Skill_MP_PuppHead_N_1", "Skill_MP_PuppHead_N_2"]}
+{"info": "This is an autonomic guard unit of Pupp Head.", "HP": [200, 32.5], "ATK": [45, 4.5], "DEF": [15, 0.75], "AGI": 3.95, "CRT": 5, "HIT": 150, "DOD": 30, "resist": [0, 0, 50], "skills": ["Skill_MP_PuppHead_N_1", "Skill_MP_PuppHead_N_2"]}

@@ -1,1 +1,1 @@
-{"info": "폴른의 자율 경비용 기종이다.", "HP": [400, 55], "ATK": [65, 7], "DEF": [40, 2], "AGI": 3.9, "CRT": 5, "HIT": 195, "DOD": 20, "resist": [0, 0, -25], "skills": ["Skill_MP_Fallen_N_1", "Skill_MP_Fallen_N_2"]}
+{"info": "This is an autonomic guard unit of Fallen.", "HP": [400, 55], "ATK": [65, 7], "DEF": [40, 2], "AGI": 3.9, "CRT": 5, "HIT": 195, "DOD": 20, "resist": [0, 0, -25], "skills": ["Skill_MP_Fallen_N_1", "Skill_MP_Fallen_N_2"]}

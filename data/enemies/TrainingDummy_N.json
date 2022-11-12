@@ -1,1 +1,1 @@
-{"info": "연습용으로 쓰이는 표적 나이트 칙 모형이다.", "HP": [1000, 200], "ATK": [0, 0], "DEF": [0, 0], "AGI": 3, "CRT": 0, "HIT": 0, "DOD": 0, "resist": [25, 25, 25], "skills": ["Skill_MP_TrainingDummy_N_1", "Skill_MP_TrainingDummy_N_2", "Skill_MP_TrainingDummy_N_3"]}
+{"info": "It’s a Night Chick decoy used for practice shooting.", "HP": [1000, 200], "ATK": [0, 0], "DEF": [0, 0], "AGI": 3, "CRT": 0, "HIT": 0, "DOD": 0, "resist": [25, 25, 25], "skills": ["Skill_MP_TrainingDummy_N_1", "Skill_MP_TrainingDummy_N_2", "Skill_MP_TrainingDummy_N_3"]}

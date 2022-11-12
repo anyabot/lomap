@@ -1,1 +1,1 @@
-{"info": "AMG-11의 자율 경비용 기종이다.", "HP": [450, 62.5], "ATK": [80, 7], "DEF": [35, 1.75], "AGI": 4.1, "CRT": 5, "HIT": 235, "DOD": 0, "resist": [0, 0, -25], "skills": ["Skill_MP_AMG11_N_1", "Skill_MP_AMG11_N_2"]}
+{"info": "This is an autonomic guard unit of AMG-11.", "HP": [450, 62.5], "ATK": [80, 7], "DEF": [35, 1.75], "AGI": 4.1, "CRT": 5, "HIT": 235, "DOD": 0, "resist": [0, 0, -25], "skills": ["Skill_MP_AMG11_N_1", "Skill_MP_AMG11_N_2"]}

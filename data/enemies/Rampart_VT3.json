@@ -1,1 +1,1 @@
-{"info": "초코 여왕이 경비용 램파트 기종을 도색해 만들어낸 기체입니다.", "HP": [500, 65], "ATK": [60, 6.5], "DEF": [70, 3], "AGI": 3.85, "CRT": 5, "HIT": 180, "DOD": 20, "resist": [40, 40, -25], "skills": ["Skill_MP_Rampart_N_1", "Skill_MP_Rampart_N_2"]}
+{"info": "It is a unit created by Choco Queen by painting a Model Rampart (Guard).", "HP": [500, 65], "ATK": [60, 6.5], "DEF": [70, 3], "AGI": 3.85, "CRT": 5, "HIT": 180, "DOD": 20, "resist": [40, 40, -25], "skills": ["Skill_MP_Rampart_N_1", "Skill_MP_Rampart_N_2"]}

@@ -1,1 +1,1 @@
-{"info": "기간테스의 양산형 기종이다.", "HP": [1500, 90], "ATK": [80, 8], "DEF": [150, 7.5], "AGI": 3.15, "CRT": 5, "HIT": 100, "DOD": 0, "resist": [0, 0, -25], "skills": ["Skill_MP_Gigantes_N_1", "Skill_MP_Gigantes_N_2", "Skill_MP_Gigantes_N_3"]}
+{"info": "This is a mass production model of Gigantes.", "HP": [1500, 90], "ATK": [80, 8], "DEF": [150, 7.5], "AGI": 3.15, "CRT": 5, "HIT": 100, "DOD": 0, "resist": [0, 0, -25], "skills": ["Skill_MP_Gigantes_N_1", "Skill_MP_Gigantes_N_2", "Skill_MP_Gigantes_N_3"]}

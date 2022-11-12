@@ -1,1 +1,1 @@
-{"info": "스팅어의 양산형 기종이다.", "HP": [575, 60.75], "ATK": [110, 11], "DEF": [0, 0], "AGI": 4.3, "CRT": 10, "HIT": 160, "DOD": 125, "resist": [50, 0, -25], "skills": ["Skill_MP_Stinger_N_1", "Skill_MP_Stinger_N_2", "Skill_MP_Stinger_N_3"]}
+{"info": "This is a mass production model of Stinger.", "HP": [575, 60.75], "ATK": [110, 11], "DEF": [0, 0], "AGI": 4.3, "CRT": 10, "HIT": 160, "DOD": 125, "resist": [50, 0, -25], "skills": ["Skill_MP_Stinger_N_1", "Skill_MP_Stinger_N_2", "Skill_MP_Stinger_N_3"]}

@@ -1,1 +1,1 @@
-{"info": "포트리스의 양산형 기종이다.", "HP": [500, 50], "ATK": [75, 6.5], "DEF": [50, 5], "AGI": 3.4, "CRT": 10, "HIT": 120, "DOD": 0, "resist": [0, 0, 0], "skills": ["Skill_MP_Fortress_N_1", "Skill_MP_Fortress_N_2", "Skill_MP_Fortress_N_3"]}
+{"info": "This is a mass production model of Fortress.", "HP": [500, 50], "ATK": [75, 6.5], "DEF": [50, 5], "AGI": 3.4, "CRT": 10, "HIT": 120, "DOD": 0, "resist": [0, 0, 0], "skills": ["Skill_MP_Fortress_N_1", "Skill_MP_Fortress_N_2", "Skill_MP_Fortress_N_3"]}
