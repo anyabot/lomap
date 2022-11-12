@@ -11821,7 +11821,7 @@
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
     "description": "전투 개시 시, 자신은 해제 불가능한 전투 속행 효과를 획득합니다.\n전투 불능 시, <sec typ=\"note\">토즉참</sec> 효과를 지닌 적 개체가 존재할 경우 전투 속행 효과를 다시 획득합니다.\n전투 속행 시, 4라운드 동안 자신의 회피가 대폭 증가하고, 회피에 비례한 스킬 위력 증가 효과를 획득합니다.\n\n…나는 일기장에서 실로 놀라운 설정들을 더 발견했지만, 여백이 부족하여 적지 않겠다."
   },
-  "Skill_MP_Redhood_N_1": {
+  "Skill_MP_RedHood_N_1": {
     "title": "askill1",
     "name": "Quadruple Machinegun",
     "type": "active",
@@ -11831,7 +11831,7 @@
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
     "description": ""
   },
-  "Skill_MP_Redhood_N_2": {
+  "Skill_MP_RedHood_N_2": {
     "title": "askill2",
     "name": "Follow Me!",
     "type": "active",
@@ -11841,7 +11841,7 @@
     "area": ["0", "1", "0", "0", "1", "0", "0", "1", "0"],
     "description": ""
   },
-  "Skill_MP_Redhood_N_3": {
+  "Skill_MP_RedHood_N_3": {
     "title": "askill3",
     "name": "Not a Step Back!",
     "type": "passive",
@@ -11851,7 +11851,7 @@
     "area": ["0", "0", "1", "0", "0", "1", "0", "0", "1"],
     "description": ""
   },
-  "Skill_MP_Redhood_N_4": {
+  "Skill_MP_RedHood_N_4": {
     "title": "askill4",
     "name": "No Retreat!",
     "type": "passive",

@@ -1276,7 +1276,7 @@
             {
               "title": "wave1",
               "enemylist": [
-                { "index": "Redhood_N", "level": 100 },
+                { "index": "RedHood_N", "level": 100 },
                 { "index": "Brownie_N", "level": 100 },
                 { "index": "", "level": 0 },
                 { "index": "Marie_N", "level": 100 },
