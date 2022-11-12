@@ -11835,7 +11835,7 @@
     "title": "askill2",
     "name": "Follow Me!",
     "type": "active",
-    "img": ["MGWideshot"],
+    "img": ["MGWideShot"],
     "range": 4,
     "AP": 8,
     "area": ["0", "1", "0", "0", "1", "0", "0", "1", "0"],
