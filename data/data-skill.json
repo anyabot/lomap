@@ -7571,7 +7571,7 @@
     "description": "At the start of round, inflicts all enemies' ATK -10% / DEF -10% for 1 round.",
     "area": [1, 2, 3, 4, 5, 6, 7, 8, 9]
   },
-  "Skill_MP_IronPrince_B08_1": {
+  "Skill_MP_IronPrince_N_1": {
     "title": "askill1",
     "type": "active",
     "name": "Punishment",
@@ -7581,7 +7581,7 @@
     "description": "Deals $(1.1) damage to a single target that Ignore Protect, and inflict <strong>Marked</strong>.<br>Remove target's DR+ buff, and inflict <strong>Damage taken Increased</strong> +5% for 99 rounds.",
     "area": [5]
   },
-  "Skill_MP_IronPrince_B08_2": {
+  "Skill_MP_IronPrince_N_2": {
     "title": "askill2",
     "type": "active",
     "name": "Judgement",
@@ -7591,7 +7591,7 @@
     "description": "Deals $(1.5) damage to target area that Ignore Protect. Damage decrease by 50% to non-center area.<br>If target's affected by <strong>Bow Your Head</strong>, Additional DMG +500%.",
     "area": [0, 0.5, 0, 0.5, 1, 0.5, 0, 0.5, 0]
   },
-  "Skill_MP_IronPrince_B08_3": {
+  "Skill_MP_IronPrince_N_3": {
     "title": "askill3",
     "type": "passive",
     "name": "Bow Your Head",
@@ -7601,7 +7601,7 @@
     "description": "At the start of round: <br>If enemy's on the frontline, inflict DEF -50% for 1 round and remove DEF+ buff.<br>If enemy's on the middle line, inflict ACC -100% for 1 round and remove ACC+ buff.<br>If enemy's on the backline, inflict ATK -50% for 1 round and remove ATK+ buff.<br>Debuffs from <strong>Bow Your Head</strong> is not affected by Status Resist and Debuff Removal.",
     "area": [2, 4, 5, 6, 8]
   },
-  "Skill_MP_IronPrince_B08_4": {
+  "Skill_MP_IronPrince_N_4": {
     "title": "askill4",
     "type": "passive",
     "name": "Accept the Blessing",
@@ -7611,7 +7611,7 @@
     "description": "When attacking, grant self <strong>God's Blessing</strong>'.<br>At the start of round, if affected by 3 stacks of <strong>God's Blessing</strong>', turn the status into <strong>Begin Judgement</strong>, and after idling for 1 round, uses <strong>Judgement</strong>.<br>After using <strong>Judgement</strong>, inflict DEF -5000 for 1 round and remove <strong>Battle Continuation</strong> from self.",
     "area": [5]
   },
-  "Skill_MP_IronPrince_B08_5": {
+  "Skill_MP_IronPrince_N_5": {
     "title": "askill5",
     "type": "passive",
     "name": "Coffin of Immortality",
