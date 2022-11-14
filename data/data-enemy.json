@@ -4107,7 +4107,8 @@
         [2, "EV2-6B"],
         [2, "EV2-2Ex"],
         [3, "EV3-3B"]
-      ]
+      ],
+      "Story1": [[1, "10-4B"]]
     }
   },
   "AMG11_TU2": {
@@ -4343,7 +4344,8 @@
         [5, "5-4"],
         [5, "5-5"],
         [5, "5-7"],
-        [5, "5-6B"]
+        [5, "5-6B"],
+        [1, "10-3B"]
       ]
     }
   },
@@ -4398,7 +4400,8 @@
       "Ev2": [
         [2, "Ev2-2"],
         [3, "Ev3-3"]
-      ]
+      ],
+      "Story1": [[1, "10-3B"]]
     }
   },
   "Gigantes_TU4": {
@@ -7208,6 +7211,10 @@
       "Ev2": [
         [2, "Ev2-3"],
         [2, "Ev2-4"]
+      ],
+      "Story1": [
+        [1, "10-6"],
+        [1, "10-7"]
       ]
     }
   },
@@ -7269,7 +7276,11 @@
     "type": "Light",
     "role": "Attacker",
     "rank": "S",
-    "used": { "Ev14": [[1, "EV1-9B"]], "Ev2": [[2, "Ev2-4"]] }
+    "used": {
+      "Ev14": [[1, "EV1-9B"]],
+      "Ev2": [[2, "Ev2-4"]],
+      "Story1": [[1, "10-2Ex"]]
+    }
   },
   "FallenC_EV4": {
     "name": "Fallen Custom",
@@ -7383,7 +7394,11 @@
         [2, "EV2-5B"],
         [3, "EV3-3B"]
       ],
-      "Ev2": [[2, "Ev2-5"]]
+      "Ev2": [[2, "Ev2-5"]],
+      "Story1": [
+        [1, "10-2B"],
+        [1, "10-4B"]
+      ]
     }
   },
   "AMG11AA_EV1": {
@@ -7418,7 +7433,14 @@
         [1, "EV1-7B"],
         [1, "EV1-9B"]
       ],
-      "Ev2": [[2, "Ev2-3"]]
+      "Ev2": [[2, "Ev2-3"]],
+      "Story1": [
+        [1, "10-6"],
+        [1, "10-7"],
+        [1, "10-8"],
+        [1, "10-2B"],
+        [1, "10-4B"]
+      ]
     }
   },
   "AMG11AA_EV4": {
@@ -7430,7 +7452,13 @@
     "used": {
       "Ev14": [[1, "EV1-6Ex"]],
       "Ev18": [[2, "EV2-2C"]],
-      "Ev2": [[2, "Ev2-4"]]
+      "Ev2": [[2, "Ev2-4"]],
+      "Story1": [
+        [1, "10-8"],
+        [1, "10-4B"],
+        [1, "10-6B"],
+        [1, "10-7B"]
+      ]
     }
   },
   "DroneM_EV1": {
@@ -7476,7 +7504,11 @@
     "used": {
       "Ev14": [[1, "EV1-9B"]],
       "Ev18": [[2, "EV2-6B"]],
-      "Ev2": [[2, "Ev2-5"]]
+      "Ev2": [[2, "Ev2-5"]],
+      "Story1": [
+        [1, "10-2B"],
+        [1, "10-3B"]
+      ]
     }
   },
   "SeljuqA_EV1": {
@@ -7504,7 +7536,11 @@
         [2, "EV2-3B"],
         [2, "EV2-2Ex"]
       ],
-      "Ev2": [[3, "Ev3-7"]]
+      "Ev2": [[3, "Ev3-7"]],
+      "Story1": [
+        [1, "10-3B"],
+        [1, "10-5B"]
+      ]
     }
   },
   "SeljuqA_EV3": {
@@ -7537,7 +7573,20 @@
     "type": "Heavy",
     "role": "Defender",
     "rank": "S",
-    "used": { "Ev18": [[2, "EV2-2Ex"]], "Ev2": [[3, "Ev3-2ep"]] }
+    "used": {
+      "Ev18": [[2, "EV2-2Ex"]],
+      "Ev2": [[3, "Ev3-2ep"]],
+      "Story1": [
+        [1, "10-6"],
+        [1, "10-7"],
+        [1, "10-8"],
+        [1, "10-3B"],
+        [1, "10-5B"],
+        [1, "10-6B"],
+        [1, "10-7B"],
+        [1, "10-2Ex"]
+      ]
+    }
   },
   "GigantesC_EV3": {
     "name": "Gigantes Custom",
@@ -7807,7 +7856,7 @@
     "type": "Heavy",
     "role": "Defender",
     "rank": "S",
-    "used": { "Ev2": [[2, "Ev2-1C"]] }
+    "used": { "Ev2": [[2, "Ev2-1C"]], "Story1": [[1, "10-1Ex"]] }
   },
   "RocCGeneratorA_EV2": {
     "name": "Upgrade Energy Condenser",
@@ -7815,7 +7864,7 @@
     "type": "Heavy",
     "role": "Defender",
     "rank": "S",
-    "used": { "Ev2": [[2, "Ev2-1C"]] }
+    "used": { "Ev2": [[2, "Ev2-1C"]], "Story1": [[1, "10-1Ex"]] }
   },
   "Undine_EV1": {
     "name": "Camembert",
@@ -10827,7 +10876,9 @@
       ],
       "Story1": [
         [8, "8-4"],
-        [8, "8-2B"]
+        [8, "8-2B"],
+        [1, "10-5B"],
+        [1, "10-7B"]
       ]
     }
   },
@@ -11283,6 +11334,7 @@
         [2, "EV2-3B"],
         [2, "EV2-4B"]
       ],
+      "Story1": [[1, "10-3B"]],
       "Story2": [
         [1, "9-5"],
         [1, "9-6"],
@@ -12441,7 +12493,14 @@
     "type": "Flying",
     "role": "Supporter",
     "rank": "A",
-    "used": { "Ev9": [[2, "Ev2-8"]] }
+    "used": {
+      "Ev9": [[2, "Ev2-8"]],
+      "Story1": [
+        [1, "10-2B"],
+        [1, "10-4B"],
+        [1, "10-7B"]
+      ]
+    }
   },
   "Machina_N": {
     "name": "Machina",
@@ -13350,7 +13409,15 @@
     "type": "Flying",
     "role": "Attacker",
     "rank": "S",
-    "used": {}
+    "used": {
+      "Story1": [
+        [1, "10-8"],
+        [1, "10-2B"],
+        [1, "10-4B"],
+        [1, "10-7B"],
+        [1, "10-2Ex"]
+      ]
+    }
   },
   "IntercepterAR_TU2": {
     "name": "Air Raid Interceptor",
@@ -13359,6 +13426,7 @@
     "role": "Attacker",
     "rank": "S",
     "used": {
+      "Story1": [[1, "10-7B"]],
       "Story2": [
         [1, "9-3"],
         [1, "9-4"],
@@ -13414,7 +13482,16 @@
     "type": "Flying",
     "role": "Supporter",
     "rank": "S",
-    "used": {}
+    "used": {
+      "Story1": [
+        [1, "10-8"],
+        [1, "10-2B"],
+        [1, "10-4B"],
+        [1, "10-6B"],
+        [1, "10-7B"],
+        [1, "10-2Ex"]
+      ]
+    }
   },
   "IntercepterARS_TU2": {
     "name": "Recon Interceptor",
@@ -13423,6 +13500,7 @@
     "role": "Supporter",
     "rank": "S",
     "used": {
+      "Story1": [[1, "10-7B"]],
       "Story2": [
         [1, "9-3"],
         [1, "9-4"],
@@ -13793,7 +13871,7 @@
     "used": {}
   },
   "MarionnetteAR_N": {
-    "name": "Marionettes Infantry",
+    "name": "Marionette Infantry",
     "img": "MarionnetteAR",
     "type": "Light",
     "role": "Supporter",
@@ -13808,7 +13886,7 @@
     }
   },
   "MarionnetteAR_TU": {
-    "name": "Marionettes Infantry",
+    "name": "Marionette Infantry",
     "img": "MarionnetteAR",
     "type": "Light",
     "role": "Supporter",
@@ -13816,7 +13894,7 @@
     "used": { "Ev14": [[1, "EV1-6"]] }
   },
   "MarionnetteAR_TU2": {
-    "name": "Marionettes Infantry",
+    "name": "Marionette Infantry",
     "img": "MarionnetteAR",
     "type": "Light",
     "role": "Supporter",
@@ -13825,11 +13903,18 @@
       "Ev14": [
         [1, "EV1-1Ex"],
         [1, "EV1-4Ex"]
+      ],
+      "Story1": [
+        [1, "10-6"],
+        [1, "10-7"],
+        [1, "10-8"],
+        [1, "10-3B"],
+        [1, "10-5B"]
       ]
     }
   },
   "MarionnetteAR_TU3": {
-    "name": "Marionettes Infantry",
+    "name": "Marionette Infantry",
     "img": "MarionnetteAR",
     "type": "Light",
     "role": "Supporter",
@@ -13842,7 +13927,7 @@
     }
   },
   "MarionnetteAR_TU4": {
-    "name": "Marionettes Infantry",
+    "name": "Marionette Infantry",
     "img": "MarionnetteAR",
     "type": "Light",
     "role": "Supporter",
@@ -13850,7 +13935,7 @@
     "used": {}
   },
   "MarionnetteAR_TU5": {
-    "name": "Marionettes Infantry",
+    "name": "Marionette Infantry",
     "img": "MarionnetteAR",
     "type": "Light",
     "role": "Supporter",
@@ -13858,7 +13943,7 @@
     "used": {}
   },
   "MarionnetteHW_N": {
-    "name": "Marionettes Gunner",
+    "name": "Marionette Gunner",
     "img": "MarionnetteHW",
     "type": "Heavy",
     "role": "Attacker",
@@ -13873,15 +13958,21 @@
     }
   },
   "MarionnetteHW_TU": {
-    "name": "Marionettes Gunner",
+    "name": "Marionette Gunner",
     "img": "MarionnetteHW",
     "type": "Heavy",
     "role": "Attacker",
     "rank": "S",
-    "used": { "Ev14": [[1, "EV1-6"]] }
+    "used": {
+      "Ev14": [[1, "EV1-6"]],
+      "Story1": [
+        [1, "10-6"],
+        [1, "10-7"]
+      ]
+    }
   },
   "MarionnetteHW_TU2": {
-    "name": "Marionettes Gunner",
+    "name": "Marionette Gunner",
     "img": "MarionnetteHW",
     "type": "Heavy",
     "role": "Attacker",
@@ -13890,11 +13981,15 @@
       "Ev14": [
         [1, "EV1-1Ex"],
         [1, "EV1-4Ex"]
+      ],
+      "Story1": [
+        [1, "10-8"],
+        [1, "10-5B"]
       ]
     }
   },
   "MarionnetteHW_TU3": {
-    "name": "Marionettes Gunner",
+    "name": "Marionette Gunner",
     "img": "MarionnetteHW",
     "type": "Heavy",
     "role": "Attacker",
@@ -13907,7 +14002,7 @@
     }
   },
   "MarionnetteHW_TU4": {
-    "name": "Marionettes Gunner",
+    "name": "Marionette Gunner",
     "img": "MarionnetteHW",
     "type": "Heavy",
     "role": "Attacker",
@@ -13915,7 +14010,7 @@
     "used": {}
   },
   "MarionnetteHW_TU5": {
-    "name": "Marionettes Gunner",
+    "name": "Marionette Gunner",
     "img": "MarionnetteHW",
     "type": "Heavy",
     "role": "Attacker",
@@ -13923,7 +14018,7 @@
     "used": {}
   },
   "MarionnetteHA_N": {
-    "name": "Marionettes Heavy Armor",
+    "name": "Marionette Heavy Armor",
     "img": "MarionnetteHA",
     "type": "Heavy",
     "role": "Defender",
@@ -13937,15 +14032,20 @@
     }
   },
   "MarionnetteHA_TU": {
-    "name": "Marionettes Heavy Armor",
+    "name": "Marionette Heavy Armor",
     "img": "MarionnetteHA",
     "type": "Heavy",
     "role": "Defender",
     "rank": "SS",
-    "used": {}
+    "used": {
+      "Story1": [
+        [1, "10-8"],
+        [1, "10-5B"]
+      ]
+    }
   },
   "MarionnetteHA_TU2": {
-    "name": "Marionettes Heavy Armor",
+    "name": "Marionette Heavy Armor",
     "img": "MarionnetteHA",
     "type": "Heavy",
     "role": "Defender",
@@ -13955,11 +14055,15 @@
         [1, "EV1-4Ex"],
         [2, "EV2-1Ex"],
         [2, "EV2-4Ex"]
+      ],
+      "Story1": [
+        [1, "10-6"],
+        [1, "10-7"]
       ]
     }
   },
   "MarionnetteHA_TU3": {
-    "name": "Marionettes Heavy Armor",
+    "name": "Marionette Heavy Armor",
     "img": "MarionnetteHA",
     "type": "Heavy",
     "role": "Defender",
@@ -13967,7 +14071,7 @@
     "used": { "Ev14": [[2, "EV2-4Ex"]] }
   },
   "MarionnetteHA_TU4": {
-    "name": "Marionettes Heavy Armor",
+    "name": "Marionette Heavy Armor",
     "img": "MarionnetteHA",
     "type": "Heavy",
     "role": "Defender",
@@ -13975,7 +14079,7 @@
     "used": {}
   },
   "MarionnetteHA_TU5": {
-    "name": "Marionettes Heavy Armor",
+    "name": "Marionette Heavy Armor",
     "img": "MarionnetteHA",
     "type": "Heavy",
     "role": "Defender",
@@ -13983,7 +14087,7 @@
     "used": {}
   },
   "MarionnetteDM_N": {
-    "name": "Marionettes Sniper",
+    "name": "Marionette Sniper",
     "img": "MarionnetteDM",
     "type": "Light",
     "role": "Attacker",
@@ -13997,7 +14101,7 @@
     }
   },
   "MarionnetteDM_TU": {
-    "name": "Marionettes Sniper",
+    "name": "Marionette Sniper",
     "img": "MarionnetteDM",
     "type": "Light",
     "role": "Attacker",
@@ -14005,15 +14109,23 @@
     "used": {}
   },
   "MarionnetteDM_TU2": {
-    "name": "Marionettes Sniper",
+    "name": "Marionette Sniper",
     "img": "MarionnetteDM",
     "type": "Light",
     "role": "Attacker",
     "rank": "SS",
-    "used": { "Ev14": [[1, "EV1-4Ex"]] }
+    "used": {
+      "Ev14": [[1, "EV1-4Ex"]],
+      "Story1": [
+        [1, "10-6"],
+        [1, "10-7"],
+        [1, "10-8"],
+        [1, "10-5B"]
+      ]
+    }
   },
   "MarionnetteDM_TU3": {
-    "name": "Marionettes Sniper",
+    "name": "Marionette Sniper",
     "img": "MarionnetteDM",
     "type": "Light",
     "role": "Attacker",
@@ -14026,7 +14138,7 @@
     }
   },
   "MarionnetteDM_TU4": {
-    "name": "Marionettes Sniper",
+    "name": "Marionette Sniper",
     "img": "MarionnetteDM",
     "type": "Light",
     "role": "Attacker",
@@ -14034,7 +14146,7 @@
     "used": {}
   },
   "MarionnetteDM_TU5": {
-    "name": "Marionettes Sniper",
+    "name": "Marionette Sniper",
     "img": "MarionnetteDM",
     "type": "Light",
     "role": "Attacker",
@@ -14152,5 +14264,217 @@
     "role": "Supporter",
     "rank": "SS",
     "used": { "Ev17": [[3, "EV3-5"]] }
+  },
+  "MarionnetteAR_V2_TU": {
+    "name": "Improved Marionette Infantry",
+    "img": "MarionnetteAR​_V2",
+    "type": "Light",
+    "role": "Supporter",
+    "rank": "S",
+    "used": { "Story1": [[1, "10-2Ex"]] }
+  },
+  "MarionnetteHW_V2_TU": {
+    "name": "Improved Marionette Gunner",
+    "img": "MarionnetteHW_V2",
+    "type": "Heavy",
+    "role": "Attacker",
+    "rank": "S",
+    "used": {
+      "Story1": [
+        [1, "10-7"],
+        [1, "10-8"],
+        [1, "10-5B"],
+        [1, "10-6B"],
+        [1, "10-7B"],
+        [1, "10-2Ex"]
+      ]
+    }
+  },
+  "MarionnetteDM_V2_TU": {
+    "name": "Improved Marionette Sniper",
+    "img": "MarionnetteDM_V2",
+    "type": "Light",
+    "role": "Attacker",
+    "rank": "SS",
+    "used": {
+      "Story1": [
+        [1, "10-8"],
+        [1, "10-6B"],
+        [1, "10-7B"],
+        [1, "10-2Ex"]
+      ]
+    }
+  },
+  "MarionnetteHA_V2_TU": {
+    "name": "Improved Marionette Heavy Armor",
+    "img": "MarionnetteHA_V2",
+    "type": "Heavy",
+    "role": "Defender",
+    "rank": "SS",
+    "used": {
+      "Story1": [
+        [1, "10-8"],
+        [1, "10-6B"],
+        [1, "10-7B"],
+        [1, "10-2Ex"]
+      ]
+    }
+  },
+  "MarionnetteAR_BOSS_TU": {
+    "name": "Daji",
+    "img": "MarionnetteAR_BOSS",
+    "type": "Light",
+    "role": "Supporter",
+    "rank": "SS",
+    "used": { "Story1": [[1, "10-3Ex"]] }
+  },
+  "MarionnetteHW_BOSS_TU": {
+    "name": "Xi Shi",
+    "img": "MarionnetteHW_BOSS",
+    "type": "Heavy",
+    "role": "Attacker",
+    "rank": "SS",
+    "used": { "Story1": [[1, "10-3Ex"]] }
+  },
+  "MarionnetteDM_BOSS_TU": {
+    "name": "Bao Si",
+    "img": "MarionnetteDM_BOSS",
+    "type": "Light",
+    "role": "Attacker",
+    "rank": "SS",
+    "used": { "Story1": [[1, "10-3Ex"]] }
+  },
+  "MarionnetteHA_BOSS_TU": {
+    "name": "Mo Xi",
+    "img": "MarionnetteHA_BOSS",
+    "type": "Heavy",
+    "role": "Defender",
+    "rank": "SS",
+    "used": { "Story1": [[1, "10-3Ex"]] }
+  },
+  "MOB_BR_Vargr_Rage_TU": {
+    "name": "Rage Vargr",
+    "img": "Vargr",
+    "type": "Heavy",
+    "role": "Attacker",
+    "rank": "SS",
+    "used": { "Story1": [[1, "10-3"]] }
+  },
+  "MarionnetteAR_V2_TU2": {
+    "name": "Improved Marionette Infantry",
+    "img": "MarionnetteAR​_V2",
+    "type": "Light",
+    "role": "Supporter",
+    "rank": "S",
+    "used": {
+      "Story1": [
+        [1, "10-7"],
+        [1, "10-8"],
+        [1, "10-5B"],
+        [1, "10-6B"],
+        [1, "10-7B"],
+        [1, "10-3Ex"]
+      ]
+    }
+  },
+  "MarionnetteHW_V2_TU2": {
+    "name": "Improved Marionette Gunner",
+    "img": "MarionnetteHW_V2",
+    "type": "Heavy",
+    "role": "Attacker",
+    "rank": "S",
+    "used": {
+      "Story1": [
+        [1, "10-8"],
+        [1, "10-5B"],
+        [1, "10-6B"],
+        [1, "10-7B"],
+        [1, "10-3Ex"]
+      ]
+    }
+  },
+  "MarionnetteDM_V2_TU2": {
+    "name": "Improved Marionette Sniper",
+    "img": "MarionnetteDM_V2",
+    "type": "Light",
+    "role": "Attacker",
+    "rank": "SS",
+    "used": {
+      "Story1": [
+        [1, "10-7"],
+        [1, "10-8"],
+        [1, "10-3Ex"]
+      ]
+    }
+  },
+  "MarionnetteHA_V2_TU2": {
+    "name": "Improved Marionette Heavy Armor",
+    "img": "MarionnetteHA_V2",
+    "type": "Heavy",
+    "role": "Defender",
+    "rank": "SS",
+    "used": {
+      "Story1": [
+        [1, "10-7"],
+        [1, "10-8"],
+        [1, "10-3Ex"]
+      ]
+    }
+  },
+  "Roc_10_TU": {
+    "name": "Angel's Ghost",
+    "img": "RocC",
+    "type": "Flying",
+    "role": "Attacker",
+    "rank": "SS",
+    "used": { "Story1": [[1, "10-1Ex"]] }
+  },
+  "Demolisher_BOSS_TU": {
+    "name": "Colossus Prototype",
+    "img": "Demolisher_BOSS",
+    "type": "Heavy",
+    "role": "Defender",
+    "rank": "SS",
+    "used": { "Story2": [[2, "Intro"]] }
+  },
+  "MOB_BR_Vargr_Rage_TU2": {
+    "name": "Rage Vargr",
+    "img": "Vargr",
+    "type": "Heavy",
+    "role": "Attacker",
+    "rank": "SS",
+    "used": { "Story1": [[1, "10-4"]] }
+  },
+  "MarionnetteAR_BOSS_TU2": {
+    "name": "Livilla",
+    "img": "MarionnetteAR_BOSS",
+    "type": "Light",
+    "role": "Supporter",
+    "rank": "SS",
+    "used": { "Story1": [[1, "10-8"]] }
+  },
+  "MarionnetteHW_BOSS_TU2": {
+    "name": "Fausta",
+    "img": "MarionnetteHW_BOSS",
+    "type": "Heavy",
+    "role": "Attacker",
+    "rank": "SS",
+    "used": { "Story1": [[1, "10-8"]] }
+  },
+  "MarionnetteDM_BOSS_TU2": {
+    "name": "Mamaea",
+    "img": "MarionnetteDM_BOSS",
+    "type": "Light",
+    "role": "Attacker",
+    "rank": "SS",
+    "used": { "Story1": [[1, "10-8"]] }
+  },
+  "MarionnetteHA_BOSS_TU2": {
+    "name": "Messalina",
+    "img": "MarionnetteHA_BOSS",
+    "type": "Heavy",
+    "role": "Defender",
+    "rank": "SS",
+    "used": { "Story1": [[1, "10-8"]] }
   }
 }
