@@ -12113,7 +12113,7 @@
   },
   "Skill_MP_MarionnetteAR_V2_TU_1": {
     "title": "askill1",
-    "name": "타격 목표 설정",
+    "name": "Set Target",
     "type": "active",
     "img": ["Snipe"],
     "range": 3,
@@ -12123,7 +12123,7 @@
   },
   "Skill_MP_MarionnetteAR_V2_TU_2": {
     "title": "askill2",
-    "name": "견제 사격",
+    "name": "Warning Fire",
     "type": "active",
     "img": ["ARShot"],
     "range": 6,
@@ -12163,7 +12163,7 @@
   },
   "Skill_MP_MarionnetteHW_V2_TU_2": {
     "title": "askill2",
-    "name": "이중목적 소이탄",
+    "name": "Dual-Purpose Incendiary Bomb",
     "type": "active",
     "img": ["CannonShotWide"],
     "range": 6,
@@ -12183,7 +12183,7 @@
   },
   "Skill_MP_MarionnetteHW_V2_TU_4": {
     "title": "askill4",
-    "name": "반동 제어 장치",
+    "name": "Recoil Control System",
     "type": "passive",
     "img": ["CannonShotDelay"],
     "range": 0,
@@ -12193,7 +12193,7 @@
   },
   "Skill_MP_MarionnetteDM_V2_TU_1": {
     "title": "askill1",
-    "name": "최우선 목표 제거",
+    "name": "Priority Target Removal",
     "type": "active",
     "img": ["Shot"],
     "range": 5,
@@ -12203,7 +12203,7 @@
   },
   "Skill_MP_MarionnetteDM_V2_TU_2": {
     "title": "askill2",
-    "name": "강화 천공 탄환",
+    "name": "Enhanced Perforating Shell",
     "type": "active",
     "img": ["Chargeshot"],
     "range": 6,
@@ -12223,7 +12223,7 @@
   },
   "Skill_MP_MarionnetteDM_V2_TU_4": {
     "title": "askill4",
-    "name": "지정 사수",
+    "name": "Designated Marksman",
     "type": "passive",
     "img": ["TeamAtkBuff"],
     "range": 0,
@@ -12233,7 +12233,7 @@
   },
   "Skill_MP_MarionnetteDM_V2_TU_5": {
     "title": "askill5",
-    "name": "능동형 전술",
+    "name": "Adaptive Tactic",
     "type": "passive",
     "img": ["FormChange"],
     "range": 0,
@@ -12243,7 +12243,7 @@
   },
   "Skill_MP_MarionnetteHA_V2_TU_1": {
     "title": "askill1",
-    "name": "2연장 철갑 속사포",
+    "name": "2-round Armor Piercing Rapid-fire Cannon",
     "type": "active",
     "img": ["MGShot"],
     "range": 3,
@@ -12253,7 +12253,7 @@
   },
   "Skill_MP_MarionnetteHA_V2_TU_2": {
     "title": "askill2",
-    "name": "충격탄 발사",
+    "name": "Shell Shock Round Shooting",
     "type": "active",
     "img": ["GrenadeAttack_2"],
     "range": 5,
@@ -12273,7 +12273,7 @@
   },
   "Skill_MP_MarionnetteHA_V2_TU_4": {
     "title": "askill4",
-    "name": "교차형 반응 장갑",
+    "name": "Crossed Shielding Armor",
     "type": "passive",
     "img": ["ShieldWall"],
     "range": 0,
@@ -12283,7 +12283,7 @@
   },
   "Skill_MP_MarionnetteHA_V2_TU_5": {
     "title": "askill5",
-    "name": "종심방어 전술",
+    "name": "Defense In Depth Strategy",
     "type": "passive",
     "img": ["DefCounter"],
     "range": 0,
@@ -12293,7 +12293,7 @@
   },
   "Skill_MP_MarionnetteAR_BOSS_TU_1": {
     "title": "askill1",
-    "name": "최우선 목표 설정",
+    "name": "Priority Target Removal",
     "type": "active",
     "img": ["Snipe"],
     "range": 3,
@@ -12303,7 +12303,7 @@
   },
   "Skill_MP_MarionnetteAR_BOSS_TU_2": {
     "title": "askill2",
-    "name": "제압 사격",
+    "name": "Warning Fire",
     "type": "active",
     "img": ["ARShot"],
     "range": 6,
@@ -12313,7 +12313,7 @@
   },
   "Skill_MP_MarionnetteAR_BOSS_TU_3": {
     "title": "askill3",
-    "name": "유독성 강화약 주입",
+    "name": "Inject Toxic Enhancement Drug",
     "type": "passive",
     "img": ["SelfAtkBuff"],
     "range": 0,
@@ -12333,7 +12333,7 @@
   },
   "Skill_MP_MarionnetteAR_BOSS_TU_5": {
     "title": "askill5",
-    "name": "증오",
+    "name": "Hatred",
     "type": "passive",
     "img": ["TeamSpdDeBuff"],
     "range": 0,
@@ -12353,7 +12353,7 @@
   },
   "Skill_MP_MarionnetteHW_BOSS_TU_2": {
     "title": "askill2",
-    "name": "테르밋탄 포격",
+    "name": "Thermite Grenade Bombardment",
     "type": "active",
     "img": ["CannonShotWide"],
     "range": 6,
@@ -12363,7 +12363,7 @@
   },
   "Skill_MP_MarionnetteHW_BOSS_TU_3": {
     "title": "askill3",
-    "name": "유독성 강화약 주입",
+    "name": "Inject Toxic Enhancement Drug",
     "type": "passive",
     "img": ["SelfAtkBuff"],
     "range": 0,
@@ -12373,7 +12373,7 @@
   },
   "Skill_MP_MarionnetteHW_BOSS_TU_4": {
     "title": "askill4",
-    "name": "생체 반동 제어",
+    "name": "Bio-recoil Control",
     "type": "passive",
     "img": ["CannonShotDelay"],
     "range": 0,
@@ -12383,7 +12383,7 @@
   },
   "Skill_MP_MarionnetteHW_BOSS_TU_5": {
     "title": "askill5",
-    "name": "원망",
+    "name": "Resentment",
     "type": "passive",
     "img": ["CannonShotDelay"],
     "range": 0,
@@ -12393,7 +12393,7 @@
   },
   "Skill_MP_MarionnetteDM_BOSS_TU_1": {
     "title": "askill1",
-    "name": "표적 말살",
+    "name": "Target Obliteration",
     "type": "active",
     "img": ["Shot"],
     "range": 5,
@@ -12403,7 +12403,7 @@
   },
   "Skill_MP_MarionnetteDM_BOSS_TU_2": {
     "title": "askill2",
-    "name": "차세대 천공 탄환",
+    "name": "New Generation Perforating Shell",
     "type": "active",
     "img": ["Chargeshot"],
     "range": 6,
@@ -12413,7 +12413,7 @@
   },
   "Skill_MP_MarionnetteDM_BOSS_TU_3": {
     "title": "askill3",
-    "name": "유독성 강화약 주입",
+    "name": "Inject Toxic Enhancement Drug",
     "type": "passive",
     "img": ["SelfAtkBuff"],
     "range": 0,
@@ -12423,7 +12423,7 @@
   },
   "Skill_MP_MarionnetteDM_BOSS_TU_4": {
     "title": "askill4",
-    "name": "트리거 해피",
+    "name": "Trigger Happy",
     "type": "passive",
     "img": ["TeamAtkBuff"],
     "range": 0,
@@ -12433,7 +12433,7 @@
   },
   "Skill_MP_MarionnetteDM_BOSS_TU_5": {
     "title": "askill5",
-    "name": "광란",
+    "name": "Frenzy",
     "type": "passive",
     "img": ["FormChange"],
     "range": 0,
@@ -12443,7 +12443,7 @@
   },
   "Skill_MP_MarionnetteHA_BOSS_TU_1": {
     "title": "askill1",
-    "name": "2연장 장갑관통 속사포",
+    "name": "2-round Armor Piercing Rapid-fire Cannon",
     "type": "active",
     "img": ["MGShot"],
     "range": 3,
@@ -12453,7 +12453,7 @@
   },
   "Skill_MP_MarionnetteHA_BOSS_TU_2": {
     "title": "askill2",
-    "name": "충격탄 발사",
+    "name": "Shell Shock Round Shooting",
     "type": "active",
     "img": ["GrenadeAttack_2"],
     "range": 5,
@@ -12463,7 +12463,7 @@
   },
   "Skill_MP_MarionnetteHA_BOSS_TU_3": {
     "title": "askill3",
-    "name": "유독성 강화약 주입",
+    "name": "Inject Toxic Enhancement Drug",
     "type": "passive",
     "img": ["SelfAtkBuff"],
     "range": 0,
@@ -12473,7 +12473,7 @@
   },
   "Skill_MP_MarionnetteHA_BOSS_TU_4": {
     "title": "askill4",
-    "name": "편애",
+    "name": "Favoritism",
     "type": "passive",
     "img": ["ShieldWall"],
     "range": 0,
@@ -12483,7 +12483,7 @@
   },
   "Skill_MP_MarionnetteHA_BOSS_TU_5": {
     "title": "askill5",
-    "name": "집착",
+    "name": "Obsession",
     "type": "passive",
     "img": ["SelfAtkDeBuff"],
     "range": 0,
