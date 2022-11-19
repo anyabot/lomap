@@ -15698,7 +15698,7 @@
               "title": "wave1",
               "enemylist": [
                 {
-                  "index": "FallenC_Ev72_1",
+                  "index": "FallenC_SA4",
                   "level": 54
                 },
                 {
@@ -15722,7 +15722,7 @@
                   "level": 0
                 },
                 {
-                  "index": "FallenC_Ev72_1",
+                  "index": "FallenC_SA4",
                   "level": 54
                 },
                 {
@@ -15755,7 +15755,7 @@
                   "level": 84
                 },
                 {
-                  "index": "FallenC_Ev72_1",
+                  "index": "FallenC_SA4",
                   "level": 54
                 },
                 {
@@ -15784,7 +15784,7 @@
                   "level": 85
                 },
                 {
-                  "index": "FallenC_Ev72_1",
+                  "index": "FallenC_SA4",
                   "level": 55
                 },
                 {
@@ -15808,7 +15808,7 @@
                   "level": 85
                 },
                 {
-                  "index": "FallenC_Ev72_1",
+                  "index": "FallenC_SA4",
                   "level": 55
                 },
                 {
@@ -17469,7 +17469,7 @@
                   "level": 0
                 },
                 {
-                  "index": "FallenC_Ev72_1",
+                  "index": "FallenC_SA4",
                   "level": 60
                 },
                 {
@@ -17477,7 +17477,7 @@
                   "level": 0
                 },
                 {
-                  "index": "FallenC_Ev72_1",
+                  "index": "FallenC_SA4",
                   "level": 60
                 },
                 {
@@ -17485,19 +17485,19 @@
                   "level": 0
                 },
                 {
-                  "index": "FallenC_Ev72_1",
+                  "index": "FallenC_SA4",
                   "level": 60
                 },
                 {
-                  "index": "FallenC_Ev72_1",
+                  "index": "FallenC_SA4",
                   "level": 60
                 },
                 {
-                  "index": "FallenC_Ev72_1",
+                  "index": "FallenC_SA4",
                   "level": 60
                 },
                 {
-                  "index": "FallenC_Ev72_1",
+                  "index": "FallenC_SA4",
                   "level": 60
                 }
               ]
@@ -17518,7 +17518,7 @@
                   "level": 60
                 },
                 {
-                  "index": "FallenC_Ev72_1",
+                  "index": "FallenC_SA4",
                   "level": 60
                 },
                 {
@@ -17551,7 +17551,7 @@
                   "level": 91
                 },
                 {
-                  "index": "FallenC_Ev72_1",
+                  "index": "FallenC_SA4",
                   "level": 61
                 },
                 {
@@ -17563,7 +17563,7 @@
                   "level": 0
                 },
                 {
-                  "index": "FallenC_Ev72_1",
+                  "index": "FallenC_SA4",
                   "level": 61
                 },
                 {
@@ -17575,7 +17575,7 @@
                   "level": 91
                 },
                 {
-                  "index": "FallenC_Ev72_1",
+                  "index": "FallenC_SA4",
                   "level": 61
                 },
                 {
@@ -17743,7 +17743,7 @@
                   "level": 0
                 },
                 {
-                  "index": "LegionSP_Ev71_1",
+                  "index": "LegionSP_TU3",
                   "level": 92
                 },
                 {
@@ -17751,7 +17751,7 @@
                   "level": 92
                 },
                 {
-                  "index": "LegionSP_Ev71_1",
+                  "index": "LegionSP_TU3",
                   "level": 92
                 },
                 {
@@ -17809,7 +17809,7 @@
               "title": "wave3",
               "enemylist": [
                 {
-                  "index": "LegionSP_Ev71_1",
+                  "index": "LegionSP_TU3",
                   "level": 93
                 },
                 {
