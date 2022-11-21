@@ -2986,7 +2986,7 @@
                 { "index": "AMG11AA_EV3", "level": 100 },
                 { "index": "IntercepterAR_TU", "level": 100 },
                 { "index": "AMG11AA_EV3", "level": 100 },
-                { "index": "IntercepterARS_TU", "level": 100 },
+                { "index": "IntercepterAR_TU", "level": 100 },
                 { "index": "", "level": 0 },
                 { "index": "", "level": 0 },
                 { "index": "AMG11AA_EV3", "level": 100 },
@@ -3014,7 +3014,7 @@
                 { "index": "MarionnetteAR_V2_TU2", "level": 100 },
                 { "index": "AMG11AA_EV4", "level": 100 },
                 { "index": "MarionnetteDM_V2_TU", "level": 100 },
-                { "index": "IntercepterARS_TU", "level": 100 },
+                { "index": "IntercepterAR_TU", "level": 100 },
                 { "index": "", "level": 0 },
                 { "index": "MarionnetteHA_V2_TU", "level": 100 },
                 { "index": "MarionnetteAR_V2_TU2", "level": 100 },
@@ -3039,15 +3039,15 @@
             {
               "title": "wave5",
               "enemylist": [
-                { "index": "MarionnetteAR_TU2", "level": 110 },
+                { "index": "", "level": 0 },
                 { "index": "MarionnetteDM_BOSS_TU2", "level": 110 },
-                { "index": "MarionnetteDM_TU2", "level": 110 },
+                { "index": "", "level": 0 },
                 { "index": "MarionnetteHA_BOSS_TU2", "level": 110 },
-                { "index": "MarionnetteDM_TU2", "level": 110 },
+                { "index": "", "level": 0 },
                 { "index": "MarionnetteHW_BOSS_TU2", "level": 110 },
-                { "index": "MarionnetteAR_TU2", "level": 110 },
+                { "index": "", "level": 0 },
                 { "index": "MarionnetteAR_BOSS_TU2", "level": 110 },
-                { "index": "MarionnetteHW_TU2", "level": 110 }
+                { "index": "", "level": 0 }
               ]
             }
           ]
@@ -3092,7 +3092,7 @@
                 { "index": "StingerC_EV4", "level": 100 },
                 { "index": "AMG11AA_EV3", "level": 100 },
                 { "index": "", "level": 0 },
-                { "index": "IntercepterARS_TU", "level": 100 },
+                { "index": "IntercepterAR_TU", "level": 100 },
                 { "index": "Drone_EV9", "level": 100 },
                 { "index": "", "level": 0 },
                 { "index": "IntercepterAR_TU", "level": 100 },
@@ -3178,7 +3178,7 @@
                 { "index": "AMG11AA_EV3", "level": 110 },
                 { "index": "IntercepterAR_TU", "level": 110 },
                 { "index": "AMG11AA_EV3", "level": 110 },
-                { "index": "IntercepterARS_TU", "level": 110 },
+                { "index": "IntercepterAR_TU", "level": 110 },
                 { "index": "", "level": 0 },
                 { "index": "", "level": 0 },
                 { "index": "AMG11AA_EV3", "level": 110 },
@@ -3189,7 +3189,7 @@
             {
               "title": "wave3",
               "enemylist": [
-                { "index": "IntercepterARS_TU", "level": 110 },
+                { "index": "IntercepterAR_TU", "level": 110 },
                 { "index": "AMG11AA_EV3", "level": 110 },
                 { "index": "", "level": 0 },
                 { "index": "IntercepterAR_TU", "level": 110 },
@@ -3206,12 +3206,12 @@
                 { "index": "IntercepterAR_TU", "level": 110 },
                 { "index": "Drone_EV9", "level": 110 },
                 { "index": "AMG11AA_EV3", "level": 110 },
-                { "index": "IntercepterARS_TU", "level": 110 },
+                { "index": "IntercepterAR_TU", "level": 110 },
                 { "index": "", "level": 0 },
                 { "index": "AMG11AA_EV3", "level": 110 },
                 { "index": "AMG11AA_EV3", "level": 110 },
                 { "index": "", "level": 0 },
-                { "index": "IntercepterARS_TU", "level": 110 }
+                { "index": "IntercepterAR_TU", "level": 110 }
               ]
             }
           ]
@@ -3225,13 +3225,13 @@
             {
               "title": "wave1",
               "enemylist": [
-                { "index": "MarionnetteAR_V2_TU2", "level": 110 },
+                { "index": "MarionnetteAR_V2_TU", "level": 110 },
                 { "index": "", "level": 0 },
                 { "index": "SeljuqA_EV2", "level": 110 },
                 { "index": "RampartC_SA4", "level": 110 },
                 { "index": "MarionnetteHA_TU", "level": 110 },
                 { "index": "MarionnetteHW_TU2", "level": 110 },
-                { "index": "MarionnetteAR_V2_TU2", "level": 110 },
+                { "index": "MarionnetteAR_V2_TU", "level": 110 },
                 { "index": "", "level": 0 },
                 { "index": "SeljuqA_EV2", "level": 110 }
               ]
@@ -3239,15 +3239,15 @@
             {
               "title": "wave2",
               "enemylist": [
-                { "index": "MarionnetteAR_V2_TU2", "level": 110 },
+                { "index": "MarionnetteAR_V2_TU", "level": 110 },
                 { "index": "MarionnetteHA_TU", "level": 110 },
-                { "index": "MarionnetteDM_TU2", "level": 110 },
-                { "index": "MarionnetteAR_V2_TU2", "level": 110 },
-                { "index": "MarionnetteHW_V2_TU", "level": 110 },
+                { "index": "MarionnetteDM_TU", "level": 110 },
+                { "index": "MarionnetteAR_V2_TU", "level": 110 },
+                { "index": "MarionnetteHW_TU", "level": 110 },
                 { "index": "", "level": 0 },
                 { "index": "", "level": 0 },
                 { "index": "MarionnetteHA_TU", "level": 110 },
-                { "index": "MarionnetteDM_TU2", "level": 110 }
+                { "index": "MarionnetteDM_TU", "level": 110 }
               ]
             },
             {
@@ -3255,13 +3255,13 @@
               "enemylist": [
                 { "index": "", "level": 0 },
                 { "index": "", "level": 0 },
-                { "index": "MarionnetteHW_V2_TU2", "level": 110 },
+                { "index": "MarionnetteHW_V2_TU", "level": 110 },
                 { "index": "", "level": 0 },
                 { "index": "MarionnetteHA_TU", "level": 110 },
-                { "index": "MarionnetteHW_V2_TU2", "level": 110 },
+                { "index": "MarionnetteHW_V2_TU", "level": 110 },
                 { "index": "MarionnetteHA_TU", "level": 110 },
-                { "index": "MarionnetteHW_TU2", "level": 110 },
-                { "index": "MarionnetteDM_TU2", "level": 110 }
+                { "index": "MarionnetteHW_TU", "level": 110 },
+                { "index": "MarionnetteDM_TU", "level": 110 }
               ]
             },
             {
@@ -3289,70 +3289,70 @@
             {
               "title": "wave1",
               "enemylist": [
-                { "index": "MarionnetteAR_V2_TU2", "level": 120 },
-                { "index": "MarionnetteAR_V2_TU2", "level": 120 },
+                { "index": "MarionnetteAR_V2_TU", "level": 120 },
+                { "index": "MarionnetteAR_V2_TU", "level": 120 },
                 { "index": "", "level": 0 },
-                { "index": "MarionnetteAR_V2_TU2", "level": 120 },
+                { "index": "MarionnetteAR_V2_TU", "level": 120 },
                 { "index": "", "level": 0 },
-                { "index": "MarionnetteHW_V2_TU", "level": 120 },
-                { "index": "MarionnetteAR_V2_TU2", "level": 120 },
-                { "index": "MarionnetteAR_V2_TU2", "level": 120 },
+                { "index": "MarionnetteHW_TU2", "level": 120 },
+                { "index": "MarionnetteAR_V2_TU", "level": 120 },
+                { "index": "MarionnetteAR_V2_TU", "level": 120 },
                 { "index": "", "level": 0 }
               ]
             },
             {
               "title": "wave2",
               "enemylist": [
-                { "index": "MarionnetteAR_V2_TU2", "level": 120 },
+                { "index": "MarionnetteAR_V2_TU", "level": 120 },
                 { "index": "", "level": 0 },
-                { "index": "MarionnetteHW_V2_TU", "level": 120 },
+                { "index": "MarionnetteHW_TU2", "level": 120 },
                 { "index": "", "level": 0 },
-                { "index": "IntercepterARS_TU", "level": 120 },
-                { "index": "MarionnetteHW_V2_TU", "level": 120 },
-                { "index": "MarionnetteAR_V2_TU2", "level": 120 },
-                { "index": "MarionnetteAR_V2_TU2", "level": 120 },
-                { "index": "MarionnetteHW_V2_TU", "level": 120 }
+                { "index": "IntercepterAR_TU", "level": 120 },
+                { "index": "MarionnetteHW_TU2", "level": 120 },
+                { "index": "MarionnetteAR_V2_TU", "level": 120 },
+                { "index": "MarionnetteAR_V2_TU", "level": 120 },
+                { "index": "MarionnetteHW_TU2", "level": 120 }
               ]
             },
             {
               "title": "wave3",
               "enemylist": [
                 { "index": "GigantesC_EV2", "level": 120 },
-                { "index": "MarionnetteHW_V2_TU2", "level": 120 },
-                { "index": "MarionnetteDM_V2_TU", "level": 120 },
+                { "index": "MarionnetteHW_V2_TU", "level": 120 },
+                { "index": "MarionnetteDM_TU", "level": 120 },
                 { "index": "", "level": 0 },
-                { "index": "MarionnetteHA_V2_TU", "level": 120 },
+                { "index": "MarionnetteHA_TU2", "level": 120 },
                 { "index": "AMG11AA_EV4", "level": 120 },
                 { "index": "GigantesC_EV2", "level": 120 },
-                { "index": "MarionnetteHW_V2_TU2", "level": 120 },
-                { "index": "MarionnetteDM_V2_TU", "level": 120 }
+                { "index": "MarionnetteHW_V2_TU", "level": 120 },
+                { "index": "MarionnetteDM_TU", "level": 120 }
               ]
             },
             {
               "title": "wave4",
               "enemylist": [
-                { "index": "MarionnetteAR_V2_TU2", "level": 120 },
+                { "index": "MarionnetteAR_V2_TU", "level": 120 },
                 { "index": "AMG11AA_EV4", "level": 120 },
-                { "index": "MarionnetteDM_V2_TU", "level": 120 },
-                { "index": "IntercepterARS_TU", "level": 120 },
+                { "index": "MarionnetteDM_TU", "level": 120 },
+                { "index": "IntercepterAR_TU", "level": 120 },
                 { "index": "", "level": 0 },
-                { "index": "MarionnetteHA_V2_TU", "level": 120 },
-                { "index": "MarionnetteAR_V2_TU2", "level": 120 },
-                { "index": "MarionnetteHW_V2_TU2", "level": 110 },
-                { "index": "MarionnetteDM_V2_TU", "level": 120 }
+                { "index": "MarionnetteHA_TU2", "level": 120 },
+                { "index": "MarionnetteAR_V2_TU", "level": 120 },
+                { "index": "MarionnetteHW_V2_TU", "level": 110 },
+                { "index": "MarionnetteDM_TU", "level": 120 }
               ]
             },
             {
               "title": "wave5",
               "enemylist": [
-                { "index": "MarionnetteAR_V2_TU2", "level": 120 },
-                { "index": "MarionnetteHW_V2_TU2", "level": 110 },
+                { "index": "MarionnetteAR_V2_TU", "level": 120 },
+                { "index": "MarionnetteHW_V2_TU", "level": 110 },
                 { "index": "MarionnetteDM_V2_TU", "level": 120 },
-                { "index": "MarionnetteHA_V2_TU", "level": 120 },
-                { "index": "IntercepterARS_TU", "level": 120 },
-                { "index": "MarionnetteHA_V2_TU", "level": 120 },
-                { "index": "MarionnetteAR_V2_TU2", "level": 120 },
-                { "index": "MarionnetteHW_V2_TU2", "level": 110 },
+                { "index": "MarionnetteHA_TU2", "level": 120 },
+                { "index": "IntercepterAR_TU", "level": 120 },
+                { "index": "MarionnetteHA_TU2", "level": 120 },
+                { "index": "MarionnetteAR_V2_TU", "level": 120 },
+                { "index": "MarionnetteHW_V2_TU", "level": 110 },
                 { "index": "MarionnetteDM_V2_TU", "level": 120 }
               ]
             }
@@ -3367,29 +3367,29 @@
             {
               "title": "wave1",
               "enemylist": [
-                { "index": "MarionnetteAR_V2_TU2", "level": 120 },
+                { "index": "MarionnetteAR_V2_TU", "level": 120 },
                 { "index": "GigantesC_EV2", "level": 120 },
-                { "index": "MarionnetteHW_V2_TU2", "level": 120 },
+                { "index": "MarionnetteHW_V2_TU", "level": 120 },
                 { "index": "RampartC_SA4", "level": 120 },
                 { "index": "", "level": 0 },
                 { "index": "", "level": 0 },
-                { "index": "MarionnetteAR_V2_TU2", "level": 120 },
+                { "index": "MarionnetteAR_V2_TU", "level": 120 },
                 { "index": "GigantesC_EV2", "level": 120 },
-                { "index": "MarionnetteHW_V2_TU2", "level": 120 }
+                { "index": "MarionnetteHW_V2_TU", "level": 120 }
               ]
             },
             {
               "title": "wave2",
               "enemylist": [
-                { "index": "MarionnetteAR_V2_TU2", "level": 120 },
+                { "index": "MarionnetteAR_V2_TU", "level": 120 },
                 { "index": "MarionnetteHA_V2_TU", "level": 120 },
-                { "index": "MarionnetteHW_V2_TU2", "level": 120 },
+                { "index": "MarionnetteHW_V2_TU", "level": 120 },
                 { "index": "", "level": 0 },
                 { "index": "", "level": 0 },
                 { "index": "Drone_EV9", "level": 120 },
-                { "index": "MarionnetteAR_V2_TU2", "level": 120 },
+                { "index": "MarionnetteAR_V2_TU", "level": 120 },
                 { "index": "MarionnetteHA_V2_TU", "level": 120 },
-                { "index": "MarionnetteHW_V2_TU2", "level": 120 }
+                { "index": "MarionnetteHW_V2_TU", "level": 120 }
               ]
             },
             {
@@ -3398,8 +3398,8 @@
                 { "index": "MarionnetteHA_V2_TU", "level": 120 },
                 { "index": "MarionnetteHW_V2_TU", "level": 120 },
                 { "index": "", "level": 0 },
-                { "index": "MarionnetteAR_V2_TU2", "level": 120 },
-                { "index": "IntercepterARS_TU", "level": 120 },
+                { "index": "MarionnetteAR_V2_TU", "level": 120 },
+                { "index": "IntercepterAR_TU", "level": 120 },
                 { "index": "", "level": 0 },
                 { "index": "IntercepterAR_TU", "level": 120 },
                 { "index": "MarionnetteDM_V2_TU", "level": 120 },
@@ -3411,13 +3411,13 @@
               "enemylist": [
                 { "index": "", "level": 0 },
                 { "index": "MarionnetteHA_V2_TU", "level": 120 },
-                { "index": "MarionnetteHW_V2_TU", "level": 120 },
+                { "index": "MarionnetteHW_TU2", "level": 120 },
                 { "index": "GigantesC_EV2", "level": 120 },
                 { "index": "AMG11AA_EV4", "level": 120 },
-                { "index": "IntercepterARS_TU2", "level": 120 },
+                { "index": "IntercepterAR_TU", "level": 120 },
                 { "index": "", "level": 0 },
                 { "index": "MarionnetteHA_V2_TU", "level": 120 },
-                { "index": "MarionnetteHW_V2_TU", "level": 120 }
+                { "index": "MarionnetteHW_TU2", "level": 120 }
               ]
             },
             {
@@ -3427,7 +3427,7 @@
                 { "index": "MarionnetteHW_V2_TU2", "level": 110 },
                 { "index": "MarionnetteDM_V2_TU", "level": 120 },
                 { "index": "MarionnetteHA_V2_TU", "level": 120 },
-                { "index": "IntercepterARS_TU2", "level": 120 },
+                { "index": "IntercepterAR_TU2", "level": 120 },
                 { "index": "MarionnetteHA_V2_TU", "level": 120 },
                 { "index": "MarionnetteAR_V2_TU2", "level": 120 },
                 { "index": "MarionnetteHW_V2_TU2", "level": 110 },
@@ -3500,7 +3500,7 @@
                 { "index": "MarionnetteDM_V2_TU", "level": 120 },
                 { "index": "FallenC_EV3", "level": 120 },
                 { "index": "MarionnetteHA_V2_TU", "level": 120 },
-                { "index": "IntercepterARS_TU", "level": 120 },
+                { "index": "IntercepterAR_TU", "level": 120 },
                 { "index": "", "level": 0 },
                 { "index": "MarionnetteHW_V2_TU", "level": 120 },
                 { "index": "MarionnetteDM_V2_TU", "level": 120 }
@@ -3512,9 +3512,9 @@
                 { "index": "MarionnetteAR_V2_TU", "level": 120 },
                 { "index": "FallenC_EV3", "level": 120 },
                 { "index": "MarionnetteDM_V2_TU", "level": 120 },
-                { "index": "IntercepterARS_TU", "level": 120 },
+                { "index": "IntercepterAR_TU", "level": 120 },
                 { "index": "MarionnetteHA_V2_TU", "level": 120 },
-                { "index": "IntercepterARS_TU", "level": 120 },
+                { "index": "IntercepterAR_TU", "level": 120 },
                 { "index": "MarionnetteAR_V2_TU", "level": 120 },
                 { "index": "FallenC_EV3", "level": 120 },
                 { "index": "MarionnetteHW_V2_TU", "level": 120 }
@@ -3568,5 +3568,6 @@
         }
       ]
     }
+    
   ]
 }

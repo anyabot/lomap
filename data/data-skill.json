@@ -11709,7 +11709,7 @@
     "range": 0,
     "AP": 0,
     "area": ["0", "1", "0", "1", "1", "1", "0", "1", "0"],
-    "description": "At the start of odd round, grants unit Row Protect (Normal Effect) for 1 round.<br>At the start of even round, grants unit Column Protect (Normal Effect) for 1 round.<br>At the start of round, grants allies in Area of Effect DR +20% for 1 round."
+    "description": "At the start of odd round, grants unit Row Protect (Normal Effect) for 1 round.<br>At the start of even round, grants unit Column Protect (Normal Effect) for 1 round.<br>At the start of round, grants allies in Area of Effect DR +10% for 1 round."
   },
   "Skill_MP_MarionnetteHA_N_5": {
     "title": "askill5",
@@ -12119,7 +12119,7 @@
     "range": 3,
     "AP": 4,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "Deal $(1.5) damage to a single target and inflicts <strong>Marked</strong> / <strong>Damage Taken Increased</strong> +45% for 2 rounds."
+    "description": "Deal $(1.5) damage to a single target and inflicts <strong>Marked</strong> / <strong>Damage Taken Increased</strong> +30% for 2 rounds."
   },
   "Skill_MP_MarionnetteAR_V2_TU_2": {
     "title": "askill2",
@@ -12129,7 +12129,7 @@
     "range": 6,
     "AP": 6,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "Deal $(0.25) damage to a single target with Ignore Protect and inflicts ACC / EVA -90% for 2 rounds regardless of hit."
+    "description": "Deal $(0.25) damage to a single target with Ignore Protect and inflicts ACC / EVA -60% for 2 rounds regardless of hit."
   },
   "Skill_MP_MarionnetteAR_V2_TU_3": {
     "title": "askill3",
@@ -12149,7 +12149,7 @@
     "range": 0,
     "AP": 0,
     "area": ["F>", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
-    "description": "When unit is defeated, grant all allies AP +1.5 / ATK +50% / CRIT +30% / DR +30% for 2 rounds that stack up to 4 times each.<br>When unit is defeated, inflict all enemies ATK -25% / CRIT -15% for 2 rounds that stacks."
+    "description": "When unit is defeated, grant all allies AP +1.5 / ATK +50% / CRIT +30% / DR +10% for 2 rounds that stack up to 4 times each.<br>When unit is defeated, inflict all enemies ATK -25% / CRIT -15% for 2 rounds that stacks."
   },
   "Skill_MP_MarionnetteHW_V2_TU_1": {
     "title": "askill1",
@@ -12279,7 +12279,7 @@
     "range": 0,
     "AP": 0,
     "area": ["0", "1", "0", "1", "1", "1", "0", "1", "0"],
-    "description": "At the start of round, grants unit Row Protect / Column Protect (Normal Effect) for 1 round.<br>At the start of round, grants allies in Area of Effect DR +40% for 1 round."
+    "description": "At the start of round, grants unit Row Protect / Column Protect (Normal Effect) for 1 round.<br>At the start of round, grants allies in Area of Effect DR +20% for 1 round."
   },
   "Skill_MP_MarionnetteHA_V2_TU_5": {
     "title": "askill5",
@@ -12359,7 +12359,7 @@
     "range": 6,
     "AP": 10,
     "area": ["1", "0", "0", "1", "1", "0", "1", "0", "0"],
-    "description": "Deal $(1.5) damage to target area with Ignore Protect and inflicts <strong>Damage Taken Increased</strong> +35% / 100 Fire DoT damage for 2 rounds that stacks up to 2 times."
+    "description": "Deal $(1.5) damage to target area with Ignore Protect and inflicts <strong>Damage Taken Increased</strong> +35% / 1000 Fire DoT damage for 2 rounds that stacks up to 2 times."
   },
   "Skill_MP_MarionnetteHW_BOSS_TU_3": {
     "title": "askill3",
