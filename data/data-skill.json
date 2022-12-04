@@ -7588,7 +7588,7 @@
     "img": "Particle",
     "range": 10,
     "AP": 10,
-    "description": "Deal $(1.5) damage to target area that Ignore Protect. Damage decrease by 50% to non-center area.<br>If target's affected by <strong>Bow Your Head</strong>, Additional DMG +500%.",
+    "description": "Deal $(1.5) damage to target area that Ignore Protect. Damage decrease by 50% to non-center area.<br>If target's affected by <strong>Bow Your Head</strong>, Additional DMG +500%.<br>Grant Iron Prince <strong>Judgement</strong> status for 2 rounds.",
     "area": [0, 0.5, 0, 0.5, 1, 0.5, 0, 0.5, 0]
   },
   "Skill_MP_IronPrince_N_3": {
@@ -7618,7 +7618,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of wave, grant self unremovable AP- Immunity / Provoked Immunity.<br>When hit by Physical Attack, chances to grant self unremovable buffs:<br>30% chance to grant ATK +50%<br>30% chance to grant DEF 50%.<br>40% chance to grant ACC +300%.<br>30% chance to grant Defense Penetration +50%.<br>But when hit by Elemental Attack, remove those buffs.<br>At the start of round or after activating <strong>Battle Continuation</strong>, grant self <strong>Battle Continuation</strong> with 100% HP.<br>Starting round 3, grant self DR +10% that stacks up to 5 times.<br>After round 8, grant self <strong>Ignore Barrier / DR</strong>.",
+    "description": "At the start of wave, grant self unremovable AP- Immunity / Provoked Immunity.<br>When hit by Physical Attack, chances to grant self unremovable buffs:<br>30% chance to grant ATK +50%<br>30% chance to grant DEF 50%.<br>40% chance to grant ACC +300%.<br>30% chance to grant Defense Penetration +50%.<br>But when hit by Elemental Attack, remove those buffs.<br>At the start of round or after activating <strong>Battle Continuation</strong>, if Iron Prince is not affected by <strong>Judgement</strong>, grant self <strong>Battle Continuation</strong> with 100% HP.<br>Starting round 3, grant self DR +10% that stacks up to 5 times.<br>After round 8, grant self <strong>Ignore Barrier / DR</strong>.",
     "area": [5]
   },
   "Skill_MP_SpeakerEx_N_1": {
