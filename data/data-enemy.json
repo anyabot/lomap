@@ -14432,7 +14432,7 @@
     "used": { "Story2": [[2, "10-1Ex"]] }
   },
   "Demolisher_BOSS_TU": {
-    "name": "콜로서스 프로토타입",
+    "name": "Prototype Colossus",
     "img": "Demolisher_BOSS",
     "type": "Heavy",
     "role": "Defender",
