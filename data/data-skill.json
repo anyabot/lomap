@@ -12640,5 +12640,155 @@
     "AP": 0,
     "area": ["F>", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
     "description": "When Colossus Prototype is hit, grant Colossus Prototype ATK / <strong>Defense Penetration</strong> +5% (Permanent, Normal Effect, Stacks).<br>When Colossus Prototype is hit, inflicts all enemies ATK -10% for 3 rounds that stacks."
+  },
+  "Skill_MP_Kidnapper_EV19_TU_1": {
+    "title": "askill1",
+    "name": "Claw Rush",
+    "type": "active",
+    "img": ["AssaultAttack"],
+    "range": 4,
+    "AP": 4,
+    "area": ["0", "0", "0", "1", "1", "0", "0", "0", "0"],
+    "description": "Deal $(1) damage to target area and inflicts DEF -20% for 5 rounds. This effect can stack up to 5 times."
+  },
+  "Skill_MP_Kidnapper_EV19_TU_2": {
+    "title": "askill2",
+    "name": "Mad Massacre",
+    "type": "active",
+    "img": ["AssaultAttack"],
+    "range": 5,
+    "AP": 4,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "Deal $(2) damage to a single target with <strong>Ignore Protect</strong> / <strong>Ignore Barrier / Damage Reduction</strong> / Damage increases as target's HP decreases, up to +75%.<br>If this skill defeats an enemy, grant Moriaty AP +5."
+  },
+  "Skill_MP_Kidnapper_EV19_TU_3": {
+    "title": "askill3",
+    "name": "Joy of Slaughtering",
+    "type": "passive",
+    "img": ["P.SelfAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "When attacks hit, grant Moriaty ATK +30% (5 rounds, stack to 5 times).<br>When attacks miss, grant Moriaty ACC +50% (Normal Effect, 5 rounds, stack to 5 times)."
+  },
+  "Skill_MP_Kidnapper_EV19_TU_4": {
+    "title": "askill4",
+    "name": "Threat Detection",
+    "type": "passive",
+    "img": ["P.SelfSpdBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "When attacked, grant Moriaty EVA +40% / ATK -15% / SPD +20% / <strong>All Elemental Resist</strong> +15% (2 rounds, stack to 4 times)."
+  },
+  "Skill_MP_Kidnapper_EV19_TU_5": {
+    "title": "askill5",
+    "name": "Berserk",
+    "type": "passive",
+    "img": ["P.SelfSpdBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "When an enemy is defeated, grant Moriaty SPD +35% / CRIT +20% (3 rounds, stack to 3 times)."
+  },
+  "Skill_MP_Kidnapper_EV19_TU2_1": {
+    "title": "askill1",
+    "name": "Claw Rush",
+    "type": "active",
+    "img": ["AssaultAttack"],
+    "range": 4,
+    "AP": 4,
+    "area": ["0", "0", "0", "1", "1", "0", "0", "0", "0"],
+    "description": "Deal $(1) damage to target area and inflicts DEF -20% for 5 rounds. This effect can stack up to 5 times."
+  },
+  "Skill_MP_Kidnapper_EV19_TU2_2": {
+    "title": "askill2",
+    "name": "Mad Massacre",
+    "type": "active",
+    "img": ["AssaultAttack"],
+    "range": 5,
+    "AP": 4,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "Deal $(2) damage to a single target with <strong>Ignore Protect</strong> / <strong>Ignore Barrier / Damage Reduction</strong> / Damage increases as target's HP decreases, up to +75%.<br>If this skill defeats an enemy, grant Moriaty AP +5."
+  },
+  "Skill_MP_Kidnapper_EV19_TU2_3": {
+    "title": "askill3",
+    "name": "Joy of Slaughtering",
+    "type": "passive",
+    "img": ["P.SelfAtkBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "When attacks hit, grant Moriaty ATK +30% (5 rounds, stack to 5 times).<br>When attacks miss, grant Moriaty ACC +50% (Normal Effect, 5 rounds, stack to 5 times).<br><strong>Additional Damaged</strong> +50% / +25% to enemies in the Frontline / Middleline."
+  },
+  "Skill_MP_Kidnapper_EV19_TU2_4": {
+    "title": "askill4",
+    "name": "Threat Detection",
+    "type": "passive",
+    "img": ["P.SelfSpdBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "When attacked, grant Moriaty EVA +40% / ATK -15% / SPD +20% / <strong>All Elemental Resist</strong> +15% (2 rounds, stack to 4 times).<br>At the start of round, grant Moriaty <strong>Counterattack</strong> with 75% Power (1 time)."
+  },
+  "Skill_MP_Kidnapper_EV19_TU2_5": {
+    "title": "askill5",
+    "name": "Berserk",
+    "type": "passive",
+    "img": ["P.SelfSpdBuff"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "1", "1", "0", "1", "1", "0", "1", "1"],
+    "description": "When an enemy is defeated, grant allies in Area of Effect SPD +35% / CRIT +20% (3 rounds, stack to 3 times)."
+  },
+  "Skill_MP_Kidnapper_EV19_C_1": {
+    "title": "askill1",
+    "name": "Cuddle",
+    "type": "active",
+    "img": ["AssaultAttack"],
+    "range": 10,
+    "AP": 4,
+    "area": ["0", "0", "0", "1", "1", "0", "0", "0", "0"],
+    "description": "Deal $(1) damage to target area and removes <strong>Counterattack</strong> buffs regardless of hit.<br>If Rascal is affected by ANY <strong>Elemental DoT</strong>, <strong>Additional DMG</strong> +50% of the corresponding element.<br>If <strong>Cuddle</strong> misses, use <strong>Tantrum</strong> for the next action."
+  },
+  "Skill_MP_Kidnapper_EV19_C_2": {
+    "title": "askill2",
+    "name": "Tantrum",
+    "type": "active",
+    "img": ["MeleeAttack"],
+    "range": 10,
+    "AP": 5,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "Deal $(2) damage to a single target with <strong>Ignore Protect</strong> / <strong>Ignore Barrier / Damage Reduction</strong> / Damage increases as self's HP decreases, up to +50% and remove buffs.<br>This skill has ACC +700%."
+  },
+  "Skill_MP_Kidnapper_EV19_C_3": {
+    "title": "askill3",
+    "name": "Sense",
+    "type": "passive",
+    "img": ["Scan"],
+    "range": 0,
+    "AP": 0,
+    "area": ["F>", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
+    "description": "At the start of round, if Rascle is in the Frontline, grant Rascal <strong>Minimum Fire Resist</strong> / <strong>Minimum Ice Resist</strong> +99%.<br>At the start of round, if Rascle is in the Middle, grant Rascal <strong>Minimum Fire Resist</strong> / <strong>Minimum Electric Resist</strong> +99%.<br>At the start of round, if Rascle is in the Backline, grant Rascal <strong>Minimum Electric Resist</strong> / <strong>Minimum Ice Resist</strong> +99%.<br>When Rascal is hit with an Elemental Attack, inflict Rascal 1000 Elemental DoT of the corresponding element.<br>All effects are Normal Effects."
+  },
+  "Skill_MP_Kidnapper_EV19_C_4": {
+    "title": "askill4",
+    "name": "Tantrum",
+    "type": "passive",
+    "img": ["SuicideBomb"],
+    "range": 0,
+    "AP": 0,
+    "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
+    "description": "On odd rounds, <strong>Minimize Damage</strong>.<br>On even rounds, remove debuffs when Rascal is hit.<br> At the start of round, inflict Rascal 1000 DoT until Rascal is hit.<br>If Rascal is hit more than 4 times per round, <strong>Counterattack</strong> with 50% Power.<br>All effects are Normal Effects."
+  },
+  "Skill_MP_Kidnapper_EV19_C_5": {
+    "title": "askill5",
+    "name": "Wall of Mind",
+    "type": "passive",
+    "img": ["SetBarricade"],
+    "range": 0,
+    "AP": 0,
+    "area": ["F>", "1", "1", "1", "1", "1", "1", "1", "1", "1"],
+    "description": "At the start of wave, grant Rascal <strong>CRIT Resist</strong> equals to 20% DEF / <strong>DEF Pen Resist</strong>  based on self's HP, upto 100%.<br>When an enemy is defeated, inflicts all enemies 50 DoT for 1 round.<br>When an ally is defeated, takes <strong>Fixed Damaged</strong> equals to 400% ATK.<br>All effects are Normal Effects."
   }
 }
