@@ -1936,7 +1936,14 @@
     "type": "Light",
     "role": "Attacker",
     "rank": "A",
-    "used": { "Ev1": [[1, "Ev-4Ex"]], "Ev17": [[1, "EV1-3Ex"]] }
+    "used": {
+      "Ev1": [[1, "Ev-4Ex"]],
+      "Ev17": [[1, "EV1-3Ex"]],
+      "Ev19": [
+        [3, "EV3-4B"],
+        [3, "EV3-7B"]
+      ]
+    }
   },
   "NightChickSP_N": {
     "name": "Chick Sniper",
@@ -2739,6 +2746,7 @@
         [2, "EV2-3Ex"],
         [3, "EV3-1Ex"]
       ],
+      "Ev19": [[3, "EV3-7B"]],
       "Story1": [
         [5, "5-1Ex"],
         [5, "5-2Ex"],
@@ -3108,6 +3116,7 @@
     "used": {
       "Ev1": [[1, "Ev-1Ex"]],
       "Ev18": [[3, "EV3-5B"]],
+      "Ev19": [[3, "EV3-1Ex"]],
       "Ev4": [[1, "Ev-3Ex"]],
       "Ev8": [
         [1, "Ev1-1Ex"],
@@ -3640,6 +3649,10 @@
         [3, "EV3-6B"],
         [3, "EV3-1Ex"]
       ],
+      "Ev19": [
+        [3, "EV3-1Ex"],
+        [3, "EV3-3Ex"]
+      ],
       "Story1": [[4, "4-3Ex"]],
       "NEW": true
     }
@@ -3650,7 +3663,7 @@
     "type": "Light",
     "role": "Attacker",
     "rank": "S",
-    "used": { "Ev1": [[1, "Ev-2Ex"]] }
+    "used": { "Ev1": [[1, "Ev-2Ex"]], "Ev19": [[3, "EV3-7B"]] }
   },
   "CenturionEX_TU4": {
     "name": "Elite Centurion",
@@ -3828,6 +3841,7 @@
         [2, "EV2-4B"],
         [2, "EV2-5B"]
       ],
+      "Ev19": [[3, "EV3-1Ex"]],
       "Ev2": [[2, "Ev2-3B"]],
       "Ev3": [[1, "Ev-3Ex"]],
       "Story1": [
@@ -4778,6 +4792,7 @@
         [3, "EV3-1Ex"],
         [3, "EV3-2Ex"]
       ],
+      "Ev19": [[3, "EV3-7B"]],
       "Ev4": [[1, "Ev-2Ex"]],
       "Story1": [[6, "6-7"]]
     }
@@ -6027,6 +6042,7 @@
     "rank": "A",
     "used": {
       "Ev16": [[1, "EV1-6Ex"]],
+      "Ev19": [[3, "EV3-4B"]],
       "Story1": [
         [6, "6-1Ex"],
         [6, "6-2Ex"],
@@ -6045,6 +6061,7 @@
     "used": {
       "Ev10": [[1, "Ev1-2Ex"]],
       "Ev18": [[2, "EV2-2C"]],
+      "Ev19": [[3, "EV3-4B"]],
       "Story1": [[6, "6-2Ex"]],
       "Story2": [[1, "9-1Ex"]],
       "NEW": true
@@ -6178,6 +6195,7 @@
         [2, "EV2-5Ex"]
       ],
       "Ev17": [[1, "EV1-2Ex"]],
+      "Ev19": [[3, "EV3-1Ex"]],
       "Story1": [[6, "6-3Ex"]],
       "NEW": true
     }
@@ -6312,6 +6330,7 @@
     "rank": "A",
     "used": {
       "Ev17": [[3, "EV3-1Ex"]],
+      "Ev19": [[3, "EV3-4B"]],
       "Story1": [
         [6, "6-1Ex"],
         [6, "6-2Ex"]
@@ -6673,6 +6692,7 @@
         [2, "EV2-3Ex"],
         [3, "EV3-1Ex"]
       ],
+      "Ev19": [[3, "EV3-4B"]],
       "Ev3": [[1, "Ev-4Ex"]],
       "Ev5": [[1, "Ev-3Ex"]],
       "Story1": [[6, "6-2Ex"]],
@@ -6720,6 +6740,7 @@
       "Ev16": [[1, "EV1-2Ex"]],
       "Ev17": [[2, "EV2-2Ex"]],
       "Ev18": [[3, "EV3-4B"]],
+      "Ev19": [[3, "EV3-3Ex"]],
       "Ev2": [[2, "Ev2-3B"]],
       "Ev3": [
         [1, "Ev-3Ex"],
@@ -6811,6 +6832,10 @@
     "used": {
       "Ev14": [[2, "EV2-2Ex"]],
       "Ev16": [[1, "EV1-6Ex"]],
+      "Ev19": [
+        [3, "EV3-4B"],
+        [3, "EV3-6B"]
+      ],
       "Story1": [[7, "7-3Ex"]],
       "NEW": true
     }
@@ -7403,7 +7428,10 @@
         [1, "Cha1-4"]
       ],
       "Ev17": [[2, "EV2-2C"]],
-      "Ev19": [[1, "EV1-2Ex"]],
+      "Ev19": [
+        [1, "EV1-2Ex"],
+        [3, "EV3-6B"]
+      ],
       "Ev3": [[1, "Ev-6Ex"]],
       "Ev4": [[1, "Ev-6Ex"]],
       "Ev6": [[2, "Ev2-6Ex"]],
@@ -7983,6 +8011,11 @@
         [2, "EV2-3Ex"],
         [3, "EV3-1Ex"]
       ],
+      "Ev19": [
+        [3, "EV3-5B"],
+        [3, "EV3-7B"],
+        [3, "EV3-3Ex"]
+      ],
       "Ev3": [[1, "Ev-4Ex"]],
       "Ev4": [[1, "Ev-5Ex"]],
       "Ev5": [[1, "Ev-5Ex"]],
@@ -8056,6 +8089,7 @@
     "used": {
       "Ev14": [[1, "EV1-3Ex"]],
       "Ev17": [[3, "EV3-2Ex"]],
+      "Ev19": [[3, "EV3-5B"]],
       "Ev2": [[2, "Ev2-2B"]],
       "Ev3": [[1, "Ev-4Ex"]],
       "Ev4": [
@@ -8103,7 +8137,9 @@
       ],
       "Ev19": [
         [1, "EV1-2Ex"],
-        [2, "EV2-4B"]
+        [2, "EV2-4B"],
+        [3, "EV3-7B"],
+        [3, "EV3-1Ex"]
       ],
       "Ev9": [[2, "Ev2-6B"]]
     }
@@ -8401,7 +8437,12 @@
     "type": "Light",
     "role": "Supporter",
     "rank": "A",
-    "used": { "Ev17": [[2, "EV2-2C"]], "Story1": [[8, "8-2Ex"]], "NEW": true }
+    "used": {
+      "Ev17": [[2, "EV2-2C"]],
+      "Ev19": [[3, "EV3-1Ex"]],
+      "Story1": [[8, "8-2Ex"]],
+      "NEW": true
+    }
   },
   "NightChickCMS_EV1": {
     "name": "Upgraded Chemical Chick",
@@ -9456,7 +9497,10 @@
         [2, "EV2-1Ex"],
         [3, "EV3-4B"]
       ],
-      "Ev19": [[2, "EV2-4B"]],
+      "Ev19": [
+        [2, "EV2-4B"],
+        [3, "EV3-3Ex"]
+      ],
       "Ev5": [[1, "Ev-5Ex"]],
       "Ev7": [[1, "Ev1-1Ex"]],
       "Ev8": [[2, "Ev2-2Ex"]],
@@ -9664,6 +9708,7 @@
     "role": "Attacker",
     "rank": "S",
     "used": {
+      "Ev19": [[3, "EV3-6B"]],
       "Ev5": [[1, "Ev-6Ex"]],
       "Ev6": [[2, "Ev2-6Ex"]],
       "Ev8": [[2, "Ev2-2Ex"]],
@@ -10535,7 +10580,14 @@
     "type": "Light",
     "role": "Defender",
     "rank": "S",
-    "used": { "Ev19": [[1, "EV1-3Ex"]] }
+    "used": {
+      "Ev19": [
+        [1, "EV1-3Ex"],
+        [3, "EV3-4"],
+        [3, "EV3-5"],
+        [3, "EV3-6"]
+      ]
+    }
   },
   "NightChickShSv_TU2": {
     "name": "Surviving Chick Shielder",
@@ -10615,7 +10667,8 @@
       "Ev17": [
         [2, "EV2-3Ex"],
         [3, "EV3-2Ex"]
-      ]
+      ],
+      "Ev19": [[3, "EV3-5B"]]
     }
   },
   "LegionSP_TU5": {
@@ -10748,7 +10801,7 @@
     "type": "Flying",
     "role": "Attacker",
     "rank": "A",
-    "used": { "Story1": [[7, "7-3Ex"]] }
+    "used": { "Ev19": [[3, "EV3-2Ex"]], "Story1": [[7, "7-3Ex"]] }
   },
   "LightningBomber_TU5": {
     "name": "Lightning Bomber",
@@ -10801,6 +10854,10 @@
     "used": {
       "Ev14": [[2, "EV2-2Ex"]],
       "Ev17": [[1, "EV1-3Ex"]],
+      "Ev19": [
+        [3, "EV3-4B"],
+        [3, "EV3-6B"]
+      ],
       "Ev8": [[1, "Ev1-1Ex"]],
       "Story1": [[7, "7-4"]]
     }
@@ -11159,7 +11216,11 @@
         [2, "Ev2-2Ex"]
       ],
       "Ev14": [[1, "EV1-3Ex"]],
-      "Ev19": [[2, "EV2-2Ex"]],
+      "Ev19": [
+        [2, "EV2-2Ex"],
+        [3, "EV3-7B"],
+        [3, "EV3-2Ex"]
+      ],
       "Ev7": [[1, "Ev1-3Ex"]],
       "Ev8": [[2, "Ev2-1Ex"]],
       "NEW": true
@@ -11922,7 +11983,12 @@
     "type": "Light",
     "role": "Attacker",
     "rank": "S",
-    "used": { "Ev19": [[2, "EV2-2Ex"]] }
+    "used": {
+      "Ev19": [
+        [2, "EV2-2Ex"],
+        [3, "EV3-7B"]
+      ]
+    }
   },
   "Slasher_TU3": {
     "name": "Slasher",
@@ -12095,7 +12161,12 @@
       ],
       "Ev19": [
         [1, "EV1-2Ex"],
-        [2, "EV2-2Ex"]
+        [2, "EV2-2Ex"],
+        [3, "EV3-4B"],
+        [3, "EV3-6B"],
+        [3, "EV3-1Ex"],
+        [3, "EV3-2Ex"],
+        [3, "EV3-3Ex"]
       ],
       "Story1": [
         [8, "8-6"],
@@ -12219,7 +12290,7 @@
     "type": "Light",
     "role": "Supporter",
     "rank": "SS",
-    "used": { "Ev17": [[2, "EV2-1Ex"]] }
+    "used": { "Ev17": [[2, "EV2-1Ex"]], "Ev19": [[3, "EV3-3Ex"]] }
   },
   "SpeakerEx_TU3": {
     "name": "Upgraded Speaker",
@@ -12492,7 +12563,7 @@
     "type": "Light",
     "role": "Supporter",
     "rank": "SS",
-    "used": {}
+    "used": { "Ev19": [[3, "EV3-6B"]] }
   },
   "FryerHead_TU2": {
     "name": "Fryer Head",
@@ -12547,7 +12618,7 @@
     "type": "Light",
     "role": "Supporter",
     "rank": "S",
-    "used": { "Ev18": [[2, "EV2-2Ex"]] }
+    "used": { "Ev18": [[2, "EV2-2Ex"]], "Ev19": [[3, "EV3-6B"]] }
   },
   "FryerShooter_TU2": {
     "name": "Fryer Shooter",
@@ -12610,7 +12681,7 @@
     "type": "Light",
     "role": "Attacker",
     "rank": "S",
-    "used": {}
+    "used": { "Ev19": [[3, "EV3-6B"]] }
   },
   "FryerShell_TU3": {
     "name": "Fryer Shell",
@@ -12649,7 +12720,14 @@
     "type": "Light",
     "role": "Attacker",
     "rank": "S",
-    "used": { "Ev17": [[2, "EV2-6"]] }
+    "used": {
+      "Ev17": [[2, "EV2-6"]],
+      "Ev19": [
+        [3, "EV3-4"],
+        [3, "EV3-5"],
+        [3, "EV3-6"]
+      ]
+    }
   },
   "NightChickSv_TU": {
     "name": "Surviving Night Chick",
@@ -12704,7 +12782,12 @@
     "type": "Heavy",
     "role": "Attacker",
     "rank": "S",
-    "used": {}
+    "used": {
+      "Ev19": [
+        [3, "EV3-5"],
+        [3, "EV3-6"]
+      ]
+    }
   },
   "NightChickCSv_TU": {
     "name": "Surviving Night Chick Cannon",
@@ -12751,7 +12834,13 @@
     "type": "Light",
     "role": "Attacker",
     "rank": "S",
-    "used": {}
+    "used": {
+      "Ev19": [
+        [3, "EV3-4"],
+        [3, "EV3-5"],
+        [3, "EV3-6"]
+      ]
+    }
   },
   "NightChickMSv_TU": {
     "name": "Surviving Night Chick Launcher",
@@ -13152,7 +13241,7 @@
     "type": "Light",
     "role": "Supporter",
     "rank": "S",
-    "used": {}
+    "used": { "Ev19": [[3, "EV3-6"]] }
   },
   "DryerShooter_TU3": {
     "name": "Dryer Shooter",
@@ -13199,7 +13288,14 @@
     "type": "Light",
     "role": "Attacker",
     "rank": "S",
-    "used": { "Ev16": [[1, "EV1-2Ex"]], "Ev18": [[3, "EV3-3Ex"]] }
+    "used": {
+      "Ev16": [[1, "EV1-2Ex"]],
+      "Ev18": [[3, "EV3-3Ex"]],
+      "Ev19": [
+        [3, "EV3-5"],
+        [3, "EV3-6"]
+      ]
+    }
   },
   "DryerShell_TU2": {
     "name": "Dryer Shell",
@@ -13287,7 +13383,11 @@
     "type": "Flying",
     "role": "Defender",
     "rank": "S",
-    "used": { "Ev16": [[1, "EV1-4Ex"]], "Ev17": [[2, "EV2-2Ex"]] }
+    "used": {
+      "Ev16": [[1, "EV1-4Ex"]],
+      "Ev17": [[2, "EV2-2Ex"]],
+      "Ev19": [[3, "EV3-7B"]]
+    }
   },
   "ScarabH_TU3": {
     "name": "Scarab H",
@@ -13497,7 +13597,8 @@
       "Ev18": [[1, "EV1-2Ex"]],
       "Ev19": [
         [2, "EV2-2Ex"],
-        [2, "EV2-3Ex"]
+        [2, "EV2-3Ex"],
+        [3, "EV3-3Ex"]
       ]
     }
   },
@@ -14973,7 +15074,12 @@
     "type": "Light",
     "role": "Attacker",
     "rank": "SS",
-    "used": { "Ev19": [[2, "EV2-3Ex"]] }
+    "used": {
+      "Ev19": [
+        [2, "EV2-3Ex"],
+        [3, "EV3-3Ex"]
+      ]
+    }
   },
   "Kidnapper_EV19_C": {
     "name": "Rascal",
