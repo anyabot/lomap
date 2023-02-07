@@ -8933,7 +8933,7 @@
     "range": 4,
     "AP": 4,
     "description": "Deal $(1.2) damage to target area and removes <strong>Damage Reduction</strong> buffs when Crits.",
-    "area": [4, 5, 6]
+    "area": ["6>", 4, 5, 6]
   },
   "Skill_MP_Goltarion_EV1_2": {
     "title": "askill2",
