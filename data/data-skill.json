@@ -1839,7 +1839,7 @@
     "type": "active",
     "name": "Energy Shield",
     "img": "SelfDefBuff",
-    "range": 8,
+    "range": 6,
     "AP": 4,
     "description": "Grants allies Barrier +9000 for 9 rounds and removes debuffs.",
     "area": ["F>", 7, 8, 9, 4, 5, 6, 1, 2, 3]
@@ -5994,7 +5994,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "If Underwatcher has less than 30% while affected by <strong>Energy Charge</strong>, grants Underwatcher <strong>Battle Continuation</strong> with 30000 HP (Normal Effect) permanently.",
+    "description": "If Underwatcher has less than 30% HP while affected by <strong>Energy Charge</strong>, grants Underwatcher <strong>Battle Continuation</strong> with 30000 HP (Normal Effect) permanently.",
     "area": [5]
   },
   "Skill_MP_UnderWatcher_EW2_1": {
@@ -6044,7 +6044,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "If Underwatcher has less than 30% while affected by <strong>Energy Charge</strong>, grants Underwatcher <strong>Battle Continuation</strong> with 50000 HP (Normal Effect) permanently.",
+    "description": "If Underwatcher has less than 30% HP while affected by <strong>Energy Charge</strong>, grants Underwatcher <strong>Battle Continuation</strong> with 50000 HP (Normal Effect) permanently.",
     "area": [5]
   },
   "Skill_MP_UnderWatcherGenerator_EW_1": {
@@ -6062,7 +6062,7 @@
     "type": "active",
     "name": "Energy Shield",
     "img": "SelfDefBuff",
-    "range": 8,
+    "range": 6,
     "AP": 4,
     "description": "Grants allies Barrier +9000 for 9 rounds and removes debuffs.",
     "area": ["F>", 7, 8, 9, 4, 5, 6, 1, 2, 3]
@@ -6095,6 +6095,56 @@
     "range": 0,
     "AP": 0,
     "description": "When Underwatcher Generator is defeated, removes buffs from all devices and inflicts <strong>Stunned</strong> for 2 rounds.",
+    "area": ["F>", 7, 8, 9, 4, 5, 6, 1, 2, 3]
+  },
+  "Skill_MP_UnderWatcherGenerator_EW2_1": {
+    "title": "askill1",
+    "type": "active",
+    "name": "Energy Charge",
+    "img": "SelfAtkBuff",
+    "range": 8,
+    "AP": 7,
+    "description": "Grants 1 <strong>Energy Charge</strong> stack to each device, granting ATK +10% (99 rounds, stack up to 5 times) / <strong>Minimize Damage</strong> (1 time, 9 rounds)/ <strong>Status Resist</strong> +50% (1 round).",
+    "area": ["F>", 7, 8, 9, 4, 5, 6, 1, 2, 3]
+  },
+  "Skill_MP_UnderWatcherGenerator_EW2_2": {
+    "title": "askill2",
+    "type": "active",
+    "name": "Energy Shield",
+    "img": "SelfDefBuff",
+    "range": 6,
+    "AP": 4,
+    "description": "Grants allies Barrier +9000 for 9 rounds and removes debuffs.",
+    "area": ["F>", 7, 8, 9, 4, 5, 6, 1, 2, 3]
+  },
+  "Skill_MP_UnderWatcherGenerator_EW2_3": {
+    "title": "askill3",
+    "type": "passive",
+    "name": "Energy Coating",
+    "img": "SelfDefBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "When Underwatcher Generator uses Active Skill, grants Underwatcher Generator <strong>Nullify Damage</strong> (3 times) / <strong>Damage Reduction</strong> +50% / <strong>Status Resist</strong> +50% for 3 rounds.",
+    "area": [5]
+  },
+  "Skill_MP_UnderWatcherGenerator_EW2_4": {
+    "title": "askill4",
+    "type": "passive",
+    "name": "Generator Short Circuit",
+    "img": "SelfSpdDeBuff",
+    "range": 0,
+    "AP": 0,
+    "description": "At the start of wave, grants Underwatcher Generator AP +8.<br>When Underwatcher Generator is hit, grants Underwatcher Generator's AP +1 and 5% chance to grant all allies AP +2.",
+    "area": [5]
+  },
+  "Skill_MP_UnderWatcherGenerator_EW2_5": {
+    "title": "askill5",
+    "type": "passive",
+    "name": "Generator Destruction",
+    "img": "SuiceideBomb",
+    "range": 0,
+    "AP": 0,
+    "description": "When an ally is defeated, set Underwatcher Generator AP to 12.<br>When Underwatcher Generator is defeated, inflicts <strong>Stunned</strong> for 2 rounds.",
     "area": ["F>", 7, 8, 9, 4, 5, 6, 1, 2, 3]
   },
   "Skill_MP_ExecutionerLB_EW_1": {
