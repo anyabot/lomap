@@ -5559,7 +5559,7 @@
     "img": "SelfDefDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, if unit is affected by <strong>Wet</strong>, inflicts <strong>Damage taken Increased</strong> +500% to unit for 4 rounds.",
+    "description": "At the start of round, if unit is affected by <strong>Wet</strong>, inflicts <strong>Damage Taken Increased</strong> +500% (Normal Effect) to unit.",
     "area": [5]
   },
   "Skill_MP_NightChickCMSv_N_1": {
@@ -5641,7 +5641,7 @@
     "img": "SelfAtkDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, if unit is affected by <strong>Wet</strong>, inflicts <strong>Damage taken Increased</strong> +500% to unit for 4 rounds.",
+    "description": "At the start of round, if unit is affected by <strong>Wet</strong>, inflicts <strong>Damage Taken Increased</strong> +500% (Normal Effect) to unit.",
     "area": [5]
   },
   "Skill_MP_Stalker_EW_1": {
@@ -7198,7 +7198,7 @@
     "area": [8, 2]
   },
   "Skill_MP_DroneM_SA4_5": {
-    "title": "askill4",
+    "title": "askill5",
     "type": "passive",
     "name": "Pin-Point Bombing",
     "img": "SelfAtkBuff",
@@ -7214,7 +7214,7 @@
     "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of the round, if unit is affected by 5 or more <strong>Output Amplification</strong> stacks, grant unit's <strong>Ignore Barrier / Damage Reduction</strong> and <strong>Defense Penetration</strong> +20%/<br>If unit is hit with an Electric attack while in <strong>Output Limit Release</strong> state, decrease unit's SPD -50% for 3 rounds.",
+    "description": "At the start of the round, if unit is affected by 5 or more <strong>Output Amplification</strong> stacks, grant unit's <strong>Ignore Barrier / Damage Reduction</strong> and <strong>Defense Penetration</strong> +20%/<br>If unit is hit with a Fire attack while in <strong>Output Limit Release</strong> state, decrease unit's SPD -50% for 3 rounds.",
     "area": [5]
   },
   "Skill_MP_StingerC_SA4_5": {
@@ -7237,7 +7237,7 @@
     "description": "When evades, grants unit <strong>Anti-Light DMG</strong> +30% for 3 rounds.",
     "area": [5]
   },
-  "GigantesC_SA4_Skill3": {
+  "Skill_MP_GigantesC_SA4_3": {
     "title": "askill3",
     "type": "passive",
     "name": "Improved Defense OS",
@@ -7247,7 +7247,7 @@
     "description": "At the start of round, if unit's HP is below 20%, increases unit's DEF +350% / <strong>Status Resist</strong> +50%. When unit is hit with an Fire Attack, removes this effect.",
     "area": [5]
   },
-  "GigantesC_SA4_Skill5": {
+  "Skill_MP_GigantesC_SA4_5": {
     "title": "askill5",
     "type": "passive",
     "name": "Protection Mode",
@@ -7257,7 +7257,7 @@
     "description": "At the start of waves, grants allies in Area of Effect <strong>Damage Reduction</strong> +80% (1 time). When hit with Fire Attack, effect is removed, and inflicts <strong>Damage taken Increased</strong> +30% for 2 rounds.",
     "area": [5, 6]
   },
-  "GigantesC_SA3_Skill3": {
+  "Skill_MP_GigantesC_SA3_3": {
     "title": "askill3",
     "type": "passive",
     "name": "Improved Defense OS",
@@ -7267,7 +7267,7 @@
     "description": "At the start of round, if unit's HP is below 20%, increases unit's DEF +350% / <strong>Status Resist</strong> +50%. When unit is hit with an Fire Attack, removes this effect.",
     "area": [5]
   },
-  "GigantesC_SA3_Skill5": {
+  "Skill_MP_GigantesC_SA3_5": {
     "title": "askill5",
     "type": "passive",
     "name": "Protection Mode",
@@ -7304,7 +7304,7 @@
     "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of wave, increase unit's DEF +500% (5 attacks).<br>Removes DEF buffs when unit is hit with a Fire attack.",
+    "description": "At the start of wave, increase unit's DEF +500% (2 attacks).<br>Removes DEF buffs when unit is hit with a Fire attack.",
     "area": [5]
   },
   "Skill_MP_SeljuqA_SA4_5": {
@@ -7928,7 +7928,7 @@
     "img": "SelfDefDeBuff",
     "range": 0,
     "AP": 0,
-    "description": "At the start of round, if unit is affected by <strong>Wet</strong>, inflict self <strong>Damage taken Increased</strong> +500% for 4 rounds.",
+    "description": "At the start of round, if unit is affected by <strong>Wet</strong>, inflicts <strong>Damage Taken Increased</strong> +500% (Normal Effect) to unit",
     "area": [5]
   },
   "Skill_MP_FridgerShooter_N_1": {
@@ -10653,123 +10653,123 @@
   },
   "Skill_MP_NightChickEX_EW_1": {
     "title": "askill1",
-    "name": "강화 머신건 사격",
     "type": "active",
-    "img": ["ARShot"],
+    "name": "Enhanced Machine Gun Shot",
+    "img": "ARShot",
     "range": 4,
     "AP": 4,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "머신건 사격으로 {0} 피해를 줍니다. 2라운드 동안 대상의 회피를 낮츱니다."
+    "description": "Deal $(1) damage to a single target and inflicts EVA -20% for 2 rounds.",
+    "area": [5]
   },
   "Skill_MP_NightChickEX_EW_2": {
     "title": "askill2",
-    "name": "강화 머신건 연사",
     "type": "active",
-    "img": ["ARShot"],
+    "name": "Enhanced Machine Gun Continuous Fire",
+    "img": "ARShot",
     "range": 1,
     "AP": 6,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "머신건을 조준 사격해 {0} 피해를 줍니다. 대상이 회피 감소 상태인 경우, 피해량이 증가합니다."
+    "description": "Deal $(1.4) damage to a single target.<br><strong>Additional DMG</strong> +20% to targets affected by EVA- debuffs.",
+    "area": [5]
   },
   "Skill_MP_NightChickEX_EW_3": {
     "title": "askill3",
-    "name": "칙 정밀 조준",
+    "name": "Chick Precision Aiming",
     "type": "passive",
     "img": ["Snipe"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "대기 시, 3라운드 동안 적중 / 사거리 / 치명타가 증가합니다."
+    "description": "When unit idles, grants unit ACC +40% / Range +1 / CRIT +15% for 3 rounds."
   },
   "Skill_MP_NightChickEX_EW_4": {
     "title": "askill4",
-    "name": "솔져",
+    "name": "Berserk - Soldier",
     "type": "passive",
     "img": ["TeamAtkBuff"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "광폭화-매 라운드마다 공격력이 증가합니다."
+    "description": "At the start of round, grants unit ATK +10% permanently."
   },
   "Skill_MP_BigChick_EW_1": {
     "title": "askill1",
-    "name": "중 기관총 사격",
     "type": "active",
-    "img": ["MGShot"],
+    "name": "Heavy Machine Gun Fire",
+    "img": "MGShot",
     "range": 4,
     "AP": 5,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "중 기관총으로 {0} 피해를 줍니다. 대상이 방어력 감소 상태인 경우, 피해량이 증가합니다."
+    "description": "Deal $(1.2) damage to a single target. <br><strong>Additional DMG</strong> +20% to targets affected by DEF- debuffs.",
+    "area": [5]
   },
   "Skill_MP_BigChick_EW_2": {
     "title": "askill2",
-    "name": "영거리 중 기관총",
     "type": "active",
-    "img": ["MGShot"],
+    "name": "Point-Blank Heavy Machine Gun",
+    "img": "MGShot",
     "range": 1,
     "AP": 8,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "중 기관총 근접 사격으로 {0} 피해를 줍니다. 대상의 방어력을 일정 비율 무시하며, 방어력 감소 상태인 경우 피해량이 증가합니다."
+    "description": "Deal $(2) damage to a single target with <strong>Defense Penetration</strong> +50%. <br><strong>Additional DMG</strong> +20% to targets affected by DEF- debuffs.",
+    "area": [5]
   },
   "Skill_MP_BigChick_EW_3": {
     "title": "askill3",
-    "name": "노즐 강화",
+    "name": "Upgrade Nozzle",
     "type": "passive",
     "img": ["TeamAtkBuff"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "경장형에게 주는 피해가 증가하며, 피해 감소 효과와 방어막을 무시합니다."
+    "description": "Grants unit <strong>Anti-Flying DMG</strong> +30% / <strong>Ignore Barrier / DR</strong>."
   },
   "Skill_MP_BigChick_EW_4": {
     "title": "askill4",
-    "name": "광폭화-패트릭",
+    "name": "Berserk - Patrick",
     "type": "passive",
     "img": ["TeamAtkBuff"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "광폭화-매 라운드마다 방어 관통 증가합니다."
+    "description": "At the start of round, grants unit <strong>Defense Penetration</strong> +25% permanently."
   },
   "Skill_MP_Mammoth_EW_1": {
     "title": "askill1",
-    "name": "직사 포격",
     "type": "active",
-    "img": ["CannonShotWide"],
+    "name": "Direct Shelling",
+    "img": "CannonShotWide",
     "range": 2,
     "AP": 7,
-    "area": [0, 1, 0, 0, 1, 0, 0, 1, 0],
-    "description": "직사 포격으로 범위 내 대상에게 {0} 피해를 줍니다. 대상이 이동 불가 상태인 경우, 직격해 피해량이 증가합니다."
+    "description": "Deal $(1.35) damage to target area.<br><strong>Additional DMG</strong> +50% to targets affected by <strong>Rooted</strong> debuffs.",
+    "area": [8, 5, 2]
   },
   "Skill_MP_Mammoth_EW_2": {
     "title": "askill2",
-    "name": "2연장 곡사포",
     "type": "active",
-    "img": ["CannonShotDelay"],
+    "name": "Double Howitzer",
+    "img": "CannonShotDelay",
     "range": 6,
     "AP": 9,
-    "area": [0, 0.75, 0, 0.75, 1, 0.75, 0, 0.75, 0],
-    "description": "1라운드 뒤에 착탄하는 곡사 포격으로 목표 지점에 {0} 피해를 줍니다. 목표 지점 주변에는 피해가 50% 감소합니다. 대상이 이동 불가 상태인 경우, 직격해 피해량이 증가합니다."
+    "description": "After 1 round, Deal $(2.5) damage to target area with <strong>Ignore Protect</strong>.<br>Damage decreases to 50% on non-center area.<br><strong>Additional DMG</strong> +50% to targets affected by <strong>Rooted</strong> debuffs.",
+    "area": [0, 0.75, 0, 0.75, 1, 0.75, 0, 0.75, 0]
   },
   "Skill_MP_Mammoth_EW_3": {
     "title": "askill3",
-    "name": "고폭 충격탄",
     "type": "passive",
-    "img": ["SelfAtkBuff"],
+    "name": "HE Impact Shell",
+    "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "공격 시, 적의 방어막과 피해 감소 효과를 무시합니다."
+    "description": "At the start of wave, grant unit <strong>Ignore Barrier / Damage Reduction</strong> permanently.",
+    "area": [5]
   },
   "Skill_MP_Mammoth_EW_4": {
     "title": "askill4",
-    "name": "광폭화-캐노니어",
+    "name": "Berserk - Cannonier",
     "type": "passive",
     "img": ["TeamAtkBuff"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "광폭화-매 라운드마다 공격력이 증가합니다."
+    "description": "At the start of round, grants unit ATK +25% permanently."
   },
   "Skill_MP_Mammoth_EW_7": {
     "title": "askill7",
@@ -10783,43 +10783,43 @@
   },
   "Skill_MP_HarvesterEX_EW_1": {
     "title": "askill1",
-    "name": "폐기물 파쇄",
     "type": "active",
-    "img": ["MeleeAttack"],
+    "name": "Waste Crush",
+    "img": "MeleeAttack",
     "range": 1,
     "AP": 9,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "근접 공격으로 {0} 피해를 줍니다. 대상이 이동 불가 상태인 경우, 대상을 강타해 피해량이 증가하며 2라운드 동안 행동 불가로 만듭니다."
+    "description": "Deal $(2.6) damage to a single target.<br>If the target is affected by <strong>Rooted</strong> debuffs, <strong>Additional DMG</strong> +40% and inflicts <strong>Stunned</strong> for 2 rounds.",
+    "area": [5]
   },
   "Skill_MP_HarvesterEX_EW_2": {
     "title": "askill2",
-    "name": "폐기물 수집",
     "type": "active",
-    "img": ["Hang"],
+    "name": "Waste Collection",
+    "img": "Hang",
     "range": 4,
     "AP": 4,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "집게로 목표 대상을 포획해 {0} 피해를 주며 2칸 앞으로 당깁니다. 적중 시, 2라운드 동안 행동력이 감소하며 이동 불가 상태가 됩니다."
+    "description": "Deal $(0.5) damage to a single target, <strong>Pull Forward</strong> 2 squares and inflicts SPD -30% / <strong>Rooted</strong> for 2 rounds.",
+    "area": [5]
   },
   "Skill_MP_HarvesterEX_EW_3": {
     "title": "askill3",
-    "name": "초합금 플레이팅",
     "type": "passive",
-    "img": ["SelfDefBuff"],
+    "name": "Superalloy Plating",
+    "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "견고한 장갑으로 인해, 일정 위력 이하의 공격은 통하지 않습니다."
+    "description": "Minimizes damages below 1000.",
+    "area": [5]
   },
   "Skill_MP_HarvesterEX_EW_4": {
     "title": "askill4",
-    "name": "광폭화-탱크",
+    "name": "Berserk - Tank",
     "type": "passive",
     "img": ["TeamAtkBuff"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "광폭화-매 라운드마다 방어력이 증가합니다."
+    "description": "At the start of round, grants unit DEF +25% permanently."
   },
   "Skill_MP_BigChickM_N_7": {
     "title": "askill7",
@@ -10883,333 +10883,333 @@
   },
   "Skill_MP_LightningBomber_EW_1": {
     "title": "askill1",
-    "name": "쇼크 밤",
+    "name": "Shock Bomb",
     "type": "active",
     "img": ["Missile"],
     "range": 4,
     "AP": 4,
     "area": [0, 0, 0, 0.75, 1, 0, 0, 0, 0],
-    "description": "대상에게 미사일을 발사해 {0} 피해를 주고, 행동력을 감소시킵니다."
+    "description": "Deal $(1) damage to target area, and inflicts SPD -30% for 3 rounds."
   },
   "Skill_MP_LightningBomber_EW_2": {
     "title": "askill2",
-    "name": "무차별 폭격",
+    "name": "Indiscriminate Bombardment",
     "type": "active",
     "img": ["MultiMissile"],
     "range": 3,
     "AP": 9,
     "area": [0, 1, 0, 1, 1, 1, 0, 1, 0],
-    "description": "지정 범위에 {0} 보호 무시 피해를 줍니다. 대상이 행동력 감소 상태면 추가 전기 피해를 줍니다."
+    "description": "Deal $(1.25) damage to target area that <strong>Ignore Protect</strong>.<br><strong>Additional Electric DMG</strong> +50% to targets affected by SPD-."
   },
   "Skill_MP_LightningBomber_EW2_1": {
     "title": "askill1",
-    "name": "쇼크 밤",
+    "name": "Shock Bomb",
     "type": "active",
     "img": ["Missile"],
     "range": 4,
     "AP": 4,
     "area": [0, 0, 0, 0.75, 1, 0, 0, 0, 0],
-    "description": "대상에게 미사일을 발사해 {0} 피해를 주고, 행동력을 감소시킵니다."
+    "description": "Deal $(1) damage to target area, and inflicts SPD -30% for 3 rounds."
   },
   "Skill_MP_LightningBomber_EW2_2": {
     "title": "askill2",
-    "name": "무차별 폭격",
+    "name": "Indiscriminate Bombardment",
     "type": "active",
     "img": ["MultiMissile"],
     "range": 3,
     "AP": 9,
     "area": [0, 1, 0, 1, 1, 1, 0, 1, 0],
-    "description": "지정 범위에 {0} 보호 무시 피해를 줍니다. 대상이 행동력 감소 상태면 추가 전기 피해를 줍니다."
+    "description": "Deal $(1.25) damage to target area that <strong>Ignore Protect</strong>.<br><strong>Additional Electric DMG</strong> +50% to targets affected by SPD-."
   },
   "Skill_MP_RampartC_SA2_5": {
     "title": "askill5",
-    "name": "공격 지원",
     "type": "passive",
-    "img": ["SelfAtkBuff"],
+    "name": "Attack Support",
+    "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 1, 0, 0, 0, 0, 0, 1, 0],
-    "description": "전투 개시 시, 2라운드 동안 범위 내 아군의 공격을 지원합니다. 화염 공격에 피격 시, 해당 효과는 해제됩니다."
+    "description": "At the start of waves, grants allies in Area of Effect <strong>Follow Up Attack</strong>.<br>Effect is removed when hit with Fire attacks.",
+    "area": [8, 2]
   },
   "Skill_MP_RampartC_SA3_5": {
     "title": "askill5",
-    "name": "공격 지원",
     "type": "passive",
-    "img": ["SelfAtkBuff"],
+    "name": "Attack Support",
+    "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 1, 0, 0, 0, 0, 0, 1, 0],
-    "description": "전투 개시 시, 2라운드 동안 범위 내 아군의 공격을 지원합니다. 화염 공격에 피격 시, 해당 효과는 해제됩니다."
+    "description": "At the start of waves, grants allies in Area of Effect <strong>Follow Up Attack</strong>.<br>Effect is removed when hit with Fire attacks.",
+    "area": [8, 2]
   },
   "Skill_MP_RampartC_SA5_5": {
     "title": "askill5",
-    "name": "공격 지원",
     "type": "passive",
-    "img": ["SelfAtkBuff"],
+    "name": "Attack Support",
+    "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 1, 0, 0, 0, 0, 0, 1, 0],
-    "description": "전투 개시 시, 2라운드 동안 범위 내 아군의 공격을 지원합니다. 화염 공격에 피격 시, 해당 효과는 해제됩니다."
+    "description": "At the start of waves, grants allies in Area of Effect <strong>Follow Up Attack</strong>.<br>Effect is removed when hit with Fire attacks.",
+    "area": [8, 2]
   },
   "Skill_MP_FallenC_SA2_5": {
     "title": "askill5",
-    "name": "출력 한계 해제",
     "type": "passive",
-    "img": ["SelfAtkBuff"],
+    "name": "Output Limit Release",
+    "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "라운드 개시 시, <sec typ=\"note\">출력 증폭</sec>이 5중첩 이상인 상태라면 방어막 / 피해 감소 효과를 무시하며 방어 관통 효과가 부여 됩니다. <sec typ=\"note\">출력 한계 해제</sec> 상태에서 화염 공격에 피격 시 행동력이 감소합니다."
+    "description": "At the start of the round, if unit is affected by 5 or more <strong>Output Amplification</strong> stacks, grant unit's <strong>Ignore Barrier / Damage Reduction</strong> and <strong>Defense Penetration</strong> +20%/<br>If unit is hit with a Fire attack while in <strong>Output Limit Release</strong> state, decrease unit's SPD -50% for 3 rounds.",
+    "area": [5]
   },
   "Skill_MP_FallenC_SA3_5": {
     "title": "askill5",
-    "name": "출력 한계 해제",
     "type": "passive",
-    "img": ["SelfAtkBuff"],
+    "name": "Output Limit Release",
+    "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "라운드 개시 시, <sec typ=\"note\">출력 증폭</sec>이 5중첩 이상인 상태라면 방어막 / 피해 감소 효과를 무시하며 방어 관통 효과가 부여 됩니다. <sec typ=\"note\">출력 한계 해제</sec> 상태에서 화염 공격에 피격 시 행동력이 감소합니다."
+    "description": "At the start of the round, if unit is affected by 5 or more <strong>Output Amplification</strong> stacks, grant unit's <strong>Ignore Barrier / Damage Reduction</strong> and <strong>Defense Penetration</strong> +20%/<br>If unit is hit with a Fire attack while in <strong>Output Limit Release</strong> state, decrease unit's SPD -50% for 3 rounds.",
+    "area": [5]
   },
   "Skill_MP_FallenC_SA5_5": {
     "title": "askill5",
-    "name": "출력 한계 해제",
     "type": "passive",
-    "img": ["SelfAtkBuff"],
+    "name": "Output Limit Release",
+    "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "라운드 개시 시, <sec typ=\"note\">출력 증폭</sec>이 5중첩 이상인 상태라면 방어막 / 피해 감소 효과를 무시하며 방어 관통 효과가 부여 됩니다. <sec typ=\"note\">출력 한계 해제</sec> 상태에서 화염 공격에 피격 시 행동력이 감소합니다."
+    "description": "At the start of the round, if unit is affected by 5 or more <strong>Output Amplification</strong> stacks, grant unit's <strong>Ignore Barrier / Damage Reduction</strong> and <strong>Defense Penetration</strong> +20%/<br>If unit is hit with a Fire attack while in <strong>Output Limit Release</strong> state, decrease unit's SPD -50% for 3 rounds.",
+    "area": [5]
   },
   "Skill_MP_PuppHeadC_SA2_5": {
     "title": "askill5",
-    "name": "연산 회로 손실",
     "type": "passive",
-    "img": ["TeamDefDeBuff"],
+    "name": "Operational Circuit Loss",
+    "img": "TeamDefDeBuff",
     "range": 0,
     "AP": 0,
-    "area": [1, 1, 1, 1, 0, 1, 1, 1, 1],
-    "description": "화염 공격에 피격 시, 일부 연산 회로가 손실되어 인접한 아군들의 방어력 / 행동력이 2라운드 동안 감소합니다."
+    "description": "When unit is hit with Fire Damage, inflicts DEF -20% / SPD -30% for 2 rounds to allies in Area of Effect.",
+    "area": [7, 8, 9, 4, 6, 1, 2, 3]
   },
   "Skill_MP_PuppHeadC_SA3_5": {
     "title": "askill5",
-    "name": "연산 회로 손실",
     "type": "passive",
-    "img": ["TeamDefDeBuff"],
+    "name": "Operational Circuit Loss",
+    "img": "TeamDefDeBuff",
     "range": 0,
     "AP": 0,
-    "area": [1, 1, 1, 1, 0, 1, 1, 1, 1],
-    "description": "화염 공격에 피격 시, 일부 연산 회로가 손실되어 인접한 아군들의 방어력 / 행동력이 2라운드 동안 감소합니다."
+    "description": "When unit is hit with Fire Damage, inflicts DEF -20% / SPD -30% for 2 rounds to allies in Area of Effect.",
+    "area": [7, 8, 9, 4, 6, 1, 2, 3]
   },
   "Skill_MP_PuppHeadC_SA4_5": {
     "title": "askill5",
-    "name": "연산 회로 손실",
     "type": "passive",
-    "img": ["TeamDefDeBuff"],
+    "name": "Operational Circuit Loss",
+    "img": "TeamDefDeBuff",
     "range": 0,
     "AP": 0,
-    "area": [1, 1, 1, 1, 0, 1, 1, 1, 1],
-    "description": "화염 공격에 피격 시, 일부 연산 회로가 손실되어 인접한 아군들의 방어력 / 행동력이 2라운드 동안 감소합니다."
+    "description": "When unit is hit with Fire Damage, inflicts DEF -20% / SPD -30% for 2 rounds to allies in Area of Effect.",
+    "area": [7, 8, 9, 4, 6, 1, 2, 3]
   },
   "Skill_MP_StingerC_SA2_5": {
     "title": "askill5",
-    "name": "경장갑 파괴",
     "type": "passive",
-    "img": ["SelfAtkBuff"],
+    "name": "Light-Armored Destruction",
+    "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "회피 시, 3라운드 동안 대 경장형 피해량이 증가합니다."
+    "description": "When evades, grants unit <strong>Anti-Light DMG</strong> +30% for 3 rounds.",
+    "area": [5]
   },
   "Skill_MP_StingerC_SA3_5": {
     "title": "askill5",
-    "name": "경장갑 파괴",
     "type": "passive",
-    "img": ["SelfAtkBuff"],
+    "name": "Light-Armored Destruction",
+    "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "회피 시, 3라운드 동안 대 경장형 피해량이 증가합니다."
+    "description": "When evades, grants unit <strong>Anti-Light DMG</strong> +30% for 3 rounds.",
+    "area": [5]
   },
   "Skill_MP_AMG11AA_SA2_5": {
     "title": "askill5",
-    "name": "화망 구축",
     "type": "passive",
-    "img": ["TeamAtkBuff"],
+    "name": "Network Building",
+    "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [1, 1, 1, 1, 0, 1, 1, 1, 1],
-    "description": "아군이 사망 시, 더욱 견고히 화망을 구축하여 인접 아군의 공격력은 감소하지만 적중을 증가시킵니다."
+    "description": "When an ally is defeated, increases ACC +50% but decreases ATK -20% of allies in Area of Effect for 5 rounds.",
+    "area": [7, 8, 9, 4, 6, 1, 2, 3]
   },
   "Skill_MP_AMG11AA_SA3_5": {
     "title": "askill5",
-    "name": "화망 구축",
     "type": "passive",
-    "img": ["TeamAtkBuff"],
+    "name": "Network Building",
+    "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [1, 1, 1, 1, 0, 1, 1, 1, 1],
-    "description": "아군이 사망 시, 더욱 견고히 화망을 구축하여 인접 아군의 공격력은 감소하지만 적중을 증가시킵니다."
+    "description": "When an ally is defeated, increases ACC +50% but decreases ATK -20% of allies in Area of Effect for 5 rounds.",
+    "area": [7, 8, 9, 4, 6, 1, 2, 3]
   },
   "Skill_MP_AMG11AA_SA4_5": {
     "title": "askill5",
-    "name": "화망 구축",
     "type": "passive",
-    "img": ["TeamAtkBuff"],
+    "name": "Network Building",
+    "img": "TeamAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [1, 1, 1, 1, 0, 1, 1, 1, 1],
-    "description": "아군이 사망 시, 더욱 견고히 화망을 구축하여 인접 아군의 공격력은 감소하지만 적중을 증가시킵니다."
+    "description": "When an ally is defeated, increases ACC +50% but decreases ATK -20% of allies in Area of Effect for 5 rounds.",
+    "area": [7, 8, 9, 4, 6, 1, 2, 3]
   },
   "Skill_MP_DroneM_SA2_5": {
     "title": "askill5",
-    "name": "중갑 파괴",
     "type": "passive",
-    "img": ["SelfAtkBuff"],
+    "name": "Pin-Point Bombing",
+    "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 0, 0, 1, 0, 1, 0, 0, 0],
-    "description": "자신이 중열일 경우, 자신의 앞과 뒤에 있는 아군에게 대 중장 피해량을 증가시키고 방어 관통 효과를 부여 합니다."
+    "description": "At the start of each round, if unit is in the frontline, grants unit <strong>Ignore Barrier / Damage Reduction</strong> and <strong>Defense Penetration</strong> +75%.",
+    "area": [5]
   },
   "Skill_MP_DroneM_SA3_5": {
     "title": "askill5",
-    "name": "중갑 파괴",
     "type": "passive",
-    "img": ["SelfAtkBuff"],
+    "name": "Pin-Point Bombing",
+    "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 0, 0, 1, 0, 1, 0, 0, 0],
-    "description": "자신이 중열일 경우, 자신의 앞과 뒤에 있는 아군에게 대 중장 피해량을 증가시키고 방어 관통 효과를 부여 합니다."
+    "description": "At the start of each round, if unit is in the frontline, grants unit <strong>Ignore Barrier / Damage Reduction</strong> and <strong>Defense Penetration</strong> +75%.",
+    "area": [5]
   },
   "Skill_MP_DroneM_SA5_5": {
     "title": "askill5",
-    "name": "중갑 파괴",
     "type": "passive",
-    "img": ["SelfAtkBuff"],
+    "name": "Pin-Point Bombing",
+    "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 0, 0, 1, 0, 1, 0, 0, 0],
-    "description": "자신이 중열일 경우, 자신의 앞과 뒤에 있는 아군에게 대 중장 피해량을 증가시키고 방어 관통 효과를 부여 합니다."
+    "description": "At the start of each round, if unit is in the frontline, grants unit <strong>Ignore Barrier / Damage Reduction</strong> and <strong>Defense Penetration</strong> +75%.",
+    "area": [5]
   },
   "Skill_MP_SeljuqA_SA2_4": {
     "title": "askill4",
-    "name": "증가 장갑",
     "type": "passive",
-    "img": ["SelfDefBuff"],
+    "name": "Increase Armor",
+    "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "전투 개시 시, 방어력이 크게 증가합니다. 해당 효과는 2회 피격되거나 화염 속성 공격 피격 시, 해제됩니다."
+    "description": "At the start of wave, increase unit's DEF +500% (2 attacks).<br>Removes DEF buffs when unit is hit with a Fire attack.",
+    "area": [5]
   },
   "Skill_MP_SeljuqA_SA2_5": {
     "title": "askill5",
-    "name": "포신 강화",
     "type": "passive",
-    "img": ["SelfAtkBuff"],
+    "name": "Barrel Reinforce",
+    "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "적에게 피격 시, 2라운드 동안 행동력은 감소하고 공격력은 증가합니다."
+    "description": "When unit is hit, increases unit's ATK +15% but decreases unit's SPD -10% for 2 rounds.",
+    "area": [5]
   },
   "Skill_MP_SeljuqA_SA3_4": {
     "title": "askill4",
-    "name": "증가 장갑",
     "type": "passive",
-    "img": ["SelfDefBuff"],
+    "name": "Increase Armor",
+    "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "전투 개시 시, 방어력이 크게 증가합니다. 해당 효과는 2회 피격되거나 화염 속성 공격 피격 시, 해제됩니다."
+    "description": "At the start of wave, increase unit's DEF +500% (2 attacks).<br>Removes DEF buffs when unit is hit with a Fire attack.",
+    "area": [5]
   },
   "Skill_MP_SeljuqA_SA3_5": {
     "title": "askill5",
-    "name": "포신 강화",
     "type": "passive",
-    "img": ["SelfAtkBuff"],
+    "name": "Barrel Reinforce",
+    "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "적에게 피격 시, 2라운드 동안 행동력은 감소하고 공격력은 증가합니다."
+    "description": "When unit is hit, increases unit's ATK +15% but decreases unit's SPD -10% for 2 rounds.",
+    "area": [5]
   },
   "Skill_MP_SeljuqA_SA5_4": {
     "title": "askill4",
-    "name": "증가 장갑",
     "type": "passive",
-    "img": ["SelfDefBuff"],
+    "name": "Increase Armor",
+    "img": "SelfDefBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "전투 개시 시, 방어력이 크게 증가합니다. 해당 효과는 2회 피격되거나 화염 속성 공격 피격 시, 해제됩니다."
+    "description": "At the start of wave, increase unit's DEF +500% (2 attacks).<br>Removes DEF buffs when unit is hit with a Fire attack.",
+    "area": [5]
   },
   "Skill_MP_SeljuqA_SA5_5": {
     "title": "askill5",
-    "name": "포신 강화",
     "type": "passive",
-    "img": ["SelfAtkBuff"],
+    "name": "Barrel Reinforce",
+    "img": "SelfAtkBuff",
     "range": 0,
     "AP": 0,
-    "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "적에게 피격 시, 2라운드 동안 행동력은 감소하고 공격력은 증가합니다."
+    "description": "When unit is hit, increases unit's ATK +15% but decreases unit's SPD -10% for 2 rounds.",
+    "area": [5]
   },
   "Skill_MP_GigantesC_SA2_3": {
     "title": "askill3",
-    "name": "개량형 방어 OS",
+    "name": "Improved Defense OS",
     "type": "passive",
     "img": ["TeamDefBuff"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "라운드 개시 시, HP가 20% 이하일 경우 방어력과 효과 저항이 크게 증가합니다. 해당 상태에서 화염 공격에 피격 시, OS가 오작동을 일으켜 일시적으로 해제됩니다."
+    "description": "At the start of round, if unit's HP is below 20%, increases unit's DEF +350% / <strong>Status Resist</strong> +50%. When unit is hit with an Fire Attack, removes this effect."
   },
   "Skill_MP_GigantesC_SA2_5": {
     "title": "askill5",
-    "name": "보호 모드",
+    "name": "Protection Mode",
     "type": "passive",
     "img": ["TeamDefBuff"],
     "range": 0,
     "AP": 0,
     "area": ["4>", 0, 0, 0, 0, 1, 1, 0, 0, 0],
-    "description": "전투 개시 시, 범위 내 아군에게 받는 피해 감소를 1회 부여합니다. 화염 공격에 피격 시, 해당 효과를 해제 하고 받는 피해를 증가시킵니다."
+    "description": "At the start of waves, grants allies in Area of Effect <strong>Damage Reduction</strong> +80% (1 time). When hit with Fire Attack, effect is removed, and inflicts <strong>Damage taken Increased</strong> +30% for 2 rounds."
   },
   "Skill_MP_GigantesC_SA5_3": {
     "title": "askill3",
-    "name": "개량형 방어 OS",
+    "name": "Improved Defense OS",
     "type": "passive",
     "img": ["TeamDefBuff"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "라운드 개시 시, HP가 20% 이하일 경우 방어력과 효과 저항이 크게 증가합니다. 해당 상태에서 화염 공격에 피격 시, OS가 오작동을 일으켜 일시적으로 해제됩니다."
+    "description": "At the start of round, if unit's HP is below 20%, increases unit's DEF +350% / <strong>Status Resist</strong> +50%. When unit is hit with an Fire Attack, removes this effect."
   },
   "Skill_MP_GigantesC_SA5_5": {
     "title": "askill5",
-    "name": "보호 모드",
+    "name": "Protection Mode",
     "type": "passive",
     "img": ["TeamDefBuff"],
     "range": 0,
     "AP": 0,
     "area": ["4>", 0, 0, 0, 0, 1, 1, 0, 0, 0],
-    "description": "전투 개시 시, 범위 내 아군에게 받는 피해 감소를 1회 부여합니다. 화염 공격에 피격 시, 해당 효과를 해제 하고 받는 피해를 증가시킵니다."
+    "description": "At the start of waves, grants allies in Area of Effect <strong>Damage Reduction</strong> +80% (1 time). When hit with Fire Attack, effect is removed, and inflicts <strong>Damage taken Increased</strong> +30% for 2 rounds."
   },
   "Skill_MP_EmperorChickSpCH_Challenge2_2": {
     "title": "askill2",
-    "name": "분노의 칙 파이널 어택",
+    "name": "Chick Final Attack of Fury",
     "type": "active",
     "img": ["WideBeamShot"],
     "range": 6,
     "AP": 10,
     "area": [0.5, 0.75, 0.5, 0.75, 1, 0.75, 0.5, 0.75, 0.5],
-    "description": "끓어오르는 분노를 소모하여 중장형을 선 타겟으로 전 무장을 발사해 목표 범위에 {0} 피해를 줍니다. 목표 중심점 밖일수록 피해가 감소합니다."
+    "description": "Deal $(1.5) damage to target area. Less damage further the target is from center of AoE. <strong>Additional DMG</strong> +50%."
   },
   "Skill_MP_EmperorChickSpCH_Challenge2_3": {
     "title": "askill3",
-    "name": "낙오자",
+    "name": "Straggler",
     "type": "passive",
     "img": ["SelfAtkBuff"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "철충들이 낙오(파괴)될 때마다 <sec typ=\"note\">복수심</sec>이 적용 되고 낙오한 철충이 5마리가 될 시 <sec typ=\"note\">끓어오르는 분노</sec> 상태로 <sec typ=\"note\">분노의 칙 파이널 어택</sec> 스킬을 사용합니다. 적 군이 사망 시 <sec typ=\"note\">사라진 분노</sec>가 적용 되고 3라운드 동안 철충들이 낙오(파괴)되더라도 <sec typ=\"note\">복수심</sec>이 발동되지 않습니다.\n\n복수심 : 공격력 / 방어력 / 적중률 증가\n끓어오르는 분노 : 해당 상태가 적용 되있을 시 <sec typ=\"note\">분노의 칙 파이널 어택</sec> 스킬 사용\n사라진 분노 : 공격력 / 방어력 감소       낙오자 발생 : 철충들이 낙오(파괴) 된 상태"
+    "description": "When an ally is defeated, Chick Commander gains <strong>Vengence</strong> stack for 5 rounds, and when affected by 5 stacks of <strong>Vengence</strong>, Chick Commander gains <strong>Rising Fury</strong> and uses <strong>Chick Final Attack of Fury</strong>. When an enemy is defeated, Chick Commander is inflicted with <strong>Dissipated Anger</strong>, and won't gain <strong>Vengence</strong> stack.<br><strong>Vengence</strong> : ATK +15% / DEF +25% / ACC +50%<br><strong>Rising Fury</strong> : Will use <strong>Chick Final Attack of Fury</strong>.<br><strong>Dissipated Anger</strong> : ATK -50% / DEF -80% for 3 rounds."
   },
   "Skill_MP_NightChickCSv_N_7": {
     "title": "askill7",
@@ -11223,43 +11223,43 @@
   },
   "Skill_MP_NightChickMSv_N_1": {
     "title": "askill1",
-    "name": "미사일 공격",
+    "name": "Missile Attack",
     "type": "active",
     "img": ["Missile"],
     "range": 2,
     "AP": 4,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "미사일을 발사해 {0} 피해를 줍니다. 대상이 이동 불가 상태면 직격해 피해량이 증가합니다."
+    "description": "Deal $(1) damage to a single target. <br><strong>Additional DMG</strong> +20% to targets affected by <strong>Rooted</strong> debuffs."
   },
   "Skill_MP_NightChickMSv_N_2": {
     "title": "askill2",
-    "name": "미사일 집중 공격",
+    "name": "Focused Missile Attack",
     "type": "active",
     "img": ["Missile"],
     "range": 1,
     "AP": 6,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "미사일 근접 사격으로 {0} 피해를 줍니다. 대상이 이동 불가 상태면 직격해 피해량이 증가합니다."
+    "description": "Deal $(1.2) damage to a single target. <br><strong>Additional DMG</strong> +20% to targets affected by <strong>Rooted</strong> debuffs."
   },
   "Skill_MP_NightChickMSv_N_3": {
     "title": "askill3",
-    "name": "목표 록온",
+    "name": "Target Lock-On",
     "type": "passive",
     "img": ["Snipe"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "대기 시, 주변의 적을 록온해 2라운드 동안 사거리가 증가합니다."
+    "description": "When unit idles, increases unit's Range +2 for 2 rounds."
   },
   "Skill_MP_NightChickMSv_N_4": {
     "title": "askill4",
-    "name": "칙 생존 위험",
+    "name": "Chick Survival Risk",
     "type": "passive",
     "img": ["SelfDefDeBuff"],
     "range": 0,
     "AP": 0,
     "area": [0, 0, 0, 0, 1, 0, 0, 0, 0],
-    "description": "라운드 개시 시, 자신이 침수 상태인 경우 4라운드 동안 받는 피해가 증가합니다."
+    "description": "At the start of round, if unit is affected by <strong>Wet</strong>, inflicts <strong>Damage Taken Increased</strong> +500% (Normal Effect) to unit."
   },
   "Skill_MP_Tracker_TU_2": {
     "title": "askill2",
