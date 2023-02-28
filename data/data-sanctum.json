@@ -47545,7 +47545,7 @@
                   "isBuff": true,
                   "type": 91,
                   "resist": {
-                    "type": "debuff",
+                    "type": "debuff_perdown",
                     "value": { "base": "50%", "per": "0%" }
                   }
                 },
@@ -51027,7 +51027,7 @@
                   "isBuff": true,
                   "type": 91,
                   "resist": {
-                    "type": "debuff",
+                    "type": "debuff_perdown",
                     "value": { "base": "50%", "per": "0%" }
                   }
                 },
@@ -51244,7 +51244,7 @@
                   "isBuff": true,
                   "type": 91,
                   "resist": {
-                    "type": "debuff",
+                    "type": "debuff_perdown",
                     "value": { "base": "50%", "per": "0%" }
                   }
                 },
@@ -52701,7 +52701,7 @@
               { "id": "RheinRitter_TU5", "lv": 120 },
               { "id": "DroneM_B08", "lv": 120 },
               { "id": "StingerC_B08", "lv": 120 },
-              { "id": "AMG11AA_EV5", "lv": 120 },
+              { "id": "AMG11AA_SA5", "lv": 120 },
               { "id": "DroneM_B08", "lv": 120 },
               { "id": "FallenC_EV4", "lv": 120 },
               { "id": "SeljuqA_EV4", "lv": 120 }
@@ -52716,7 +52716,7 @@
               { "id": "SeljuqA_EV4", "lv": 120 },
               { "id": "IntercepterAR_TU5", "lv": 120 },
               { "id": "DroneM_B08", "lv": 120 },
-              { "id": "AMG11AA_EV5", "lv": 120 },
+              { "id": "AMG11AA_SA5", "lv": 120 },
               { "id": "Goltarion_TU5", "lv": 120 },
               { "id": "RampartC_B08", "lv": 120 },
               { "id": "GigantesC_EV4", "lv": 120 },
@@ -53162,7 +53162,7 @@
                   "level": "0"
                 },
                 "attr": 3,
-                "erase": {},
+                "erase": { "rounds": 999 },
                 "value": {
                   "isBuff": true,
                   "type": 1,
@@ -53179,7 +53179,7 @@
                   "level": "0"
                 },
                 "attr": 3,
-                "erase": {},
+                "erase": { "rounds": 999 },
                 "value": {
                   "isBuff": true,
                   "type": 13,
@@ -53196,7 +53196,7 @@
                   "level": "0"
                 },
                 "attr": 3,
-                "erase": {},
+                "erase": { "rounds": 999 },
                 "value": {
                   "isBuff": true,
                   "type": 36,
@@ -53213,7 +53213,7 @@
                   "level": "0"
                 },
                 "attr": 3,
-                "erase": {},
+                "erase": { "rounds": 999 },
                 "value": {
                   "isBuff": true,
                   "type": 11,
@@ -53230,7 +53230,7 @@
                   "level": "0"
                 },
                 "attr": 3,
-                "erase": {},
+                "erase": { "rounds": 0 },
                 "value": {
                   "isBuff": true,
                   "type": 20,
@@ -55252,7 +55252,7 @@
                   "isBuff": true,
                   "type": 91,
                   "resist": {
-                    "type": "debuff",
+                    "type": "debuff_perdown",
                     "value": { "base": "50%", "per": "0%" }
                   }
                 },
@@ -56297,7 +56297,7 @@
                   "isBuff": true,
                   "type": 91,
                   "resist": {
-                    "type": "debuff",
+                    "type": "debuff_perdown",
                     "value": { "base": "50%", "per": "0%" }
                   }
                 },
@@ -56428,7 +56428,7 @@
                   "level": "0"
                 },
                 "attr": 3,
-                "erase": {},
+                "erase": { "rounds": 999 },
                 "value": {
                   "isBuff": true,
                   "type": 1,
@@ -56445,7 +56445,7 @@
                   "level": "0"
                 },
                 "attr": 3,
-                "erase": {},
+                "erase": { "rounds": 999 },
                 "value": {
                   "isBuff": true,
                   "type": 13,
@@ -56462,7 +56462,7 @@
                   "level": "0"
                 },
                 "attr": 3,
-                "erase": {},
+                "erase": { "rounds": 999 },
                 "value": {
                   "isBuff": true,
                   "type": 9,
@@ -56479,7 +56479,7 @@
                   "level": "0"
                 },
                 "attr": 3,
-                "erase": {},
+                "erase": { "rounds": 999 },
                 "value": { "isBuff": true, "type": 23, "scout": true },
                 "overlap": 4
               },
@@ -56492,7 +56492,7 @@
                   "level": "0"
                 },
                 "attr": 3,
-                "erase": {},
+                "erase": { "rounds": 0 },
                 "value": {
                   "isBuff": true,
                   "type": 20,
@@ -56653,7 +56653,7 @@
                   "isBuff": true,
                   "type": 91,
                   "resist": {
-                    "type": "debuff",
+                    "type": "debuff_perdown",
                     "value": { "base": "100%", "per": "0%" }
                   }
                 },
@@ -56825,6 +56825,5143 @@
               { "id": "EmperorChick_EW", "lv": 120 },
               { "id": "NightChickS_RV", "lv": 120 },
               { "id": "NightChickDEG_N", "lv": 120 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    }
+  },
+  "EW05": {
+    "1": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "BR_Impet",
+            "BR_Scarabya",
+            "BR_PXSilky",
+            "BR_Kheshig",
+            "BR_Andvari",
+            "BR_RoyalArsenal"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_149",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_149_1",
+                  "type": 1,
+                  "value": "0.200000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 99 },
+                "value": {
+                  "isBuff": true,
+                  "type": 13,
+                  "turnSpeed": { "base": "20%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_149_2",
+                  "type": 0,
+                  "value": "2",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 0 },
+                "value": {
+                  "isBuff": true,
+                  "type": 20,
+                  "ap": { "base": 2, "per": 0 }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_Action_Number_Change_Up",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_149_3",
+                  "type": 0,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 99 },
+                "value": { "isBuff": true, "type": 127, "act_count": 1 },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_EVADE_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_149_4",
+                  "type": 1,
+                  "value": "2",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 99 },
+                "value": {
+                  "isBuff": true,
+                  "type": 11,
+                  "evade": { "base": "200%", "per": "0%" }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_04",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_04"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 0, "class": 0 },
+          "desc": "Prohibition_Group_7"
+        },
+        {
+          "squad": "",
+          "char": { "body": 1, "role": 1, "class": 1 },
+          "desc": "Prohibition_Group_43"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "Tortoise_TU4", "lv": 130 },
+              { "id": "ScoutSP_TU2", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 },
+              { "id": "NightChickQM_EV1", "lv": 130 },
+              { "id": "NightChickQMSK_TU4", "lv": 130 },
+              { "id": "NightChickAQ_VT3", "lv": 130 },
+              { "id": "Tortoise_TU4", "lv": 130 },
+              { "id": "ScoutSP_TU2", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "FABigChickEX_TU5", "lv": 130 },
+              { "id": "SpeakerEx_TU3", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 },
+              { "id": "NightChickQM_EV1", "lv": 130 },
+              { "id": "NightChickQMSK_TU4", "lv": 130 },
+              { "id": "NightChickAQ_VT3", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 },
+              { "id": "ScoutSP_TU2", "lv": 130 },
+              { "id": "BigChickMG_EV1", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "FABigChickEX_TU5", "lv": 130 },
+              { "id": "CenturionG_TU3", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 },
+              { "id": "Intruder_TU4", "lv": 130 },
+              { "id": "NightChickQMSK_TU4", "lv": 130 },
+              { "id": "Spector_EV1", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 },
+              { "id": "SpeakerEx_TU3", "lv": 130 },
+              { "id": "BigChickMG_EV1", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "2": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "PECS_MissSafety",
+            "PECS_Leanne",
+            "BR_Amy",
+            "BR_WarWolf",
+            "3P_BlackLilith",
+            "3P_Annie"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_168",
+            "on": "wave",
+            "if": [{ "in_squad": ["Char_PECS_MissSafety_N"] }, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_168_1",
+                  "type": 1,
+                  "value": "0.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "50%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_ACCURACY_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_168_2",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 7,
+                  "accuracy": { "base": "100%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_EVADE_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_168_3",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 11,
+                  "evade": { "base": "100%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_168_4",
+                  "type": 1,
+                  "value": "0.100000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 13,
+                  "turnSpeed": { "base": "10%", "per": "0%" }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_02",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_02"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 0, "class": 1 },
+          "desc": "Prohibition_Group_10"
+        },
+        {
+          "squad": "Squad_Dentertainment_3",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_129"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "SpectorMS_EW", "lv": 130 },
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 },
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "MarionnetteHA_TU4", "lv": 130 },
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "Tortoise_TU4", "lv": 130 },
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "MarionnetteHW_V2_TU2", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "MarionnetteAR_TU2", "lv": 130 },
+              { "id": "SpeakerEx_TU3", "lv": 130 },
+              { "id": "SpectorMS_EW", "lv": 130 },
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "MarionnetteHA_V2_TU2", "lv": 130 },
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 },
+              { "id": "CenturionCF_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "MarionnetteHA_V2_TU2", "lv": 130 },
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "SpeakerEx_TU3", "lv": 130 },
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "SpectorMS_EW", "lv": 130 },
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "SpeakerEx_TU3", "lv": 130 },
+              { "id": "MarionnetteAR_TU2", "lv": 130 },
+              { "id": "CenturionCF_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "3": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": ["BR_Andvari", "3P_Hirume", "BR_Alvis", "PECS_LRL"],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_148",
+            "on": "wave",
+            "if": [{ "in_squad": ["Char_BR_Andvari_N"] }, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_EVADE_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_148_1",
+                  "type": 1,
+                  "value": "3",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 11,
+                  "evade": { "base": "300%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_ACCURACY_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_148_2",
+                  "type": 1,
+                  "value": "3",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 7,
+                  "accuracy": { "base": "300%", "per": "0%" }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_09",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_09"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 0, "role": 3, "class": 2 },
+          "desc": "Prohibition_Group_19"
+        },
+        {
+          "squad": "",
+          "char": { "body": 1, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_32"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "CenturionG_TU3", "lv": 130 },
+              { "id": "CenturionEX_TU3", "lv": 130 },
+              { "id": "CenturionCF_TU3", "lv": 130 },
+              { "id": "CenturionEX_TU3", "lv": 130 },
+              { "id": "NightChickCMP_EV1", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "CenturionEX_TU3", "lv": 130 },
+              { "id": "CenturionCF_TU3", "lv": 130 },
+              { "id": "CenturionG_TU3", "lv": 130 },
+              { "id": "CenturionEX_TU3", "lv": 130 },
+              { "id": "NightChickCMP_EV1", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "CenturionCF_TU3", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "CenturionEX_TU3", "lv": 130 },
+              { "id": "CenturionEX_TU3", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "CenturionG_TU3", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "NightChickCMP_EV1", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "4": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "3P_CSPerrault",
+            "3P_Hachiko",
+            "3P_Fenrir",
+            "3P_Poi",
+            "3P_Hirume",
+            "BR_Vargr"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_153",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_153_1",
+                  "type": 1,
+                  "value": "0.300000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "30%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_EVADE_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_153_2",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 11,
+                  "evade": { "base": "100%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_ICERES_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_153_3",
+                  "type": 1,
+                  "value": "0.300000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 17,
+                  "resist": {
+                    "elem": "ice",
+                    "value": { "base": "30%", "per": "0%" }
+                  }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_03",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_03"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 1, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_32"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "NightChickM_RV", "lv": 130 },
+              { "id": "Intruder_TU4", "lv": 130 },
+              { "id": "NightChickCMP_EV1", "lv": 130 },
+              { "id": "FridgerShell_TU4", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU", "lv": 130 },
+              { "id": "CenturionEX_TU5", "lv": 130 },
+              { "id": "FridgerShooter_TU4", "lv": 130 },
+              { "id": "FridgerHead_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "FridgerShell_TU4", "lv": 130 },
+              { "id": "NightChickM_RV", "lv": 130 },
+              { "id": "CenturionCF_TU4", "lv": 130 },
+              { "id": "CenturionEX_TU5", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU", "lv": 130 },
+              { "id": "FridgerShooter_TU4", "lv": 130 },
+              { "id": "FridgerHead_TU4", "lv": 130 },
+              { "id": "FridgerShell_TU4", "lv": 130 },
+              { "id": "NightChickCMP_EV1", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "CenturionCF_TU4", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "NightChickCMP_EV1", "lv": 130 },
+              { "id": "Intruder_TU4", "lv": 130 },
+              { "id": "FridgerShooter_TU4", "lv": 130 },
+              { "id": "FridgerShell_TU4", "lv": 130 },
+              { "id": "FridgerHead_TU4", "lv": 130 },
+              { "id": "NightChickM_RV", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "5": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "3P_Ajax",
+            "PECS_CyclopsePrincess",
+            "PECS_BlindPrincess",
+            "PECS_Leanne",
+            "BR_Phantom"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_138",
+            "on": "wave",
+            "if": [{ "in_squad": ["Char_3P_Ajax_N"] }, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_138_1",
+                  "type": 1,
+                  "value": "0.200000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "20%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_138_2",
+                  "type": 1,
+                  "value": "0.350000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 13,
+                  "turnSpeed": { "base": "35%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DAMAGE_REDUCE",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_138_3",
+                  "type": 1,
+                  "value": "0.300000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 36,
+                  "damage_reduce": { "base": "30%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DEF_RESSURRECT",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_138_4",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 98,
+                  "revive": { "base": "100%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DEBUFF_PERDOWN",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_138_5",
+                  "type": 1,
+                  "value": "0.400000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 91,
+                  "resist": {
+                    "type": "debuff_perdown",
+                    "value": { "base": "40%", "per": "0%" }
+                  }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_05",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_05"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 1, "class": 2 },
+          "desc": "Prohibition_Group_14"
+        },
+        {
+          "squad": "",
+          "char": { "body": 1, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_32"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "ScarabH_TU5", "lv": 130 },
+              { "id": "ScoutAK_TU3", "lv": 130 },
+              { "id": "SpeakerEx_TU3", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "NightChickSP_EW", "lv": 130 },
+              { "id": "NightChick_RV", "lv": 130 },
+              { "id": "ScarabH_TU5", "lv": 130 },
+              { "id": "ScarabH_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "Slasher_TU5", "lv": 130 },
+              { "id": "JuggernautP_EV1", "lv": 130 },
+              { "id": "SpeakerEx_TU3", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 },
+              { "id": "NightChickS_RV", "lv": 130 },
+              { "id": "NightChickQMEX_TU2", "lv": 130 },
+              { "id": "ScarabH_TU5", "lv": 130 },
+              { "id": "ScoutAK_TU3", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "NightChickCMP_EV1", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "CenturionEX_TU5", "lv": 130 },
+              { "id": "NightChickQMSK_TU4", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "CenturionG_TU3", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "LightningBomberEX_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "SpeakerEx_TU3", "lv": 130 },
+              { "id": "Destroyer_TU2", "lv": 130 },
+              { "id": "Kidnapper_EV19_TU3", "lv": 130 },
+              { "id": "NightChickAQG_TU3", "lv": 130 },
+              { "id": "NightChickQMEX_TU2", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 },
+              { "id": "CenturionG_TU3", "lv": 130 },
+              { "id": "Destroyer_TU2", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "6": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "PECS_Draculina",
+            "PECS_Azaz",
+            "PECS_Ignis",
+            "PECS_MightyR",
+            "PECS_CoCoWhiteShell"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_160",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_160_1",
+                  "type": 1,
+                  "value": "1.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 99 },
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "150%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_BARRIER_PIERCE",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_160_2",
+                  "type": 1,
+                  "value": "0",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 99 },
+                "value": {
+                  "isBuff": true,
+                  "type": 94,
+                  "penetration_force": true
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_160_3",
+                  "type": 0,
+                  "value": "2",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 0 },
+                "value": {
+                  "isBuff": true,
+                  "type": 20,
+                  "ap": { "base": 2, "per": 0 }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_01",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_01"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 2, "class": 2 },
+          "desc": "Prohibition_Group_15"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "FABigChickEX_TU5", "lv": 130 },
+              { "id": "Predator_EW", "lv": 130 },
+              { "id": "MarionnetteDM_TU4", "lv": 130 },
+              { "id": "MarionnetteHA_TU4", "lv": 130 },
+              { "id": "MarionnetteHA_V2_TU2", "lv": 130 },
+              { "id": "ScoutAK_TU5", "lv": 130 },
+              { "id": "FABigChickEX_TU5", "lv": 130 },
+              { "id": "MarionnetteHA_TU4", "lv": 130 },
+              { "id": "MarionnetteDM_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "FridgerShell_TU4", "lv": 130 },
+              { "id": "Frostbite_TU4", "lv": 130 },
+              { "id": "NightChickSPW_TU4", "lv": 130 },
+              { "id": "FridgerShooter_TU4", "lv": 130 },
+              { "id": "NightChickQMSK_TU4", "lv": 130 },
+              { "id": "NightChickAQ_N", "lv": 130 },
+              { "id": "FridgerShell_TU4", "lv": 130 },
+              { "id": "FridgerHead_TU4", "lv": 130 },
+              { "id": "NightChickCMP_EV1", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "FridgerShooter_TU4", "lv": 130 },
+              { "id": "Frostbite_TU4", "lv": 130 },
+              { "id": "NightChickAQ_N", "lv": 130 },
+              { "id": "FridgerShell_TU4", "lv": 130 },
+              { "id": "MarionnetteHA_V2_TU2", "lv": 130 },
+              { "id": "ScoutAK_TU5", "lv": 130 },
+              { "id": "FridgerShooter_TU4", "lv": 130 },
+              { "id": "FridgerHead_TU4", "lv": 130 },
+              { "id": "NightChickSPW_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "7": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": ["DS_KunoichiEnrai", "DS_KunoichiZero", "DS_KunoichiKaen"],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_152",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_152_1",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 1 },
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "100%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_TROOPER_DMG_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_152_2",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 1 },
+                "value": {
+                  "isBuff": true,
+                  "type": 60,
+                  "damage_multiply": {
+                    "target": "light",
+                    "value": { "base": "100%", "per": "0%" }
+                  }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_ARMORED_DMG_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_152_3",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 1 },
+                "value": {
+                  "isBuff": true,
+                  "type": 61,
+                  "damage_multiply": {
+                    "target": "heavy",
+                    "value": { "base": "100%", "per": "0%" }
+                  }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_MOBILITY_DMG_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_152_4",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 1 },
+                "value": {
+                  "isBuff": true,
+                  "type": 62,
+                  "damage_multiply": {
+                    "target": "air",
+                    "value": { "base": "100%", "per": "0%" }
+                  }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_20",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_20"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "Squad_Dentertainment_1",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_118"
+        },
+        {
+          "squad": "Squad_PublicServant_2",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_125"
+        },
+        {
+          "squad": "Squad_WatcherOfNature",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_126"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "FridgerShell_TU4", "lv": 130 },
+              { "id": "FridgerShooter_TU4", "lv": 130 },
+              { "id": "FridgerHead_TU4", "lv": 130 },
+              { "id": "FryerHead_TU4", "lv": 130 },
+              { "id": "NightChickAQ_N", "lv": 130 },
+              { "id": "NightChickCMS_N", "lv": 130 },
+              { "id": "FridgerShell_TU4", "lv": 130 },
+              { "id": "FryerShell_TU4", "lv": 130 },
+              { "id": "FryerShooter_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "FryerShell_TU4", "lv": 130 },
+              { "id": "SpectorMS_N", "lv": 130 },
+              { "id": "FridgerShooter_TU4", "lv": 130 },
+              { "id": "FryerShell_TU4", "lv": 130 },
+              { "id": "FridgerShell_TU4", "lv": 130 },
+              { "id": "Intruder_TU4", "lv": 130 },
+              { "id": "FABigChickEX_TU5", "lv": 130 },
+              { "id": "FryerHead_TU4", "lv": 130 },
+              { "id": "FridgerHead_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "FryerShooter_TU4", "lv": 130 },
+              { "id": "SpectorMS_N", "lv": 130 },
+              { "id": "FryerShell_TU4", "lv": 130 },
+              { "id": "FridgerShell_TU4", "lv": 130 },
+              { "id": "EmperorChick_TU4", "lv": 130 },
+              { "id": "FryerHead_TU4", "lv": 130 },
+              { "id": "FridgerHead_TU4", "lv": 130 },
+              { "id": "JuggernautP_EV1", "lv": 130 },
+              { "id": "FridgerShooter_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "8": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "PECS_Draculina",
+            "PECS_LRL",
+            "BR_Amy",
+            "PECS_Azaz",
+            "PECS_Mery",
+            "PECS_Lumberjane",
+            "PECS_Audrey",
+            "PECS_TaylorClothcut"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_161",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_RANGE_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_161_1",
+                  "type": 0,
+                  "value": "2",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 55,
+                  "range": { "base": 2, "per": 0 }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_COUNTER",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_161_2",
+                  "type": 1,
+                  "value": "1.300000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 29,
+                  "counter": { "base": "130%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_ACCURACY_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_161_3",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 7,
+                  "accuracy": { "base": "100%", "per": "0%" }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_06",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_06"
+        },
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "PECS_Draculina",
+            "PECS_LRL",
+            "BR_Amy",
+            "PECS_Azaz",
+            "PECS_Mery",
+            "PECS_Lumberjane",
+            "PECS_Audrey",
+            "PECS_TaylorClothcut"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_9161",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_DAMAGE_REDUCE",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_9161_1",
+                  "type": 0,
+                  "value": "9999999",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "count": 1, "trigger": { "after": "use_skill" } },
+                "value": {
+                  "isBuff": true,
+                  "type": 34,
+                  "damage_minimize": { "base": 9999999, "per": 0 }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_06",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_06"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "Squad_CompanionSeries_1",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_115"
+        },
+        {
+          "squad": "Squad_SkyKnight_1",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_117"
+        },
+        {
+          "squad": "Squad_AnywhereSeries_2",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_135"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "FABigChickEX_TU5", "lv": 130 },
+              { "id": "Tarantula_EW2", "lv": 130 },
+              { "id": "LegionSPEX_N", "lv": 130 },
+              { "id": "NightChickAQG_TU3", "lv": 130 },
+              { "id": "BlackKnight_EW5", "lv": 130 },
+              { "id": "LegionSPEX_N", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "JuggernautP_EV1", "lv": 130 },
+              { "id": "Intruder_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "BigChickMG_EV2", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 },
+              { "id": "SpectorMS_EW", "lv": 130 },
+              { "id": "NightChickCM_TU5", "lv": 130 },
+              { "id": "BigChickMG_EV2", "lv": 130 },
+              { "id": "NightChick_RV", "lv": 130 },
+              { "id": "BigChickMG_EV2", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "Tarantula_EW2", "lv": 130 },
+              { "id": "LegionSPEX_N", "lv": 130 },
+              { "id": "Intruder_TU4", "lv": 130 },
+              { "id": "NightChickAQG_TU3", "lv": 130 },
+              { "id": "BlackKnight_EW5", "lv": 130 },
+              { "id": "SpectorMS_EW", "lv": 130 },
+              { "id": "Tarantula_EW2", "lv": 130 },
+              { "id": "NightChickCM_TU5", "lv": 130 },
+              { "id": "LegionSPEX_N", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "9": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "BR_Vargr",
+            "DS_Johanna",
+            "3P_Labiata",
+            "ST_Tiamat",
+            "DS_Charlotte"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_155",
+            "on": "wave",
+            "if": [{ "in_squad": ["Char_BR_Vargr_N"] }, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_EVADE_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_155_1",
+                  "type": 1,
+                  "value": "0.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 11,
+                  "evade": { "base": "50%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_ACCURACY_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_155_2",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 7,
+                  "accuracy": { "base": "100%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_155_3",
+                  "type": 1,
+                  "value": "0.100000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 13,
+                  "turnSpeed": { "base": "10%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_RANGE_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_155_4",
+                  "type": 0,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 55,
+                  "range": { "base": 1, "per": 0 }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_16",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_16"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 1, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_32"
+        },
+        {
+          "squad": "Squad_Horizon_1",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_119"
+        },
+        {
+          "squad": "Squad_Kouhei",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_131"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "DryerShell_TU4", "lv": 130 },
+              { "id": "NightChick_RV", "lv": 130 },
+              { "id": "DryerHead_TU4", "lv": 130 },
+              { "id": "Centurion_EV1", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 },
+              { "id": "DryerShell_TU4", "lv": 130 },
+              { "id": "DryerShooter_TU4", "lv": 130 },
+              { "id": "NightChick_RV", "lv": 130 },
+              { "id": "DryerShooter_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "NightChick_RV", "lv": 130 },
+              { "id": "FridgerShooter_TU4", "lv": 130 },
+              { "id": "FridgerShell_TU4", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "PhalangitesH_TU5", "lv": 130 },
+              { "id": "NightChickM_RV", "lv": 130 },
+              { "id": "FridgerShell_TU4", "lv": 130 },
+              { "id": "FridgerShooter_TU4", "lv": 130 },
+              { "id": "FridgerHead_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "FryerShooter_TU4", "lv": 130 },
+              { "id": "FryerShell_TU4", "lv": 130 },
+              { "id": "NightChickM_RV", "lv": 130 },
+              { "id": "CenturionG_TU4", "lv": 130 },
+              { "id": "FryerShell_TU4", "lv": 130 },
+              { "id": "FryerHead_TU4", "lv": 130 },
+              { "id": "FryerShooter_TU4", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "CenturionCF_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "10": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "PECS_Audrey",
+            "BR_Vargr",
+            "PECS_Triton",
+            "PECS_LemonadeAlpha"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_139",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_139_1",
+                  "type": 1,
+                  "value": "0.440000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 4 },
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "44%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DEF_PIERCE_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_139_2",
+                  "type": 1,
+                  "value": "0.440000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 4 },
+                "value": {
+                  "isBuff": true,
+                  "type": 58,
+                  "penetration": { "base": "44%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_ACCURACY_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_139_3",
+                  "type": 1,
+                  "value": "4.440000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 4 },
+                "value": {
+                  "isBuff": true,
+                  "type": 7,
+                  "accuracy": { "base": "444%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DEF_RESSURRECT",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_139_4",
+                  "type": 1,
+                  "value": "0.440000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 4 },
+                "value": {
+                  "isBuff": true,
+                  "type": 98,
+                  "revive": { "base": "44%", "per": "0%" }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_10",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_10"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 1, "class": 0 },
+          "desc": "Prohibition_Group_8"
+        },
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 0, "class": 1 },
+          "desc": "Prohibition_Group_10"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "BlackKnight_EW5", "lv": 130 },
+              { "id": "SpeakerEx_TU4", "lv": 130 },
+              { "id": "EmperorChick_TU4", "lv": 130 },
+              { "id": "CenturionG_TU3", "lv": 130 },
+              { "id": "ScoutAK_TU4", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "BlackKnight_EW5", "lv": 130 },
+              { "id": "NightChickDEX_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "Tarantula_EW2", "lv": 130 },
+              { "id": "HauntedFortress_TU2", "lv": 130 },
+              { "id": "SpeakerEx_TU4", "lv": 130 },
+              { "id": "SpectorMS_EW", "lv": 130 },
+              { "id": "ScoutAK_TU4", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "Tarantula_EW2", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "NightChickCMP_EV1", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "ChillerEX_TU4", "lv": 130 },
+              { "id": "NightChickQMEX_TU2", "lv": 130 },
+              { "id": "Destroyer_TU2", "lv": 130 },
+              { "id": "NightChickAQG_TU4", "lv": 130 },
+              { "id": "Tarantula_EW2", "lv": 130 },
+              { "id": "NightChick_RV", "lv": 130 },
+              { "id": "HauntedFortress_TU2", "lv": 130 },
+              { "id": "Tarantula_EW2", "lv": 130 },
+              { "id": "NightChickSPW_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "Tarantula_EW2", "lv": 130 },
+              { "id": "BlackKnight_EW5", "lv": 130 },
+              { "id": "SpeakerEx_TU4", "lv": 130 },
+              { "id": "NightChickAQG_TU4", "lv": 130 },
+              { "id": "CenturionG_TU3", "lv": 130 },
+              { "id": "NightChick_RV", "lv": 130 },
+              { "id": "HauntedFortress_TU2", "lv": 130 },
+              { "id": "BlackKnight_EW5", "lv": 130 },
+              { "id": "Destroyer_TU2", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "11": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": ["AGS_Stronghold", "BR_Ellie", "BR_Marie"],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_162",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ACCURACY_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_162_1",
+                  "type": 1,
+                  "value": "2",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 7,
+                  "accuracy": { "base": "200%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_CRITICAL_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_162_2",
+                  "type": 1,
+                  "value": "0.250000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 9,
+                  "critical": { "base": "25%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_162_3",
+                  "type": 1,
+                  "value": "0.330000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 13,
+                  "turnSpeed": { "base": "33%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_FIRERES_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_162_4",
+                  "type": 1,
+                  "value": "0.330000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 15,
+                  "resist": {
+                    "elem": "fire",
+                    "value": { "base": "33%", "per": "0%" }
+                  }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_13",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_13"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 2, "class": 1 },
+          "desc": "Prohibition_Group_12"
+        },
+        {
+          "squad": "Squad_Mermaid",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_151"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "DryerShell_TU5", "lv": 130 },
+              { "id": "SpectorMS_EW2", "lv": 130 },
+              { "id": "DryerHead_TU5", "lv": 130 },
+              { "id": "Tarantula_EW2", "lv": 130 },
+              { "id": "ScoutAK_TU5", "lv": 130 },
+              { "id": "NightChickS_RV", "lv": 130 },
+              { "id": "DryerShell_TU5", "lv": 130 },
+              { "id": "DryerShooter_TU5", "lv": 130 },
+              { "id": "Tarantula_EW2", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "Tarantula_EW2", "lv": 130 },
+              { "id": "DryerShooter_TU5", "lv": 130 },
+              { "id": "NightChickS_RV", "lv": 130 },
+              { "id": "DryerShell_TU5", "lv": 130 },
+              { "id": "SpectorMS_EW2", "lv": 130 },
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "Tarantula_EW2", "lv": 130 },
+              { "id": "DryerHead_TU5", "lv": 130 },
+              { "id": "ScoutAK_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "SpectorMS_EW2", "lv": 130 },
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "DryerShooter_TU5", "lv": 130 },
+              { "id": "NightChickS_RV", "lv": 130 },
+              { "id": "DryerHead_TU5", "lv": 130 },
+              { "id": "Tarantula_EW2", "lv": 130 },
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "ScoutAK_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "12": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": ["PECS_Peregrinus", "AGS_Goltarion", "AGS_MrAlfred2"],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_163",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_163_1",
+                  "type": 1,
+                  "value": "3",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 1 },
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "300%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_SKILL_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_163_2",
+                  "type": 1,
+                  "value": "0.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 1 },
+                "value": {
+                  "isBuff": true,
+                  "type": 106,
+                  "skill_ratio": { "base": "50%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_163_3",
+                  "type": 0,
+                  "value": "20",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 1 },
+                "value": {
+                  "isBuff": true,
+                  "type": 20,
+                  "ap": { "base": 20, "per": 0 }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_CRITICAL_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_163_4",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 1 },
+                "value": {
+                  "isBuff": true,
+                  "type": 9,
+                  "critical": { "base": "100%", "per": "0%" }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_17",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_17"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 0, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_16"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "NightChickS_RV", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "SpectorMS_EW", "lv": 130 },
+              { "id": "Destroyer_TU4", "lv": 130 },
+              { "id": "NightChickDEX_TU4", "lv": 130 },
+              { "id": "NightChickQMEX_TU2", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 },
+              { "id": "SpeakerEx_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "NightChickS_RV", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "SpectorMS_EW", "lv": 130 },
+              { "id": "EmperorChick_EW", "lv": 130 },
+              { "id": "NightChickDEX_TU4", "lv": 130 },
+              { "id": "NightChickQMEX_TU2", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 },
+              { "id": "SpeakerEx_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "NightChickS_RV", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "SpectorMS_EW", "lv": 130 },
+              { "id": "BlackKnight_EW4", "lv": 130 },
+              { "id": "NightChickDEX_TU4", "lv": 130 },
+              { "id": "NightChickQMEX_TU2", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 },
+              { "id": "SpeakerEx_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "13": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": ["ST_Lancer", "DS_Johanna", "AGS_Albatross"],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_164",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_DEF_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_164_1",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 3,
+                  "defense": { "base": "100%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DAMAGE_REDUCE",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_164_2",
+                  "type": 1,
+                  "value": "0.350000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 36,
+                  "damage_reduce": { "base": "35%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DEBUFF_PERDOWN",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_164_3",
+                  "type": 1,
+                  "value": "0.350000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 91,
+                  "resist": {
+                    "type": "debuff_perdown",
+                    "value": { "base": "35%", "per": "0%" }
+                  }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DEF_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_164_4",
+                  "type": 1,
+                  "value": "0.350000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 110,
+                  "disperse": { "base": "35%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_EVADE_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_164_5",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 11,
+                  "evade": { "base": "100%", "per": "0%" }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_14",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_14"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 0, "class": 1 },
+          "desc": "Prohibition_Group_10"
+        },
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 1, "class": 2 },
+          "desc": "Prohibition_Group_14"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "SpectorMS_EW2", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "CenturionEX_TU5", "lv": 130 },
+              { "id": "SpectorMS_EW2", "lv": 130 },
+              { "id": "CenturionG_TU3", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "CenturionEX_TU5", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "CenturionEX_TU5", "lv": 130 },
+              { "id": "SpectorMS_EW2", "lv": 130 },
+              { "id": "CenturionG_TU3", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "CenturionEX_TU5", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "CenturionG_TU3", "lv": 130 },
+              { "id": "SpectorMS_EW2", "lv": 130 },
+              { "id": "MarionnetteDM_V2_TU2", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "MarionnetteHW_V2_TU2", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "14": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "PECS_Draculina",
+            "PECS_CyclopsePrincess",
+            "DS_Faucre",
+            "PECS_Lumberjane"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_156",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_156_1",
+                  "type": 1,
+                  "value": "2",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "200%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_SKILL_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_156_2",
+                  "type": 1,
+                  "value": "0.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 106,
+                  "skill_ratio": { "base": "50%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_ACCURACY_DOWN",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_156_3",
+                  "type": 1,
+                  "value": "-0.300000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 7,
+                  "accuracy": { "base": "-30%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_phyDMG_DOT",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_156_4",
+                  "type": 0,
+                  "value": "200",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 65,
+                  "fixed_damage": { "base": 200, "per": 0 }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_11",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_11"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 0, "class": 0 },
+          "desc": "Prohibition_Group_7"
+        },
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 0, "class": 1 },
+          "desc": "Prohibition_Group_10"
+        },
+        {
+          "squad": "",
+          "char": { "body": 1, "role": 1, "class": 3 },
+          "desc": "Prohibition_Group_37"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "FABigChickEX_TU5", "lv": 130 },
+              { "id": "ScarabH_TU5", "lv": 130 },
+              { "id": "SpectorMS_N", "lv": 130 },
+              { "id": "Intruder_TU4", "lv": 130 },
+              { "id": "MarionnetteHA_V2_TU2", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "JuggernautP_EV1", "lv": 130 },
+              { "id": "ScarabH_TU5", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "ScarabH_TU5", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 },
+              { "id": "SpectorMS_N", "lv": 130 },
+              { "id": "BlackKnight_EW5", "lv": 130 },
+              { "id": "MarionnetteHA_V2_TU2", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "Phalangites_TU6", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "ScarabH_TU5", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "SpectorMS_N", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "BlackKnight_EW5", "lv": 130 },
+              { "id": "Intruder_TU4", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "SpectorMS_N", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "15": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "AGS_Roc",
+            "PECS_Machina",
+            "DS_Azazel",
+            "AGS_MrAlfred2",
+            "AGS_Tyrant"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_140",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_140_1",
+                  "type": 1,
+                  "value": "0.200000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "20%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_140_2",
+                  "type": 1,
+                  "value": "0.200000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 13,
+                  "turnSpeed": { "base": "20%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_SKILL_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_140_3",
+                  "type": 1,
+                  "value": "0.300000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 106,
+                  "skill_ratio": { "base": "30%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DAMAGE_REDUCE",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_140_4",
+                  "type": 1,
+                  "value": "0.300000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 36,
+                  "damage_reduce": { "base": "30%", "per": "0%" }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_15",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_15"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 3, "class": 0 },
+          "desc": "Prohibition_Group_1"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 },
+              { "id": "MarionnetteDM_V2_TU2", "lv": 130 },
+              { "id": "MarionnetteHA_V2_TU2", "lv": 130 },
+              { "id": "EmperorChick_EW", "lv": 130 },
+              { "id": "NightChickQMEX_TU2", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "MarionnetteDM_V2_TU2", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "SpectorBS_N", "lv": 130 },
+              { "id": "MarionnetteDM_V2_TU2", "lv": 130 },
+              { "id": "SpectorBS_N", "lv": 130 },
+              { "id": "Predator_EW2", "lv": 130 },
+              { "id": "SpeakerEx_TU4", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "NightChickQMEX_TU2", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "Predator_EW2", "lv": 130 },
+              { "id": "Predator_EW2", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 },
+              { "id": "NightChickQMEX_TU2", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "SpectorBS_N", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 },
+              { "id": "SpeakerEx_TU4", "lv": 130 },
+              { "id": "SpeakerEx_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "NestGuardian_TU2", "lv": 130 },
+              { "id": "NestChaser_TU2", "lv": 130 },
+              { "id": "MarionnetteDM_V2_TU2", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "Nest_TU2", "lv": 130 },
+              { "id": "NestGuardian_TU2", "lv": 130 },
+              { "id": "NestChaser_TU2", "lv": 130 },
+              { "id": "NestGuardian_TU2", "lv": 130 },
+              { "id": "MarionnetteDM_V2_TU2", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "16": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "PECS_Circe",
+            "PECS_BS",
+            "BR_WarWolf",
+            "3P_Annie",
+            "PECS_Sonia"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_141",
+            "on": "wave",
+            "if": [{ "in_squad": ["Char_PECS_Circe_N"] }, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_141_1",
+                  "type": 1,
+                  "value": "0.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 1 },
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "50%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_SKILL_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_141_2",
+                  "type": 1,
+                  "value": "0.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 1 },
+                "value": {
+                  "isBuff": true,
+                  "type": 106,
+                  "skill_ratio": { "base": "50%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_CRITICAL_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_141_3",
+                  "type": 1,
+                  "value": "0.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 1 },
+                "value": {
+                  "isBuff": true,
+                  "type": 9,
+                  "critical": { "base": "50%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_RANGE_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_141_4",
+                  "type": 0,
+                  "value": "2",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 1 },
+                "value": {
+                  "isBuff": true,
+                  "type": 55,
+                  "range": { "base": 2, "per": 0 }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_141_5",
+                  "type": 0,
+                  "value": "20",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 0 },
+                "value": {
+                  "isBuff": true,
+                  "type": 20,
+                  "ap": { "base": 20, "per": 0 }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_12",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_12"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "Squad_Dentertainment_1",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_118"
+        },
+        {
+          "squad": "Squad_Dentertainment_3",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_129"
+        },
+        {
+          "squad": "Squad_Bismarck",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_134"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "NightChickSPW_TU4", "lv": 130 },
+              { "id": "NightChickDEG_N", "lv": 130 },
+              { "id": "ZapperEX_TU6", "lv": 130 },
+              { "id": "NightChickAQ_N", "lv": 130 },
+              { "id": "Frostbite_TU4", "lv": 130 },
+              { "id": "Raider_EW", "lv": 130 },
+              { "id": "NightChickSPW_TU4", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "ZapperEX_TU6", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "NightChickSPW_TU4", "lv": 130 },
+              { "id": "FridgerShell_TU4", "lv": 130 },
+              { "id": "FridgerShell_TU4", "lv": 130 },
+              { "id": "Frostbite_TU4", "lv": 130 },
+              { "id": "NightChickAQ_N", "lv": 130 },
+              { "id": "FridgerHead_TU4", "lv": 130 },
+              { "id": "NightChickSPW_TU4", "lv": 130 },
+              { "id": "MammothW_TU4", "lv": 130 },
+              { "id": "FridgerShooter_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "PhalangitesH_TU4", "lv": 130 },
+              { "id": "FridgerShell_TU4", "lv": 130 },
+              { "id": "FridgerShell_TU4", "lv": 130 },
+              { "id": "Tracker_TU4", "lv": 130 },
+              { "id": "FridgerHead_TU4", "lv": 130 },
+              { "id": "SpectorMS_N", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "FridgerShooter_TU4", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "17": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "BR_Marie",
+            "BR_Khan",
+            "BR_Leona",
+            "BR_RoyalArsenal",
+            "BR_May",
+            "AGS_Stronghold",
+            "AGS_SpartanC",
+            "AGS_Tyrant"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_165",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_165_1",
+                  "type": 1,
+                  "value": "0.480000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "48%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DEF_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_165_2",
+                  "type": 1,
+                  "value": "0.480000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 3,
+                  "defense": { "base": "48%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_EVADE_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_165_3",
+                  "type": 1,
+                  "value": "0.480000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 11,
+                  "evade": { "base": "48%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_ACCURACY_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_165_4",
+                  "type": 1,
+                  "value": "0.480000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 7,
+                  "accuracy": { "base": "48%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_165_5",
+                  "type": 1,
+                  "value": "0.160000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 13,
+                  "turnSpeed": { "base": "16%", "per": "0%" }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_08",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_08"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 0, "class": 2 },
+          "desc": "Prohibition_Group_13"
+        },
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 2, "class": 2 },
+          "desc": "Prohibition_Group_15"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "MarionnetteAR_TU4", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "MarionnetteHA_V2_TU2", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "MarionnetteDM_TU4", "lv": 130 },
+              { "id": "Stalker_EW", "lv": 130 },
+              { "id": "MarionnetteHA_V2_TU2", "lv": 130 },
+              { "id": "MarionnetteDM_TU4", "lv": 130 },
+              { "id": "MarionnetteHW_V2_TU2", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "MarionnetteAR_TU4", "lv": 130 },
+              { "id": "NightChickQMSK_TU4", "lv": 130 },
+              { "id": "CenturionG_TU3", "lv": 130 },
+              { "id": "Stalker_EW", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 },
+              { "id": "Stalker_EW", "lv": 130 },
+              { "id": "MarionnetteHA_V2_TU2", "lv": 130 },
+              { "id": "MarionnetteDM_V2_TU2", "lv": 130 },
+              { "id": "NightChickDEX_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "NightChickS_RV", "lv": 130 },
+              { "id": "MarionnetteDM_V2_TU2", "lv": 130 },
+              { "id": "ScoutAK_TU4", "lv": 130 },
+              { "id": "CenturionG_TU3", "lv": 130 },
+              { "id": "SpectorMS_N", "lv": 130 },
+              { "id": "MarionnetteHA_V2_TU2", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 },
+              { "id": "ScoutAK_TU4", "lv": 130 },
+              { "id": "MarionnetteAR_V2_TU2", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "18": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "BR_SandMan",
+            "BR_RoyalArsenal",
+            "BR_BloodyPanther",
+            "BR_Calista",
+            "BR_Sirene"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_151",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_DEBUFF_PERDOWN",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_151_1",
+                  "type": 1,
+                  "value": "0.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 99 },
+                "value": {
+                  "isBuff": true,
+                  "type": 91,
+                  "resist": {
+                    "type": "debuff_perdown",
+                    "value": { "base": "50%", "per": "0%" }
+                  }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DAMAGE_REDUCE",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_151_2",
+                  "type": 1,
+                  "value": "0.300000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 99 },
+                "value": {
+                  "isBuff": true,
+                  "type": 36,
+                  "damage_reduce": { "base": "30%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_151_3",
+                  "type": 0,
+                  "value": "2",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 0 },
+                "value": {
+                  "isBuff": true,
+                  "type": 20,
+                  "ap": { "base": 2, "per": 0 }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_22",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_22"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "Squad_SteelLine_1",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_101"
+        },
+        {
+          "squad": "Squad_AngerOfTheHorde_1",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_120"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "BigChickEX_N", "lv": 130 },
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "Mammoth_TU6", "lv": 130 },
+              { "id": "FABigChickEX_N", "lv": 130 },
+              { "id": "EmperorChick_TU4", "lv": 130 },
+              { "id": "BigChickS_N", "lv": 130 },
+              { "id": "BigChickEX_N", "lv": 130 },
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "Mammoth_TU6", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "SpectorMS_EW", "lv": 130 },
+              { "id": "NightChickSpCH_N", "lv": 130 },
+              { "id": "NightChickQMEX_TU2", "lv": 130 },
+              { "id": "NightChickSpCH_N", "lv": 130 },
+              { "id": "EmperorChick_TU4", "lv": 130 },
+              { "id": "EmperorChickSpCH_TU5", "lv": 130 },
+              { "id": "NightChickM_RV", "lv": 130 },
+              { "id": "NightChickSpCH_N", "lv": 130 },
+              { "id": "SpeakerEx_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "EmperorChick_TU4", "lv": 130 },
+              { "id": "NightChickDEX_TU4", "lv": 130 },
+              { "id": "NightChickSpCH_N", "lv": 130 },
+              { "id": "SpectorMS_EW", "lv": 130 },
+              { "id": "NightChickSpCH_N", "lv": 130 },
+              { "id": "EmperorChickSpCH_TU5", "lv": 130 },
+              { "id": "NightChickM_RV", "lv": 130 },
+              { "id": "NightChickQMEX_TU2", "lv": 130 },
+              { "id": "NightChickSpCH_N", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "19": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": ["3P_Eternity", "3P_BlackLilith", "DS_Saraqael"],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_142",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_142_1",
+                  "type": 1,
+                  "value": "0.440000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "44%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DEBUFF_PERDOWN",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_142_2",
+                  "type": 1,
+                  "value": "0.440000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 91,
+                  "resist": {
+                    "type": "debuff_perdown",
+                    "value": { "base": "44%", "per": "0%" }
+                  }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DEF_RESSURRECT",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_142_3",
+                  "type": 1,
+                  "value": "0.040000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 98,
+                  "revive": { "base": "4%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DEF_DOWN",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_142_4",
+                  "type": 1,
+                  "value": "-0.440000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 3,
+                  "defense": { "base": "-44%", "per": "0%" }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_24",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_24"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 1, "class": 3 },
+          "desc": "Prohibition_Group_5"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "Tortoise_TU4", "lv": 130 },
+              { "id": "MarionnetteHW_TU4", "lv": 130 },
+              { "id": "BigChickMG_EV3", "lv": 130 },
+              { "id": "Kidnapper_EW", "lv": 130 },
+              { "id": "BlackKnight_EW4", "lv": 130 },
+              { "id": "NightChickDE_EV1", "lv": 130 },
+              { "id": "Tortoise_TU4", "lv": 130 },
+              { "id": "MarionnetteHW_TU4", "lv": 130 },
+              { "id": "BigChickMG_EV3", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "NightChickMSv_TU3", "lv": 130 },
+              { "id": "NightChickCMSv_TU4", "lv": 130 },
+              { "id": "BigChickMG_EV3", "lv": 130 },
+              { "id": "NightChickShSv_TU4", "lv": 130 },
+              { "id": "CenturionEX_TU5", "lv": 130 },
+              { "id": "NightChickTD_N", "lv": 130 },
+              { "id": "NightChickMSv_TU3", "lv": 130 },
+              { "id": "NightChickCMSv_TU4", "lv": 130 },
+              { "id": "BigChickMG_EV3", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "Destroyer_TU4", "lv": 130 },
+              { "id": "NightChickSPW_TU4", "lv": 130 },
+              { "id": "Intruder_TU4", "lv": 130 },
+              { "id": "ScoutEX_TU5", "lv": 130 },
+              { "id": "EmperorChick_TU4", "lv": 130 },
+              { "id": "NightChickS_RV", "lv": 130 },
+              { "id": "Destroyer_TU4", "lv": 130 },
+              { "id": "NightChickAQ_N", "lv": 130 },
+              { "id": "SpeakerEx_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "20": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "BR_Brownie",
+            "BR_WarWolf",
+            "BR_Salamander",
+            "BR_Hyena",
+            "PECS_PuppHead"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_150",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_150_1",
+                  "type": 1,
+                  "value": "0.300000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "30%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_150_2",
+                  "type": 1,
+                  "value": "0.300000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 13,
+                  "turnSpeed": { "base": "30%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_SKILL_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_150_3",
+                  "type": 1,
+                  "value": "0.300000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 106,
+                  "skill_ratio": { "base": "30%", "per": "0%" }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_07",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_07"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 0, "class": 0 },
+          "desc": "Prohibition_Group_7"
+        },
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 0, "class": 1 },
+          "desc": "Prohibition_Group_10"
+        },
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 2, "class": 1 },
+          "desc": "Prohibition_Group_12"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 20, "item": "Consumable_EWMPMetal" },
+        { "count": 20, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "HauntedFortress_TU5", "lv": 130 },
+              { "id": "DoomEater_N_EW2", "lv": 130 },
+              { "id": "SpeakerEx_TU4", "lv": 130 },
+              { "id": "HauntedFortress_TU5", "lv": 130 },
+              { "id": "DoomEater_N_EW2", "lv": 130 },
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "HauntedFortress_TU5", "lv": 130 },
+              { "id": "DoomEater_N_EW2", "lv": 130 },
+              { "id": "SpeakerEx_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "21": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "3P_BlackLilith",
+            "3P_Alexandra",
+            "3P_Alice",
+            "PECS_Sonia",
+            "PECS_Sadius"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_147",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_147_1",
+                  "type": 1,
+                  "value": "2",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "200%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_SKILL_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_147_2",
+                  "type": 1,
+                  "value": "0.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 106,
+                  "skill_ratio": { "base": "50%", "per": "0%" }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_19",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_19"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 0, "class": 1 },
+          "desc": "Prohibition_Group_10"
+        },
+        {
+          "squad": "Squad_Dentertainment_3",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_129"
+        },
+        {
+          "squad": "Squad_Bismarck",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_134"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 25, "item": "Consumable_EWMPMetal" },
+        { "count": 25, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "DryerShooter_TU5", "lv": 130 },
+              { "id": "FryerHead_TU5", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "ScarabH_TU5", "lv": 130 },
+              { "id": "NightChickAQ_N", "lv": 130 },
+              { "id": "FridgerHead_TU5", "lv": 130 },
+              { "id": "FridgerShooter_TU5", "lv": 130 },
+              { "id": "DryerHead_TU5", "lv": 130 },
+              { "id": "FryerShooter_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "NightChickAQ_N", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 },
+              { "id": "ScarabH_TU5", "lv": 130 },
+              { "id": "FridgerHead_TU5", "lv": 130 },
+              { "id": "CenturionG_TU4", "lv": 130 },
+              { "id": "FryerHead_TU5", "lv": 130 },
+              { "id": "ScarabH_TU5", "lv": 130 },
+              { "id": "DryerHead_TU5", "lv": 130 },
+              { "id": "NightChickAQ_N", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "DryerShooter_TU5", "lv": 130 },
+              { "id": "FryerHead_TU5", "lv": 130 },
+              { "id": "CenturionG_TU4", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "NightChickAQ_N", "lv": 130 },
+              { "id": "FridgerHead_TU5", "lv": 130 },
+              { "id": "FridgerShooter_TU5", "lv": 130 },
+              { "id": "DryerHead_TU5", "lv": 130 },
+              { "id": "FryerShooter_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "22": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "BR_Vargr",
+            "3P_Fenrir",
+            "3P_Eternity",
+            "PECS_Cerberus",
+            "3P_Hachiko",
+            "PECS_PuppHead",
+            "AGS_Tyrant"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_157",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_157_1",
+                  "type": 1,
+                  "value": "0.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 99 },
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "50%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_157_2",
+                  "type": 1,
+                  "value": "0.100000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 99 },
+                "value": {
+                  "isBuff": true,
+                  "type": 13,
+                  "turnSpeed": { "base": "10%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_157_3",
+                  "type": 0,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 0 },
+                "value": {
+                  "isBuff": true,
+                  "type": 20,
+                  "ap": { "base": 1, "per": 0 }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_Guardpierce_Apply",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_157_4",
+                  "type": 0,
+                  "value": "0",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 99 },
+                "value": {
+                  "isBuff": true,
+                  "type": 130,
+                  "guardpierce_apply": true
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_21",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_21"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "Squad_Walhalla_1",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_102"
+        },
+        {
+          "squad": "Squad_Bismarck_2",
+          "char": { "body": 4, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_148"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 25, "item": "Consumable_EWMPMetal" },
+        { "count": 25, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "ExecutionerRB_EW", "lv": 130 },
+              { "id": "Executioner_EW2", "lv": 130 },
+              { "id": "Stalker_EW", "lv": 130 },
+              { "id": "Executioner_EW", "lv": 130 },
+              { "id": "ExecutionerRB_EW", "lv": 130 },
+              { "id": "ExecutionerRB_EW", "lv": 130 },
+              { "id": "ExecutionerRB_EW", "lv": 130 },
+              { "id": "Executioner_EW2", "lv": 130 },
+              { "id": "Stalker_EW", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "ExecutionerLB_EW", "lv": 130 },
+              { "id": "ExecutionerRB_EW", "lv": 130 },
+              { "id": "Stalker_EW", "lv": 130 },
+              { "id": "ExecutionerLB_EW", "lv": 130 },
+              { "id": "Executioner_EW", "lv": 130 },
+              { "id": "Executioner_EW2", "lv": 130 },
+              { "id": "ExecutionerLB_EW", "lv": 130 },
+              { "id": "ExecutionerRB_EW", "lv": 130 },
+              { "id": "Stalker_EW", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "Executioner_EW2", "lv": 130 },
+              { "id": "ExecutionerRB_EW", "lv": 130 },
+              { "id": "Stalker_EW", "lv": 130 },
+              { "id": "ExecutionerRB_EW", "lv": 130 },
+              { "id": "SpectorMS_N", "lv": 130 },
+              { "id": "Executioner_EW", "lv": 130 },
+              { "id": "Executioner_EW2", "lv": 130 },
+              { "id": "ExecutionerRB_EW", "lv": 130 },
+              { "id": "Stalker_EW", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "23": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "3P_Frigga",
+            "PECS_Sekhmet",
+            "PECS_HighElven",
+            "DS_KunoichiEnrai",
+            "3P_Maria"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_144",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_DAMAGE_REDUCE",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_144_1",
+                  "type": 1,
+                  "value": "0.350000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 36,
+                  "damage_reduce": { "base": "35%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DAMAGE_ABSORB",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_144_2",
+                  "type": 0,
+                  "value": "2000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 38,
+                  "barrier": { "base": 2000, "per": 0 }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DEF_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_144_3",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 3,
+                  "defense": { "base": "100%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DEBUFF_PERDOWN",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_144_4",
+                  "type": 1,
+                  "value": "0.330000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 91,
+                  "resist": {
+                    "type": "debuff_perdown",
+                    "value": { "base": "33%", "per": "0%" }
+                  }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_23",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_23"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 3, "class": 2 },
+          "desc": "Prohibition_Group_3"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 25, "item": "Consumable_EWMPMetal" },
+        { "count": 25, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "CenturionCF_TU5", "lv": 130 },
+              { "id": "NightChickM_RV", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 },
+              { "id": "NightChickS_RV", "lv": 130 },
+              { "id": "NightChickQMSK_TU5", "lv": 130 },
+              { "id": "LegionSP_TU5", "lv": 130 },
+              { "id": "CenturionEX_TU5", "lv": 130 },
+              { "id": "NightChickM_RV", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "CenturionG_TU4", "lv": 130 },
+              { "id": "NightChickM_RV", "lv": 130 },
+              { "id": "LegionSP_TU5", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 },
+              { "id": "NightChickQMSK_TU5", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 },
+              { "id": "NightChickS_RV", "lv": 130 },
+              { "id": "NightChickM_RV", "lv": 130 },
+              { "id": "NightChick_RV", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "NightChickM_RV", "lv": 130 },
+              { "id": "NightChick_RV", "lv": 130 },
+              { "id": "LegionSP_TU5", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 },
+              { "id": "CenturionG_TU4", "lv": 130 },
+              { "id": "NightChickQMSK_TU5", "lv": 130 },
+              { "id": "NightChickM_RV", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 },
+              { "id": "NightChickDEX_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "24": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "PECS_Ella",
+            "BR_Salamander",
+            "DS_Charlotte",
+            "BR_WarWolf",
+            "BR_Hyena"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_166",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_166_1",
+                  "type": 1,
+                  "value": "0.330000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 99 },
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "33%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_RANGE_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_166_2",
+                  "type": 0,
+                  "value": "2",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 99 },
+                "value": {
+                  "isBuff": true,
+                  "type": 55,
+                  "range": { "base": 2, "per": 0 }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_ACCURACY_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_166_3",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 99 },
+                "value": {
+                  "isBuff": true,
+                  "type": 7,
+                  "accuracy": { "base": "100%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_166_4",
+                  "type": 0,
+                  "value": "2",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 0 },
+                "value": {
+                  "isBuff": true,
+                  "type": 20,
+                  "ap": { "base": 2, "per": 0 }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_18",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_18"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 0, "class": 1 },
+          "desc": "Prohibition_Group_10"
+        },
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 2, "class": 1 },
+          "desc": "Prohibition_Group_12"
+        },
+        {
+          "squad": "",
+          "char": { "body": 1, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_32"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 25, "item": "Consumable_EWMPMetal" },
+        { "count": 25, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "WaspEX_N", "lv": 130 },
+              { "id": "CenturionG_TU4", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "Kidnapper_EV19_TU3", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "NightChickDEG_N", "lv": 130 },
+              { "id": "PhalangitesH_TU4", "lv": 130 },
+              { "id": "SpectorMS_N", "lv": 130 },
+              { "id": "NightChickCMP_N", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "ScarabH_TU5", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "Predator_EW", "lv": 130 },
+              { "id": "SpectorMS_N", "lv": 130 },
+              { "id": "NightChick_RV", "lv": 130 },
+              { "id": "NightChickDEG_N", "lv": 130 },
+              { "id": "Intruder_TU5", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "ScoutAK_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "ScarabH_TU5", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "FridgerShooter_TU5", "lv": 130 },
+              { "id": "SpectorMS_N", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "FridgerHead_TU5", "lv": 130 },
+              { "id": "Predator_EW", "lv": 130 },
+              { "id": "NightChickDEG_N", "lv": 130 },
+              { "id": "FridgerShell_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "25": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "BR_Hela",
+            "AGS_Goltarion",
+            "PECS_TommyWalker",
+            "PECS_Drone"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_159",
+            "on": "wave",
+            "if": [{ "in_squad": ["Char_BR_Hela_N"] }, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_159_1",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "100%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DEF_RESSURRECT",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_159_2",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 98,
+                  "revive": { "base": "100%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DAMAGE_REDUCE",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_159_3",
+                  "type": 1,
+                  "value": "-0.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 36,
+                  "damage_reduce": { "base": "-50%", "per": "0%" }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_25",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_25"
+        },
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "BR_Hela",
+            "AGS_Goltarion",
+            "PECS_TommyWalker",
+            "PECS_Drone"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_9159",
+            "on": "wave",
+            "if": [{ "in_squad": ["Char_BR_Hela_N"] }, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_DAMAGE_REDUCE",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_9159_1",
+                  "type": 0,
+                  "value": "9999999",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "count": 3, "trigger": { "after": "use_skill" } },
+                "value": {
+                  "isBuff": true,
+                  "type": 34,
+                  "damage_minimize": { "base": 9999999, "per": 0 }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_25",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_25"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 0, "role": 0, "class": 3 },
+          "desc": "Prohibition_Group_20"
+        },
+        {
+          "squad": "",
+          "char": { "body": 0, "role": 1, "class": 3 },
+          "desc": "Prohibition_Group_21"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 25, "item": "Consumable_EWMPMetal" },
+        { "count": 25, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "CenturionEX_TU5", "lv": 130 },
+              { "id": "NightChickSpCH_N", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "NightChickSpCH_N", "lv": 130 },
+              { "id": "EmperorChickSpCH_TU5", "lv": 130 },
+              { "id": "CenturionEX_TU5", "lv": 130 },
+              { "id": "FABigChickEX_N", "lv": 130 },
+              { "id": "NightChickSpCH_N", "lv": 130 },
+              { "id": "CenturionEX_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "CenturionG_TU4", "lv": 130 },
+              { "id": "NightChickSpCH_N", "lv": 130 },
+              { "id": "CenturionEX_TU5", "lv": 130 },
+              { "id": "NightChickSpCH_N", "lv": 130 },
+              { "id": "EmperorChickSpCH_TU5", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "NightChickSpCH_N", "lv": 130 },
+              { "id": "CenturionEX_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "SpeakerEx_TU5", "lv": 130 },
+              { "id": "NightChickSpCH_N", "lv": 130 },
+              { "id": "Intruder_TU4", "lv": 130 },
+              { "id": "NightChickSpCH_N", "lv": 130 },
+              { "id": "EmperorChickSpCH_TU5", "lv": 130 },
+              { "id": "CenturionG_TU4", "lv": 130 },
+              { "id": "HauntedFortress_TU5", "lv": 130 },
+              { "id": "NightChickSpCH_N", "lv": 130 },
+              { "id": "CenturionEX_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "SpeakerEx_TU5", "lv": 130 },
+              { "id": "NightChickSpCH_N", "lv": 130 },
+              { "id": "Intruder_TU4", "lv": 130 },
+              { "id": "NightChickSpCH_N", "lv": 130 },
+              { "id": "EmperorChickSpCH_TU5", "lv": 130 },
+              { "id": "CenturionG_TU4", "lv": 130 },
+              { "id": "HauntedFortress_TU5", "lv": 130 },
+              { "id": "Kidnapper_EV19_TU3", "lv": 130 },
+              { "id": "CenturionEX_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "26": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": ["AGS_Watcher", "ST_Mercury", "BR_DrM"],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_167",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_167_1",
+                  "type": 1,
+                  "value": "0.330000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "33%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_ACCURACY_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_167_2",
+                  "type": 1,
+                  "value": "0.330000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 7,
+                  "accuracy": { "base": "33%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_167_3",
+                  "type": 1,
+                  "value": "0.330000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 13,
+                  "turnSpeed": { "base": "33%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_CRITICAL_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_167_4",
+                  "type": 1,
+                  "value": "0.330000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 9,
+                  "critical": { "base": "33%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_Guardpierce_Apply",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_167_5",
+                  "type": 0,
+                  "value": "0",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 130,
+                  "guardpierce_apply": true
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_26",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_26"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 0, "class": 1 },
+          "desc": "Prohibition_Group_10"
+        },
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 1, "class": 1 },
+          "desc": "Prohibition_Group_11"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 25, "item": "Consumable_EWMPMetal" },
+        { "count": 25, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "HeavyScout_N", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "HeavyScout_N", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "ScoutAK_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "LightningBomberMP_TU4", "lv": 130 },
+              { "id": "ScoutAK_TU5", "lv": 130 },
+              { "id": "PhalangitesH_TU5", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "Raider_EW", "lv": 130 },
+              { "id": "NightChickDEX_N", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "ScoutSP_TU2", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "NightChickDEX_N", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "ScoutSP_TU2", "lv": 130 },
+              { "id": "HauntedFortress_TU5", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "Raider_EW", "lv": 130 },
+              { "id": "ScoutAK_TU5", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "NightChickDEX_N", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "27": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "BR_Wraithy",
+            "BR_Marie",
+            "3P_Aurora",
+            "BR_Neodym",
+            "BR_Brunhild"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_158",
+            "on": "wave",
+            "if": [{ "in_squad": ["Char_BR_Wraithy_N"] }, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_158_1",
+                  "type": 1,
+                  "value": "0.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "50%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_SKILL_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_158_2",
+                  "type": 1,
+                  "value": "0.250000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 106,
+                  "skill_ratio": { "base": "25%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DAMAGE_REDUCE",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_158_3",
+                  "type": 1,
+                  "value": "0.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 36,
+                  "damage_reduce": { "base": "50%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_158_4",
+                  "type": 1,
+                  "value": "0.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 13,
+                  "turnSpeed": { "base": "50%", "per": "0%" }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_27",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_27"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 1, "class": 1 },
+          "desc": "Prohibition_Group_11"
+        },
+        {
+          "squad": "",
+          "char": { "body": 1, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_32"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 25, "item": "Consumable_EWMPMetal" },
+        { "count": 25, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "FridgerShell_TU5", "lv": 130 },
+              { "id": "FridgerShell_TU5", "lv": 130 },
+              { "id": "FridgerHead_TU5", "lv": 130 },
+              { "id": "FridgerShooter_TU5", "lv": 130 },
+              { "id": "Frostbite_EW", "lv": 130 },
+              { "id": "NightChickSPW_EW", "lv": 130 },
+              { "id": "NightChickAQG_TU4", "lv": 130 },
+              { "id": "NightChickSPW_EW", "lv": 130 },
+              { "id": "FridgerHead_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "BigChickCG_TU5", "lv": 130 },
+              { "id": "FridgerShell_TU5", "lv": 130 },
+              { "id": "FridgerHead_TU5", "lv": 130 },
+              { "id": "NightChickS_RV", "lv": 130 },
+              { "id": "Frostbite_EW", "lv": 130 },
+              { "id": "NightChickSPW_EW", "lv": 130 },
+              { "id": "NightChickAQG_TU4", "lv": 130 },
+              { "id": "FridgerShooter_TU5", "lv": 130 },
+              { "id": "Intruder_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "FridgerShell_TU5", "lv": 130 },
+              { "id": "FridgerShooter_TU5", "lv": 130 },
+              { "id": "NightChickS_RV", "lv": 130 },
+              { "id": "HauntedFortress_TU5", "lv": 130 },
+              { "id": "FridgerHead_TU5", "lv": 130 },
+              { "id": "Intruder_TU4", "lv": 130 },
+              { "id": "NightChickSPW_EW", "lv": 130 },
+              { "id": "LightningBomberEX_TU5", "lv": 130 },
+              { "id": "NightChickAQG_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "28": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "BR_Miho",
+            "BR_Amy",
+            "BR_Valkyrie",
+            "BR_RoyalArsenal",
+            "ST_Ullr",
+            "BR_ALWraith"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_154",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_154_1",
+                  "type": 1,
+                  "value": "0.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 99 },
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "50%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_154_2",
+                  "type": 1,
+                  "value": "0.330000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 99 },
+                "value": {
+                  "isBuff": true,
+                  "type": 109,
+                  "less_target": { "base": "33%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_AP_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_154_3",
+                  "type": 0,
+                  "value": "2",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 0 },
+                "value": {
+                  "isBuff": true,
+                  "type": 20,
+                  "ap": { "base": 2, "per": 0 }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_ACCURACY_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_154_4",
+                  "type": 1,
+                  "value": "1.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 99 },
+                "value": {
+                  "isBuff": true,
+                  "type": 7,
+                  "accuracy": { "base": "150%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_Action_Number_Change_Up",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_154_5",
+                  "type": 0,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": { "rounds": 99 },
+                "value": { "isBuff": true, "type": 127, "act_count": 1 },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_28",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_28"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 0, "role": 0, "class": 3 },
+          "desc": "Prohibition_Group_20"
+        },
+        {
+          "squad": "",
+          "char": { "body": 1, "role": 2, "class": 3 },
+          "desc": "Prohibition_Group_38"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 25, "item": "Consumable_EWMPMetal" },
+        { "count": 25, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "NestChaser_TU2", "lv": 130 },
+              { "id": "LegionMk2_TU4", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "NestGuardian_TU2", "lv": 130 },
+              { "id": "CenturionEX_TU5", "lv": 130 },
+              { "id": "NightChickDEX_TU4", "lv": 130 },
+              { "id": "NestChaser_TU2", "lv": 130 },
+              { "id": "PhalangitesH_TU5", "lv": 130 },
+              { "id": "ScoutAK_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "NestChaser_TU2", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "Nest_TU2", "lv": 130 },
+              { "id": "NestGuardian_TU2", "lv": 130 },
+              { "id": "NightChickDEX_TU4", "lv": 130 },
+              { "id": "NestChaser_TU2", "lv": 130 },
+              { "id": "LightningBomberEX_TU4", "lv": 130 },
+              { "id": "CenturionEX_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "NestChaser_TU2", "lv": 130 },
+              { "id": "Nest_TU2", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 },
+              { "id": "CenturionG_TU4", "lv": 130 },
+              { "id": "NestGuardian_TU2", "lv": 130 },
+              { "id": "CenturionEX_TU5", "lv": 130 },
+              { "id": "NestChaser_TU2", "lv": 130 },
+              { "id": "Nest_TU2", "lv": 130 },
+              { "id": "NightChickDEAA_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "29": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "DS_BunnySlayer",
+            "BR_Gnome",
+            "BR_StratoAngel",
+            "3P_Titania",
+            "3P_Rhea",
+            "PECS_Triaina",
+            "PECS_Hussar"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_145",
+            "on": "wave",
+            "if": [{ "in_squad": ["Char_DS_BunnySlayer_N"] }, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ATK_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_145_1",
+                  "type": 1,
+                  "value": "0.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 1,
+                  "attack": { "base": "50%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_SKILL_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_145_2",
+                  "type": 1,
+                  "value": "0.200000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 106,
+                  "skill_ratio": { "base": "20%", "per": "0%" }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DAMAGE_REDUCE",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_145_3",
+                  "type": 1,
+                  "value": "0.330000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 36,
+                  "damage_reduce": { "base": "33%", "per": "0%" }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_29",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_29"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 1, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_32"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 25, "item": "Consumable_EWMPMetal" },
+        { "count": 25, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              { "id": "DryerShell_TU5", "lv": 130 },
+              { "id": "DryerShooter_TU5", "lv": 130 },
+              { "id": "Intruder_TU4", "lv": 130 },
+              { "id": "HauntedFortress_TU5", "lv": 130 },
+              { "id": "DryerHead_TU5", "lv": 130 },
+              { "id": "Stalker_EW", "lv": 130 },
+              { "id": "DryerShell_TU5", "lv": 130 },
+              { "id": "DryerShooter_TU5", "lv": 130 },
+              { "id": "NightChickAQG_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "DryerShooter_TU5", "lv": 130 },
+              { "id": "Tarantula_EW2", "lv": 130 },
+              { "id": "Intruder_TU4", "lv": 130 },
+              { "id": "HauntedFortress_TU5", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "NightChickAQG_TU4", "lv": 130 },
+              { "id": "DryerShell_TU5", "lv": 130 },
+              { "id": "DryerHead_TU5", "lv": 130 },
+              { "id": "ScoutAK_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "Tarantula_EW2", "lv": 130 },
+              { "id": "DryerShooter_TU5", "lv": 130 },
+              { "id": "Intruder_TU4", "lv": 130 },
+              { "id": "HauntedFortress_TU5", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "NightChickAQG_TU4", "lv": 130 },
+              { "id": "Tarantula_EW2", "lv": 130 },
+              { "id": "DryerHead_TU5", "lv": 130 },
+              { "id": "ScoutAK_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "HauntedFortress_TU5", "lv": 130 },
+              { "id": "DryerHead_TU5", "lv": 130 },
+              { "id": "Tarantula_EW2", "lv": 130 },
+              { "id": "Tarantula_EW2", "lv": 130 },
+              { "id": "DryerShooter_TU5", "lv": 130 },
+              { "id": "NightChickAQG_TU4", "lv": 130 },
+              { "id": "HauntedFortress_TU5", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "Intruder_TU4", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ]
+      ]
+    },
+    "30": {
+      "suitability": [
+        {
+          "all": 0,
+          "squads": [],
+          "chars": [
+            "3P_Hachiko",
+            "BR_Vargr",
+            "BR_Shirayuri",
+            "3P_Hirume",
+            "3P_Fenrir"
+          ],
+          "effect": {
+            "key": "Effect_BUFF_SuitabilityEW_N_146",
+            "on": "wave",
+            "if": [false, false],
+            "body": [0, 1],
+            "class": [0, 1, 2],
+            "role": [0, 1, 2],
+            "target": 2,
+            "buffs": [
+              {
+                "icon": "BuffIcon_ICERES_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_146_1",
+                  "type": 1,
+                  "value": "0.500000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 17,
+                  "resist": {
+                    "elem": "ice",
+                    "value": { "base": "50%", "per": "0%" }
+                  }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DAMAGE_ABSORB",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_146_2",
+                  "type": 0,
+                  "value": "2000",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 38,
+                  "barrier": { "base": 2000, "per": 0 }
+                },
+                "overlap": 4
+              },
+              {
+                "icon": "BuffIcon_DEF_UP",
+                "desc": {
+                  "desc": "Effect_BUFF_SuitabilityEW_N_146_3",
+                  "type": 1,
+                  "value": "1",
+                  "level": "0"
+                },
+                "attr": 3,
+                "erase": {},
+                "value": {
+                  "isBuff": true,
+                  "type": 3,
+                  "defense": { "base": "100%", "per": "0%" }
+                },
+                "overlap": 4
+              }
+            ],
+            "maxStack": 0
+          },
+          "level": 1,
+          "descStage": "SuitabilityStage_Desc_Ch_EW05Stage_30",
+          "descGroup": "SuitabilityGroup_Desc_Ch_EW05Stage_30"
+        }
+      ],
+      "prohibition": [
+        {
+          "squad": "",
+          "char": { "body": 4, "role": 3, "class": 2 },
+          "desc": "Prohibition_Group_3"
+        },
+        {
+          "squad": "",
+          "char": { "body": 1, "role": 3, "class": 3 },
+          "desc": "Prohibition_Group_32"
+        }
+      ],
+      "reward": {
+        "mineral": { "regen": 0, "max": 2 },
+        "refined": { "regen": 0, "max": 1 }
+      },
+      "rewards": [
+        { "count": 1, "item": "ResourcePack_2000_EW" },
+        { "count": 25, "item": "Consumable_EWMPMetal" },
+        { "count": 25, "item": "Consumable_RefinedMineral" }
+      ],
+      "waves": [
+        [
+          {
+            "e": [
+              null,
+              { "id": "FridgerShooter_TU5", "lv": 130 },
+              null,
+              { "id": "FridgerShell_TU5", "lv": 130 },
+              { "id": "NightChickAQ_EV9", "lv": 130 },
+              { "id": "Intruder_TU5", "lv": 130 },
+              null,
+              { "id": "FridgerHead_TU5", "lv": 130 },
+              null
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "NightChickTD_N", "lv": 130 },
+              { "id": "FridgerShell_TU5", "lv": 130 },
+              { "id": "ScoutAK_TU5", "lv": 130 },
+              { "id": "FridgerHead_TU5", "lv": 130 },
+              { "id": "BlackKnight_EW6", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "FridgerShooter_TU5", "lv": 130 },
+              { "id": "Chiller_TU5", "lv": 130 },
+              { "id": "NightChickAQ_N", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "FryerShooter_TU5", "lv": 130 },
+              { "id": "FridgerShell_TU5", "lv": 130 },
+              { "id": "FridgerShooter_TU5", "lv": 130 },
+              { "id": "Chiller_TU5", "lv": 130 },
+              { "id": "BlackKnight_EW6", "lv": 130 },
+              { "id": "Testudo_TU4", "lv": 130 },
+              { "id": "ScoutAK_TU5", "lv": 130 },
+              { "id": "FridgerHead_TU5", "lv": 130 },
+              { "id": "FryerHead_TU5", "lv": 130 }
+            ],
+            "r": 100
+          }
+        ],
+        [
+          {
+            "e": [
+              { "id": "FryerShooter_TU5", "lv": 130 },
+              { "id": "FridgerShell_TU5", "lv": 130 },
+              { "id": "FridgerShooter_TU5", "lv": 130 },
+              { "id": "HauntedFortress_TU5", "lv": 130 },
+              { "id": "BlackKnight_EW6", "lv": 130 },
+              { "id": "FryerHead_TU5", "lv": 130 },
+              { "id": "NightChickAQG_TU4", "lv": 130 },
+              { "id": "FryerShell_TU5", "lv": 130 },
+              { "id": "FridgerHead_TU5", "lv": 130 }
             ],
             "r": 100
           }
