@@ -12389,7 +12389,7 @@
     "range": 0,
     "AP": 0,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "At the start of round, grant unit <strong>Counterattack</strong> for 1 round depending on the number of allies:<br>3 or less: with 150% Power.<br>4-6: with 125% Power.<br>7 or more: with 100% Power."
+    "description": "At the start of round, grant unit <strong>Counterattack</strong> (2 times, 1 round) depending on the number of allies:<br>3 or less: with 150% Power.<br>4-6: with 125% Power.<br>7 or more: with 100% Power."
   },
   "Skill_MP_MarionnetteAR_BOSS_TU_1": {
     "title": "askill1",
