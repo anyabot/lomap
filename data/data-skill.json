@@ -12759,7 +12759,7 @@
     "range": 5,
     "AP": 4,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "Deal $(2) damage to a single target with <strong>Ignore Protect</strong> / <strong>Ignore Barrier / Damage Reduction</strong> / Damage increases as target's HP decreases, up to +75%.<br>If this skill defeats an enemy, grant Moriaty AP +5."
+    "description": "Deal $(2) damage to a single target with <strong>Ignore Protect</strong> / <strong>Ignore Barrier / Damage Reduction</strong> / Damage increases as target's HP decreases, up to +75%.<br>If this skill defeats an enemy, grant unit AP +5."
   },
   "Skill_MP_Kidnapper_EV19_TU2_3": {
     "title": "askill3",
@@ -12769,7 +12769,7 @@
     "range": 0,
     "AP": 0,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "When attacks hit, grant Moriaty ATK +30% (5 rounds, stack to 5 times).<br>When attacks miss, grant Moriaty ACC +50% (Normal Effect, 5 rounds, stack to 5 times).<br><strong>Additional Damaged</strong> +50% / +25% to enemies in the Frontline / Middleline."
+    "description": "When attacks hit, grant unit ATK +30% (5 rounds, stack to 5 times).<br>When attacks miss, grant unit ACC +50% (Normal Effect, 5 rounds, stack to 5 times).<br><strong>Additional Damaged</strong> +50% / +25% to enemies in the Frontline / Middleline."
   },
   "Skill_MP_Kidnapper_EV19_TU2_4": {
     "title": "askill4",
@@ -12779,7 +12779,7 @@
     "range": 0,
     "AP": 0,
     "area": ["0", "0", "0", "0", "1", "0", "0", "0", "0"],
-    "description": "When attacked, grant Moriaty EVA +40% / ATK -15% / SPD +20% / <strong>All Elemental Resist</strong> +15% (2 rounds, stack to 4 times).<br>At the start of round, grant Moriaty <strong>Counterattack</strong> with 75% Power (1 time)."
+    "description": "When attacked, grant unit EVA +40% / ATK -15% / SPD +20% / <strong>All Elemental Resist</strong> +15% (2 rounds, stack to 4 times).<br>At the start of round, grant unit <strong>Counterattack</strong> with 75% Power (1 time)."
   },
   "Skill_MP_Kidnapper_EV19_TU2_5": {
     "title": "askill5",

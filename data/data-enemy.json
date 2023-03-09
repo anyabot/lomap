@@ -3663,7 +3663,7 @@
     "type": "Light",
     "role": "Attacker",
     "rank": "S",
-    "used": { "Ev1": [[1, "Ev-2Ex"]], "Ev19": [[3, "EV3-7B"]] }
+    "used": { "Ev1": [[1, "Ev-2Ex"]], "Ev19": [[3, "EV3-7B"]], "NEW": true }
   },
   "CenturionEX_TU4": {
     "name": "Elite Centurion",
@@ -5713,7 +5713,7 @@
     "type": "Light",
     "role": "Supporter",
     "rank": "S",
-    "used": { "Ev1": [[1, "Ev-3Ex"]], "Ev14": [[1, "EV1-5Ex"]] }
+    "used": { "Ev1": [[1, "Ev-3Ex"]], "Ev14": [[1, "EV1-5Ex"]], "NEW": true }
   },
   "NightChickQM_EV2": {
     "name": "Chick Quartermaster",
@@ -8193,7 +8193,8 @@
         [2, "EV2-1C"],
         [2, "EV2-2C"]
       ],
-      "Ev2": [[2, "Ev2-5B"]]
+      "Ev2": [[2, "Ev2-5B"]],
+      "NEW": true
     }
   },
   "Centurion_EV2": {
@@ -9091,7 +9092,8 @@
         [1, "EV1-4Ex"]
       ],
       "Ev5": [[2, "Ev2-2C"]],
-      "Ev9": [[3, "Ev3-4s"]]
+      "Ev9": [[3, "Ev3-4s"]],
+      "NEW": true
     }
   },
   "Testudo_N": {
@@ -9282,7 +9284,8 @@
       "Ev16": [[1, "EV1-1Ex"]],
       "Ev17": [[1, "EV1-2"]],
       "Ev18": [[3, "EV3-2B"]],
-      "Ev19": [[2, "EV2-4B"]]
+      "Ev19": [[2, "EV2-4B"]],
+      "NEW": true
     }
   },
   "NightChickDEX_TU2": {
@@ -9426,7 +9429,7 @@
     "type": "Heavy",
     "role": "Attacker",
     "rank": "SS",
-    "used": {}
+    "used": { "NEW": true }
   },
   "Destroyer_TU3": {
     "name": "Destroyer",
@@ -10740,7 +10743,7 @@
     "type": "Light",
     "role": "Supporter",
     "rank": "S",
-    "used": { "Ev6": [[2, "Ev2-6Ex"]] }
+    "used": { "Ev6": [[2, "Ev2-6Ex"]], "NEW": true }
   },
   "NightChickAQ_VT4": {
     "name": "Aqua Chick",
@@ -11901,7 +11904,7 @@
     "type": "Flying",
     "role": "Supporter",
     "rank": "SS",
-    "used": { "Ev8": [[2, "Ev2-5"]] }
+    "used": {}
   },
   "LemonadeAvatar_Challenge1": {
     "name": "Lemonade Avatar",
@@ -12260,7 +12263,7 @@
     "type": "Flying",
     "role": "Attacker",
     "rank": "SS",
-    "used": { "Story2": [[1, "9-1Ex"]] }
+    "used": { "Story2": [[1, "9-1Ex"]], "NEW": true }
   },
   "LightningBomberMP_TU5": {
     "name": "Lightning Bomber Type-X",
@@ -12298,7 +12301,7 @@
     "type": "Light",
     "role": "Supporter",
     "rank": "SS",
-    "used": { "Story1": [[8, "8-2Ex"]] }
+    "used": { "Story1": [[8, "8-2Ex"]], "NEW": true }
   },
   "SpeakerEx_TU4": {
     "name": "Upgraded Speaker",
@@ -12310,7 +12313,8 @@
       "Ev14": [
         [1, "EV1-5Ex"],
         [2, "EV2-5Ex"]
-      ]
+      ],
+      "NEW": true
     }
   },
   "SpeakerEx_TU5": {
@@ -12924,7 +12928,7 @@
     "type": "Light",
     "role": "Supporter",
     "rank": "SS",
-    "used": { "Ev16": [[1, "EV1-6Ex"]] }
+    "used": { "Ev16": [[1, "EV1-6Ex"]], "NEW": true }
   },
   "NightChickAQG_TU4": {
     "name": "Aqua Chick G",
@@ -13145,7 +13149,7 @@
     "type": "Flying",
     "role": "Attacker",
     "rank": "SS",
-    "used": {}
+    "used": { "NEW": true }
   },
   "LightningBomberEX_TU5": {
     "name": "Lightning Bomber Type-S",
@@ -13357,7 +13361,8 @@
         [2, "Ev2-4B"]
       ],
       "Ev13": [[2, "Ev2-5"]],
-      "Ev16": [[1, "EV1-3Ex"]]
+      "Ev16": [[1, "EV1-3Ex"]],
+      "Ev8": [[2, "Ev2-5"]]
     }
   },
   "ScarabH_TU": {
@@ -13458,7 +13463,7 @@
     "type": "Flying",
     "role": "Supporter",
     "rank": "SS",
-    "used": { "Ev14": [[2, "EV2-5Ex"]] }
+    "used": { "Ev14": [[2, "EV2-5Ex"]], "NEW": true }
   },
   "ScoutAK_TU4": {
     "name": "Scout AK",
@@ -13471,7 +13476,8 @@
         [2, "Ev2-2Ex"],
         [2, "Ev2-3Ex"]
       ],
-      "Story2": [[1, "9-4Ex"]]
+      "Story2": [[1, "9-4Ex"]],
+      "NEW": true
     }
   },
   "ScoutAK_TU5": {
@@ -14161,7 +14167,7 @@
     "type": "Light",
     "role": "Attacker",
     "rank": "SS",
-    "used": {}
+    "used": { "NEW": true }
   },
   "BlackKnight_EW5": {
     "name": "Cyclops Type-X",
@@ -14476,7 +14482,8 @@
         [2, "10-8"],
         [2, "10-3B"],
         [2, "10-5B"]
-      ]
+      ],
+      "NEW": true
     }
   },
   "MarionnetteAR_TU3": {
@@ -14498,7 +14505,7 @@
     "type": "Light",
     "role": "Supporter",
     "rank": "S",
-    "used": {}
+    "used": { "NEW": true }
   },
   "MarionnetteAR_TU5": {
     "name": "Marionette Infantry",
@@ -14576,7 +14583,7 @@
     "type": "Heavy",
     "role": "Attacker",
     "rank": "S",
-    "used": {}
+    "used": { "NEW": true }
   },
   "MarionnetteHW_TU5": {
     "name": "Marionette Gunner",
@@ -14647,7 +14654,7 @@
     "type": "Heavy",
     "role": "Defender",
     "rank": "SS",
-    "used": {}
+    "used": { "NEW": true }
   },
   "MarionnetteHA_TU5": {
     "name": "Marionette Heavy Armor",
@@ -14720,7 +14727,7 @@
     "type": "Light",
     "role": "Attacker",
     "rank": "SS",
-    "used": {}
+    "used": { "NEW": true }
   },
   "MarionnetteDM_TU5": {
     "name": "Marionette Sniper",
@@ -14854,7 +14861,8 @@
         [2, "10-6B"],
         [2, "10-7B"],
         [2, "10-2Ex"]
-      ]
+      ],
+      "NEW": true
     }
   },
   "MarionnetteHW_V2_TU": {
@@ -14957,7 +14965,8 @@
         [2, "10-8"],
         [2, "10-7B"],
         [2, "10-3Ex"]
-      ]
+      ],
+      "NEW": true
     }
   },
   "MarionnetteHW_V2_TU2": {
@@ -14972,7 +14981,8 @@
         [2, "10-8"],
         [2, "10-7B"],
         [2, "10-3Ex"]
-      ]
+      ],
+      "NEW": true
     }
   },
   "MarionnetteDM_V2_TU2": {
@@ -14987,7 +14997,8 @@
         [2, "10-7"],
         [2, "10-8"],
         [2, "10-3Ex"]
-      ]
+      ],
+      "NEW": true
     }
   },
   "MarionnetteHA_V2_TU2": {
@@ -15001,7 +15012,8 @@
         [2, "10-7"],
         [2, "10-8"],
         [2, "10-3Ex"]
-      ]
+      ],
+      "NEW": true
     }
   },
   "Roc_10_TU": {
@@ -15088,5 +15100,13 @@
     "role": "Attacker",
     "rank": "SS",
     "used": { "Ev19": [[2, "EV2-1C"]] }
+  },
+  "Kidnapper_EV19_TU3": {
+    "name": "Craver",
+    "img": "Kidnapper_V2",
+    "type": "Light",
+    "role": "Attacker",
+    "rank": "SS",
+    "used": { "NEW": true }
   }
 }
